@@ -1,4 +1,5 @@
-# UDCPR from Scratch
+# maharashtra-udcpr-visual-guide-by-plotaxis
+
 > **An Interactive Educational Handbook & Reference Platform for Maharashtra’s Unified Development Control and Promotion Regulations (UDCPR-2020)**
 
 [![Static Site](https://img.shields.io/badge/Architecture-100%25%20Static%20Zero--Backend-00d2ff.svg)](#)
@@ -8,21 +9,22 @@
 
 ---
 
-## 🏛️ Project Overview
+## Project Overview
 
-**UDCPR from Scratch** is a free, interactive educational website engineered to make Maharashtra’s 20,600-line Unified Development Control and Promotion Regulations (UDCPR-2020) immediately accessible to architects, town planners, civil engineers, developers, and students.
+**maharashtra-udcpr-visual-guide-by-plotaxis** is a free, interactive educational website engineered to make Maharashtra’s 20,600-line Unified Development Control and Promotion Regulations (UDCPR-2020) immediately accessible to architects, town planners, civil engineers, developers, and students.
 
 ### Why this exists:
-* **Plain Language First**: Every regulation is translated into clear, actionable prose before presenting the verbatim legal text.
-* **Exact Clause Tracing**: Every statement, table, and formula anchors directly back to a statutory clause in `ucpr_real.md`.
-* **Topic-First Architecture**: Learn by the problems architects actually solve (Development Potential, Setbacks, Parking Standards, Open Spaces) alongside the official 15-chapter curriculum.
-* **Editorial Blueprint Plates**: Vector SVG technical drawings with numbered figures (`FIG_001` to `FIG_013`) illustrating setbacks, parking bays, and layout geometry.
-* **Interactive Calculators**: Real-time mathematical engines for FSI, Net Plot Area, Premium FSI costs, and TDR utilization.
-* **Knowledge Verification**: Interactive quizzes with instant scoring and explanations that update a learner's progress bar in `localStorage`.
+
+- **Plain Language First**: Every regulation is translated into clear, actionable prose before presenting the verbatim legal text.
+- **Exact Clause Tracing**: Every statement, table, and formula anchors directly back to a statutory clause in `ucpr_real.md`.
+- **Topic-First Architecture**: Learn by the problems architects actually solve (Development Potential, Setbacks, Parking Standards, Open Spaces) alongside the official 15-chapter curriculum.
+- **Editorial Blueprint Plates**: Vector SVG technical drawings with numbered figures (`FIG_001` to `FIG_013`) illustrating setbacks, parking bays, and layout geometry.
+- **Interactive Calculators**: Real-time mathematical engines for FSI, Net Plot Area, Premium FSI costs, and TDR utilization.
+- **Knowledge Verification**: Interactive quizzes with instant scoring and explanations that update a learner's progress bar in `localStorage`.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 udcpr_edu/
@@ -44,98 +46,104 @@ udcpr_edu/
 │   └── parking-and-circulation.html # Tenement car quotas, 2.5x5m bays, 1:10 ramp slope, FIG_004
 │
 ├── chapters/                  # Statutory Legal Tree
-│   ├── index.html             # 15-Chapter curriculum map (9 Active + 6 Planned)
+│   ├── index.html             # 15-Chapter curriculum map (Active vs Planned status)
 │   ├── ch01.html              # Chapter 1: Administration & Definitions (4 Lessons)
 │   ├── ch02.html              # Chapter 2: Development Permission & Commencement (5 Lessons)
-│   ├── ch03.html              # Chapter 3: General Land Development Requirements (6 Lessons)
-│   ├── ch04.html              # Chapter 4: Land Use Classification & Permissible Uses (6 Lessons)
-│   ├── ch05.html              # Chapter 5: Additional Provisions for Regional Plan Areas (5 Lessons)
-│   ├── ch06.html              # Chapter 6: General Building Requirements & FSI (6 Lessons)
-│   ├── ch07.html              # Chapter 7: Higher FSI for Certain Uses (6 Lessons)
-│   ├── ch08.html              # Chapter 8: Parking, Loading and Unloading Spaces (4 Lessons)
-│   └── ch09.html              # Chapter 9: Requirements of Parts of Buildings (5 Lessons)
+│   └── ch03.html              # Chapter 3: General Land Development Requirements (6 Lessons)
 │
-├── lessons/                   # 47 Fully Written Core Lessons (Chapters 1–9)
+├── lessons/                   # 15 Fully Written Core Lessons (Chapters 1–3)
 │   ├── reg-1-1-jurisdiction-and-extent.html
-│   ├── ...
-│   ├── reg-8-2-2-city-multipliers-and-parking-penalties.html
-│   ├── reg-9-1-room-dimensions-and-height-clearances.html
-│   ├── reg-9-11-basements-podiums-and-vehicular-ramps.html
-│   ├── reg-9-20-lighting-ventilation-and-shafts.html
-│   ├── reg-9-28-exit-requirements-and-staircases.html
-│   └── reg-9-29-refuge-areas-fire-towers-and-amenities.html
+│   ├── reg-1-3-statutory-definitions.html
+│   ├── reg-1-5-savings-and-interpretation.html
+│   ├── reg-1-6-legal-hierarchy-and-interpretations.html
+│   ├── reg-2-1-development-permission.html
+│   ├── reg-2-2-application-procedure.html
+│   ├── reg-2-2-fees-and-charges.html
+│   ├── reg-2-3-discretionary-powers-and-relaxations.html
+│   ├── reg-2-6-commencement-and-occupancy.html
+│   ├── reg-3-1-site-clearance-buffers.html
+│   ├── reg-3-3-internal-layout-roads.html
+│   ├── reg-3-4-1-recreational-open-space.html
+│   ├── reg-3-5-amenity-space-provision.html
+│   ├── reg-3-8-inclusive-housing.html
+│   └── reg-3-9-net-plot-area-computation.html
 │
 ├── data/                      # Structured JSON Data Layer
 │   ├── glossary.json          # 141 Definitions with plain summaries & categories
 │   ├── formulas.json          # 9 Master formulas with LaTeX, variables & JS engines
 │   ├── amendments.json        # 52 Clarifications (#) with Government Resolution citations
 │   ├── govt_orders.json       # 53 Gazette notifications + 32 Marathi orders/annexures
-│   └── verification_report.json # Automated statutory verification audit
+│   └── verification_report.json # 49-point automated statutory verification audit
 │
 ├── css/
 │   ├── blueprint.css          # Design system ("Drawing Sheet" flat paper, mono, typography)
 │   └── components.css         # Ruled cards, calculators, quiz widgets & dimension plates
 │
 ├── js/
-│   ├── app.js                 # Theme toggler & localStorage learner progress tracker (47 lessons)
+│   ├── app.js                 # Theme toggler & localStorage learner progress tracker (15 lessons)
 │   ├── search.js              # Client-side instant search across all data (Ctrl+K or /)
 │   ├── calculators.js         # Real-time mathematical calculation engine
 │   └── quiz.js                # Interactive quiz widget with instant scoring
 │
 └── scripts/                   # Rebuild & Verification Pipeline
-    ├── build_all.py           # Master 1-click build pipeline (16-stage execution)
+    ├── build_all.py           # Master 1-click build pipeline (10-stage execution)
     ├── build_heading_tree.py  # Hierarchy extractor
     ├── build_glossary.py      # Section 1.3 parser
     ├── build_formulas.py      # Formula builder
     ├── build_amendments.py    # (#) Clarification extractor
     ├── build_govt_orders.py   # Notification compiler
-    ├── build_lessons_ch01_full.py # Chapter 1 educational generator
     ├── build_lessons_ch02_full.py # Chapter 2 educational generator
-    ├── build_lessons_ch03_full.py # Chapter 3 master orchestrator (ch03_lessons/)
-    ├── build_lessons_ch04_full.py # Chapter 4 master orchestrator (ch04_lessons/)
-    ├── build_lessons_ch05_full.py # Chapter 5 master orchestrator (ch05_lessons/)
-    ├── build_lessons_ch06_full.py # Chapter 6 master orchestrator (ch06_lessons/)
-    ├── build_lessons_ch07_full.py # Chapter 7 master orchestrator (ch07_lessons/)
-    ├── build_lessons_ch08_full.py # Chapter 8 master orchestrator (ch08_lessons/)
-    ├── build_lessons_ch09_full.py # Chapter 9 master orchestrator (ch09_lessons/)
-    ├── generate_verification_report.py # Automated statutory accuracy checker
-    └── audit_links.py         # Link integrity auditor (865 internal links, 0 broken)
+    ├── build_lessons_ch03_full.py # Chapter 3 master orchestrator
+    ├── ch03_lessons/          # Modular Chapter 3 lesson builders
+    │   ├── __init__.py
+    │   ├── lesson_3_1_site_clearance.py
+    │   ├── lesson_3_2_internal_roads.py
+    │   ├── lesson_3_3_recreational_open_space.py
+    │   ├── lesson_3_4_amenity_space.py
+    │   ├── lesson_3_5_inclusive_housing.py
+    │   └── lesson_3_6_net_plot_computation.py
+    ├── generate_verification_report.py # Automated statutory accuracy checker (49 checks)
+    └── audit_links.py         # Link integrity auditor (359 internal links)
 ```
 
 ---
 
-## 📐 Design System: "Drawing Sheet"
+## Design System: "Drawing Sheet"
 
 The entire interface adheres to an architectural surveyor's drawing sheet aesthetic:
-* **Ruled Paper Surface**: Warm archival paper background (`#F1EEE4` / `#FAF8F2`) with 28px ruled horizontal guide lines and 14px top ruler ticks.
-* **Corner Tick-Marks**: Sharp square amber tick-mark corners on every container card and sheet frame.
-* **Square Geometry**: `border-radius: 0px` globally — zero rounded corners, zero soft drop-shadows.
-* **Typography Hierarchy**:
-  * **Space Grotesk**: Technical title and display headings.
-  * **Inter**: Clear, readable pedagogical body text.
-  * **IBM Plex Mono**: Mandatory for all numbers, tables, citations, stat readouts, and regulation IDs (`Reg. X.Y.Z`).
+
+- **Ruled Paper Surface**: Warm archival paper background (`#F1EEE4` / `#FAF8F2`) with 28px ruled horizontal guide lines and 14px top ruler ticks.
+- **Corner Tick-Marks**: Sharp square amber tick-mark corners on every container card and sheet frame.
+- **Square Geometry**: `border-radius: 0px` globally — zero rounded corners, zero soft drop-shadows.
+- **Typography Hierarchy**:
+  - **Space Grotesk**: Technical title and display headings.
+  - **Inter**: Clear, readable pedagogical body text.
+  - **IBM Plex Mono**: Mandatory for all numbers, tables, citations, stat readouts, and regulation IDs (`Reg. X.Y.Z`).
 
 ---
 
-## ⚡ How to Run Locally
+## How to Run Locally
 
 Because the site is 100% static with zero server dependencies, you can run it immediately using any local web server:
 
 ### Option A: Using Python (Recommended)
+
 ```bash
 # In the repository root directory:
 python -m http.server 3000
 ```
+
 Then open your browser at **`http://localhost:3000`**.
 
 ### Option B: Using Node / npx
+
 ```bash
 npx serve .
 ```
 
 ---
 
-## 🔄 How to Rebuild from `ucpr_real.md`
+## How to Rebuild from `ucpr_real.md`
 
 Whenever the Government of Maharashtra issues new amendments or updates to `ucpr_real.md`, re-running the master build pipeline takes **just 2.3 seconds**:
 
@@ -145,6 +153,7 @@ python scripts/build_all.py
 ```
 
 ### What `build_all.py` automatically executes:
+
 1. Re-scans all 917 headings and parses the 15-chapter legal hierarchy.
 2. Extracts and re-indexes all 141 statutory definitions into `data/glossary.json`.
 3. Re-compiles all formulas and calculation logic into `data/formulas.json`.
@@ -156,23 +165,25 @@ python scripts/build_all.py
 
 ---
 
-## 🔍 Statutory Audit & Verification Register
+## Statutory Audit & Verification Register
 
 All anomalies, OCR pagination splits, municipal differences (A/B/C/D class vs Regional Plans), and statutory ambiguities encountered during processing of the 20,618-line source are formally registered in:
 
-👉 **[`NEEDS_VERIFICATION.md`](file:///c:/Users/anike/Desktop/plotaxis/udcpr_edu/NEEDS_VERIFICATION.md)**
+**[`NEEDS_VERIFICATION.md`](file:///c:/Users/anike/Desktop/plotaxis/udcpr_edu/NEEDS_VERIFICATION.md)**
 
 Key highlights resolved:
-* **Table Page-Splits (50 occurrences)**: Stitched seamless markdown tables eliminating phantom headers.
-* **Plotted vs Group Housing Road Widths**: Clear differentiation between Table 3A (9.0m min for plotted layouts) and Table 3C (7.50m for Group Housing).
-* **10% ROS Non-Deduction Rule**: Strictly preserved Reg. 3.9(ii) logic where Recreational Open Space is not subtracted from net plot FSI calculations.
-* **Deemed Permission Scrutiny**: Highlighting that 60-day deemed permission under Reg. 2.6.2 is only legally valid if compliant with all UDCPR norms.
+
+- **Table Page-Splits (50 occurrences)**: Stitched seamless markdown tables eliminating phantom headers.
+- **Plotted vs Group Housing Road Widths**: Clear differentiation between Table 3A (9.0m min for plotted layouts) and Table 3C (7.50m for Group Housing).
+- **10% ROS Non-Deduction Rule**: Strictly preserved Reg. 3.9(ii) logic where Recreational Open Space is not subtracted from net plot FSI calculations.
+- **Deemed Permission Scrutiny**: Highlighting that 60-day deemed permission under Reg. 2.6.2 is only legally valid if compliant with all UDCPR norms.
 
 ---
 
-## 🚀 Deployment Instructions
+## Deployment Instructions
 
 ### Deploy to GitHub Pages
+
 1. Push the repository to GitHub:
    ```bash
    git init
@@ -188,16 +199,19 @@ Key highlights resolved:
 5. Your site is live at `https://<your-username>.github.io/udcpr-from-scratch/`.
 
 ### Deploy to Vercel
+
 ```bash
 npx vercel
 ```
-*Vercel automatically detects the static HTML files and deploys globally with instant CDN caching.*
+
+_Vercel automatically detects the static HTML files and deploys globally with instant CDN caching._
 
 ### Deploy to Netlify
-Drag and drop the `udcpr_edu` folder into the [Netlify Drop](https://app.netlify.com/drop) dashboard, or connect via Git.
+
+Drag and drop the folder into the [Netlify Drop](https://app.netlify.com/drop) dashboard, or connect via Git.
 
 ---
 
-## ⚖️ Statutory Disclaimer
+## Statutory Disclaimer
 
-> *UDCPR from Scratch is an independent educational and research platform created to aid architects, engineers, students, and property owners in understanding planning regulations. It does not constitute legal or municipal advice. For statutory sanctions and building permits, users must always refer to official Gazette Notifications published by the Government of Maharashtra Urban Development Department.*
+> _UDCPR from Scratch is an independent educational and research platform created to aid architects, engineers, students, and property owners in understanding planning regulations. It does not constitute legal or municipal advice. For statutory sanctions and building permits, users must always refer to official Gazette Notifications published by the Government of Maharashtra Urban Development Department._
