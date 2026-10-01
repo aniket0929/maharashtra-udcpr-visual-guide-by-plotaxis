@@ -1,0 +1,281 @@
+"""
+UDCPR FROM SCRATCH - CHAPTER 7, LESSON 1
+Module: scripts/ch07_lessons/lesson_7_1_institutional_higher_fsi.py
+Statutory Anchor: Regulation 7.0 & Regulation 7.1 (Table 7-A)
+Content: Higher FSI for Institutional, Educational, Medical, Religious, Star Hotels, and Public Welfare Buildings
+"""
+
+lesson_data = {
+    'filename': 'reg-7-1-higher-fsi-institutional-and-special-uses.html',
+    'lesson_id': '7.1',
+    'quiz_id': 'quiz-7-1',
+    'clause': 'Regulation 7.0 & 7.1',
+    'title': 'Higher FSI for Institutional, Medical & Special Uses (Table 7-A)',
+    'badge_status': 'CORE STATUTORY SPECIFICATION',
+    'ch_slug': 'ch07',
+    'ch_title': 'Chapter 7: Higher FSI for Certain Uses',
+    'meta_desc': 'Master UDCPR Table 7-A Higher FSI concessions for schools, hospitals, starred hotels, religious structures, and social welfare institutions with concessional 5% to 20% ASR premiums.',
+    'lead_summary': 'How public policy supercharges essential civic infrastructure: understanding Table 7-A entitlements that unlock maximum building potential for educational campuses, hospitals, and starred tourism units at heavily discounted premium tariffs.',
+    'amendment_cite': 'UDCPR-2020 Table 7-A, amended dt. 02nd Dec 2021 and 16th June 2021',
+
+    'plain_summary_html': r"""
+      <p>
+        While Chapter 6 establishes the baseline commercial and residential building potential, <strong>Chapter 7</strong> represents Maharashtra's strategic urban policy toolkit. Under <strong>Regulation 7.1 (Table 7-A)</strong>, the State grants massive <strong>Higher Floor Space Index (Higher FSI)</strong> to critical civic, social, and economic functions—including schools, universities, medical hospitals, star-category hotels, religious buildings, and government institutions.
+      </p>
+      <p>
+        For these qualifying uses, the permissible higher FSI equals the <strong>Maximum Building Potential</strong> of the fronting road (from Table 6-A or Table 6-G) minus the Basic FSI. Instead of paying the standard 35% ASR premium charged to commercial developers, qualifying institutions pay heavily discounted concessional tariffs:
+      </p>
+      <div style="background:var(--paper-raised); border-left:4px solid var(--blueprint); padding:12px; margin:14px 0; font-family:var(--mono);">
+        • Pre-primary &amp; Primary Schools: <strong>5% of ASR land rate</strong><br>
+        • Charitable Hospitals &amp; Educational Trusts: <strong>10% of ASR land rate</strong><br>
+        • Private Hospitals &amp; Higher Education: <strong>15% of ASR land rate</strong><br>
+        • 2-Star &amp; Above Hotels / Tourism Projects: <strong>20% of ASR land rate</strong> (with 1-step road width bonus!)
+      </div>
+      <p>
+        Furthermore, under <strong>Regulation 7.0(h)</strong>, projects developed under Table 7-A are <strong>100% exempt from surrendering Amenity Space</strong> under Regulation 3.5! In agricultural zones, schools and hospitals are entitled to <strong>100% additional FSI</strong> over and above the agricultural base.
+      </p>
+    """,
+
+    'statutory_extract': """
+### 7.0 GENERAL
+Higher Floor Space Index may be allowed for certain uses in congested and non-congested area, except as otherwise specified and subject to following conditions :
+i) Permissible higher FSI for the buildings as mentioned in Table No.7-A shall be the maximum permissible building potential according to road width as mentioned in column 6, 9 of Table No.6-A or column 6, 9 of Table No.6-G under Regulation No.6.1 or 6.3 (whichever is applicable) minus Basic FSI. Instead of availing this higher FSI, the owner shall be entitled to avail premium FSI / TDR or both to that extent.
+iii) Premium: Premium for higher F.S.I. shall be as per column 4 of Table No.7-A... shared 50:50 between State Government & the Authority.
+h) No Amenity Spaces as per Regulation No.3.5 shall be required to be provided for the uses mentioned in Table No.7-A.
+j) In agricultural zone, uses mentioned at Sr.No.A & B of table 7-A, shall be entitled for 100% additional FSI over and above, permissible in said zone.
+
+### Table No.7-A (Higher FSI Concessions)
+- Educational:
+  i) Pre-primary, nursery, Special Educational for challenged: 5% premium.
+  ii) Primary School: 5% premium.
+  iii) Other Educational (colleges, hostels within 500m): 10% for Charitable; 15% for Private.
+- Medical Institutions:
+  Hospitals, Maternity Homes: Max building potential considered 3.00 for roads >= 18.0 m. Premium: 10% Charitable / 15% Private.
+- Starred Category Hotels (2-star & above) & Large Tourism Projects:
+  Premium: 20%. Maximum building potential allowed considering road width one step below (e.g. 12m road gets 15m potential).
+- Religious Buildings:
+  Premium: 15%. Police & District Magistrate (Collector) NOC required.
+- Basic Shelter for EWS/LIG by public authority:
+  FSI up to 2.5 or max potential, whichever is maximum. NO PREMIUM.
+- Students / Working Women Hostels (dormitories, room <= 17 sq.m.):
+  Premium: 10%. Rental only, cannot be sold.
+    """,
+
+    'clause_cards_html': r"""
+      <div class="card-grid">
+        <div class="card">
+          <span class="kicker-card">CIVIC INFRASTRUCTURE</span>
+          <h3 class="card-title">Schools &amp; Playgrounds</h3>
+          <p class="card-body">
+            Pre-primary and primary schools pay only <strong>5% ASR premium</strong> for full road potential. Playground protection: If expanding on vacant land, the playground area must not be less than <strong>40% of plot area</strong> or existing playground area, whichever is minimum.
+          </p>
+        </div>
+
+        <div class="card">
+          <span class="kicker-card">HEALTHCARE EXPANSION</span>
+          <h3 class="card-title">Hospitals Up to 3.00 FSI</h3>
+          <p class="card-body">
+            Hospitals fronting roads &ge; 18.0m are automatically granted a building potential of <strong>3.00 FSI</strong>. Registered charitable institutions pay a concessional <strong>10% ASR premium</strong>, while private hospitals pay 15% (compared to standard 35% commercial rates).
+          </p>
+        </div>
+
+        <div class="card">
+          <span class="kicker-card">TOURISM ACCELERATOR</span>
+          <h3 class="card-title">Starred Hotels "One-Step" Rule</h3>
+          <p class="card-body">
+            Classified 2-star and above hotels pay <strong>20% ASR premium</strong> and receive an extraordinary planning concession: building potential is calculated <strong>one road-width step below</strong>! A hotel on a 12.0m road gets the potential of a 15.0m road ($2.50\text{ FSI}$ instead of $2.25$).
+          </p>
+        </div>
+
+        <div class="card">
+          <span class="kicker-card">STATUTORY RELAXATION</span>
+          <h3 class="card-title">Zero Amenity Space (Reg 7.0h)</h3>
+          <p class="card-body">
+            Because educational, healthcare, and public welfare uses are themselves public amenities, developments availing Table 7-A are <strong>100% exempt from surrendering Amenity Space</strong> under Reg 3.5, saving up to 5% of gross plot area!
+          </p>
+        </div>
+      </div>
+    """,
+
+    'plate_or_table_html': """
+      <div class="table-container">
+        <table class="drawing-table">
+          <thead>
+            <tr>
+              <th>Institutional Category</th>
+              <th>Entitled Additional FSI</th>
+              <th>Concessional Premium (% of ASR Land Rate)</th>
+              <th>Mandatory Statutory Conditions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Pre-primary &amp; Primary Schools</strong></td>
+              <td>Max Road Potential minus Basic FSI</td>
+              <td><strong>5%</strong> of ASR land rate</td>
+              <td>Playground norms; Fire Safety Act height limits</td>
+            </tr>
+            <tr>
+              <td><strong>Higher Education &amp; Hostels</strong><br>(Within 500m periphery)</td>
+              <td>Max Road Potential minus Basic FSI</td>
+              <td><strong>10%</strong> (Charitable) / <strong>15%</strong> (Private)</td>
+              <td>Hostels cannot be sold; rental only; unit &le; 17 sq.m</td>
+            </tr>
+            <tr>
+              <td><strong>Hospitals &amp; Maternity Homes</strong></td>
+              <td>Max potential treated as <strong>3.00</strong> on roads &ge; 18.0m</td>
+              <td><strong>10%</strong> (Charitable) / <strong>15%</strong> (Private)</td>
+              <td>Height governed by Fire Safety Act</td>
+            </tr>
+            <tr>
+              <td><strong>Starred Hotels (2-Star+) &amp; Tourism</strong></td>
+              <td>Road potential <strong>one step below</strong> (Bonus)</td>
+              <td><strong>20%</strong> of ASR land rate</td>
+              <td>Tourism Dept Govt of India star classification certificate</td>
+            </tr>
+            <tr>
+              <td><strong>Govt / Municipal / ZP Offices</strong></td>
+              <td>Max potential treated as <strong>3.00</strong> on roads &ge; 18.0m</td>
+              <td><strong>NIL</strong> (Govt) / <strong>15%</strong> (PSUs)</td>
+              <td>MSRTC lands: up to 2/3 FSI permissible for commercial use</td>
+            </tr>
+            <tr>
+              <td><strong>Religious Buildings</strong></td>
+              <td>Max Road Potential minus Basic FSI</td>
+              <td><strong>15%</strong> of ASR land rate</td>
+              <td>Police Authority &amp; District Magistrate (Collector) NOC mandatory</td>
+            </tr>
+            <tr>
+              <td><strong>Public EWS / LIG Housing</strong></td>
+              <td>FSI up to <strong>2.50</strong> or road potential</td>
+              <td><strong>NIL (Zero Premium)</strong></td>
+              <td>Under Central/State urban poor shelter programmes</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    """,
+
+    'worked_example_html': r"""
+      <div class="math-box">
+        <h4 style="font-family:var(--disp); font-weight:700; margin-bottom:12px; color:var(--ink);">
+          Worked Case: Higher FSI Computation for a Charitable Super-Specialty Hospital
+        </h4>
+        <p><strong>Site Setup:</strong></p>
+        <ul>
+          <li>Plot Area = <strong>5,000 sq.m</strong> in a Municipal Corporation on an <strong>18.0-meter DP road</strong>.</li>
+          <li>User: Registered Charitable Medical Trust constructing a multi-specialty hospital.</li>
+          <li>ASR Land Rate = <strong>Rs 40,000 / sq.m</strong>.</li>
+        </ul>
+
+        <div style="margin: 16px 0; border-left: 3px solid var(--blueprint); padding-left: 14px;">
+          <p><strong>Step 1: Determine FSI Entitlement under Table 7-A (Category B)</strong></p>
+          <p>For hospitals fronting roads &ge; 18.0m, Table 7-A Category B mandates:
+            $$\text{Permissible Maximum Building Potential} = \mathbf{3.00}$$
+            $$\text{Basic FSI (Table 6-G)} = 1.10$$
+            $$\text{Additional Higher FSI Entitlement} = 3.00 - 1.10 = \mathbf{1.90}$$
+            $$\text{Total Sanctionable BUA (before Ancillary)} = 5,000\text{ sq.m} \times 3.00 = \mathbf{15,000\text{ sq.m}}$$
+          </p>
+        </div>
+
+        <div style="margin: 16px 0; border-left: 3px solid var(--amber); padding-left: 14px;">
+          <p><strong>Step 2: Calculate Concessional Premium for Charitable Trust</strong></p>
+          <p>Standard commercial premium FSI is charged at 35% of ASR. Under Table 7-A, a Charitable Medical Trust pays only <strong>10% of ASR</strong>!
+            $$\text{Higher FSI BUA} = 5,000 \times 1.90 = \mathbf{9,500\text{ sq.m}}$$
+            $$\text{Concessional Premium Rate} = \text{Rs } 40,000 \times 10\% = \mathbf{\text{Rs } 4,000 / \text{sq.m}}$$
+            $$\text{Total Premium Payable} = 9,500 \times \text{Rs } 4,000 = \mathbf{\text{Rs } 38,000,000}$$
+          </p>
+          <p><em>Savings:</em> Under commercial rates (35%), premium would have been Rs 133,000,000. Table 7-A saves the hospital trust <strong>Rs 9.5 Crores</strong>!</p>
+        </div>
+
+        <div style="margin: 16px 0; border-left: 3px solid var(--blueprint-soft); padding-left: 14px;">
+          <p><strong>Step 3: Amenity Space Surrender Exemption (Reg 7.0h)</strong></p>
+          <p>Normally, a 5,000 sq.m layout requires surrendering 5% amenity space (250 sq.m). Under Reg 7.0(h), <strong>zero amenity space is required</strong>, allowing 100% of the land to be built upon.</p>
+        </div>
+      </div>
+    """,
+
+    'pitfalls_html': """
+      <div class="panel-alert">
+        <h4 style="font-family:var(--disp); font-weight:700; color:var(--brick); margin-bottom:8px;">
+          STATUTORY COMPLIANCE PITFALLS IN CHAPTER 7 HIGHER FSI
+        </h4>
+        <ul style="margin-left: 18px; line-height: 1.6;">
+          <li>
+            <strong>Selling Student or Working Women Hostel Units:</strong> Table 7-A Category J grants 10% premium FSI for hostels on the strict condition that units cannot be sold. Attempting to sell rooms as studio apartments triggers criminal fraud and cancellation of development permission.
+          </li>
+          <li>
+            <strong>Reducing Existing School Playgrounds Below 40%:</strong> When adding upper floors or expanding educational buildings, you cannot shrink the playground below 40% of the plot area or the existing playground area.
+          </li>
+          <li>
+            <strong>Applying Starred Hotel "One-Step" Rule to Normal Lodges:</strong> The one-step road-width bonus is restricted exclusively to hotels possessing a valid Star classification certificate from the Ministry of Tourism, Government of India.
+          </li>
+          <li>
+            <strong>Failing to Secure District Magistrate NOC for Religious Buildings:</strong> Religious structures under Category F cannot receive building permission without prior written NOCs from both the Police Commissioner/SP and the District Collector.
+          </li>
+        </ul>
+      </div>
+    """,
+
+    'amendment_section_html': """
+      <div class="panel-info">
+        <h4 style="font-family:var(--disp); font-weight:700; margin-bottom:8px;">Statutory Amendments & Gazette Orders</h4>
+        <ul style="font-size:0.92rem; line-height:1.6; margin-left:18px;">
+          <li><strong>Notification CR 236/18 Part-3 (dt. 16 June 2021):</strong> Clarified Table 7-A provisions regarding MSRTC bus station commercial development.</li>
+          <li><strong>Corrigendum CR 121/21 (dt. 02 Dec 2021):</strong> Allowed up to 2/3rd FSI for commercial development on MSRTC land, provided at least 50% contiguous land remains for core transport operations.</li>
+        </ul>
+      </div>
+    """,
+
+    'quiz': [
+      {
+        'question': 'Under Table 7-A, what concessional premium rate is charged for additional FSI on Primary Schools?',
+        'options': [
+          '5% of ASR land rate',
+          '10% of ASR land rate',
+          '15% of ASR land rate',
+          '35% of ASR land rate'
+        ],
+        'answer': 0,
+        'explanation': 'Under Table 7-A Category A(i) and A(ii), Pre-primary and Primary schools pay a concessional premium of strictly 5% of the ASR land rate.'
+      },
+      {
+        'question': 'For a Hospital fronting an 18.0m or wider road, what is the maximum building potential permitted under Table 7-A Category B?',
+        'options': [
+          '2.25 FSI',
+          '2.50 FSI',
+          '3.00 FSI',
+          '4.00 FSI'
+        ],
+        'answer': 2,
+        'explanation': 'Table 7-A Category B explicitly stipulates that for hospitals on roads 18.0m and above, the maximum building potential shall be considered as 3.00.'
+      },
+      {
+        'question': 'What special planning benefit is granted to Starred Category Hotels (2-star & above) under Table 7-A Category D?',
+        'options': [
+          'Exemption from parking spaces',
+          'Building potential calculated considering the road width one step below',
+          'Zero premium on all floors',
+          'Permissible height up to 100 meters on any road'
+        ],
+        'answer': 1,
+        'explanation': 'Table 7-A Category D note (ii) grants that the maximum building potential limit shall be allowed considering the road width one step below (e.g. a 12m road receives 15m road potential).'
+      },
+      {
+        'question': 'Under Regulation 7.0(h), what requirement is completely waived for all uses specified in Table 7-A?',
+        'options': [
+          'Fire CFO NOC',
+          'Amenity Space surrender under Regulation 3.5',
+          'Structural stability certificate',
+          'Water supply connection fee'
+        ],
+        'answer': 1,
+        'explanation': 'Regulation 7.0(h) explicitly mandates that "No Amenity Spaces as per Regulation No.3.5 shall be required to be provided for the uses mentioned in Table No.7-A."'
+      }
+    ],
+
+    'prev_url': '/lessons/reg-6-10-height-caps-chowks-and-special-floors.html',
+    'prev_title': 'Reg 6.9 to 6.15: Height Caps, Chowks & Special Amenities',
+    'next_url': '/lessons/reg-7-2-road-widening-and-staff-quarters.html',
+    'next_title': 'Reg 7.2 & 7.3: Road Widening Surrender & Staff Quarters FSI'
+}

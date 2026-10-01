@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Statutory Formulas & Master Calculators | UDCPR from Scratch</title>
+  <meta name="description" content="Interactive calculation workbench for Maharashtra UDCPR-2020: Net Plot Area, Permissible FSI, Premium FSI costs, Setbacks, Parking, and TDR utilization.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/blueprint.css">
+  <link rel="stylesheet" href="/css/components.css">
+</head>
+<body>
+
+  <!-- THE DRAWING SHEET CONTAINER -->
+  <div class="sheet">
+    <div class="ruler-top"></div>
+    <div class="corner-tick tl"></div>
+    <div class="corner-tick tr"></div>
+    <div class="corner-tick bl"></div>
+    <div class="corner-tick br"></div>
+
+    <!-- Statutory Disclaimer Strip -->
+    <div class="disclaimer-strip">
+      <strong>DISCLAIMER:</strong> Calculations are educational estimates based on standard UDCPR clauses. Actual municipal sanctions depend on site inspections, local authority conditions, and special planning zone overlays.
+    </div>
+
+    <!-- Sheet Navigation -->
+    <nav class="sheet-nav">
+      <a href="/" class="brand-block">
+        <span class="brand-stamp">UDCPR</span>
+        <div class="brand-title-group">
+          <h1>UDCPR from Scratch</h1>
+          <span>Formulas Workbench • Drawing Sheet</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="/topics/">Topics</a></li>
+        <li class="nav-item"><a href="/chapters/">Chapters</a></li>
+        <li class="nav-item"><a href="/glossary.html">Glossary</a></li>
+        <li class="nav-item"><a href="/formulas.html" class="active">Formulas &amp; Calcs</a></li>
+        <li class="nav-item"><a href="/amendments.html">Amendments (#)</a></li>
+        <li class="nav-item"><a href="/govt-orders.html">Orders</a></li>
+      </ul>
+
+      <div class="nav-tools">
+        <button class="tool-btn" onclick="openSearchModal()">Search <kbd style="font-family:var(--mono);">Ctrl+K</kbd></button>
+      </div>
+    </nav>
+
+    <!-- Page Header Title Block -->
+    <header class="title-block">
+      <div>
+        <div class="kicker">STATUTORY MATHEMATICS // 9 MASTER ENGINES</div>
+        <h1 style="font-size: 2.2rem; margin-bottom: 8px;">
+          Master Formulas &amp; Interactive Calculators
+        </h1>
+        <p style="color: var(--ink-soft); max-width: 760px; font-size: 1.02rem; line-height: 1.6;">
+          Every mathematical equation in UDCPR-2020: Net Plot Area, Total Permissible FSI, Premium FSI costs, Setbacks, Off-Street Parking, and TDR utilization. Adjust inputs to run live calculations for your site.
+        </p>
+      </div>
+
+      <div style="border:1px solid var(--ink); background:var(--paper); padding:16px; display:flex; flex-direction:column; justify-content:center;">
+        <span class="kicker-muted">CALCULATOR ENGINES</span>
+        <div style="font-family:var(--disp); font-size:2.2rem; font-weight:700; color:var(--blueprint); line-height:1;">9</div>
+        <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft); margin-top:6px;">
+          Live Real-Time Math
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Calculator Container -->
+    <main style="margin-top: 32px;">
+      <div id="formulas-list-container">
+        <div style="text-align:center; padding:40px; color:var(--ink-soft); font-family:var(--mono);">
+          Loading interactive statutory calculation engines...
+        </div>
+      </div>
+    </main>
+
+    <!-- Sheet Footer -->
+    <footer class="sheet-footer">
+      <div>UDCPR FROM SCRATCH • MATHEMATICAL ENGINES</div>
+      <div>ACCURATE STATUTORY FORMULATIONS FROM MAHARASHTRA GAZETTE</div>
+    </footer>
+  </div>
+
+  <!-- Universal Search Modal -->
+  <div class="search-modal-backdrop" id="search-modal-backdrop" onclick="if(event.target === this) closeSearchModal()">
+    <div class="search-modal">
+      <div class="search-modal-header">
+        <span style="font-family:var(--mono); font-size:13px; font-weight:700;">SEARCH //</span>
+        <input type="text" id="search-modal-input" class="search-modal-input" placeholder="Search formulas, variables, or clauses..." autocomplete="off">
+        <button onclick="closeSearchModal()" class="tool-btn" style="padding:2px 8px;">ESC</button>
+      </div>
+      <ul class="search-results-list" id="search-results-list"></ul>
+    </div>
+  </div>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/search.js"></script>
+  <script src="/js/calculators.js"></script>
+</body>
+</html>

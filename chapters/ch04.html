@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 4: Land Use Classification &amp; Permissible Uses | UDCPR from Scratch</title>
+  <meta name="description" content="Chapter 4 of UDCPR-2020: Residential Zones R-1 and R-2, Commercial, Industrial, I-to-R conversions, Agricultural zones, environmental buffers, and DP reservations.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/blueprint.css">
+  <link rel="stylesheet" href="/css/components.css">
+</head>
+<body>
+
+  <!-- THE DRAWING SHEET CONTAINER -->
+  <div class="sheet">
+    <div class="ruler-top"></div>
+    <div class="corner-tick tl"></div>
+    <div class="corner-tick tr"></div>
+    <div class="corner-tick bl"></div>
+    <div class="corner-tick br"></div>
+
+    <!-- Statutory Disclaimer Strip -->
+    <div class="disclaimer-strip">
+      <strong>DISCLAIMER:</strong> Educational summary and reference guide. Always verify with official Sanctioned Development Plans, Regional Plans, and Urban Development Department notifications.
+    </div>
+
+    <!-- Sheet Navigation -->
+    <nav class="sheet-nav">
+      <a href="/" class="brand-block">
+        <span class="brand-stamp">UDCPR</span>
+        <div class="brand-title-group">
+          <h1>UDCPR from Scratch</h1>
+          <span>Chapter 4 Syllabus • Drawing Sheet</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="/topics/">Topics</a></li>
+        <li class="nav-item"><a href="/chapters/" class="active">Chapters</a></li>
+        <li class="nav-item"><a href="/glossary.html">Glossary</a></li>
+        <li class="nav-item"><a href="/formulas.html">Formulas</a></li>
+        <li class="nav-item"><a href="/amendments.html">Amendments (#)</a></li>
+        <li class="nav-item"><a href="/govt-orders.html">Orders</a></li>
+      </ul>
+
+      <div class="nav-tools">
+        <button class="tool-btn" onclick="openSearchModal()">Search <kbd style="font-family:var(--mono);">Ctrl+K</kbd></button>
+      </div>
+    </nav>
+
+    <!-- Header Title Block -->
+    <header class="title-block">
+      <div>
+        <div class="kicker">CHAPTER 4 • L2821 - L3946 // LAND USE CLASSIFICATION</div>
+        <h1 style="font-size: 2.2rem; margin-bottom: 8px;">
+          Chapter 4: Land Use Classification &amp; Permissible Uses
+        </h1>
+        <p style="color: var(--ink-soft); max-width: 760px; font-size: 1.02rem; line-height: 1.6;">
+          Master the complete zoning framework of Maharashtra: Pure Residential (R-1) vs Mixed-Use (R-2), commercial and manufacturing zones, the statutory 23.0m industrial buffer, I-to-R conversion masterclass, agricultural non-agri permissions, and civic reservations.
+        </p>
+      </div>
+
+      <div style="border:1px solid var(--ink); background:var(--paper); padding:16px; display:flex; flex-direction:column; justify-content:center;">
+        <span class="kicker-muted">CURRICULUM STATUS</span>
+        <div style="font-family:var(--disp); font-size:2.2rem; font-weight:700; color:var(--blueprint); line-height:1;">100%</div>
+        <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft); margin-top:6px;">
+          6 Finished Lessons Active
+        </div>
+      </div>
+    </header>
+
+    <main style="margin-top: 28px;">
+
+      <!-- Chapter Summary Panel -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">STATUTORY HIGHLIGHTS</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Key Chapter Takeaways</h2>
+        <div class="panel-info">
+          <ul style="padding-left:20px; display:flex; flex-direction:column; gap:8px; font-size:0.92rem; color:var(--ink-soft);">
+            <li><strong>R-1 vs. R-2 (Reg. 4.3 &amp; 4.4):</strong> Governed automatically by abutting road width (&lt; 12m = R-1; &ge; 12m = R-2 outside gaothan; 9.0m in congested/C-class). Convenience shopping allowed only on ground floor in R-1.</li>
+            <li><strong>Home Occupations &amp; Professional Offices (Reg. 4.3):</strong> Customary family occupations allowed up to 1 H.P.; professional offices in own tenements allowed up to 50 sq.m carpet area.</li>
+            <li><strong>Industrial Buffer (Reg. 4.8):</strong> Mandatory 23.0m separation setback to residential zones (includes road width), 100% credited toward FSI. Up to 25% BUA allowed for worker quarters.</li>
+            <li><strong>I-to-R Conversion (Reg. 4.8.1):</strong> Converting industrial plots to residential requires 5% ASR premium, Labour Commissioner NOC for closed plants, and 10%/15% tiered amenity surrender with full compensatory FSI credit.</li>
+            <li><strong>Agricultural Zone Non-Agri Uses (Reg. 4.11):</strong> Farmhouses strictly capped at 0.40 Ha min, 0.04 FSI, and 400 sq.m max (G+1, 9m ht). 1.00 FSI for educational/medical institutions; solar panel ground coverage exempt from FSI.</li>
+            <li><strong>Water &amp; Slope Protection (Reg. 4.12 &amp; 4.17):</strong> Mandatory 15.0m river buffer / 9.0m nallah buffer. Slopes steeper than 1:5 gradient are non-buildable HTHS.</li>
+            <li><strong>Civic Reservations &amp; P/SP (Reg. 4.10 &amp; 4.27):</strong> 15% basic FSI permitted for ancillary commercial use in institutional campuses; playground pavilions capped at 15% ground coverage.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Chapter 4 Lessons List -->
+      <section style="margin-bottom:36px;">
+        <span class="kicker">CURRICULUM LESSONS</span>
+        <h2 style="font-size:1.25rem; margin-bottom:16px;">Chapter 4 Blueprint Lessons</h2>
+
+        <div style="display:flex; flex-direction:column; gap:16px;">
+
+          <!-- Lesson 4.1 -->
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--blueprint); padding:20px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <div>
+                <span class="badge badge-clause" style="margin-right:6px;">Reg. 4.1 – 4.6</span>
+                <span class="badge badge-amended">CR.121/21</span>
+              </div>
+              <span class="badge badge-status-done">ACTIVE LESSON</span>
+            </div>
+            <h3 style="font-family:var(--disp); font-size:1.2rem; font-weight:700; color:var(--ink); margin-bottom:6px;">
+              Zoning Classification &amp; Residential Zones (R-1 vs. R-2)
+            </h3>
+            <p style="font-size:0.9rem; color:var(--ink-soft); margin-bottom:14px; line-height:1.5;">
+              Determining pure residential (R-1) vs mixed-use (R-2) envelopes by road width, permissible home occupations up to 1 H.P., 50 sq.m professional offices, and 20-bed maternity home access rules.
+            </p>
+            <a href="/lessons/reg-4-1-residential-zones-r1-r2.html" class="tool-btn" style="text-decoration:none; display:inline-block;">
+              Open Lesson &amp; Quiz →
+            </a>
+          </div>
+
+          <!-- Lesson 4.2 -->
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--blueprint); padding:20px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <div>
+                <span class="badge badge-clause" style="margin-right:6px;">Reg. 4.7 – 4.9</span>
+                <span class="badge badge-amended">CR.121/21</span>
+              </div>
+              <span class="badge badge-status-done">ACTIVE LESSON</span>
+            </div>
+            <h3 style="font-family:var(--disp); font-size:1.2rem; font-weight:700; color:var(--ink); margin-bottom:6px;">
+              Commercial &amp; Industrial Zones: Permissible Uses &amp; Buffer Envelopes
+            </h3>
+            <p style="font-size:0.9rem; color:var(--ink-soft); margin-bottom:14px; line-height:1.5;">
+              Permissible wholesale/retail commercial hubs, industrial manufacturing classes, the mandatory 23.0m buffer setback from residential zones, and 25% worker housing allowances.
+            </p>
+            <a href="/lessons/reg-4-7-commercial-and-industrial-zones.html" class="tool-btn" style="text-decoration:none; display:inline-block;">
+              Open Lesson &amp; Quiz →
+            </a>
+          </div>
+
+          <!-- Lesson 4.3 -->
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--amber); padding:20px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <div>
+                <span class="badge badge-clause" style="margin-right:6px;">Reg. 4.8.1</span>
+                <span class="badge badge-amended">CR.236/18 Pt 4</span>
+              </div>
+              <span class="badge badge-status-done">CORE COMMERCIAL WORKFLOW</span>
+            </div>
+            <h3 style="font-family:var(--disp); font-size:1.2rem; font-weight:700; color:var(--ink); margin-bottom:6px;">
+              Industrial-to-Residential (I-to-R) Conversion Masterclass
+            </h3>
+            <p style="font-size:0.9rem; color:var(--ink-soft); margin-bottom:14px; line-height:1.5;">
+              Step-by-step statutory methodology for converting industrial sites: 5% ASR premium, Labour Commissioner clearance, 10%/15% tiered amenity surrender, 50% public park rule, and inclusive housing exemption.
+            </p>
+            <a href="/lessons/reg-4-8-1-industrial-to-residential-conversion.html" class="tool-btn" style="text-decoration:none; display:inline-block; background:var(--ink); color:var(--paper-raised);">
+              Launch Lesson Plate &amp; Quiz →
+            </a>
+          </div>
+
+          <!-- Lesson 4.4 -->
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--blueprint); padding:20px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <div>
+                <span class="badge badge-clause" style="margin-right:6px;">Reg. 4.11</span>
+                <span class="badge badge-amended">CR.121/21</span>
+              </div>
+              <span class="badge badge-status-done">ACTIVE LESSON</span>
+            </div>
+            <h3 style="font-family:var(--disp); font-size:1.2rem; font-weight:700; color:var(--ink); margin-bottom:6px;">
+              Agricultural &amp; Green Zones: Farmhouses &amp; Permissible Non-Agri Uses
+            </h3>
+            <p style="font-size:0.9rem; color:var(--ink-soft); margin-bottom:14px; line-height:1.5;">
+              Farmhouse limitations (0.40 Ha min, 0.04 FSI, 400 sq.m ceiling, G+1), 44+ permissible non-agricultural activities, educational/medical campuses with 1.00 FSI, highway amenities, and solar energy FSI exemptions.
+            </p>
+            <a href="/lessons/reg-4-11-agricultural-and-green-zone.html" class="tool-btn" style="text-decoration:none; display:inline-block;">
+              Open Lesson &amp; Quiz →
+            </a>
+          </div>
+
+          <!-- Lesson 4.5 -->
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--blueprint); padding:20px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <span class="badge badge-clause">Reg. 4.12 – 4.25</span>
+              <span class="badge badge-status-done">ACTIVE LESSON</span>
+            </div>
+            <h3 style="font-family:var(--disp); font-size:1.2rem; font-weight:700; color:var(--ink); margin-bottom:6px;">
+              Environmental Buffers, Hill Slopes &amp; Special Purpose Zones
+            </h3>
+            <p style="font-size:0.9rem; color:var(--ink-soft); margin-bottom:14px; line-height:1.5;">
+              Mandatory 15.0m river / 9.0m nallah buffers, non-buildable Hill Top-Hill Slope (HTHS) areas steeper than 1:5 gradient, Afforestation forest dwelling norms, and Defence security clearance perimeters.
+            </p>
+            <a href="/lessons/reg-4-12-environmental-and-special-zones.html" class="tool-btn" style="text-decoration:none; display:inline-block;">
+              Open Lesson &amp; Quiz →
+            </a>
+          </div>
+
+          <!-- Lesson 4.6 -->
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--blueprint); padding:20px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <span class="badge badge-clause">Reg. 4.10 &amp; 4.27</span>
+              <span class="badge badge-status-done">ACTIVE LESSON</span>
+            </div>
+            <h3 style="font-family:var(--disp); font-size:1.2rem; font-weight:700; color:var(--ink); margin-bottom:6px;">
+              Public / Semi-Public Zones &amp; Development Plan (DP) Reservations
+            </h3>
+            <p style="font-size:0.9rem; color:var(--ink-soft); margin-bottom:14px; line-height:1.5;">
+              Campus development in P/SP zones with 15% cross-subsidizing commercial allowance, 15% maximum pavilion ground coverage on playground reservations, and commercial retail underneath stadium spectator galleries.
+            </p>
+            <a href="/lessons/reg-4-27-public-semi-public-and-dp-reservations.html" class="tool-btn" style="text-decoration:none; display:inline-block;">
+              Open Lesson &amp; Quiz →
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Sheet Footer -->
+    <footer class="sheet-footer">
+      <div>UDCPR FROM SCRATCH • CHAPTER 4: LAND USE CLASSIFICATION</div>
+      <div>DRAWING SHEET SYSTEM • MAHARASHTRA STATE</div>
+    </footer>
+  </div>
+
+  <!-- Universal Search Modal -->
+  <div class="search-modal-backdrop" id="search-modal-backdrop" onclick="if(event.target === this) closeSearchModal()">
+    <div class="search-modal">
+      <div class="search-modal-header">
+        <span style="font-family:var(--mono); font-size:13px; font-weight:700;">SEARCH //</span>
+        <input type="text" id="search-modal-input" class="search-modal-input" placeholder="Search Chapter 4..." autocomplete="off">
+        <button onclick="closeSearchModal()" class="tool-btn" style="padding:2px 8px;">ESC</button>
+      </div>
+      <ul class="search-results-list" id="search-results-list"></ul>
+    </div>
+  </div>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/search.js"></script>
+</body>
+</html>

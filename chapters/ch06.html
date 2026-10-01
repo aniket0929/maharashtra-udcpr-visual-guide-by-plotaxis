@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 6: General Building Requirements - Setback, Margins, Height & FSI | UDCPR from Scratch</title>
+  <meta name="description" content="Chapter 6 of UDCPR-2020: FSI stacking tables 6-A & 6-G, 35% ASR premium, 60%/80% ancillary FSI, front setbacks, side/rear H/5 formula, 6.0m fire driveways, and height caps.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/blueprint.css">
+  <link rel="stylesheet" href="/css/components.css">
+</head>
+<body>
+
+  <!-- THE DRAWING SHEET CONTAINER -->
+  <div class="sheet">
+    <div class="ruler-top"></div>
+    <div class="corner-tick tl"></div>
+    <div class="corner-tick tr"></div>
+    <div class="corner-tick bl"></div>
+    <div class="corner-tick br"></div>
+
+    <!-- Statutory Disclaimer Strip -->
+    <div class="disclaimer-strip">
+      <strong>DISCLAIMER:</strong> Educational summary and reference guide. Always verify with official municipal building sanction authorities and the authentic gazetted text of UDCPR-2020.
+    </div>
+
+    <!-- Sheet Navigation -->
+    <nav class="sheet-nav">
+      <a href="/" class="brand-block">
+        <span class="brand-stamp">UDCPR</span>
+        <div class="brand-title-group">
+          <h1>UDCPR from Scratch</h1>
+          <span>Chapter 6 Syllabus • Drawing Sheet</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="/topics/">Topics</a></li>
+        <li class="nav-item"><a href="/chapters/" class="active">Chapters</a></li>
+        <li class="nav-item"><a href="/glossary.html">Glossary</a></li>
+        <li class="nav-item"><a href="/formulas.html">Formulas</a></li>
+        <li class="nav-item"><a href="/amendments.html">Amendments (#)</a></li>
+        <li class="nav-item"><a href="/govt-orders.html">Orders</a></li>
+      </ul>
+
+      <div class="nav-tools">
+        <button class="tool-btn" onclick="openSearchModal()">Search <kbd style="font-family:var(--mono);">Ctrl+K</kbd></button>
+      </div>
+    </nav>
+
+    <!-- Header Title Block -->
+    <header class="title-block">
+      <div>
+        <div class="kicker">CHAPTER 6 • L4758 - L6210 // GENERAL BUILDING REQUIREMENTS</div>
+        <h1 style="font-size: 2.2rem; margin-bottom: 8px;">
+          Chapter 6: General Building Requirements - Setback, Marginal Distance, Height and Permissible FSI
+        </h1>
+        <p style="color: var(--ink-soft); max-width: 760px; font-size: 1.02rem; line-height: 1.6;">
+          The statutory core of Maharashtra architecture: Master the FSI Stacking Pyramid (Basic, 35% Premium, TDR loading), the unified 60%/80% Ancillary FSI allowance, road-width driven front setbacks, the H/5 high-rise margin formula, 6.0m clear fire driveways, and vertical height limitations.
+        </p>
+      </div>
+
+      <div style="border:1px solid var(--ink); background:var(--paper); padding:16px; display:flex; flex-direction:column; justify-content:center;">
+        <span class="kicker-muted">CURRICULUM STATUS</span>
+        <div style="font-family:var(--disp); font-size:2.2rem; font-weight:700; color:var(--blueprint); line-height:1;">100%</div>
+        <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft); margin-top:6px;">
+          6 Finished Lessons Active
+        </div>
+      </div>
+    </header>
+
+    <main style="margin-top: 28px;">
+
+      <!-- Chapter Summary Panel -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">STATUTORY HIGHLIGHTS</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Key Chapter Takeaways</h2>
+        <div class="panel-info">
+          <ul style="padding-left:20px; display:flex; flex-direction:column; gap:8px; font-size:0.92rem; color:var(--ink-soft);">
+            <li><strong>FSI Stacking Architecture (Tables 6-A &amp; 6-G):</strong> Basic FSI (1.10 non-congested / 1.50–2.00 congested), Premium FSI @ 35% unguided ASR land rate, and TDR Loading with mandatory 30%–50% Slum/URT/Amenity sub-quota.</li>
+            <li><strong>Note (xiv) Base Rule:</strong> Premium FSI + TDR potential is calculated on the <em>gross plot area</em> before DP road surrender, whereas Basic FSI is calculated strictly on the <em>net retained plot</em>.</li>
+            <li><strong>Ancillary Area FSI (Reg. 6.3 Note i):</strong> 60% for residential, 80% for non-residential on payment of 10%–15% ASR land rate. Measured floor-by-floor along outer P-line (Reg. 6.6), abolishing old free-of-FSI ambiguities.</li>
+            <li><strong>Front Setback Invariance (Reg. 6.2.3a):</strong> Front setbacks are determined strictly by abutting road width (Table 6-D) and <em>never increase with building height</em>.</li>
+            <li><strong>The H/5 High-Rise Formula (Reg. 6.2.3b):</strong> Side and rear margins equal $H/5$ above low-rise thresholds, subject to a statutory maximum ceiling of <strong>12.0 meters</strong> from the plot boundary. Parking floors up to 6.0m are deducted from $H$.</li>
+            <li><strong>Building Separation &amp; Step Margins (Reg. 6.2.3c &amp; 6.2.4):</strong> Spacing between two towers in a layout equals the margin of the <em>taller building</em>. Ground level margin can never drop below 6.0m for special buildings.</li>
+            <li><strong>Exclusions &amp; Fire Driveways (Reg. 6.7 &amp; 6.8):</strong> 100% FSI exclusion for parking stilts, basements, podiums, service floors (&le; 1.8m), and refuge areas. Continuous <strong>6.0m clear motorable driveway</strong> required around Special Buildings (&ge; 15m height).</li>
+            <li><strong>Height Caps &amp; Chowks (Reg. 6.9 &amp; 6.10):</strong> Uncapped height with CFO NOC in metro hubs; 70m/50m caps elsewhere. Mandatory &ge; 12.0m road for heights &gt; 24.0m. Zero-FSI recreational floors (Reg. 6.14) and Hirkani Kaksha ladies room (Reg. 6.15).</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Chapter 6 Lessons List -->
+      <section style="margin-bottom:36px;">
+        <span class="kicker">CURRICULUM LESSONS</span>
+        <h2 style="font-size:1.25rem; margin-bottom:16px;">Chapter 6 Blueprint Lessons</h2>
+
+        <div style="display:flex; flex-direction:column; gap:16px;">
+
+          <!-- Lesson 6.1 -->
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--blueprint); padding:20px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <div>
+                <span class="badge badge-clause" style="margin-right:6px;">Reg. 6.1 &amp; 6.3</span>
+                <span class="badge badge-amended">CR.121/21</span>
+              </div>
+              <span class="badge badge-status-done">ACTIVE LESSON</span>
+            </div>
+            <h3 style="font-family:var(--disp); font-size:1.2rem; font-weight:700; color:var(--ink); margin-bottom:6px;">
+              FSI Stacking, Premium FSI &amp; TDR Building Potential
+            </h3>
+            <p style="font-size:0.9rem; color:var(--ink-soft); margin-bottom:14px; line-height:1.5;">
+              The core statutory stacking tables: Table 6-A (Congested) and Table 6-G (Non-Congested), 35% unguided ASR premium levy, TDR caps, mandatory 30%–50% Slum TDR sub-quota, and Note (xiv) gross vs net plot calculations.
+            </p>
+            <a href="/lessons/reg-6-1-fsi-stacking-and-building-potential.html" class="tool-btn" style="text-decoration:none; display:inline-block;">
+              Open Lesson &amp; Quiz →
+            </a>
+          </div>
+
+          <!-- Lesson 6.2 -->
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--blueprint); padding:20px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <div>
+                <span class="badge badge-clause" style="margin-right:6px;">Reg. 6.3 Note (i) &amp; 6.6</span>
+                <span class="badge badge-amended">CR.236/18</span>
+              </div>
+              <span class="badge badge-status-done">ACTIVE LESSON</span>
+            </div>
+            <h3 style="font-family:var(--disp); font-size:1.2rem; font-weight:700; color:var(--ink); margin-bottom:6px;">
+              Ancillary Area FSI (60% Res / 80% Non-Res) &amp; P-Line Accounting
+            </h3>
+            <p style="font-size:0.9rem; color:var(--ink-soft); margin-bottom:14px; line-height:1.5;">
+              Abolishing arbitrary "free-of-FSI" loopholes: 60% residential and 80% non-residential ancillary allowances, 10%–15% ASR premium rates, floor-wise perimeter P-line measurement, and SRA rehab exclusions.
+            </p>
+            <a href="/lessons/reg-6-3-ancillary-area-fsi.html" class="tool-btn" style="text-decoration:none; display:inline-block;">
+              Open Lesson &amp; Quiz →
+            </a>
+          </div>
+
+          <!-- Lesson 6.3 -->
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--blueprint); padding:20px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <div>
+                <span class="badge badge-clause" style="margin-right:6px;">Reg. 6.1.1(ii), 6.2.1 &amp; 6.2.6</span>
+                <span class="badge badge-amended">Clarified 2021</span>
+              </div>
+              <span class="badge badge-status-done">ACTIVE LESSON</span>
+            </div>
+            <h3 style="font-family:var(--disp); font-size:1.2rem; font-weight:700; color:var(--ink); margin-bottom:6px;">
+              Front Road Setbacks &amp; Street Alignments
+            </h3>
+            <p style="font-size:0.9rem; color:var(--ink-soft); margin-bottom:14px; line-height:1.5;">
+              Table 6-B congested lane widenings (2.25m from centerline), Table 6-D non-congested road hierarchy (3.0m, 4.5m, 6.0m), multi-street corner frontages (Reg. 6.2.6), and the universal height-invariance doctrine.
+            </p>
+            <a href="/lessons/reg-6-2-front-setbacks-and-street-alignments.html" class="tool-btn" style="text-decoration:none; display:inline-block;">
+              Open Lesson &amp; Quiz →
+            </a>
+          </div>
+
+          <!-- Lesson 6.4 -->
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--amber); padding:20px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <div>
+                <span class="badge badge-clause" style="margin-right:6px;">Reg. 6.1.1(iii), 6.2.3 &amp; 6.2.4</span>
+                <span class="badge badge-amended">CR.79/21</span>
+              </div>
+              <span class="badge badge-status-done">HIGH-RISE CORE FORMULA</span>
+            </div>
+            <h3 style="font-family:var(--disp); font-size:1.2rem; font-weight:700; color:var(--ink); margin-bottom:6px;">
+              Side &amp; Rear Margins, Building Separation &amp; The H/5 Rule
+            </h3>
+            <p style="font-size:0.9rem; color:var(--ink-soft); margin-bottom:14px; line-height:1.5;">
+              The H/5 high-rise setback formula, statutory 12.0m plot boundary cap, parking floor height deductions up to 6.0m, building separation governed by the taller tower, dead-wall reductions, and step margins.
+            </p>
+            <a href="/lessons/reg-6-2-3-side-rear-margins-and-h5-rule.html" class="tool-btn" style="text-decoration:none; display:inline-block; background:var(--ink); color:var(--paper-raised);">
+              Launch Lesson Plate &amp; Quiz →
+            </a>
+          </div>
+
+          <!-- Lesson 6.5 -->
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--blueprint); padding:20px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <div>
+                <span class="badge badge-clause" style="margin-right:6px;">Reg. 6.4, 6.7 &amp; 6.8</span>
+                <span class="badge badge-amended">CR.121/21</span>
+              </div>
+              <span class="badge badge-status-done">ACTIVE LESSON</span>
+            </div>
+            <h3 style="font-family:var(--disp); font-size:1.2rem; font-weight:700; color:var(--ink); margin-bottom:6px;">
+              Permissible Projections, FSI Exclusions &amp; Fire Driveways
+            </h3>
+            <p style="font-size:0.9rem; color:var(--ink-soft); margin-bottom:14px; line-height:1.5;">
+              Architectural projections into margins (0.75m chajjas, 5m &times; 2.5m canopies, ottas, watchman cabins), 100% statutory FSI exclusions under Reg. 6.8, and the non-negotiable 6.0m fire driveway around Special Buildings.
+            </p>
+            <a href="/lessons/reg-6-7-projections-fsi-exclusions-and-fire-driveways.html" class="tool-btn" style="text-decoration:none; display:inline-block;">
+              Open Lesson &amp; Quiz →
+            </a>
+          </div>
+
+          <!-- Lesson 6.6 -->
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--blueprint); padding:20px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <div>
+                <span class="badge badge-clause" style="margin-right:6px;">Reg. 6.9 to 6.15</span>
+                <span class="badge badge-amended">Nov 2024</span>
+              </div>
+              <span class="badge badge-status-done">ACTIVE LESSON</span>
+            </div>
+            <h3 style="font-family:var(--disp); font-size:1.2rem; font-weight:700; color:var(--ink); margin-bottom:6px;">
+              Building Height Limitations, Chowks &amp; Special Amenities
+            </h3>
+            <p style="font-size:0.9rem; color:var(--ink-soft); margin-bottom:14px; line-height:1.5;">
+              Tiered building height caps (CFO clearance, 70m, 50m), mandatory 12m road for towers &gt; 24m, interior/exterior ventilation chowk formulas ((H/6)^2), zero-FSI recreational floors, and the Hirkani Kaksha ladies room mandate.
+            </p>
+            <a href="/lessons/reg-6-10-height-caps-chowks-and-special-floors.html" class="tool-btn" style="text-decoration:none; display:inline-block;">
+              Open Lesson &amp; Quiz →
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Sheet Footer -->
+    <footer class="sheet-footer">
+      <div>UDCPR FROM SCRATCH • CHAPTER 6: GENERAL BUILDING REQUIREMENTS</div>
+      <div>DRAWING SHEET SYSTEM • MAHARASHTRA STATE</div>
+    </footer>
+  </div>
+
+  <!-- Universal Search Modal -->
+  <div class="search-modal-backdrop" id="search-modal-backdrop" onclick="if(event.target === this) closeSearchModal()">
+    <div class="search-modal">
+      <div class="search-modal-header">
+        <span style="font-family:var(--mono); font-size:13px; font-weight:700;">SEARCH //</span>
+        <input type="text" id="search-modal-input" class="search-modal-input" placeholder="Search Chapter 6..." autocomplete="off">
+        <button onclick="closeSearchModal()" class="tool-btn" style="padding:2px 8px;">ESC</button>
+      </div>
+      <ul class="search-results-list" id="search-results-list"></ul>
+    </div>
+  </div>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/search.js"></script>
+</body>
+</html>

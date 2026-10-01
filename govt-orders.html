@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Government Orders & Notifications Index | UDCPR from Scratch</title>
+  <meta name="description" content="Chronological index of 53 gazette notifications, Section 154 directives, and Marathi Government Orders (आदेश १ ते १६) under UDCPR-2020.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/blueprint.css">
+  <link rel="stylesheet" href="/css/components.css">
+</head>
+<body>
+
+  <!-- THE DRAWING SHEET CONTAINER -->
+  <div class="sheet">
+    <div class="ruler-top"></div>
+    <div class="corner-tick tl"></div>
+    <div class="corner-tick tr"></div>
+    <div class="corner-tick bl"></div>
+    <div class="corner-tick br"></div>
+
+    <!-- Statutory Disclaimer Strip -->
+    <div class="disclaimer-strip">
+      <strong>DISCLAIMER:</strong> Chronological index of executive orders and gazette notifications for legal citation. Always refer to official government notifications.
+    </div>
+
+    <!-- Sheet Navigation -->
+    <nav class="sheet-nav">
+      <a href="/" class="brand-block">
+        <span class="brand-stamp">UDCPR</span>
+        <div class="brand-title-group">
+          <h1>UDCPR from Scratch</h1>
+          <span>Government Orders • Drawing Sheet</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="/topics/">Topics</a></li>
+        <li class="nav-item"><a href="/chapters/">Chapters</a></li>
+        <li class="nav-item"><a href="/glossary.html">Glossary</a></li>
+        <li class="nav-item"><a href="/formulas.html">Formulas</a></li>
+        <li class="nav-item"><a href="/amendments.html">Amendments (#)</a></li>
+        <li class="nav-item"><a href="/govt-orders.html" class="active">Orders</a></li>
+      </ul>
+
+      <div class="nav-tools">
+        <button class="tool-btn" onclick="openSearchModal()">Search <kbd style="font-family:var(--mono);">Ctrl+K</kbd></button>
+      </div>
+    </nav>
+
+    <!-- Header Title Block -->
+    <header class="title-block">
+      <div>
+        <div class="kicker">LEGISLATIVE TRAIL // 53 NOTIFICATIONS + 16 MARATHI ORDERS</div>
+        <h1 style="font-size: 2.2rem; margin-bottom: 8px;">
+          Government Orders &amp; Notifications Chronology
+        </h1>
+        <p style="color: var(--ink-soft); max-width: 760px; font-size: 1.02rem; line-height: 1.6;">
+          The statutory history of UDCPR-2020 from initial sanction on 2nd December 2020 to the latest updates in January 2025. Listed for verification without diluting lesson clarity.
+        </p>
+      </div>
+
+      <div style="border:1px solid var(--ink); background:var(--paper); padding:16px; display:flex; flex-direction:column; justify-content:center;">
+        <span class="kicker-muted">TOTAL DIRECTIVES</span>
+        <div style="font-family:var(--disp); font-size:2.2rem; font-weight:700; color:var(--blueprint); line-height:1;">69</div>
+        <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft); margin-top:6px;">
+          53 Gazette + 16 Orders
+        </div>
+      </div>
+    </header>
+
+    <main style="margin-top: 28px;">
+
+      <!-- Tabs for Gazette Notifications vs Marathi Orders (Bordered Button Group) -->
+      <div class="button-group" style="margin-bottom: 24px;">
+        <button class="active" id="tab-gazette-btn" onclick="switchOrderTab('gazette')">
+          Gazetted Notifications &amp; Directives (1 to 53)
+        </button>
+        <button id="tab-marathi-btn" onclick="switchOrderTab('marathi')">
+          Marathi Appendix Orders (आदेश १ ते १६)
+        </button>
+      </div>
+
+      <!-- Section 1: Gazette Notifications -->
+      <div id="gazette-orders-view">
+        <div id="gazette-orders-list">
+          <div style="text-align:center; padding:40px; color:var(--ink-soft); font-family:var(--mono);">
+            Loading gazette notifications...
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 2: Marathi Appendix Orders -->
+      <div id="marathi-orders-view" style="display:none;">
+        <div id="marathi-orders-list">
+          <div style="text-align:center; padding:40px; color:var(--ink-soft); font-family:var(--mono);">
+            Loading Marathi orders...
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- Sheet Footer -->
+    <footer class="sheet-footer">
+      <div>UDCPR FROM SCRATCH • CHRONOLOGICAL GAZETTE DIRECTORY</div>
+      <div>MAHARASHTRA STATE URBAN DEVELOPMENT DEPARTMENT</div>
+    </footer>
+  </div>
+
+  <!-- Universal Search Modal -->
+  <div class="search-modal-backdrop" id="search-modal-backdrop" onclick="if(event.target === this) closeSearchModal()">
+    <div class="search-modal">
+      <div class="search-modal-header">
+        <span style="font-family:var(--mono); font-size:13px; font-weight:700;">SEARCH //</span>
+        <input type="text" id="search-modal-input" class="search-modal-input" placeholder="Search orders..." autocomplete="off">
+        <button onclick="closeSearchModal()" class="tool-btn" style="padding:2px 8px;">ESC</button>
+      </div>
+      <ul class="search-results-list" id="search-results-list"></ul>
+    </div>
+  </div>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/search.js"></script>
+  <script>
+    let ordersData = null;
+
+    function switchOrderTab(tab) {
+      const gazetteBtn = document.getElementById('tab-gazette-btn');
+      const marathiBtn = document.getElementById('tab-marathi-btn');
+      const gazetteView = document.getElementById('gazette-orders-view');
+      const marathiView = document.getElementById('marathi-orders-view');
+
+      if (tab === 'gazette') {
+        gazetteBtn.classList.add('active');
+        marathiBtn.classList.remove('active');
+        gazetteView.style.display = 'block';
+        marathiView.style.display = 'none';
+      } else {
+        marathiBtn.classList.add('active');
+        gazetteBtn.classList.remove('active');
+        marathiView.style.display = 'block';
+        gazetteView.style.display = 'none';
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', async function () {
+      try {
+        const res = await fetch('/data/govt_orders.json');
+        ordersData = await res.json();
+
+        // Render Gazette
+        const gList = document.getElementById('gazette-orders-list');
+        gList.innerHTML = ordersData.gazette_notifications.map(item => `
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--blueprint); padding:16px 20px; margin-bottom:12px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px; flex-wrap:wrap; gap:8px;">
+              <span class="badge badge-clause">#${item.sr_no} • ${item.date}</span>
+              <span style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">${item.order_number}</span>
+            </div>
+            <h4 style="font-family:var(--disp); font-size:1.05rem; font-weight:700; color:var(--ink); margin-bottom:6px;">
+              ${item.subject}
+            </h4>
+            <div style="font-family:var(--mono); font-size:11px; color:var(--blueprint);">
+              Clauses Affected: ${item.affected_clauses.join(', ') || 'General Framework'}
+            </div>
+          </div>
+        `).join('');
+
+        // Render Marathi
+        const mList = document.getElementById('marathi-orders-list');
+        mList.innerHTML = ordersData.marathi_orders.map(item => `
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--amber); padding:16px 20px; margin-bottom:12px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px; flex-wrap:wrap; gap:8px;">
+              <span class="badge badge-amended">${item.order_num}</span>
+              <span style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">${item.date}</span>
+            </div>
+            <h4 style="font-family:var(--disp); font-size:1.05rem; font-weight:700; color:var(--ink); margin-bottom:6px;">
+              ${item.subject_marathi}
+            </h4>
+            <p style="font-size:0.86rem; color:var(--ink-soft); line-height:1.5;">
+              ${item.summary_english}
+            </p>
+          </div>
+        `).join('');
+
+      } catch (err) {
+        console.error("Orders load failed:", err);
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 8: Parking, Loading and Unloading Spaces | UDCPR from Scratch</title>
+  <meta name="description" content="Chapter 8 of UDCPR-2020: Off-street parking standards, Table 8-A bay dimensions, 50% compact car concession, loading berths, dual basement ramps, Table 8-B tenement tiers, Table 8-C city multipliers, residential two-wheeler non-reduction shield, and excess parking surcharges.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/blueprint.css">
+  <link rel="stylesheet" href="/css/components.css">
+</head>
+<body>
+
+  <!-- THE DRAWING SHEET CONTAINER -->
+  <div class="sheet">
+    <div class="ruler-top"></div>
+    <div class="corner-tick tl"></div>
+    <div class="corner-tick tr"></div>
+    <div class="corner-tick bl"></div>
+    <div class="corner-tick br"></div>
+
+    <!-- Statutory Disclaimer Strip -->
+    <div class="disclaimer-strip">
+      <strong>DISCLAIMER:</strong> Educational reference and statutory curriculum guide. Always verify with official Urban Development Department gazettes, local municipal fire departments, and sanctioned Development Plans.
+    </div>
+
+    <!-- Sheet Navigation -->
+    <nav class="sheet-nav">
+      <a href="/" class="brand-block">
+        <span class="brand-stamp">UDCPR</span>
+        <div class="brand-title-group">
+          <h1>UDCPR from Scratch</h1>
+          <span>Chapter 8 Syllabus • Drawing Sheet</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="/topics/">Topics</a></li>
+        <li class="nav-item"><a href="/chapters/" class="active">Chapters</a></li>
+        <li class="nav-item"><a href="/glossary.html">Glossary</a></li>
+        <li class="nav-item"><a href="/formulas.html">Formulas</a></li>
+        <li class="nav-item"><a href="/amendments.html">Amendments (#)</a></li>
+        <li class="nav-item"><a href="/govt-orders.html">Orders</a></li>
+      </ul>
+
+      <div class="nav-tools">
+        <button class="tool-btn" onclick="openSearchModal()">Search <kbd style="font-family:var(--mono);">Ctrl+K</kbd></button>
+      </div>
+    </nav>
+
+    <!-- Header Title Block -->
+    <header class="title-block">
+      <div>
+        <div class="kicker">CHAPTER 8 • L5967 - L6171 // OFF-STREET PARKING &amp; LOGISTICS</div>
+        <h1 style="font-size: 2.2rem; margin-bottom: 8px;">
+          Chapter 8: Parking, Loading and Unloading Spaces
+        </h1>
+        <p style="color: var(--ink-soft); max-width: 760px; font-size: 1.02rem; line-height: 1.6;">
+          Master off-street vehicular parking standards across Maharashtra: Table 8-A stall geometry, 50% compact car concession, mechanized puzzle systems, loading/unloading berths, bus bays (&gt;500 flats), Table 8-B tenement tiers, Table 8-C city multipliers, the residential two-wheeler non-reduction shield, and excess parking surcharges.
+        </p>
+      </div>
+
+      <div style="border:1px solid var(--ink); background:var(--paper); padding:16px; display:flex; flex-direction:column; justify-content:center;">
+        <span class="kicker-muted">CURRICULUM STATUS</span>
+        <div style="font-family:var(--disp); font-size:2.2rem; font-weight:700; color:var(--blueprint); line-height:1;">100%</div>
+        <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft); margin-top:6px;">
+          4 Finished Lessons Active
+        </div>
+      </div>
+    </header>
+
+    <main style="margin-top: 28px;">
+
+      <!-- Chapter Summary Panel -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">STATUTORY HIGHLIGHTS</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Key Chapter Takeaways</h2>
+        <div class="panel-info">
+          <ul style="padding-left:20px; display:flex; flex-direction:column; gap:8px; font-size:0.92rem; color:var(--ink-soft);">
+            <li><strong>Permissible Parking Locations (Reg 8.1.1(i)):</strong> Basements, stilts, podium decks, upper MLCP floors, surface yards, and lock-up garages. Stilt clear headroom must measure $\ge 2.40\text{ m}$ from the bottom (soffit) of beams; stack parking allows up to $4.50\text{ m}$.</li>
+            <li><strong>Table 8-A Stall Dimensions &amp; Concessions:</strong> Standard car stall is $2.50\text{ m} \times 5.00\text{ m}$. Under Note (1)(a), up to 50% may be compact stalls of $2.30\text{ m} \times 4.50\text{ m}$. Mechanized puzzle trays mandate $2.3\text{ m} \times 5.8\text{ m}$ (large cars) and $2.1\text{ m} \times 5.0\text{ m}$ (small cars). Scooters require $1.00\text{ m} \times 2.00\text{ m}$.</li>
+            <li><strong>Driveway &amp; Circulation Clearances (Reg 8.1.1(iv)):</strong> Driveways must be completely exclusive of stall footprints: minimum $3.00\text{ m}$ clear width for cars and $2.00\text{ m}$ for scooters.</li>
+            <li><strong>Loading / Unloading Berths (Reg 8.1.1(viii)(b)):</strong> Commercial, office, and industrial complexes require 1 berth ($3.75\text{ m} \times 7.50\text{ m}$) per $1,000\text{ sq.m}$ carpet exceeding the first $200\text{ sq.m}$. Statutory ceiling: <strong>Maximum 4 berths for offices</strong> and <strong>Maximum 6 berths for other buildings</strong>.</li>
+            <li><strong>Bus Bay Mandate (Reg 8.1.1(vi)):</strong> Compulsory for schools, multiplexes, malls, assembly buildings, and group housing schemes exceeding <strong>500 flats</strong>.</li>
+            <li><strong>Marginal Open Space Parking &amp; Fire Driveways (Reg 8.1.1(viii)(d)):</strong> Surface parking in marginal spaces is allowed only if an unobstructed $3.0\text{ m}$ ($6.0\text{ m}$ for Special Buildings) perimeter fire driveway is preserved 100% clear around the building.</li>
+            <li><strong>Mechanical Parking Towers in Margins (Reg 8.1.1(viii)(f)):</strong> Permitted at $1.50\text{ m}$ setback from side/rear boundaries provided a $6.0\text{ m}$ driveway, $9.0\text{ m}$ fire turning circle, 2-hour fire-rated dead wall, and NBC-2016 Part 4 Table 7 fire systems are provided.</li>
+            <li><strong>Table 8-B Residential Tenement Tiers:</strong> Calibrated per unit carpet area: $\ge 150\text{ sq.m}$ ($2\text{ cars} + 1\text{ scooter}$), $80-150\text{ sq.m}$ ($1\text{ car} + 1\text{ scooter}$), $40-80\text{ sq.m}$ ($1\text{ car} + 2\text{ scooters}$ per 2 units), plus mandatory <strong>5% visitor parking</strong>.</li>
+            <li><strong>The Two-Wheeler Non-Reduction Shield (Note vii - 2022/2023):</strong> Table 8-C discount factors DO NOT apply to two-wheeler parking for Multi-Family Residential. 100% of residential scooter parking is mandatory across all cities and rural areas!</li>
+            <li><strong>Excess Parking Surcharge &amp; Public Surrender (Note v - Jan 2024):</strong> Parking exceeding 150% of requirement incurs a 10% Land ASR surcharge on excess stall area. Unphased surplus parking built in Phase 1 must be surrendered as free public parking if balance proposals are not submitted prior to final OC.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Chapter 8 Lessons List -->
+      <section style="margin-bottom:36px;">
+        <span class="kicker">CURRICULUM LESSONS</span>
+        <h2 style="font-size:1.25rem; margin-bottom:16px;">Chapter 8 Blueprint Lessons</h2>
+
+        <div style="display:flex; flex-direction:column; gap:16px;">
+
+          <!-- Lesson 8.1 -->
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--blueprint); padding:20px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <div>
+                <span class="badge badge-clause" style="margin-right:6px;">Reg. 8.1 &amp; 8.1.1(i)-(v)</span>
+                <span class="badge badge-amended">Table 8-A</span>
+              </div>
+              <span class="badge badge-status-done">ACTIVE LESSON</span>
+            </div>
+            <h3 style="font-family:var(--disp); font-size:1.2rem; font-weight:700; color:var(--ink); margin-bottom:6px;">
+              Parking Locations, Minimum Bay Dimensions &amp; Circulation Aisles
+            </h3>
+            <p style="font-size:0.9rem; color:var(--ink-soft); margin-bottom:14px; line-height:1.5;">
+              Permissible parking locations (basement, stilt, podium), 2.40m beam soffit clearance, Table 8-A stall geometry ($2.50\text{m} \times 5.00\text{m}$, 50% compact car concession $2.30\text{m} \times 4.50\text{m}$, puzzle trays), 3.00m driveways, and composite conversions.
+            </p>
+            <a href="/lessons/reg-8-1-parking-standards-and-dimensions.html" class="tool-btn" style="text-decoration:none; display:inline-block;">
+              Open Lesson &amp; Quiz →
+            </a>
+          </div>
+
+          <!-- Lesson 8.2 -->
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--blueprint); padding:20px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <div>
+                <span class="badge badge-clause" style="margin-right:6px;">Reg. 8.1.1(vi)-(viii)</span>
+                <span class="badge badge-amended">CR.79/2021</span>
+              </div>
+              <span class="badge badge-status-done">ACTIVE LESSON</span>
+            </div>
+            <h3 style="font-family:var(--disp); font-size:1.2rem; font-weight:700; color:var(--ink); margin-bottom:6px;">
+              Loading-Unloading Berths, Basement Ramps &amp; Marginal Open Space Parking
+            </h3>
+            <p style="font-size:0.9rem; color:var(--ink-soft); margin-bottom:14px; line-height:1.5;">
+              Mandatory commercial loading berths ($3.75\text{m} \times 7.50\text{m}$, max 4 office, max 6 others), bus bays for schemes &gt;500 flats, dual opposed basement ramps, 3m/6m clear fire driveways in margins, and mechanical parking towers at 1.50m setbacks.
+            </p>
+            <a href="/lessons/reg-8-1-8-loading-spaces-ramps-and-marginal-parking.html" class="tool-btn" style="text-decoration:none; display:inline-block;">
+              Open Lesson &amp; Quiz →
+            </a>
+          </div>
+
+          <!-- Lesson 8.3 -->
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--amber); padding:20px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <div>
+                <span class="badge badge-clause" style="margin-right:6px;">Reg. 8.2 &amp; Table 8-B</span>
+                <span class="badge badge-amended">Jan 2024 Orders</span>
+              </div>
+              <span class="badge badge-status-done">BASE QUOTA CORE</span>
+            </div>
+            <h3 style="font-family:var(--disp); font-size:1.2rem; font-weight:700; color:var(--ink); margin-bottom:6px;">
+              Off-Street Parking Matrix, Tenement Tiers &amp; Commercial Standards
+            </h3>
+            <p style="font-size:0.9rem; color:var(--ink-soft); margin-bottom:14px; line-height:1.5;">
+              The comprehensive Table 8-B baseline: 5 residential carpet tiers ($\ge 150$, $80-150$, $40-80$, $30-40$, $&lt;30\text{ sq.m}$), 5% visitor parking, hotels, hospitals (with mandatory ambulance bays), IT offices, Data Centers, and small bungalow/shop exemptions.
+            </p>
+            <a href="/lessons/reg-8-2-off-street-parking-matrix-and-residential-norms.html" class="tool-btn" style="text-decoration:none; display:inline-block; background:var(--ink); color:var(--paper-raised);">
+              Launch Lesson Plate &amp; Quiz →
+            </a>
+          </div>
+
+          <!-- Lesson 8.4 -->
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--blueprint); padding:20px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <div>
+                <span class="badge badge-clause" style="margin-right:6px;">Reg. 8.2.2 &amp; Table 8-C</span>
+                <span class="badge badge-amended">Dec 2022 / Jan 2024</span>
+              </div>
+              <span class="badge badge-status-done">ACTIVE LESSON</span>
+            </div>
+            <h3 style="font-family:var(--disp); font-size:1.2rem; font-weight:700; color:var(--ink); margin-bottom:6px;">
+              City Multipliers (Table 8-C), 2-Wheeler Exemption &amp; Excess Parking Surcharges
+            </h3>
+            <p style="font-size:0.9rem; color:var(--ink-soft); margin-bottom:14px; line-height:1.5;">
+              The 8-tier geographic factor (1.00 down to 0.40), Note (vii) residential two-wheeler non-reduction freeze, Note (v) 10% Land ASR excess parking surcharge, and the January 2024 phased OC public parking surrender decree.
+            </p>
+            <a href="/lessons/reg-8-2-2-city-multipliers-and-parking-penalties.html" class="tool-btn" style="text-decoration:none; display:inline-block;">
+              Open Lesson &amp; Quiz →
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Sheet Footer -->
+    <footer class="sheet-footer">
+      <div>UDCPR FROM SCRATCH • CHAPTER 8: PARKING, LOADING AND UNLOADING SPACES</div>
+      <div>DRAWING SHEET SYSTEM • MAHARASHTRA STATE</div>
+    </footer>
+  </div>
+
+  <!-- Universal Search Modal -->
+  <div class="search-modal-backdrop" id="search-modal-backdrop" onclick="if(event.target === this) closeSearchModal()">
+    <div class="search-modal">
+      <div class="search-modal-header">
+        <span style="font-family:var(--mono); font-size:13px; font-weight:700;">SEARCH //</span>
+        <input type="text" id="search-modal-input" class="search-modal-input" placeholder="Search Chapter 8..." autocomplete="off">
+        <button onclick="closeSearchModal()" class="tool-btn" style="padding:2px 8px;">ESC</button>
+      </div>
+      <ul class="search-results-list" id="search-results-list"></ul>
+    </div>
+  </div>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/search.js"></script>
+</body>
+</html>

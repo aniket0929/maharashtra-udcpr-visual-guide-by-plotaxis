@@ -1,0 +1,249 @@
+"""
+UDCPR FROM SCRATCH - CHAPTER 4: LESSON 4.4
+Module: scripts/ch04_lessons/lesson_4_4_agricultural_zone.py
+Governing Regulation: Regulation 4.11 (Agricultural Zone / No Development Zone / Green Zone - 1)
+"""
+
+lesson_data = {
+    'filename': 'reg-4-11-agricultural-and-green-zone.html',
+    'lesson_id': 'lesson-reg-4-4',
+    'quiz_id': 'quiz-reg-4-4',
+    'clause': 'Reg. 4.11',
+    'title': 'Agricultural & Green Zones: Farmhouses & Permissible Non-Agri Uses',
+    'badge_status': 'Core Rural/Peri-Urban',
+    'ch_slug': 'ch04',
+    'ch_title': 'Chapter 4: Land Use Classification & Permissible Uses',
+    'meta_desc': 'Statutory provisions for Agricultural Zone under UDCPR Regulation 4.11: Farmhouse rules (0.4 Ha min, 0.04 FSI, 400 sqm max), institutional uses, highway amenities, agro-processing, and solar farms.',
+    'lead_summary': 'Learn what can legally be developed on agricultural, green, and no-development lands in Maharashtra under Regulation 4.11: strict farmhouse parameters (minimum 0.40 Ha, 0.04 FSI, max 400 sq.m, G+1), 44+ permissible non-agricultural activities, educational and hospital campuses, wayside highway amenities, and clean energy parks.',
+    'amendment_cite': 'CR.121/21 & CR.236/18',
+    'plain_summary_html': """
+      <p style="margin-bottom:14px;">
+        Contrary to popular belief, Maharashtra's <strong>Agricultural Zone (Green Zone - 1 / No Development Zone)</strong> is not completely frozen. Regulation 4.11 authorizes over <strong>44 distinct categories of non-agricultural development</strong> to foster rural employment, education, healthcare, and infrastructure.
+      </p>
+
+      <h4 style="font-family:var(--disp); font-size:1rem; margin:16px 0 8px; color:var(--ink);">1. Statutory Farmhouse Rules (Reg. 4.11(ix))</h4>
+      <p style="margin-bottom:10px; font-size:0.92rem; color:var(--ink-soft);">
+        A farmhouse is intended for the dwelling of the farmer and agricultural storage. UDCPR establishes rigid numerical boundaries:
+      </p>
+      <div style="background:var(--paper); border:1px solid var(--line-strong); padding:16px; margin-bottom:16px;">
+        <ul style="padding-left:18px; font-size:0.88rem; color:var(--ink); display:flex; flex-direction:column; gap:6px;">
+          <li><strong>Minimum Plot Size:</strong> Must be at least <strong>0.40 Hectares (4,000 sq.m / ~1 Acre)</strong> in a single holding.</li>
+          <li><strong>Maximum Permissible FSI:</strong> Exactly <strong>0.04 FSI</strong>.</li>
+          <li><strong>Absolute Built-Up Area Ceiling:</strong> Maximum <strong>400 sq.m</strong> built-up area in any case, regardless of how large the agricultural parcel is.</li>
+          <li><strong>Height &amp; Floors:</strong> Only <strong>Ground + 1 upper floor</strong> with a maximum building height of <strong>9.0 meters</strong>.</li>
+          <li><strong>Quota Limit:</strong> Only <strong>one farmhouse per land holding</strong> is permitted, irrespective of the total holding size.</li>
+        </ul>
+      </div>
+
+      <h4 style="font-family:var(--disp); font-size:1rem; margin:16px 0 8px; color:var(--ink);">2. Key Permissible Non-Agricultural Activities (Reg. 4.11)</h4>
+      <div style="overflow-x:auto; margin-bottom:16px;">
+        <table class="drawing-table">
+          <thead>
+            <tr>
+              <th>Permissible Activity</th>
+              <th>Statutory Clause</th>
+              <th>Plot &amp; Road Thresholds</th>
+              <th>Permissible FSI &amp; Premium Terms</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="font-weight:600;">Educational &amp; Medical Campuses</td>
+              <td>Reg. 4.11(xv)</td>
+              <td>Min road 6.0m (12m if &gt; 15m height). 250 trees/Ha.</td>
+              <td><strong>1.00 FSI</strong> (0.20 Basic Free + 0.80 on 20% ASR land premium). Up to 15% commercial use allowed.</td>
+            </tr>
+            <tr style="background:var(--paper);">
+              <td style="font-weight:600;">Agro-Processing &amp; Cold Storage</td>
+              <td>Reg. 4.11(xvii)</td>
+              <td>Direct road access. Suitable for farm produce.</td>
+              <td><strong>1.00 FSI</strong> (0.20 Basic Free + 0.80 on 20% ASR land premium).</td>
+            </tr>
+            <tr>
+              <td style="font-weight:600;">Integrated Highway Amenities</td>
+              <td>Reg. 4.11(xvi)</td>
+              <td>Min <strong>10,000 sq.m</strong> on NH/SH or roads &ge; 18.0m.</td>
+              <td><strong>0.50 FSI</strong> (0.20 Basic Free + 0.30 on 20% ASR land premium). Motels, food courts, EV pumps.</td>
+            </tr>
+            <tr style="background:var(--paper);">
+              <td style="font-weight:600;">General Industries in Agri Zone</td>
+              <td>Reg. 4.11(xviii)</td>
+              <td>23.0m buffer to habitable zones.</td>
+              <td><strong>1.00 FSI</strong> (0.20 Basic Free + 0.80 on 20% ASR land premium). Godowns permitted.</td>
+            </tr>
+            <tr>
+              <td style="font-weight:600;">Solar &amp; Wind Energy Generation</td>
+              <td>Reg. 4.11(xx)</td>
+              <td>Open agricultural land.</td>
+              <td><strong>Solar panel ground coverage is 100% exempt from FSI computation</strong>.</td>
+            </tr>
+            <tr style="background:var(--paper);">
+              <td style="font-weight:600;">Individual Farm Residence</td>
+              <td>Reg. 4.11(xxxvi)</td>
+              <td>Single 7/12 extract holding.</td>
+              <td>Residential house up to <strong>150 sq.m</strong> built-up area.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    """,
+    'statutory_extract': "4.11 AGRICULTURAL ZONE: The following uses shall be permissible in Agricultural Zone: ix) Farm houses shall be permitted subject to: a) Minimum plot area 0.4 Ha. One farm house per land holding... b) FSI shall not exceed 0.04 subject to a maximum built up area of 400 sq.m. in any case. Only ground + 1 floor structure with height not exceeding 9.0 m... xv) Buildings of educational, research and medical institutions with FSI of 1.00 on gross plot area, out of which 0.20 without payment of premium and remaining with premium at 20% of ASR... xvi) Integrated highway amenities on plots min 10,000 sq.m. abutting NH/SH or road not less than 18.0 m. width.",
+    'clause_cards_html': """
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:16px;">
+        <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--blueprint); padding:16px;">
+          <span class="kicker">REG. 4.11(ix) // FARMHOUSE</span>
+          <h4 style="font-family:var(--disp); font-size:0.95rem; margin-top:4px; margin-bottom:8px;">0.04 FSI / 400 sqm Cap</h4>
+          <p style="font-size:0.85rem; color:var(--ink-soft); line-height:1.5;">
+            Requires minimum 0.40 Ha parcel. Max 400 sq.m built area, G+1, 9.0m height. One farmhouse per revenue holding regardless of land size.
+          </p>
+        </div>
+        <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--amber); padding:16px;">
+          <span class="kicker" style="color:var(--amber);">REG. 4.11(xv) // INSTITUTIONAL</span>
+          <h4 style="font-family:var(--disp); font-size:0.95rem; margin-top:4px; margin-bottom:8px;">1.00 FSI Campus Potential</h4>
+          <p style="font-size:0.85rem; color:var(--ink-soft); line-height:1.5;">
+            Permits colleges and hospitals in green zones: 0.20 free basic FSI + 0.80 FSI on paying 20% ASR land rate premium. Mandatory 250 trees/Ha.
+          </p>
+        </div>
+      </div>
+    """,
+    'plate_or_table_html': """
+      <div style="border:1px solid var(--ink); background:var(--paper-raised); padding:16px; margin-top:12px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--line-strong); padding-bottom:8px; margin-bottom:12px;">
+          <span style="font-family:var(--mono); font-size:12px; font-weight:700; color:var(--blueprint);">FIG_018 // AGRICULTURAL ZONE NON-AGRI PERMISSIBILITY MATRIX</span>
+          <span style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">REGULATION 4.11 SPECIFICATION</span>
+        </div>
+        <div style="overflow-x:auto;">
+          <table style="width:100%; border-collapse:collapse; font-family:var(--mono); font-size:11.5px;">
+            <thead>
+              <tr style="background:var(--ink); color:var(--paper-raised);">
+                <th style="padding:6px 8px; text-align:left; border:1px solid var(--line-strong);">Development Type</th>
+                <th style="padding:6px 8px; text-align:right; border:1px solid var(--line-strong);">Minimum Land Area</th>
+                <th style="padding:6px 8px; text-align:right; border:1px solid var(--line-strong);">Permissible FSI</th>
+                <th style="padding:6px 8px; text-align:left; border:1px solid var(--line-strong);">Key Statutory Conditions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong);"><strong>Farm House</strong></td>
+                <td style="padding:6px 8px; text-align:right; border:1px solid var(--line-strong); font-weight:700;">0.40 Hectare</td>
+                <td style="padding:6px 8px; text-align:right; border:1px solid var(--line-strong); font-weight:700;">0.04 (Max 400 sqm)</td>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong);">G+1 structure, max 9.0m height, 1 per 7/12 extract</td>
+              </tr>
+              <tr style="background:var(--paper);">
+                <td style="padding:6px 8px; border:1px solid var(--line-strong);"><strong>Educational / Medical</strong></td>
+                <td style="padding:6px 8px; text-align:right; border:1px solid var(--line-strong); font-weight:700;">Holding size</td>
+                <td style="padding:6px 8px; text-align:right; border:1px solid var(--line-strong); font-weight:700;">1.00 FSI</td>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong);">0.20 free + 0.80 @ 20% ASR premium; 250 trees/Ha</td>
+              </tr>
+              <tr>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong);"><strong>Integrated Highway Amenities</strong></td>
+                <td style="padding:6px 8px; text-align:right; border:1px solid var(--line-strong); font-weight:700;">10,000 sq.m (1.0 Ha)</td>
+                <td style="padding:6px 8px; text-align:right; border:1px solid var(--line-strong); font-weight:700;">0.50 FSI</td>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong);">0.20 free + 0.30 @ 20% premium; min 18.0m road</td>
+              </tr>
+              <tr style="background:var(--paper);">
+                <td style="padding:6px 8px; border:1px solid var(--line-strong);"><strong>Agro-Processing &amp; Cold Storage</strong></td>
+                <td style="padding:6px 8px; text-align:right; border:1px solid var(--line-strong); font-weight:700;">Holding size</td>
+                <td style="padding:6px 8px; text-align:right; border:1px solid var(--line-strong); font-weight:700;">1.00 FSI</td>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong);">0.20 free + 0.80 @ 20% premium</td>
+              </tr>
+              <tr>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong);"><strong>Solar / Wind Power Generation</strong></td>
+                <td style="padding:6px 8px; text-align:right; border:1px solid var(--line-strong); font-weight:700;">No minimum</td>
+                <td style="padding:6px 8px; text-align:right; border:1px solid var(--line-strong); font-weight:700;">FSI Exempt</td>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong);">Ground area covered under solar panels not counted in FSI</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    """,
+    'worked_example_html': r"""
+      <p style="margin-bottom:12px;">
+        <strong>Practical Scrutiny Problem:</strong> An agricultural landowner holds 60,000 sq.m (6.0 Hectares) in Pune district and wishes to build both a farmhouse and an engineering institute campus.
+      </p>
+      <div class="worked-step">
+        <span class="step-badge">FARMHOUSE SCRUTINY</span>
+        <div>
+          Calculated FSI area: $60,000 \times 0.04 = 2,400\text{ sq.m}$.
+          <br>Statutory Cap under Reg. 4.11(ix)(b): <strong>400 sq.m maximum</strong>.
+          <br>The farmhouse is sanctioned for exactly 400 sq.m (G+1, 8.5m height).
+        </div>
+      </div>
+      <div class="worked-step">
+        <span class="step-badge">COLLEGE CAMPUS SCRUTINY</span>
+        <div>
+          The remaining 50,000 sq.m is earmarked for an educational institute under Reg. 4.11(xv).
+          <br>Permissible FSI = 1.00 &rarr; <strong>50,000 sq.m BUA</strong>.
+          <br>• Free Basic FSI: $50,000 \times 0.20 = 10,000\text{ sq.m}$.
+          <br>• Premium FSI: $50,000 \times 0.80 = 40,000\text{ sq.m}$ payable @ 20% of ASR land rate.
+          <br>• Mandatory Tree Plantation: $5.0\text{ Ha} \times 250 = \mathbf{1,250\text{ trees}}$ planted on site.
+        </div>
+      </div>
+      <div style="border-top:1px solid var(--line-strong); padding-top:10px; margin-top:14px; font-family:var(--mono); font-size:0.85rem; color:var(--ink);">
+        ✓ STATUTORY SANCTION: Farmhouse approved at 400 sqm ceiling and college campus approved at 1.00 FSI.
+      </div>
+    """,
+    'pitfalls_html': """
+      <div class="callout callout-amber">
+        <strong>Pitfall 1: Attempting to Subdivide Agricultural Land into 0.40 Ha Farmhouse Plots</strong>
+        <p style="font-size:0.84rem; color:var(--ink-soft); margin-top:4px;">
+          Under Maharashtra Land Revenue Code (MLRC) and UDCPR Reg. 4.11(ix)(a), only <strong>one farmhouse per land holding</strong> is permitted. Subdividing a large agricultural parcel into multiple small plots for speculative farmhouse sales violates fragmentation laws unless approved as an authorized layout under Chapter 3/5.
+        </p>
+      </div>
+      <div class="callout callout-amber">
+        <strong>Pitfall 2: Counting Solar Panel Ground Footprint Toward FSI</strong>
+        <p style="font-size:0.84rem; color:var(--ink-soft); margin-top:4px;">
+          Regulation 4.11(xx) clearly states that area covered under solar panels shall not be counted in FSI. Charging premium or restricting ground coverage for solar structures is a frequent scrutiny error by rural gram panchayat desks.
+        </p>
+      </div>
+    """,
+    'amendment_section_html': """
+      <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
+        <span class="badge badge-amended">Corrigendum CR.121/21 (02 Dec 2021)</span>
+        <span style="font-family:var(--mono); font-size:12px; color:var(--ink-soft);">Farmhouse 400 sq.m Ceiling Substituted</span>
+      </div>
+      <p style="font-size:0.88rem; color:var(--ink-soft); line-height:1.5;">
+        Substituted clause (ix)(b) to explicitly cap farmhouse built-up area to 400 sq.m regardless of holding size, preventing massive luxury estates from bypassing green zone restrictions under the guise of farm dwellings.
+      </p>
+    """,
+    'quiz': [
+      {
+        'question': 'What is the absolute maximum built-up area permitted for any farmhouse in Maharashtra under Regulation 4.11(ix)?',
+        'options': [
+          '150 sq.m',
+          '400 sq.m',
+          '800 sq.m',
+          'Unlimited if within 0.04 FSI'
+        ],
+        'correctAnswer': 1,
+        'explanation': 'Under Regulation 4.11(ix)(b), farmhouse FSI shall not exceed 0.04 subject to an absolute maximum built-up area of 400 sq.m in any case.'
+      },
+      {
+        'question': 'What is the minimum land area required to establish an Integrated Highway / Wayside Amenity project under Regulation 4.11(xvi)?',
+        'options': [
+          '2,000 sq.m',
+          '4,000 sq.m',
+          '10,000 sq.m (1.0 Ha)',
+          '20,000 sq.m (2.0 Ha)'
+        ],
+        'correctAnswer': 2,
+        'explanation': 'Regulation 4.11(xvi) requires a minimum plot area of 10,000 sq.m abutting a National or State Highway or a road of not less than 18.0m width for Integrated Highway Amenities.'
+      },
+      {
+        'question': 'How is ground coverage under solar panels treated during FSI calculations under Regulation 4.11(xx)?',
+        'options': [
+          'Charged at 50% FSI',
+          'Counted in basic FSI',
+          'Area covered under solar panels shall not be counted in FSI',
+          'Requires 20% premium payment'
+        ],
+        'correctAnswer': 2,
+        'explanation': 'Regulation 4.11(xx) explicitly prescribes that area covered under solar panels shall not be counted in FSI.'
+      }
+    ],
+    'prev_url': '/lessons/reg-4-8-1-industrial-to-residential-conversion.html',
+    'prev_title': 'Reg. 4.8.1 I-to-R Conversion',
+    'next_url': '/lessons/reg-4-12-environmental-and-special-zones.html',
+    'next_title': 'Reg. 4.12-4.25 Environmental Zones'
+}

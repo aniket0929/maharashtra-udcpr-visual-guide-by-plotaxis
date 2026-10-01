@@ -1,0 +1,5507 @@
+[
+  {
+    "chapter": 1,
+    "title": "ADMINISTRATION",
+    "start_line": 671,
+    "end_line": 1310,
+    "sections": [
+      {
+        "line": 673,
+        "level": 2,
+        "title": "1.0 SHORT TITLE, EXTENT & COMMENCEMENT",
+        "has_amend_marker": false
+      },
+      {
+        "line": 677,
+        "level": 3,
+        "title": "1.1 Extent and Jurisdiction",
+        "has_amend_marker": false
+      },
+      {
+        "line": 683,
+        "level": 3,
+        "title": "1.2 Commencement of Regulations",
+        "has_amend_marker": false
+      },
+      {
+        "line": 687,
+        "level": 2,
+        "title": "1.3 DEFINITIONS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1186,
+        "level": 2,
+        "title": "1.4 APPLICABILITYOF REGULATIONS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1206,
+        "level": 2,
+        "title": "1.5 SAVINGS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1254,
+        "level": 2,
+        "title": "1.6 APPLICABILITY OF OTHER REGULATIONS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1269,
+        "level": 2,
+        "title": "1.7 POWER TO PRESCRIBE THE PROFORMAS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1273,
+        "level": 2,
+        "title": "1.8 POWER TO DECIDE CHARGES",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1277,
+        "level": 2,
+        "title": "1.9 MEANINGS AS IN ACTS, RULES & INTERPRETATIONS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1299,
+        "level": 2,
+        "title": "1.10 REMOVAL OF DIFFICULTIES.",
+        "has_amend_marker": false
+      }
+    ],
+    "amended_count": 13
+  },
+  {
+    "chapter": 2,
+    "title": "DEVELOPMENT PERMISSION AND COMMENCEMENT CERTIFICATE",
+    "start_line": 1311,
+    "end_line": 2067,
+    "sections": [
+      {
+        "line": 1315,
+        "level": 3,
+        "title": "2.1 PERMISSION FROM THE PLANNING AUTHORITY IS MANDATORY",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1359,
+        "level": 2,
+        "title": "2.1.3 Development undertaken on behalf of Government",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1375,
+        "level": 2,
+        "title": "2.1.4 Operational Constructions",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1415,
+        "level": 2,
+        "title": "2.1.5 Constructions Not Covered under the Operational Constructions",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1423,
+        "level": 2,
+        "title": "2.1.6 Temporary Constructions",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1453,
+        "level": 3,
+        "title": "2.1.7 Repairs to Building",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1463,
+        "level": 2,
+        "title": "2.2 PROCEDURE FOR OBTAINING DEVELOPMENT PERMISSION / BUILDING PERMISSION / COMMENCEMENT CERTIFICATE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1465,
+        "level": 3,
+        "title": "2.2.1 Notice / Application",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1469,
+        "level": 3,
+        "title": "2.2.2 Information Accompanying Notice / Application",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1473,
+        "level": 3,
+        "title": "2.2.3 <sup>(#)</sup> Ownership title and area",
+        "has_amend_marker": true
+      },
+      {
+        "line": 1499,
+        "level": 3,
+        "title": "2.2.4 Key Plan or location plan",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1503,
+        "level": 3,
+        "title": "2.2.5 (a) Sub-division / Layout plan",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1529,
+        "level": 3,
+        "title": "(b) Amalgamation Plan",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1533,
+        "level": 3,
+        "title": "2.2.6 Site Plan",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1569,
+        "level": 3,
+        "title": "2.2.7 Building plan",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1607,
+        "level": 3,
+        "title": "2.2.8 <sup>(#)</sup> **Building plans for Special Buildings**",
+        "has_amend_marker": true
+      },
+      {
+        "line": 1657,
+        "level": 3,
+        "title": "2.2.10 Supervision",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1661,
+        "level": 3,
+        "title": "2.2.11 <sup>(#)</sup> Clearance from other Departments",
+        "has_amend_marker": true
+      },
+      {
+        "line": 1673,
+        "level": 2,
+        "title": "2.2.12 <sup>(#)</sup> Building / Layout Permission Scrutiny Fee",
+        "has_amend_marker": true
+      },
+      {
+        "line": 1695,
+        "level": 2,
+        "title": "2.2.13 <sup>(#)</sup> Development Charges",
+        "has_amend_marker": true
+      },
+      {
+        "line": 1731,
+        "level": 2,
+        "title": "2.2.14 <sup>(#)</sup> Premium Charges and Fire Infrastructure Charges.",
+        "has_amend_marker": true
+      },
+      {
+        "line": 1783,
+        "level": 2,
+        "title": "2.2.15 Structural Stability Certificate",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1787,
+        "level": 2,
+        "title": "2.2.16 Signing the Plan",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1791,
+        "level": 2,
+        "title": "2.2.17 Size of Drawing sheets",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1816,
+        "level": 2,
+        "title": "2.2.18 Colouring Notations for Plans",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1837,
+        "level": 2,
+        "title": "2.2.19 Qualification and Competence of the Architect / Licensed Engineer / Structural Engineer / Town Planner / Supervisor",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1847,
+        "level": 2,
+        "title": "2.3 DISCRETIONARY POWERS - INTERPRETATION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1867,
+        "level": 2,
+        "title": "2.4 DISCRETIONARY POWERS - RELAXATIONS IN SPECIFIC CASES",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1883,
+        "level": 2,
+        "title": "2.5 <sup>(#)</sup> DRAFTING ERROR",
+        "has_amend_marker": true
+      },
+      {
+        "line": 1887,
+        "level": 2,
+        "title": "2.6 GRANT OR REFUSAL OF PERMISSION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1889,
+        "level": 3,
+        "title": "2.6.1 General",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1901,
+        "level": 3,
+        "title": "2.6.2 Deemed Permission",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1919,
+        "level": 3,
+        "title": "2.6.3 Approval of Building Permission on Risk Based Classification",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1923,
+        "level": 3,
+        "title": "2.6.4 Display of Sanctioned Permissions on Authority's Web-Site",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1927,
+        "level": 2,
+        "title": "2.7 COMMENCEMENT OF WORK",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1929,
+        "level": 3,
+        "title": "2.7.1 <sup>(#)</sup> Commencement",
+        "has_amend_marker": true
+      },
+      {
+        "line": 1943,
+        "level": 3,
+        "title": "2.7.2 Development of Land Sub-division / Group Housing Schemes",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1961,
+        "level": 2,
+        "title": "2.8 PROCEDURE DURING CONSTRUCTION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1963,
+        "level": 3,
+        "title": "2.8.1 Owner / Developer / Architect / Town Planner / Engineer / Structural Engineer / Supervisor or any licensed technical person's Responsibilities in their respective domain.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1975,
+        "level": 3,
+        "title": "2.8.2 Results of Test",
+        "has_amend_marker": false
+      },
+      {
+        "line": 1979,
+        "level": 3,
+        "title": "2.8.3 Display Board",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2002,
+        "level": 3,
+        "title": "2.8.4 Plinth Checking",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2006,
+        "level": 3,
+        "title": "2.8.5 Deviation During Construction",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2010,
+        "level": 2,
+        "title": "2.9 COMPLETION CERTIFICATE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2016,
+        "level": 2,
+        "title": "2.10 OCCUPANCY CERTIFICATE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2022,
+        "level": 2,
+        "title": "2.11 PART OCCUPANCY CERTIFICATE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2032,
+        "level": 2,
+        "title": "2.12 INSPECTION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2036,
+        "level": 2,
+        "title": "2.13 UNSAFE BUILDINGS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2040,
+        "level": 2,
+        "title": "2.14 OFFENCES AND PENALTIES",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2054,
+        "level": 2,
+        "title": "2.15 REVOCATION OF PERMISSION",
+        "has_amend_marker": false
+      }
+    ],
+    "amended_count": 61
+  },
+  {
+    "chapter": 3,
+    "title": "GENERAL LAND DEVELOPMENT REQUIREMENTS",
+    "start_line": 2068,
+    "end_line": 2820,
+    "sections": [
+      {
+        "line": 2070,
+        "level": 2,
+        "title": "GENERAL LAND DEVELOPMENT REQUIREMENTS.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2072,
+        "level": 2,
+        "title": "3.1 REQUIREMENTS OF SITE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2074,
+        "level": 3,
+        "title": "3.1.1 Site not Eligible for Construction of Building",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2112,
+        "level": 2,
+        "title": "3.1.2 Distance of Site from Electric Lines",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2126,
+        "level": 2,
+        "title": "3.1.3 Construction within Blue and Red Flood Line",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2151,
+        "level": 2,
+        "title": "3.1.4 Development within 30.0 m. Distance from Railway Boundary",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2155,
+        "level": 2,
+        "title": "3.1.5 Environmental Clearance",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2159,
+        "level": 2,
+        "title": "3.1.6 <sup>(#)</sup> Development along Highways / Classified Roads",
+        "has_amend_marker": true
+      },
+      {
+        "line": 2165,
+        "level": 2,
+        "title": "3.1.7 Development within certain distance from the Prison Premises",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2169,
+        "level": 2,
+        "title": "3.1.8 Distances from land fill sites",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2173,
+        "level": 2,
+        "title": "3.1.9 Restrictions in the vicinity of Airport",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2206,
+        "level": 2,
+        "title": "3.1.10 Restrictions in the Vicinity of Ancient Monuments",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2212,
+        "level": 2,
+        "title": "3.1.11 Restriction under the Works of Defence Act, 1903",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2220,
+        "level": 2,
+        "title": "3.1.12 Distance from Natural Lake and Dam",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2230,
+        "level": 2,
+        "title": "3.1.13 Authorities to Supply Complete Information about Restrictions to the Authority",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2242,
+        "level": 2,
+        "title": "3.2 MEANS OF ACCESS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2259,
+        "level": 2,
+        "title": "3.3 REGULATIONS FOR LAND SUB-DIVISION AND LAYOUT",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2261,
+        "level": 3,
+        "title": "3.3.1 Obligation to Prepare Layout",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2273,
+        "level": 3,
+        "title": "3.3.2 Roads / streets in Land Sub-division or Layout",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2311,
+        "level": 3,
+        "title": "D) Pathways",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2315,
+        "level": 2,
+        "title": "3.3.3 Length of Internal Roads, How to be Measured",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2325,
+        "level": 3,
+        "title": "3.3.4 Co-ordination of Roads in adjoining lands",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2329,
+        "level": 3,
+        "title": "3.3.5 Narrow Roads in Congested Areas (Core area in case of Nashik Municipal Corporation)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2333,
+        "level": 3,
+        "title": "3.3.6 Development of Street",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2337,
+        "level": 3,
+        "title": "3.3.7 Development of Private Street, if neglected",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2341,
+        "level": 3,
+        "title": "3.3.8 Access from the Highways / Classified Roads",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2371,
+        "level": 3,
+        "title": "3.3.9 Access Provisions for Special buildings in Regulation No.1.3(93)(xiv)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2381,
+        "level": 3,
+        "title": "3.3.10 Cul-de-sacs",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2385,
+        "level": 3,
+        "title": "3.3.11 Handing Over of Layout Roads",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2389,
+        "level": 3,
+        "title": "3.3.12 Intersection of Roads",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2407,
+        "level": 3,
+        "title": "3.3.13 Acute Angled Junctions",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2411,
+        "level": 3,
+        "title": "3.3.14 Land-locked Plot",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2415,
+        "level": 3,
+        "title": "3.3.15 Approach by underpass or Over Bridge for adjoining properties",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2425,
+        "level": 2,
+        "title": "3.4 RECREATIONAL OPEN SPACES",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2427,
+        "level": 3,
+        "title": "3.4.1 Recreational Open Space",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2482,
+        "level": 2,
+        "title": "3.4.2 Recreational Open Space - Owner’s Undertaking",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2500,
+        "level": 2,
+        "title": "3.4.3 Recreational Open Space - Rearrangement",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2504,
+        "level": 2,
+        "title": "3.4.4 Recreational Open Space - Exclusive",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2508,
+        "level": 2,
+        "title": "3.4.5 <sup>(#)</sup> Recreational Open Space in Green Belt",
+        "has_amend_marker": true
+      },
+      {
+        "line": 2512,
+        "level": 2,
+        "title": "3.4.6 Minimum Dimensions",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2516,
+        "level": 2,
+        "title": "3.4.7 Structures permitted in Open Space",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2540,
+        "level": 3,
+        "title": "3.4.8 Recreational Open Space and Means of Access",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2544,
+        "level": 2,
+        "title": "3.5 PROVISION FOR AMENITY SPACE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2546,
+        "level": 3,
+        "title": "3.5.1 <sup>(#)</sup>In the areas of Local Authorities, Special Planning Authorities and Metropolitan Region Development Authorities, Amenity Space as mentioned below on gross area after deducting area under reservations / roads in Development Plan including proposals of road widening therein, shall have to be provided in any layout or sub division of land or proposal for development.",
+        "has_amend_marker": true
+      },
+      {
+        "line": 2605,
+        "level": 3,
+        "title": "3.5.3 Development of Amenity Spaces in Earlier Sanctioned Layout",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2609,
+        "level": 2,
+        "title": "3.6 PROVISION FOR ELECTRIC SUB-STATION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2624,
+        "level": 2,
+        "title": "3.7 MINIMUM PLOT AREA FOR VARIOUS USES",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2651,
+        "level": 2,
+        "title": "3.8 PROVISION FOR INCLUSIVE HOUSING",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2655,
+        "level": 3,
+        "title": "3.8.2 Inclusive Housing",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2731,
+        "level": 2,
+        "title": "3.8.3 If owner / developer desires to construct inclusive housing,even though it is not mandatory, inclusive housing may be provided with prior NOC from MHADA with respect to requirement of EWS / LIG housing, then in addition to basic entitlement he shall be entitled for, additional 25% FSI of the land covered under Inclusive Housing on his remaining land.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2733,
+        "level": 2,
+        "title": "3.8.4 Provision of Inclusive Housing shall not be applicable, if the plots are auctioned by public authorities without the condition of providing Inclusive Housing before coming into force of these regulations. However, it shall be mandatory on public authorities to stipulate the condition of providing Inclusive Housing as per provision of this regulation, while auctioning the plots hereinafter, wherever applicable.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2735,
+        "level": 2,
+        "title": "3.9 NET PLOT AREA AND COMPUTATION OF FSI",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2757,
+        "level": 2,
+        "title": "3.10 TRANSFER OF LAND UNDER D.P. SITES (OTHER THAN D.P. ROAD) IN LIEU OF FSI",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2761,
+        "level": 2,
+        "title": "3.11 RELOCATION OF D.P. / R.P. SITES / ROADS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2795,
+        "level": 2,
+        "title": "3.12 AMALGAMATION OF PLOTS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2805,
+        "level": 2,
+        "title": "3.13 DEVELOPMENT OF CYCLE TRACK ALONG RIVER AND NALLAH",
+        "has_amend_marker": false
+      }
+    ],
+    "amended_count": 63
+  },
+  {
+    "chapter": 4,
+    "title": "LAND USE CLASSIFICATION AND PERMISSIBLE USES",
+    "start_line": 2821,
+    "end_line": 3945,
+    "sections": [
+      {
+        "line": 2825,
+        "level": 3,
+        "title": "4.1 GENERAL",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2839,
+        "level": 3,
+        "title": "4.2 LAND USE CLASSIFICATION AND EQUIVALENCY OF ZONES",
+        "has_amend_marker": false
+      },
+      {
+        "line": 2983,
+        "level": 2,
+        "title": "4.3 RESIDENTIAL ZONE - R-1",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3058,
+        "level": 2,
+        "title": "4.4 RESIDENTIAL ZONE R-2",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3064,
+        "level": 3,
+        "title": "4.4.1 In this zone, the following uses, mixed uses may be permitted",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3072,
+        "level": 3,
+        "title": "4.4.2 Uses Permitted in Independent Premises / Buildings",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3124,
+        "level": 2,
+        "title": "(IV) WOOD PRODUCTS AND FURNITURE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3128,
+        "level": 2,
+        "title": "(V) PAPER PRODUCTS AND PRINTING PUBLISHING",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3138,
+        "level": 2,
+        "title": "(VI) LEATHER PRODUCTS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3142,
+        "level": 2,
+        "title": "(VII) RUBBER AND PLASTIC",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3148,
+        "level": 2,
+        "title": "(VIII) METAL PRODUCTS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3154,
+        "level": 2,
+        "title": "(IX) ELECTRICAL GOODS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3158,
+        "level": 2,
+        "title": "(X) TRANSPORT EQUIPMENT",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3166,
+        "level": 2,
+        "title": "(XI) OTHER MANUFACATURING AND REPAIR INDUSTRIES AND SERVICES",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3204,
+        "level": 2,
+        "title": "4.5 LOW DENSITY RESIDENTIAL ZONE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3208,
+        "level": 2,
+        "title": "4.6 FUTURE URBANIZABLE ZONE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3216,
+        "level": 2,
+        "title": "4.7 COMMERCIAL ZONE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3230,
+        "level": 2,
+        "title": "4.8 INDUSTRIAL ZONE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3280,
+        "level": 2,
+        "title": "4.8.1 Allowing Residential / Commercial Uses in Industrial Zone",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3352,
+        "level": 2,
+        "title": "4.9 Loom Industry cum Residential Zone",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3372,
+        "level": 2,
+        "title": "4.10 PUBLIC / SEMI PUBLIC ZONE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3406,
+        "level": 2,
+        "title": "4.11 AGRICULTURAL ZONE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3649,
+        "level": 2,
+        "title": "4.12 GREEN BELT ZONE / RIVER PROTECTION BELT",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3651,
+        "level": 3,
+        "title": "4.12.1 Following uses shall be permissible -",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3685,
+        "level": 2,
+        "title": "4.13 TRAFFIC AND TRANSPORTATION ZONE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3691,
+        "level": 2,
+        "title": "4.14 REGIONAL PARK ZONE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3710,
+        "level": 2,
+        "title": "4.15 TOURISM DEVELOPMENT ZONE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3718,
+        "level": 2,
+        "title": "4.16 AFFORESTATION ZONE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3738,
+        "level": 2,
+        "title": "4.17 HILL TOP - HILL SLOPE ZONE / HILLY AREA",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3742,
+        "level": 2,
+        "title": "4.18 GREEN ZONE - 2",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3754,
+        "level": 2,
+        "title": "4.19 FOREST ZONE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3758,
+        "level": 2,
+        "title": "4.20 DEFENCE ZONE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3778,
+        "level": 2,
+        "title": "4.21 MINES AND QUARRY ZONE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3786,
+        "level": 2,
+        "title": "4.22 PUBLIC UTILITY ZONE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3792,
+        "level": 2,
+        "title": "4.23 WOODLAND CORRIDOR",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3798,
+        "level": 2,
+        "title": "4.24 SPECIAL ECONOMIC ZONE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3806,
+        "level": 2,
+        "title": "4.25 AIRPORT AND ALLIED ACTIVITIES / SERVICE ZONE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3812,
+        "level": 2,
+        "title": "4.26 ADDITIONAL USES",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3820,
+        "level": 2,
+        "title": "4.27 USES PERMISSIBLE IN DEVELOPMENT PLAN RESERVATIONS",
+        "has_amend_marker": false
+      }
+    ],
+    "amended_count": 45
+  },
+  {
+    "chapter": 5,
+    "title": "ADDITIONAL PROVISIONS FOR REGIONAL PLAN AREAS",
+    "start_line": 3946,
+    "end_line": 4757,
+    "sections": [
+      {
+        "line": 3950,
+        "level": 2,
+        "title": "5.0 GENERAL",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3954,
+        "level": 2,
+        "title": "5.1 FOR ALL REGIONAL PLAN AREAS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3956,
+        "level": 3,
+        "title": "5.1.1 Development Permissible Adjacent to Gaothan",
+        "has_amend_marker": false
+      },
+      {
+        "line": 3998,
+        "level": 2,
+        "title": "5.1.2 Regulations for Development of Tourist Resorts / Holiday Homes / Township in Hill Stations Type Areas under Hill Station Policy",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4002,
+        "level": 2,
+        "title": "5.1.3 Committed Development",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4010,
+        "level": 2,
+        "title": "5.1.4 Rectification of draftsman's error",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4022,
+        "level": 2,
+        "title": "5.1.5 Highways notified by State / Central Government",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4026,
+        "level": 2,
+        "title": "5.1.6 Station Area Development",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4036,
+        "level": 2,
+        "title": "5.1.7 Modification proposals already sanctioned",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4040,
+        "level": 2,
+        "title": "5.1.8 Provision of Amenity Space",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4063,
+        "level": 3,
+        "title": "5.1.9 Residential Zone with payment of Premium",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4067,
+        "level": 2,
+        "title": "5.2 FOR THANE - RAIGAD - PALGHAR REGIONAL PLAN",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4069,
+        "level": 3,
+        "title": "(***) Development around Tarapur Atomic Power Station in Tarapur - Boisar Area",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4073,
+        "level": 3,
+        "title": "5.2.1.1 Provisions mentioned in Regulation No.6.23 shall be applicable with following changes -",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4079,
+        "level": 3,
+        "title": "5.2.1.2 Provisions mentioned in Regulation No.6.10 shall be applicable with following changes :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4085,
+        "level": 3,
+        "title": "5.2.1.3 Provisions mentioned in Regulation No.6.10 shall be applicable with following changes :- Height of Building :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4089,
+        "level": 3,
+        "title": "5.2.1.4 Permissible FSI :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4091,
+        "level": 4,
+        "title": "a) Provisions mentioned in Regulation No.6.1 and 6.3 shall be applicable with following changes -",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4118,
+        "level": 2,
+        "title": "5.3 FOR RATNAGIRI - SINDHUDURG REGIONAL PLAN",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4122,
+        "level": 3,
+        "title": "(*) 5.3.1 Area within Ratnagiri District -",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4128,
+        "level": 3,
+        "title": "5.3.2 Area within Sindhudurg District -",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4221,
+        "level": 2,
+        "title": "5.4 FOR KOLHAPUR REGIONAL PLAN",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4223,
+        "level": 3,
+        "title": "5.4.1 Committed Development",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4245,
+        "level": 2,
+        "title": "5.5 FOR SATARA REGIONAL PLAN",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4247,
+        "level": 3,
+        "title": "5.5.1 Regulations for proposed Buffer Zone up to 2.5 km. aerial distance around Mahabaleshwar Panchgani Region.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4274,
+        "level": 2,
+        "title": "REGULATIONS FOR CONSERVATION ZONE IN SATARA REGION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4276,
+        "level": 3,
+        "title": "PART - I",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4277,
+        "level": 3,
+        "title": "ADMINISTRATION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4372,
+        "level": 2,
+        "title": "B. Buffer Zone of Conservation Zone :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4567,
+        "level": 2,
+        "title": "<sup>(1)</sup> 5.5.3 <sup>(1)</sup> Regulations for Development above 1000 m. Mean Sea Level.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4569,
+        "level": 3,
+        "title": "<sup>(1)</sup> Appendix - O",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4571,
+        "level": 2,
+        "title": "REGULATIONS FOR AREAS SITUATED ABOVE 1000 m. OF MEAN SEA LEVEL IN SATARA REGION.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4573,
+        "level": 3,
+        "title": "PART - I",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4575,
+        "level": 3,
+        "title": "ADMINISTRATION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4577,
+        "level": 3,
+        "title": "<sup>(1)</sup> 1.0 SHORT TITLE, EXTENT AND COMMENCEMENT",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4594,
+        "level": 2,
+        "title": "<sup>(1)</sup> PART - II",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4596,
+        "level": 3,
+        "title": "1.0 LAND USE CLASSIFICATION AND PERMISSIBLE USES",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4610,
+        "level": 2,
+        "title": "5.6 FOR HINGOLI, BULDHANA, WASHIM, YAVATMAL, NANDED REGIONAL PLAN",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4636,
+        "level": 2,
+        "title": "5.7 FOR RAIGAD REGIONAL PLAN",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4658,
+        "level": 2,
+        "title": "5.8 FOR SOLAPUR REGIONAL PLAN",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4666,
+        "level": 2,
+        "title": "5.9 FOR PUNE REGIONAL PLAN",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4708,
+        "level": 2,
+        "title": "5.10 CERTAIN REGULATIONS CEASE TO OPERATE IN FUTURE.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4712,
+        "level": 2,
+        "title": "<sup>(1)</sup> 5.11 BOARD OF APPEALS.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4716,
+        "level": 2,
+        "title": "<sup>(2)</sup> 5.12 AURANGABAD REGIONAL PLAN",
+        "has_amend_marker": false
+      }
+    ],
+    "amended_count": 44
+  },
+  {
+    "chapter": 6,
+    "title": "GENERAL BUILDING REQUIREMENTS - SETBACK, MARGINAL DISTANCE, HEIGHT AND PERMISSIBLE FSI",
+    "start_line": 4758,
+    "end_line": 5365,
+    "sections": [
+      {
+        "line": 4762,
+        "level": 3,
+        "title": "6.0 GENERAL",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4768,
+        "level": 3,
+        "title": "6.1 REGULATIONS FOR CONGESTED AREA IN DEVELOPMENT PLANS / <u>GAOTHANS OF VILLAGE SETTLEMENTS IN METROPOLITAN REGION</u> DEVELOPMENT AUTHORITIES AND REGIONAL PLANS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4772,
+        "level": 3,
+        "title": "6.1.1 Residential Buildings / Residential Buildings with mixed-use",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4817,
+        "level": 2,
+        "title": "ii) Front Marginal Distances / Setback / Roadside Margin/s in Congested Area",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4837,
+        "level": 3,
+        "title": "iii) Side and Rear Marginal Distances in Congested Area",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4860,
+        "level": 3,
+        "title": "6.1.2 Other buildings like Public / Semi-Public, Educational, Medical, Institutional, Commercial, Mercantile, etc.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4870,
+        "level": 3,
+        "title": "6.1.3 Pathway for access to internal building or interior part of the building shall not be less than 3.6 m. in width.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4872,
+        "level": 3,
+        "title": "6.1.4 Front setback (marginal distance) as prescribed under highway or any other rules shall be applicable if they are over and above as prescribed in these regulations.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4874,
+        "level": 2,
+        "title": "6.2 REGULATIONS FOR OUTSIDE CONGESTED AREA (NON-CONGESTED AREA)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4876,
+        "level": 3,
+        "title": "6.2.1 Marginal Distances and set-back for Residential Buildings and mixed use with Height up to 15.0 m. or as mentioned in the Table No.6-D.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 4948,
+        "level": 2,
+        "title": "6.2.2 Other Buildings",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5025,
+        "level": 2,
+        "title": "6.2.3 Marginal distances for buildings of heights more than mentioned in Table No.6-D of Regulation No.6.2.1",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5067,
+        "level": 3,
+        "title": "6.2.6 Buildings Abutting Two or More Streets",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5071,
+        "level": 2,
+        "title": "6.3 PERMISSIBLE FSI",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5156,
+        "level": 2,
+        "title": "6.4 INDUSTRIAL BUILDINGS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5182,
+        "level": 2,
+        "title": "6.5 FSI OF GREEN BELT",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5192,
+        "level": 2,
+        "title": "6.6 CALCULATION OF BUILT UP AREA FOR THE PURPOSES OF FSI",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5196,
+        "level": 2,
+        "title": "6.7 PERMISSIBLE PROJECTIONS IN MARGINAL OPEN SPACES / DISTANCES",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5240,
+        "level": 2,
+        "title": "6.8 EXCLUSION OF STRUCTURES / PROJECTIONS FOR FSI CALCULATION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5268,
+        "level": 2,
+        "title": "6.9 INTERIOR & EXTERIOR CHOWK",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5278,
+        "level": 2,
+        "title": "6.10 HEIGHT OF BUILDING",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5314,
+        "level": 2,
+        "title": "6.11 HEIGHT EXEMPTIONS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5318,
+        "level": 2,
+        "title": "6.12 REQUIREMENTS IN CASE OF BUILDING MORE THAN 70.0 M. HEIGHT",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5322,
+        "level": 2,
+        "title": "6.13 FSI OF LANDS AFFECTED BY HEMRL OR OTHER RESTRICTIONS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5326,
+        "level": 2,
+        "title": "6.14 PROVISION OF RECREATIONAL FLOOR",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5342,
+        "level": 2,
+        "title": "<sup>(1)</sup> 6.15 PROVISION OF HIRKANI KAKSHA (LADIES ROOM)",
+        "has_amend_marker": false
+      }
+    ],
+    "amended_count": 33
+  },
+  {
+    "chapter": 7,
+    "title": "HIGHER FSI FOR CERTAIN USES",
+    "start_line": 5366,
+    "end_line": 5966,
+    "sections": [
+      {
+        "line": 5368,
+        "level": 3,
+        "title": "7.0 GENERAL",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5433,
+        "level": 2,
+        "title": "7.2 Entitlement of FSI for Road Widening or Construction of New Roads / Surrender of Reserved Land",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5443,
+        "level": 2,
+        "title": "7.3 DEVELOPMENT / REDEVELOPMENT OF STAFF QUARTERS OF THE <u>STATE GOVERNMENT OR ITS STATUTORY BODIES OR PLANNING</u> AUTHORITY",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5494,
+        "level": 2,
+        "title": "7.4 DEVELOPMENT / REDEVELOPMENT OF HOUSING SCHEMES OF MAHARASHTRA HOUSING AND AREA DEVELOPMENT AUTHORITY",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5616,
+        "level": 2,
+        "title": "7.5 PROTECTION OF FSI IN REDEVELOPMENT OF EXISTING BUILDINGS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5620,
+        "level": 2,
+        "title": "7.6 REDEVELOPMENT OF OLD DILAPIDATED / DANGEROUS BUILDINGS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5628,
+        "level": 3,
+        "title": "<sup>(3)</sup> 7.6.1 <sup>(3)</sup> Redevelopment of Multi-Dwelling Buildings of Co-Operative Housing Societies / Apartments",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5640,
+        "level": 3,
+        "title": "7.6.2 Redevelopment of tenanted buildings",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5672,
+        "level": 2,
+        "title": "7.7 DEVELOPMENT OF HOUSING FOR EWS / LIG",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5674,
+        "level": 3,
+        "title": "<sup>(#)</sup> 7.7.1 In Residential Zone -",
+        "has_amend_marker": true
+      },
+      {
+        "line": 5690,
+        "level": 3,
+        "title": "7.7.2 In Agricultural Zone -",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5696,
+        "level": 3,
+        "title": "7.7.3 For Regional Plan Area -",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5710,
+        "level": 2,
+        "title": "<sup>(1)</sup> 7.8 <u>REGULATIONS FOR DEVELOPMENT OF INFORMATION TECHNOLOGY ESTABLISHMENT / DATA CENTERS</u>",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5712,
+        "level": 3,
+        "title": "<sup>(1)</sup> 7.8.1 For Municipal Corporations in Mumbai Metropolitan Region and Pune Metropolitan Region.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5782,
+        "level": 3,
+        "title": "<sup>(1)</sup> 7.8.2 For areas except areas mentioned in Regulation No.7.8.1 above and expect Regional Plan areas",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5794,
+        "level": 3,
+        "title": "<sup>(1)</sup> 7.8.3 For Regional Plan area",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5812,
+        "level": 2,
+        "title": "7.9 REGULATION FOR DEVELOPMENT OF BIOTECHNOLOGY PARKS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5814,
+        "level": 3,
+        "title": "7.9.1 Definition",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5818,
+        "level": 3,
+        "title": "7.9.2 Biotechnology Units / Parks to be Allowed in Industrial Zone",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5822,
+        "level": 3,
+        "title": "7.9.3 Biotechnology Units / Park to be allowed in No Development Zone earmarked in the Development / Regional Plan.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5836,
+        "level": 3,
+        "title": "7.9.4 Additional FSI to Biotechnology Units / Park",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5863,
+        "level": 2,
+        "title": "7.10 INCENTIVE FOR GREEN BUILDINGS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5889,
+        "level": 2,
+        "title": "7.11 DEVELOPMENT OF PUBLIC TOILET",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5893,
+        "level": 2,
+        "title": "7.12 BUILDINGS OF SMART FIN-TECH CENTRE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5929,
+        "level": 2,
+        "title": "<sup>(1)</sup> <sup>(1)</sup> COMMERCIAL BUILDINGS IN CBD, COMMERCIAL, RESIDENTIAL ZONE 7.13 IN PLANNING AUTHORITIES AREAS",
+        "has_amend_marker": false
+      }
+    ],
+    "amended_count": 26
+  },
+  {
+    "chapter": 8,
+    "title": "PARKING, LOADING AND UNLOADING SPACES",
+    "start_line": 5967,
+    "end_line": 6171,
+    "sections": [
+      {
+        "line": 5971,
+        "level": 3,
+        "title": "8.1 PARKING SPACES",
+        "has_amend_marker": false
+      },
+      {
+        "line": 5975,
+        "level": 3,
+        "title": "8.1.1 General Space Requirements",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6020,
+        "level": 3,
+        "title": "vii) Ramps for Basement Parking",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6024,
+        "level": 3,
+        "title": "viii) Other Parking Requirements",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6046,
+        "level": 2,
+        "title": "8.2 OFF STREET PARKING REQUIREMENT",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6048,
+        "level": 3,
+        "title": "8.2.1 Off-street parking requirement",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6148,
+        "level": 2,
+        "title": "8.2.2 Off street parking requirement for various Planning Authorities / Areas",
+        "has_amend_marker": false
+      }
+    ],
+    "amended_count": 7
+  },
+  {
+    "chapter": 9,
+    "title": "REQUIREMENTS OF PART OF BUILDING",
+    "start_line": 6172,
+    "end_line": 6973,
+    "sections": [
+      {
+        "line": 6174,
+        "level": 3,
+        "title": "9.0 STANDARD REQUIREMENTS OF VARIOUS PARTS OF BUILDINGS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6178,
+        "level": 3,
+        "title": "9.1 PLINTH",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6184,
+        "level": 3,
+        "title": "9.2 HABITABLE ROOMS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6186,
+        "level": 4,
+        "title": "9.2.1 Size and Dimension of Habitable Rooms",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6190,
+        "level": 4,
+        "title": "9.2.2 Height of Habitable Rooms",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6218,
+        "level": 2,
+        "title": "9.3 KITCHEN",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6220,
+        "level": 3,
+        "title": "9.3.1 Size of Kitchen",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6224,
+        "level": 3,
+        "title": "9.3.2 Height of Kitchen",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6228,
+        "level": 2,
+        "title": "9.4 BATH ROOMS, WATER CLOSETS, COMBINED BATH ROOM AND WATER CLOSET",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6230,
+        "level": 3,
+        "title": "9.4.1 Size of bath room and water closet",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6240,
+        "level": 3,
+        "title": "9.4.2 Height of bath room and water closet",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6244,
+        "level": 3,
+        "title": "9.4.3 Other requirements of bath room and water closet",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6254,
+        "level": 2,
+        "title": "9.5 LEDGE OR TAND / LOFT",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6256,
+        "level": 3,
+        "title": "9.5.1 Location and extent",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6282,
+        "level": 3,
+        "title": "9.5.2 Location and extent of Ledge for Air Conditioning unit",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6286,
+        "level": 2,
+        "title": "9.6 CUPBOARD",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6288,
+        "level": 3,
+        "title": "9.6.1 In residential buildings, cantilever projections of cupboards, floor to floor level, may be permitted except on ground floor. Such projections excluding window area, may project upto 0.60 m. in the setbacks for buildings. However, the window frame shall be placed on the inner side of the wall and such cupboard shall be allowed only on one wall of each room. Moreover, such projection shall be at least 6.0 m. from plot boundary in case of special buildings.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6290,
+        "level": 3,
+        "title": "9.6.2 For height 24.0 m. and more no cupboard shall reduce the marginal open space to less than 6.0 m. on first floor and 4.5 m. on upper floor. In congested area cupboard may be permitted on upper floors projecting in front setbacks except over lanes having width 4.50 m. or less and in marginal distances subject to 1.0 m. clear marginal distance from the plot boundary to the external face of the cupboard.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6292,
+        "level": 2,
+        "title": "9.7 MEZZANINE FLOOR",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6294,
+        "level": 3,
+        "title": "9.7.1 Size of Mezzanine Floor",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6300,
+        "level": 3,
+        "title": "9.7.2 Height of Mezzanine Floor",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6304,
+        "level": 3,
+        "title": "9.7.3 Other requirements of mezzanine floor",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6326,
+        "level": 2,
+        "title": "9.8 STORE ROOM",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6328,
+        "level": 3,
+        "title": "9.8.1 Size of Store Room",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6332,
+        "level": 2,
+        "title": "9.9 GARAGE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6334,
+        "level": 3,
+        "title": "9.9.1 Size of private Garage",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6338,
+        "level": 3,
+        "title": "9.9.2 Height of private Garage",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6342,
+        "level": 3,
+        "title": "9.9.3 Plinth of private Garage",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6346,
+        "level": 3,
+        "title": "9.9.4 Set Back of private Garage",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6352,
+        "level": 2,
+        "title": "9.10 ROOFS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6366,
+        "level": 2,
+        "title": "9.11 BASEMENTS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6398,
+        "level": 3,
+        "title": "9.11.2 The basement shall have the following requirements -",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6418,
+        "level": 2,
+        "title": "9.12 RAMP",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6420,
+        "level": 3,
+        "title": "9.12.1 Non Vehicular Ramp",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6438,
+        "level": 3,
+        "title": "9.12.2 Ramp to basements and upper storeys for vehicles",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6450,
+        "level": 2,
+        "title": "9.13 <sup>(#)</sup> PODIUM",
+        "has_amend_marker": true
+      },
+      {
+        "line": 6478,
+        "level": 2,
+        "title": "9.14 BALCONY",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6492,
+        "level": 2,
+        "title": "9.15 SUPPORTED DOUBLE HEIGHT TERRACES",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6496,
+        "level": 2,
+        "title": "9.16 STILT",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6500,
+        "level": 2,
+        "title": "9.17 CHIMNEYS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6508,
+        "level": 2,
+        "title": "9.18 LETTER BOX",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6512,
+        "level": 2,
+        "title": "9.19 METER ROOM",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6516,
+        "level": 2,
+        "title": "9.20 LIGHTING AND VENTILATION OF ROOM",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6518,
+        "level": 3,
+        "title": "9.20.1 Adequacy and manner of provision",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6528,
+        "level": 3,
+        "title": "9.20.2 Ventilation Shaft",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6553,
+        "level": 3,
+        "title": "9.20.3 Artificial Lightning and Mechanical ventilation",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6557,
+        "level": 3,
+        "title": "9.21 OVERHEAD TANKS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6561,
+        "level": 3,
+        "title": "9.22 PARAPET",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6565,
+        "level": 3,
+        "title": "9.23 CABIN",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6569,
+        "level": 3,
+        "title": "9.24 WELLS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6573,
+        "level": 3,
+        "title": "9.25 SEPTIC TANKS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6577,
+        "level": 3,
+        "title": "9.26 BOUNDARY / COMPOUND WALL",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6593,
+        "level": 2,
+        "title": "9.27 PROVISION OF LIFT",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6595,
+        "level": 3,
+        "title": "9.27.1 <sup>(#)</sup> Planning and Design",
+        "has_amend_marker": true
+      },
+      {
+        "line": 6607,
+        "level": 3,
+        "title": "9.27.2 Fire Lift",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6611,
+        "level": 2,
+        "title": "9.28 EXIT REQUIREMENTS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6613,
+        "level": 3,
+        "title": "9.28.1 The following General requirements shall apply to exits",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6629,
+        "level": 3,
+        "title": "9.28.2 Type of Exits",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6639,
+        "level": 3,
+        "title": "9.28.3 Number and Size of Exits",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6643,
+        "level": 3,
+        "title": "9.28.4 Arrangement of Exits",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6657,
+        "level": 3,
+        "title": "9.28.5 Occupant Load",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6690,
+        "level": 2,
+        "title": "9.28.6 Capacity of Exits",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6711,
+        "level": 2,
+        "title": "9.28.7 Provision for Staircase",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6746,
+        "level": 3,
+        "title": "9.28.8 Width of staircase",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6764,
+        "level": 2,
+        "title": "9.29 OTHER REQUIREMENTS OF INDIVIDUAL EXIT AT EACH FLOOR",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6768,
+        "level": 3,
+        "title": "9.29.1 Doorways",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6782,
+        "level": 3,
+        "title": "9.29.2 Revolving doors",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6794,
+        "level": 3,
+        "title": "9.29.3 Stairways",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6828,
+        "level": 2,
+        "title": "9.29.4 Fire escape or external stairs",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6858,
+        "level": 2,
+        "title": "9.29.5 Corridors and passageways",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6876,
+        "level": 3,
+        "title": "9.29.6 Refuge Area",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6888,
+        "level": 3,
+        "title": "9.29.7 Lifts and Escalators",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6894,
+        "level": 3,
+        "title": "9.29.8 Fire lift",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6898,
+        "level": 3,
+        "title": "9.29.9 Fire Escape Chutes / controlled Lowering Device for evacuation",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6922,
+        "level": 3,
+        "title": "9.29.10 Refuge chute / Garbage Chute -",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6926,
+        "level": 2,
+        "title": "9.30 ARCHITECTURAL PROJECTIONS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6938,
+        "level": 2,
+        "title": "9.31 ADDITIONAL REQUIREMENTS IN CASE OF HOUSING SCHEMES",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6954,
+        "level": 2,
+        "title": "9.32 FIRE PROTECTION REQUIREMENT",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6964,
+        "level": 2,
+        "title": "9.33 SERVICE FLOOR",
+        "has_amend_marker": false
+      }
+    ],
+    "amended_count": 83
+  },
+  {
+    "chapter": 10,
+    "title": "CITY SPECIFIC REGULATIONS",
+    "start_line": 6974,
+    "end_line": 8205,
+    "sections": [
+      {
+        "line": 6977,
+        "level": 3,
+        "title": "10.0 GENERAL",
+        "has_amend_marker": false
+      },
+      {
+        "line": 6981,
+        "level": 3,
+        "title": "10.1 PUNE CITY MUNICIPAL CORPORATION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7103,
+        "level": 3,
+        "title": "10.1.4 No piece of land shall be used as site for the construction of building,",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7109,
+        "level": 2,
+        "title": "10.2 THANE MUNICIPAL CORPORATION AREA",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7111,
+        "level": 3,
+        "title": "($) 10.2.1 Development along Ram Maruti Road and Gokhale Road",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7119,
+        "level": 3,
+        "title": "10.2.2 Setbacks from Eastern Express Highway and Roads more than 52.5 m. in width",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7123,
+        "level": 3,
+        "title": "10.2.3 a) Development of Multi Storey Public Parking Lot (PPL) near Metro Stations",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7183,
+        "level": 2,
+        "title": "10.2.4 Development around Hazardous Industries (Chemical Zone Areas)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7211,
+        "level": 3,
+        "title": "c) Development between 250 and 1000 Meters -",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7215,
+        "level": 3,
+        "title": "d) Other Stipulations -",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7221,
+        "level": 2,
+        "title": "10.2.5 Development around Air Force Stations",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7229,
+        "level": 2,
+        "title": "10.2.6 Development around Defence Establishment",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7285,
+        "level": 2,
+        "title": "10.2.7 Regulations for G-1 Zone (Yeur village Section - VII only)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7305,
+        "level": 2,
+        "title": "10.2.8 Regulations for G - 3 Zone for Forest Area",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7311,
+        "level": 2,
+        "title": "10.2.10 <sup>(2)</sup> Redevelopment of Old Dilapidated / Dangerous Buildings",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7331,
+        "level": 2,
+        "title": "10.2.11 <sup>(1)</sup> Height of Building Permissible for Re-development Proposals / SRA Proposals",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7343,
+        "level": 3,
+        "title": "10.2.12 <sup>(1)</sup> Podium",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7357,
+        "level": 3,
+        "title": "10.2.13 <sup>(1)</sup> Front Marginal Distances / Set-back / Road side margin/s in congested area - minimum front marginal distance for buildings under re-development proposal shall be 1.5 m. for roads having width 6.0 m. or more.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7359,
+        "level": 3,
+        "title": "10.2.14 <sup>(1)</sup> Off street parking requirement - For Redevelopment Projects in Thane Municipal Corporation area, multiplying factor for off street parking requirement as per Regulation No.8.2.2 shall be 0.8.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7361,
+        "level": 3,
+        "title": "10.2.15 <sup>(1)</sup> (a) For Redevelopment of smaller plots having area upto 1500 sq.m. with multistoried building upto 24.0 m. height plus height of parking upto 6.0 m., side / rear margin of 6.0 m. shall be relaxed upto 3.0 m. subject to Fire N.O.C., in case of bonafide hardship and such building shall not be considered as special building.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7365,
+        "level": 2,
+        "title": "10.3 NAGPUR MUNICIPAL CORPORATION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7369,
+        "level": 3,
+        "title": "10.3.1 Buildings in Commercial Zone :",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7379,
+        "level": 3,
+        "title": "10.3.2 Buildings in Industrial Zone",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7385,
+        "level": 3,
+        "title": "10.3.3 I to R provisions - Allowing Residential / Commercial uses in Industrial Zone.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7413,
+        "level": 2,
+        "title": "10.4 NAGPUR METROPOLITAN REGION DEVELOPMENT AUTHORITY",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7415,
+        "level": 3,
+        "title": "10.4.1 <sup>(#)</sup> Development along Ring Road :",
+        "has_amend_marker": true
+      },
+      {
+        "line": 7419,
+        "level": 3,
+        "title": "10.4.2 Special Regulations for the Improvement Schemes :",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7526,
+        "level": 2,
+        "title": "<sup>(2)</sup> 10.4.5 <sup>(2)</sup> Generation of TDR :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7544,
+        "level": 2,
+        "title": "10.5 NASHIK MUNICIPAL CORPORATION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7546,
+        "level": 3,
+        "title": "10.5.1 Applicability of Regulations for some areas",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7552,
+        "level": 3,
+        "title": "10.5.2 Development of Cycle Track Along River and Nallah",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7558,
+        "level": 3,
+        "title": "10.5.3 Set back and marginal distances for 36 m. wide D.P. road passing through village Gangapur and Ambad",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7566,
+        "level": 2,
+        "title": "10.6 VASAI VIRAR CITY MUNICIPAL CORPORATION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7586,
+        "level": 2,
+        "title": "10.7 MIRA BHAYANDAR MUNICIPAL CORPORATION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7588,
+        "level": 3,
+        "title": "10.7.1 Uses permissible in Agriculture Zone",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7592,
+        "level": 3,
+        "title": "10.7.2 Manori - Gorai - Uttan Notified Area",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7596,
+        "level": 2,
+        "title": "10.8 ULHASNAGAR CITY MUNICIPAL CORPORATION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7614,
+        "level": 2,
+        "title": "10.9 KOLHAPUR MUNICIPAL CORPORATION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7743,
+        "level": 3,
+        "title": "Note 4 - Height of building",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7761,
+        "level": 3,
+        "title": "10.9.2 Height of building on Kiranotsav Marg other than specified area",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7765,
+        "level": 2,
+        "title": "10.10 NAVI MUMBAI MUNICIPAL CORPORATION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7767,
+        "level": 3,
+        "title": "(#) 10.10.1 Basic FSI Permissible for Certain Categories of Plots.",
+        "has_amend_marker": true
+      },
+      {
+        "line": 7808,
+        "level": 2,
+        "title": "10.10.2 Reconstruction / Redevelopment of Building in CIDCO / NMMC Areas",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7814,
+        "level": 3,
+        "title": "Regulation for Reconstruction / Redevelopment :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7840,
+        "level": 3,
+        "title": "A) Rehabilitation Area Entitlement :",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7915,
+        "level": 2,
+        "title": "3. Other requirement / Criteria :",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7957,
+        "level": 3,
+        "title": "10.10.3 Road width of 11.0 m.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7961,
+        "level": 3,
+        "title": "10.10.4 Allowance of premium FSI in lieu of TDR",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7965,
+        "level": 3,
+        "title": "10.10.5 Provision of Amenity Space",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7969,
+        "level": 3,
+        "title": "10.10.6 Provision of Recreational Open Space",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7975,
+        "level": 2,
+        "title": "10.11 NATIONAL PARK AND TUNGARESHWAR ECO-SENSITIVE ZONE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7977,
+        "level": 3,
+        "title": "10.11.1 Development around National Park and Tungareshwar Eco-sensitive Zone",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7981,
+        "level": 2,
+        "title": "10.12 MAHARASHTRA AIRPORT DEVELOPMENT COMPANY NOTIFIED AREA",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7987,
+        "level": 2,
+        "title": "10.13 BHIWANDI SURROUNDING NOTIFIED AREA",
+        "has_amend_marker": false
+      },
+      {
+        "line": 7989,
+        "level": 3,
+        "title": "10.13.1 REGULATIONS FOR AFFORDABLE HOUSING SCHEME :",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8090,
+        "level": 2,
+        "title": "10.14 CIDCO AREA EXCLUDING NAINA AREA",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8094,
+        "level": 3,
+        "title": "10.14.2 Regulations for Land Compensation Scheme and Rehabilitation Pocket in Navi Mumbai",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8146,
+        "level": 2,
+        "title": "<sup>(2)</sup> 10.14.3 Development of land Notified for Acquisition",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8178,
+        "level": 2,
+        "title": "10.14 A CIDCO AREA WITHIN PANVEL MUNICIPAL CORPORATION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8182,
+        "level": 2,
+        "title": "10.15 CERTAIN REGULATIONS CEASE TO OPERATE IN FUTURE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8186,
+        "level": 2,
+        "title": "<sup>(3)</sup> 10.16 <sup>(3)</sup> AREA WITHIN PANVEL MUNICIPAL CORPORATION",
+        "has_amend_marker": false
+      }
+    ],
+    "amended_count": 69
+  },
+  {
+    "chapter": 11,
+    "title": "ACQUISITION AND DEVELOPMENT OF RESERVED SITES IN DEVELOPMENT PLANS",
+    "start_line": 8206,
+    "end_line": 8700,
+    "sections": [
+      {
+        "line": 8208,
+        "level": 2,
+        "title": "<u>ACQUISITION AND DEVELOPMENT OF RESERVED SITES IN</u> DEVELOPMENT PLANS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8210,
+        "level": 3,
+        "title": "11.0 GENERAL",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8214,
+        "level": 3,
+        "title": "11.1 <u>Manner of Development of Reserved Site in Development Plan (Accommodation</u> Reservation Principle)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8407,
+        "level": 2,
+        "title": "11.2 REGULATIONS FOR GRANT OF TRANSFERABLE DEVELOPMENT RIGHTS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8409,
+        "level": 3,
+        "title": "11.2.1 Transferable Development Rights",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8415,
+        "level": 3,
+        "title": "11.2.2 Cases eligible for Transferable Development Rights (TDR)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8437,
+        "level": 3,
+        "title": "11.2.3 Cases not eligible for Transferable Development Rights (TDR)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8465,
+        "level": 2,
+        "title": "11.2.4 Generation of the Transferable Development Rights (TDR)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8510,
+        "level": 2,
+        "title": "11.2.5 <sup>(#)</sup> Transferable Development Rights (TDR) against Construction of Amenity -",
+        "has_amend_marker": true
+      },
+      {
+        "line": 8536,
+        "level": 3,
+        "title": "<sup>(2)</sup> Conditons :",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8564,
+        "level": 2,
+        "title": "11.2.6 Utilisation of Transferable Development Rights (TDR)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8584,
+        "level": 2,
+        "title": "11.2.7 Utilisation of Transferable Development Rights (TDR) and Road Width Relation",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8592,
+        "level": 2,
+        "title": "11.2.8 Areas Restricted from Utilisation of Transferable Development Rights (TDR)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8612,
+        "level": 3,
+        "title": "11.2.9 General stipulation",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8624,
+        "level": 3,
+        "title": "11.2.10 Transfer of DRC",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8655,
+        "level": 3,
+        "title": "11.2.11 Infrastructure Improvement Charges -",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8659,
+        "level": 3,
+        "title": "11.2.12 Vesting of Land :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8671,
+        "level": 3,
+        "title": "11.2.13 Effect of this Regulation",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8677,
+        "level": 2,
+        "title": "11.3 RESERVATION CREDIT CERTIFICATE (RCC)",
+        "has_amend_marker": false
+      }
+    ],
+    "amended_count": 22
+  },
+  {
+    "chapter": 12,
+    "title": "STRUCTURAL SAFETY, WATER SUPPLY, DRAINAGE AND SANITARY REQUIREMENTS, OUTDOOR DISPLAY AND OTHER SERVICES",
+    "start_line": 8701,
+    "end_line": 9038,
+    "sections": [
+      {
+        "line": 8703,
+        "level": 2,
+        "title": "<u>STRUCTURAL SAFETY, WATER SUPPLY, DRAINAGE AND SANITARY</u> REQUIREMENTS, OUTDOOR DISPLAY AND OTHER SERVICES",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8705,
+        "level": 3,
+        "title": "12.1 STRUCTURAL DESIGN",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8709,
+        "level": 3,
+        "title": "12.2 QUALITY OF MATERIALS AND WORKMANSHIP",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8715,
+        "level": 3,
+        "title": "12.3 <u>ALTERNATIVE MATERIALS, METHODS OF DESIGN & CONSTRUCTION</u> AND TESTS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8733,
+        "level": 2,
+        "title": "12.4 BUILDING SERVICES",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8741,
+        "level": 2,
+        "title": "12.5 WATER SUPPLY, DRAINAGE AND SANITARY REQUIREMENTS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8813,
+        "level": 2,
+        "title": "12.6 DRAINAGE AND SANITATION REQUIREMENTS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8815,
+        "level": 3,
+        "title": "12.6.1 General",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8823,
+        "level": 3,
+        "title": "12.6.2 For Residences",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8843,
+        "level": 3,
+        "title": "12.6.3 For Buildings other than Residences",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8869,
+        "level": 2,
+        "title": "12.7 SIGNS AND OUTDOOR DISPLAY STRUCTURES",
+        "has_amend_marker": false
+      },
+      {
+        "line": 8873,
+        "level": 3,
+        "title": "12.7.2 Prohibition of advertising signs and outdoor display structure in certain cases",
+        "has_amend_marker": false
+      }
+    ],
+    "amended_count": 12
+  },
+  {
+    "chapter": 13,
+    "title": "SPECIAL PROVISIONS FOR CERTAIN BUILDINGS",
+    "start_line": 9039,
+    "end_line": 9424,
+    "sections": [
+      {
+        "line": 9043,
+        "level": 3,
+        "title": "13.0 GENERAL",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9047,
+        "level": 3,
+        "title": "13.1 PROVISIONS FOR BARRIER FREE ACCESS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9051,
+        "level": 3,
+        "title": "13.1.1 Definitions",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9063,
+        "level": 3,
+        "title": "13.1.2 Scope",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9067,
+        "level": 3,
+        "title": "13.1.3 Site development",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9087,
+        "level": 2,
+        "title": "13.1.4 Building Requirements",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9196,
+        "level": 2,
+        "title": "13.2 <u>INSTALLATION OF SOLAR ASSISTED WATER HEATING (SWH) SYSTEM</u> / ROOF TOP PHOTOVOLTAIC (RTPV) SYSTEM",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9216,
+        "level": 2,
+        "title": "13.3 RAIN WATER HARVESTING",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9228,
+        "level": 3,
+        "title": "Schedule",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9268,
+        "level": 2,
+        "title": "13.4 GREY WATER RECYCLING AND REUSE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9274,
+        "level": 3,
+        "title": "13.4.1 For Layout Approval / Building Permission",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9294,
+        "level": 3,
+        "title": "13.4.2 Group Housing / Apartment Building",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9298,
+        "level": 3,
+        "title": "13.4.3 Educational, Industrial, Commercial, Government, Semi-Government Organizations, Hotels, Lodgings, etc.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9302,
+        "level": 3,
+        "title": "13.4.4 Hospitals",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9306,
+        "level": 3,
+        "title": "13.4.5 Vehicle Servicing Garages",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9310,
+        "level": 3,
+        "title": "13.4.6 Other Hazardous uses",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9314,
+        "level": 3,
+        "title": "13.4.7 Incentive",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9318,
+        "level": 3,
+        "title": "13.4.8 Penalty Clause",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9328,
+        "level": 2,
+        "title": "13.5 SOLID WASTE MANAGEMENT",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9342,
+        "level": 2,
+        "title": "<sup>(1)</sup> 13.6 <sup>(1)</sup> SPECIAL SAFETY CONTROL REGULATIONS FOR BUILDINGS VULNERABLE TO MAN-MADE DISASTERS",
+        "has_amend_marker": false
+      }
+    ],
+    "amended_count": 20
+  },
+  {
+    "chapter": 14,
+    "title": "SPECIAL SCHEMES",
+    "start_line": 9425,
+    "end_line": 13173,
+    "sections": [
+      {
+        "line": 9428,
+        "level": 2,
+        "title": "14.1 INTEGRATED TOWNSHIP PROJECT (ITP)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9430,
+        "level": 3,
+        "title": "<sup>(1)</sup> 14.1.1 For Regional Plan Area + Development Plan Area",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9432,
+        "level": 3,
+        "title": "14.1.1.1 Applicability :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9440,
+        "level": 3,
+        "title": "14.1.1.2 Requirements of Site :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9496,
+        "level": 3,
+        "title": "14.1.1.3 Ownership of Lands :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9502,
+        "level": 3,
+        "title": "14.1.1.4 Permission and Declaration of Project by State Government :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9572,
+        "level": 3,
+        "title": "14.1.1.5 Letter of Intent (LOI) by the Collector :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9590,
+        "level": 2,
+        "title": "14.1.1.6 Master Layout Plan Approval by the Collector <sup>(1)</sup> or by the Planning Authority, as the case may be :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9636,
+        "level": 2,
+        "title": "14.1.1.7 Planning Considerations :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9638,
+        "level": 3,
+        "title": "i) Permissibility in respect of Zoning :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9665,
+        "level": 2,
+        "title": "ii) Permissible Floor Space Index (FSI) :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9686,
+        "level": 3,
+        "title": "iii) Mandatory Town-Level Amenities - Area and FSI Allocations :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9690,
+        "level": 4,
+        "title": "a) Spaces for Recreation",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9700,
+        "level": 4,
+        "title": "b) Spaces for combined School/s (Primary School/s + High School/s) -",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9714,
+        "level": 4,
+        "title": "c) Community Health Care Facilities :- Primary and Secondary Health Care Facilities like Dispensary, Maternity Home, Hospital etc.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9825,
+        "level": 3,
+        "title": "iv) Residential Activities :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9832,
+        "level": 3,
+        "title": "(v) Share of Local / Planning Authority.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9862,
+        "level": 2,
+        "title": "14.1.1.8 Development Control Regulations :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9868,
+        "level": 2,
+        "title": "14.1.1.9 Social Housing :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9900,
+        "level": 3,
+        "title": "14.1.1.10 Liability of Project Proponent/s :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9970,
+        "level": 2,
+        "title": "14.1.1.11 Occupancy Certificate :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 9994,
+        "level": 3,
+        "title": "14.1.1.12 General Stipulations :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10042,
+        "level": 3,
+        "title": "14.1.1.13 Special Concessions :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10060,
+        "level": 3,
+        "title": "14.1.1.14 Transition Policy :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10076,
+        "level": 3,
+        "title": "14.1.1.15 Appeal :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10080,
+        "level": 3,
+        "title": "14.1.1.16 Control by the State Government :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10092,
+        "level": 3,
+        "title": "<sup>(1)</sup> 14.1.2 <sup>(1)</sup> For Development Plan area",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10096,
+        "level": 2,
+        "title": "14.2 TRANSIT ORIENTED DEVELOPMENT (TOD)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10100,
+        "level": 3,
+        "title": "14.2.1 <sup>(#)</sup> <sup>(1)</sup> For Pune Municipal Corporation Area",
+        "has_amend_marker": true
+      },
+      {
+        "line": 10102,
+        "level": 3,
+        "title": "<sup>(1)</sup> 14.2.1 <sup>(1)</sup> TRANSIT ORIENTED DEVELOPMENT (TOD)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10118,
+        "level": 2,
+        "title": "14.2.1.1 Definitions",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10128,
+        "level": 2,
+        "title": "14.2.1.2 Maximum Permissible FSI",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10142,
+        "level": 2,
+        "title": "14.2.1.2.1 Premium to be Paid",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10158,
+        "level": 3,
+        "title": "<sup>(1)</sup> Impact Assessment and Integrated Mobility Plan",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10187,
+        "level": 3,
+        "title": "<sup>(1)</sup> 14.2.1.3 Tenement Size",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10195,
+        "level": 3,
+        "title": "14.2.1.4 Permissible mixed use in TOD zone",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10199,
+        "level": 3,
+        "title": "14.2.1.5 Marginal Distances",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10203,
+        "level": 3,
+        "title": "14.2.1.6 Parking",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10209,
+        "level": 3,
+        "title": "14.2.1.6.1 Incentive for providing Public Parking in the area falling within the radius of 200 m. from the Metro / MRTS Station.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10267,
+        "level": 2,
+        "title": "<sup>(#)</sup> 14.2.2 Pune Metropolitan Region Development Authority area",
+        "has_amend_marker": true
+      },
+      {
+        "line": 10271,
+        "level": 2,
+        "title": "14.2.3 For Nagpur Municipal Corporation and Nagpur Metropolitan Region Development Authority",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10275,
+        "level": 3,
+        "title": "i) Definitions",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10283,
+        "level": 3,
+        "title": "ii) Maximum Permissible FSI",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10321,
+        "level": 3,
+        "title": "a) Premium to be Paid",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10333,
+        "level": 3,
+        "title": "b) Impact Assessment and Integrated Mobility Plan",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10357,
+        "level": 3,
+        "title": "iii) Permissible mixed use in NMRC :",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10363,
+        "level": 3,
+        "title": "v) Marginal Spaces :",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10394,
+        "level": 3,
+        "title": "vi) Parking :",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10468,
+        "level": 2,
+        "title": "14.2.4 For other Municipal Corporations and other Metropolitan Region Development Authority <sup>(1)</sup> and CIDCO area",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10472,
+        "level": 2,
+        "title": "14.2.5 Regulations for BRT Corridor in Pimpri-Chinchwad Municipal Corporation.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10492,
+        "level": 2,
+        "title": "14.3 AFFORDABLE HOUSING SCHEME",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10576,
+        "level": 2,
+        "title": "14.4 PRADHAN MANTRI AWAS YOJANA",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10578,
+        "level": 3,
+        "title": "14.4.1 For Development Plan area",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10590,
+        "level": 3,
+        "title": "<u>Conditions :-</u>",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10614,
+        "level": 3,
+        "title": "ii) For No Development Zone / Agricultural Zone / Green Zone - 1",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10628,
+        "level": 3,
+        "title": "14.4.2 For Regional Plan area",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10647,
+        "level": 2,
+        "title": "14.5 CONSERVATION OF HERITAGE BUILDINGS / PRECINCTS / NATURAL FEATURES",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10649,
+        "level": 3,
+        "title": "14.5.1 Applicability",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10653,
+        "level": 3,
+        "title": "14.5.2 Preparation of List of Heritage Buildings, Heritage Precincts and Natural Features",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10701,
+        "level": 3,
+        "title": "14.5.3 Restriction on development, Redevelopment / repairs etc.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10717,
+        "level": 3,
+        "title": "14.5.4 Incentive uses for Heritage Buildings",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10721,
+        "level": 3,
+        "title": "14.5.5 Grant of Transferable Development Rights to Owners / Lessees of Heritage Buildings / Heritage Precincts",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10725,
+        "level": 3,
+        "title": "14.5.6 Maintaining Skyline",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10729,
+        "level": 3,
+        "title": "14.5.7 Restrictive Covenants",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10733,
+        "level": 3,
+        "title": "14.5.8 Grading of the Listed Buildings / Listed Precincts",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10759,
+        "level": 2,
+        "title": "14.5.9 Signs and Outdoor Display Structures",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10769,
+        "level": 2,
+        "title": "14.5.10 Composition of Heritage Conservation Committee",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10796,
+        "level": 3,
+        "title": "14.5.11 The Terms of reference of the Committee :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10826,
+        "level": 3,
+        "title": "14.5.12 Heritage Conservation Fund",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10844,
+        "level": 2,
+        "title": "14.6 SLUM REHABILITATION SCHEME FOR PUNE, PCMC, PCNTDA AND NAGPUR",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10891,
+        "level": 2,
+        "title": "14.6.1 SHORT TITLE, COMMENCEMENT AND EXTENT",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10899,
+        "level": 2,
+        "title": "14.6.2 DEFINITIONS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10951,
+        "level": 2,
+        "title": "14.6.3 APPLICABILITY",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10967,
+        "level": 2,
+        "title": "3. The Slums On Non Buildable Area / Reservations :",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10981,
+        "level": 2,
+        "title": "5. Transition Policy:",
+        "has_amend_marker": false
+      },
+      {
+        "line": 10999,
+        "level": 3,
+        "title": "14.6.4 INTERPRETATION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11005,
+        "level": 3,
+        "title": "14.6.5 DELEGATION OF POWERS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11009,
+        "level": 3,
+        "title": "14.6.6 DISCRETIONARY POWERS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11021,
+        "level": 2,
+        "title": "14.6.7 DEVELOPER’S REGISTRATION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11027,
+        "level": 2,
+        "title": "14.6.8 PARAMETERS OF DEVELOPMENT OF SLUM REHABILITAION AREA",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11029,
+        "level": 3,
+        "title": "1. Eligibility for rehabilitation scheme",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11035,
+        "level": 3,
+        "title": "2. Joint ownership with spouse",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11039,
+        "level": 3,
+        "title": "3. Right of the Hutment Dwellers",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11081,
+        "level": 2,
+        "title": "14.6.9 ELIGIBILITY",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11083,
+        "level": 3,
+        "title": "1. Protected Occupiers",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11125,
+        "level": 2,
+        "title": "14.6.10 OBLIGATORY PARTICIPATION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11128,
+        "level": 3,
+        "title": "(A) Landowners",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11136,
+        "level": 3,
+        "title": "(B) Slum Dweller",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11140,
+        "level": 3,
+        "title": "(C) Registered Developer",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11160,
+        "level": 3,
+        "title": "(D) (C.E.O., S.R.A.)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11170,
+        "level": 2,
+        "title": "<sup>(1)</sup> 14.6.11 INITIATION OF SLUM REHABILITAION SCHEME",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11176,
+        "level": 3,
+        "title": "2. Compulsory acquisition of slum land",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11194,
+        "level": 2,
+        "title": "14.6.12 SANCTION TO THE SRS The following procedure shall be adopted while examining and sanctioning any S.R.S. in accordance with the provisions of the said Regulations,",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11258,
+        "level": 2,
+        "title": "14.6.13 CLEARANCE ORDER After an order declaring any Slum area as Slum Rehabilitation Area under section 3-C of the Slum Act and after sanction to S.R.S. as per the provision above, the C.E.O. shall proceed to issue Slum Clearance order in following manner –",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11296,
+        "level": 2,
+        "title": "14.6.14 TRANSIT CAMP ACCOMODATION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11310,
+        "level": 2,
+        "title": "14.6.15 DEVELOPMENT CONTROL REGULATIONS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11436,
+        "level": 2,
+        "title": "14.6.16 REGULATIONS RELATING TO REHABILITATION AND FREE SALE COMPONENTS –",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11525,
+        "level": 2,
+        "title": "(1) PAYMENTS TO BE MADE TO SRA AND INSTALMENTS :",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11549,
+        "level": 2,
+        "title": "14.6.18 BUILDING CONTROL REGULATIONS FOR S.R.S.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11603,
+        "level": 3,
+        "title": "(L) RAMP :",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11643,
+        "level": 3,
+        "title": "14.6.19 SLUM AND DEVELOPMENT PLAN RESERVATIONS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11663,
+        "level": 2,
+        "title": "14.6.20 CLUBBING OF TWO SCHEMES",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11673,
+        "level": 2,
+        "title": "14.6.21 SOCIAL AMENITIES AND RELIGIOUS STRUCTURES",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11705,
+        "level": 2,
+        "title": "<sup>(1)</sup> FORMATION OF CO-OPERATIVE SOCIETY",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11739,
+        "level": 2,
+        "title": "14.6.24 INALIENABILITY",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11743,
+        "level": 2,
+        "title": "14.6.25 POSSESSION OF THE TENEMENTS / SHOP",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11752,
+        "level": 2,
+        "title": "14.6.26 ALLOTMENT OF THE TENEMENTS TO THE PROTECTED OCCUPIERS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11780,
+        "level": 2,
+        "title": "14.6.27 ALLOTMENT OF THE TENEMENTS TO THE NON PROTECTED OCCUPIERS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11812,
+        "level": 2,
+        "title": "14.6.28 DE-NOTIFICATION OF SLUM REHABILITATION AREA",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11818,
+        "level": 2,
+        "title": "14.6.29 PREMIUM FOR OWNERSHIP AND TERMS OF LEASE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11854,
+        "level": 2,
+        "title": "14.7 SLUM REHABILITATION SCHEME FOR OTHER MUNICIPAL CORPORATIONS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11858,
+        "level": 3,
+        "title": "14.7.1 Eligibility for redevelopment scheme",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11864,
+        "level": 3,
+        "title": "14.7.2 Definition of Slum, Pavement, and Structure of hut",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11888,
+        "level": 3,
+        "title": "14.7.3 Joint ownership with spouse",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11892,
+        "level": 3,
+        "title": "14.7.4 De-notification as Slum Rehabilitation Area",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11896,
+        "level": 3,
+        "title": "14.7.5 Applicability",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11900,
+        "level": 3,
+        "title": "14.7.6 Right of the Hutment Dwellers",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11974,
+        "level": 2,
+        "title": "14.7.7 Building Permission for Slum Rehabilitation Project",
+        "has_amend_marker": false
+      },
+      {
+        "line": 11994,
+        "level": 2,
+        "title": "14.7.8 Rehabilitation and Free-Sale Component",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12074,
+        "level": 3,
+        "title": "14.7.9 Temporary Transit Camps",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12092,
+        "level": 3,
+        "title": "14.7.10 Commercial / Office / Shop / Economic Activity Free of Cost",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12120,
+        "level": 2,
+        "title": "14.7.11 Relaxation in Building and Other Requirements",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12186,
+        "level": 3,
+        "title": "14.7.12 Slums and Development Plan Reservations :",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12218,
+        "level": 2,
+        "title": "vi) Slum Rehabilitation Permissible on Town Planning Scheme Plots :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12232,
+        "level": 2,
+        "title": "14.7.13 Anganwadi, Health Centre / Outpost, Community Hall /Gymnasium / Fitness Centre, Skill Development Centre, Women Entrepreneurship Centre, Yuva Kendra / Library Society Office, and Religious Structures :",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12248,
+        "level": 2,
+        "title": "14.7.14 Payments to be made to SRA and Instalments :",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12256,
+        "level": 2,
+        "title": "14.7.15 Conversion of Old Project into New Project :",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12260,
+        "level": 3,
+        "title": "ii) Exceptions",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12274,
+        "level": 2,
+        "title": "14.7.16 Provision relating to Permanent Transit Camp Tenements for Slum Rehabilitation Scheme implemented on open plot / non-slum plot.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12311,
+        "level": 2,
+        "title": "14.8 Urban Renewal Scheme",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12315,
+        "level": 3,
+        "title": "14.8.1 Urban Renewal Scheme (URS) for Municipal Corporation Area –",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12384,
+        "level": 2,
+        "title": "14.8.2 Eligibility for Urban Renewal Cluster (URC) –",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12402,
+        "level": 2,
+        "title": "14.8.3 Determination of eligibility and requirement of Rehabilitation and Relocation areas under URS –",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12408,
+        "level": 2,
+        "title": "14.8.4 Entitlement of Rehabilitation –",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12430,
+        "level": 2,
+        "title": "14.8.5 Terms of Allotment of Rehabilitation Tenements –",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12519,
+        "level": 2,
+        "title": "14.8.6 The permissible FSI for URC –",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12560,
+        "level": 2,
+        "title": "14.8.7 <sup>(#)</sup> Development of Reservations contemplated in Development Plan falling in the area of URC –",
+        "has_amend_marker": true
+      },
+      {
+        "line": 12592,
+        "level": 2,
+        "title": "14.8.8 Preparation and Approval of URS –",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12616,
+        "level": 3,
+        "title": "iii) Entitlement for consideration under URS-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12624,
+        "level": 2,
+        "title": "iv) **Consideration for Land falling under URS -**",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12640,
+        "level": 2,
+        "title": "c) **Consideration for Acquisition of land under URP -**",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12664,
+        "level": 2,
+        "title": "14.8.9 Planning for Rehabilitation and Free Sale Plots in URS –",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12686,
+        "level": 2,
+        "title": "14.8.10 Selection of Implementation Agency –",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12690,
+        "level": 2,
+        "title": "14.8.11 URS by Private Promoters / MHADA / Co-operative Housing Societies –",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12736,
+        "level": 3,
+        "title": "14.8.14 Relaxation in Building and other requirements –",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12792,
+        "level": 3,
+        "title": "14.8.19 Formation of Co-operative Housing Societies, and their Federations for buildings in URS -",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12808,
+        "level": 2,
+        "title": "14.9 DEVELOPMENT OF TOURISM AND HOSPITALITY SERVICES UNDER <u>COMMUNITY NATURE CONSERVANCY AROUND WILD LIFE</u> SANCTUARIES AND NATIONAL PARKS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12856,
+        "level": 2,
+        "title": "14.10 INTEGRATED INFORMATION TECHNOLOGY TOWNSHIP (IITP)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12860,
+        "level": 3,
+        "title": "14.10.1 Area Requirement",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12874,
+        "level": 2,
+        "title": "14.10.2 Planning Considerations",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12896,
+        "level": 2,
+        "title": "14.10.3 General Norms for Different Land Use",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12908,
+        "level": 2,
+        "title": "14.10.4 FSI In integrated I.T. Township",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12914,
+        "level": 2,
+        "title": "14.10.5 i) Provisions of these DCPR as well as provisions of MoEF and CRZ notification, wherever applicable, issued & as amended from time to time shall be applicable mutatis-mutandis to the Integrated IT Township except those expressly provided in these Regulations.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12924,
+        "level": 2,
+        "title": "14.10.6 Infrastructure Facilities",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12936,
+        "level": 3,
+        "title": "14.10.7 Water Supply",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12940,
+        "level": 3,
+        "title": "14.10.8 Drainage and Garbage Disposal",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12946,
+        "level": 3,
+        "title": "14.10.9 Power",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12950,
+        "level": 3,
+        "title": "14.10.10 Environment",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12954,
+        "level": 3,
+        "title": "14.10.11 Special Concession",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12974,
+        "level": 3,
+        "title": "14.10.12 Sale Permission",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12978,
+        "level": 3,
+        "title": "14.10.13 Implementation and Completion",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12982,
+        "level": 3,
+        "title": "14.10.14 Interpretation",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12986,
+        "level": 2,
+        "title": "14.11 INTEGRATED LOGISTIC PARK (ILP)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12990,
+        "level": 3,
+        "title": "14.11.1 Eligibility for establishment of Logistic Park",
+        "has_amend_marker": false
+      },
+      {
+        "line": 12994,
+        "level": 3,
+        "title": "14.11.2 Activities Constituting Logistic Park",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13024,
+        "level": 3,
+        "title": "ii) Infrastructure",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13042,
+        "level": 3,
+        "title": "iii) Business and commercial facilities",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13066,
+        "level": 3,
+        "title": "iv) Common Facilities",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13084,
+        "level": 2,
+        "title": "14.11.3 Procedure for Development of Logistic Parks",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13088,
+        "level": 2,
+        "title": "14.11.4 Integrated Logistics Park (ILP)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13124,
+        "level": 2,
+        "title": "14.11.5 Logistics Park (LP)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13128,
+        "level": 2,
+        "title": "14.11.6 Upto 200% Additional FSI for Integrated Logistics Park & Logistics Park",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13146,
+        "level": 3,
+        "title": "14.11.7 Permissible Height",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13150,
+        "level": 2,
+        "title": "14.12 INDUSTRIAL TOWNSHIP UNDER AEROSPACE AND DEFENSE MANUFACTURING POLICY",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13160,
+        "level": 2,
+        "title": "14.13 DEVELOPMENT OF INTEGRATED INDUSTRIAL AREA",
+        "has_amend_marker": false
+      }
+    ],
+    "amended_count": 182
+  },
+  {
+    "chapter": 15,
+    "title": "REGULATIONS FOR SPECIAL ACTIVITIES / PLANS",
+    "start_line": 13174,
+    "end_line": 13281,
+    "sections": [
+      {
+        "line": 13176,
+        "level": 3,
+        "title": "15.1 QUARRYING OPERATIONS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13222,
+        "level": 2,
+        "title": "15.2 ERECTION OF MOBILE TOWERS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13228,
+        "level": 2,
+        "title": "15.3 PREPRATION OF LOCAL AREA PLAN",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13232,
+        "level": 2,
+        "title": "15.4 GUIDELINES FOR STREET DESIGN IN CITY / TOWN.",
+        "has_amend_marker": false
+      }
+    ],
+    "amended_count": 5
+  },
+  {
+    "chapter": 16,
+    "title": "APPENDICES (A-M)",
+    "start_line": 13282,
+    "end_line": 15564,
+    "sections": [
+      {
+        "line": 13282,
+        "level": 2,
+        "title": "APPENDIX A - 1 : FORM FOR CONSTRUCTION OF BUILDING OR LAYOUT OF BUILDINGS / GROUP HOUSING",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13334,
+        "level": 2,
+        "title": "CERTIFICATE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13354,
+        "level": 2,
+        "title": "Form giving Particulars of Development",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13462,
+        "level": 2,
+        "title": "Form of Statement 1",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13468,
+        "level": 3,
+        "title": "Existing Building to be retained",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13475,
+        "level": 2,
+        "title": "Form of Statement 2",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13481,
+        "level": 3,
+        "title": "Proposed Building",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13503,
+        "level": 2,
+        "title": "Proforma - I : Area Statement",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13636,
+        "level": 2,
+        "title": "APPENDIX A - 2 : FORM FOR SUB-DIVISION OF LAND AS PLOTTED LAYOUT",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13687,
+        "level": 2,
+        "title": "CERTIFICATE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13707,
+        "level": 2,
+        "title": "Form giving Particulars of Development",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13760,
+        "level": 2,
+        "title": "Proforma - I : Area Statement",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13803,
+        "level": 2,
+        "title": "Area Statement",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13813,
+        "level": 2,
+        "title": "Statement of distribution of FSI on each plot",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13831,
+        "level": 2,
+        "title": "APPENDIX 'B' : FORM FOR SUPERVISION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13851,
+        "level": 3,
+        "title": "CERTIFICATE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13865,
+        "level": 3,
+        "title": "<sup>(1)</sup> CERTIFICATE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13884,
+        "level": 2,
+        "title": "APPENDIX – C",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13886,
+        "level": 2,
+        "title": "QUALIFICATION, COMPETENCE, DUTIES AND RESPONSIBILITIES ETC. OF LICENSED TECHNICAL PERSONNEL OR ARCHITECT FOR DEVELOPMENT PERMISSION AND SUPERVISON",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13888,
+        "level": 3,
+        "title": "C-1 GENERAL",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13892,
+        "level": 3,
+        "title": "C-2 ARCHITECT",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13938,
+        "level": 2,
+        "title": "C-3 ENGINEER",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13940,
+        "level": 3,
+        "title": "C-3.1 Qualifications -",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13946,
+        "level": 3,
+        "title": "C-3.2 Competence -",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13956,
+        "level": 3,
+        "title": "C-3.3 Duties and Responsibilities -",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13960,
+        "level": 2,
+        "title": "C-4 STRUCTURAL ENGINEER",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13962,
+        "level": 3,
+        "title": "C-4.1 Qualifications -",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13970,
+        "level": 3,
+        "title": "C-4.2 Competence -",
+        "has_amend_marker": false
+      },
+      {
+        "line": 13978,
+        "level": 3,
+        "title": "C-4.3 Duties and Responsibilities of Structural Engineer",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14000,
+        "level": 2,
+        "title": "<sup>(1)</sup> PRAPTRA -1",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14002,
+        "level": 3,
+        "title": "CERTIFICATE AS PER APPENDIX C-4.3(viii)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14051,
+        "level": 2,
+        "title": "C-5 SUPERVISOR",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14053,
+        "level": 3,
+        "title": "C-5.1 Qualification",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14067,
+        "level": 3,
+        "title": "C-5.2 Competence",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14087,
+        "level": 3,
+        "title": "C-5.3 Duties and Responsibilities",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14091,
+        "level": 2,
+        "title": "C-6 TOWN PLANNER",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14093,
+        "level": 3,
+        "title": "C-6.1 Qualification",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14097,
+        "level": 3,
+        "title": "C-6.2 Competence",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14103,
+        "level": 3,
+        "title": "C-6.3 Duties and Responsibilities",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14121,
+        "level": 2,
+        "title": "C-7 LICENSING",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14123,
+        "level": 3,
+        "title": "C-7.1 <sup>(+)</sup> Technical Personnel to be licensed :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14145,
+        "level": 2,
+        "title": "C-8 DUTIES AND RESPONSIBILITIES OF OTHER TECHNICAL PERSONS / OWNER",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14147,
+        "level": 3,
+        "title": "C-8.1 SITE ENGINEER",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14149,
+        "level": 4,
+        "title": "C- Qualifications :",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14153,
+        "level": 4,
+        "title": "C- Duties and Responsibilities :",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14165,
+        "level": 3,
+        "title": "C-8.2 GEOTECHNICAL ENGINEER",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14167,
+        "level": 4,
+        "title": "C- Qualifications :",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14175,
+        "level": 4,
+        "title": "C- Duties and Responsibilities of Geotechnical Engineer :",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14183,
+        "level": 3,
+        "title": "C-8.3 OWNER / DEVELOPER",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14185,
+        "level": 4,
+        "title": "C- Duties and Responsibilities.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14209,
+        "level": 2,
+        "title": "C-8.4 DUTIES AND RESPONSIBILITIES OF THE OFFICERS OF THE AUTHORITY",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14221,
+        "level": 2,
+        "title": "C-8.5 TECHNICAL FACT FINDING COMMITTEE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14266,
+        "level": 2,
+        "title": "APPENDIX 'D - 1'",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14268,
+        "level": 2,
+        "title": "FORM FOR SANCTION OF BUILDING PERMISSION AND COMMENCEMENT CERTIFICATE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14322,
+        "level": 2,
+        "title": "APPENDIX 'D - 2'",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14324,
+        "level": 2,
+        "title": "FORM FOR TENTATIVE APPROVAL FOR DEMARCATION OF LAND / SUB-DIVISION LAYOUT",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14372,
+        "level": 2,
+        "title": "APPENDIX 'D - 3'",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14374,
+        "level": 2,
+        "title": "FORM FOR FINAL APPROVAL TO THE LAND SUB-DIVISION / LAYOUT",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14428,
+        "level": 2,
+        "title": "APPENDIX 'E - 1'",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14430,
+        "level": 2,
+        "title": "FORM FOR REFUSAL OF BUILDING PERMIT / COMMENCEMENT CERTIFICATE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14482,
+        "level": 2,
+        "title": "APPENDIX 'E - 2'",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14484,
+        "level": 2,
+        "title": "FORM FOR REFUSAL OF LAND SUB-DIVISION / LAYOUT",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14527,
+        "level": 2,
+        "title": "APPENDIX 'F'",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14529,
+        "level": 2,
+        "title": "FORM FOR INTIMATION OF COMPLETION OF WORK UP TO PLINTH LEVEL*",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14564,
+        "level": 2,
+        "title": "APPENDIX 'G'",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14566,
+        "level": 2,
+        "title": "FORM FOR COMPLETION CERTIFICATE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14603,
+        "level": 2,
+        "title": "APPENDIX 'H'",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14605,
+        "level": 2,
+        "title": "FORM FOR FULL / PART OCCUPANCY CERTIFICATE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14648,
+        "level": 2,
+        "title": "APPENDIX 'I'",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14650,
+        "level": 2,
+        "title": "FORM FOR REFUSAL OF OCCUPANCY CERTIFICATE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14691,
+        "level": 2,
+        "title": "APPENDIX 'J'",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14693,
+        "level": 2,
+        "title": "FORM OF INDEMNITY FOR PART OCCUPANCY CERTIFICATE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14725,
+        "level": 2,
+        "title": "APPENDIX 'K' APPROVALS OF BUILDING PERMISSION BASED ON RISK BASED CATEGORIZATION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14756,
+        "level": 2,
+        "title": "APPENDIX 'K-1'",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14757,
+        "level": 2,
+        "title": "FORM FOR PERMISSION OF CONSTRUCTION OF BUILDING ON A PLOT UPTO 150 SQ.M.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14786,
+        "level": 3,
+        "title": "Please treat this intimation as permission for development.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14814,
+        "level": 2,
+        "title": "<sup>(1)</sup> APPENDIX – ‘K - 2’",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14816,
+        "level": 2,
+        "title": "APPROVALS OF BUILDING PERMISSION FOR CONSTRUCTION UPTO 8 ROOMS FOR AGRO TOURISM CENTER AND ALLIED ACTIVITIES AS PER TOURISM POLICY - 2016",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14975,
+        "level": 3,
+        "title": "ANNEXURE I",
+        "has_amend_marker": false
+      },
+      {
+        "line": 14985,
+        "level": 3,
+        "title": "ANNEXURE II",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15026,
+        "level": 2,
+        "title": "APPENDIX - 'M'",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15028,
+        "level": 2,
+        "title": "TYPICAL PLANS & CROSS SECTIONS OF ROAD",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15043,
+        "level": 1,
+        "title": "PLAN 1",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15095,
+        "level": 3,
+        "title": "CROSS SECTION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15104,
+        "level": 1,
+        "title": "PLAN 2",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15161,
+        "level": 3,
+        "title": "CROSS SECTION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15168,
+        "level": 3,
+        "title": "PLAN",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15174,
+        "level": 2,
+        "title": "24 MTS. D.P. ROAD",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15236,
+        "level": 2,
+        "title": "30 MTS. D.P. ROAD",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15242,
+        "level": 1,
+        "title": "PLAN 3",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15246,
+        "level": 3,
+        "title": "CROSS SECTION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15313,
+        "level": 2,
+        "title": "36 MTS. D.P. ROAD",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15319,
+        "level": 2,
+        "title": "PLAN 4",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15329,
+        "level": 3,
+        "title": "CROSS SECTION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15331,
+        "level": 3,
+        "title": "36 MTS. D.P. ROAD",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15397,
+        "level": 2,
+        "title": "45 MTS. D.P. ROAD",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15403,
+        "level": 1,
+        "title": "PLAN 5",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15412,
+        "level": 2,
+        "title": "CROSS SECTION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15414,
+        "level": 2,
+        "title": "45 MTS. D.P. ROAD",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15446,
+        "level": 1,
+        "title": "60 MTS. D.P. ROAD",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15452,
+        "level": 2,
+        "title": "PLAN 6",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15463,
+        "level": 2,
+        "title": "60 MTS. D.P. ROAD",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15471,
+        "level": 2,
+        "title": "CONSTRUCTION OF FOOTPATHS AT PROPERTY ENTRANCES",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15495,
+        "level": 2,
+        "title": "महाराष्ट्र शासन",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15497,
+        "level": 2,
+        "title": "नगर विकास विभाग",
+        "has_amend_marker": false
+      }
+    ],
+    "amended_count": 107
+  },
+  {
+    "chapter": 17,
+    "title": "GOVERNMENT ORDERS (MARATHI APPENDIX)",
+    "start_line": 15565,
+    "end_line": 20618,
+    "sections": [
+      {
+        "line": 15565,
+        "level": 2,
+        "title": "महाराष्ट्र शासन नगर विकास विभाग,",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15566,
+        "level": 2,
+        "title": "चौथा मजला, मुख्य इमारत, मंत्रालय, मादाम कामा मार्ग, हुतात्मा राजगुरु चौक, मुंबई - ४०० ०३२.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15683,
+        "level": 2,
+        "title": "महाराष्ट्र शासन",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15685,
+        "level": 2,
+        "title": "नगर विकास विभाग",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15762,
+        "level": 2,
+        "title": "प्रत माहितीसाठी व उचित कार्यवाहीसाठी:",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15778,
+        "level": 2,
+        "title": "महाराष्ट्र शासन नगर विकास विभाग",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15792,
+        "level": 3,
+        "title": "आदेश",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15881,
+        "level": 2,
+        "title": "महाराष्ट्र शासन नगर विकास विभाग",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15961,
+        "level": 2,
+        "title": "महाराष्ट्र शासन नगर रचना आणि मूल्यनिर्धारण विभाग,",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15962,
+        "level": 2,
+        "title": "नगर रचना संचालनालय, तळमजला, मध्यवर्ती इमारत, पुणे ४११ ००१",
+        "has_amend_marker": false
+      },
+      {
+        "line": 15968,
+        "level": 3,
+        "title": "कार्यालयीन आदेश",
+        "has_amend_marker": false
+      },
+      {
+        "line": 16025,
+        "level": 2,
+        "title": "महाराष्ट्र शासन नगर विकास विभाग",
+        "has_amend_marker": false
+      },
+      {
+        "line": 16129,
+        "level": 2,
+        "title": "परिशिष्ट",
+        "has_amend_marker": false
+      },
+      {
+        "line": 16150,
+        "level": 2,
+        "title": "2.2 2.2.14-Premium Charges and Fire Infrastructure Charges.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 16162,
+        "level": 2,
+        "title": "2.7 Commencement of Work",
+        "has_amend_marker": false
+      },
+      {
+        "line": 16164,
+        "level": 3,
+        "title": "2.7.1 - Commencement",
+        "has_amend_marker": false
+      },
+      {
+        "line": 16181,
+        "level": 2,
+        "title": "3.3 Regulations for Land Sub-division and Layout",
+        "has_amend_marker": false
+      },
+      {
+        "line": 16183,
+        "level": 3,
+        "title": "3.3.8 Access from the highways / classified roads",
+        "has_amend_marker": false
+      },
+      {
+        "line": 16265,
+        "level": 2,
+        "title": "महाराष्ट्र शासन नगर विकास विभाग",
+        "has_amend_marker": false
+      },
+      {
+        "line": 16409,
+        "level": 2,
+        "title": "महाराष्ट्र शासन",
+        "has_amend_marker": false
+      },
+      {
+        "line": 16417,
+        "level": 3,
+        "title": "आदेश क्र. ८",
+        "has_amend_marker": false
+      },
+      {
+        "line": 16696,
+        "level": 1,
+        "title": "आदेश क्र.१",
+        "has_amend_marker": false
+      },
+      {
+        "line": 16808,
+        "level": 2,
+        "title": "महाराष्ट्र शासन नगर विकास विभाग",
+        "has_amend_marker": false
+      },
+      {
+        "line": 16813,
+        "level": 3,
+        "title": "आदेश क्र.१०",
+        "has_amend_marker": false
+      },
+      {
+        "line": 16939,
+        "level": 2,
+        "title": "महाराष्ट्र शासन नगर विकास विभाग,",
+        "has_amend_marker": false
+      },
+      {
+        "line": 16945,
+        "level": 2,
+        "title": "आदेश क्र.११",
+        "has_amend_marker": false
+      },
+      {
+        "line": 17060,
+        "level": 2,
+        "title": "महाराष्ट्र शासन",
+        "has_amend_marker": false
+      },
+      {
+        "line": 17077,
+        "level": 2,
+        "title": "निदेश",
+        "has_amend_marker": false
+      },
+      {
+        "line": 17236,
+        "level": 2,
+        "title": "शुद्धीपत्रक (आदेश क्र.११ संदर्भात)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 17347,
+        "level": 2,
+        "title": "महाराष्ट्र शासन नगर विकास विभाग",
+        "has_amend_marker": false
+      },
+      {
+        "line": 17409,
+        "level": 2,
+        "title": "आदेश क्र.१२",
+        "has_amend_marker": false
+      },
+      {
+        "line": 17516,
+        "level": 2,
+        "title": "2R F2T PRF2",
+        "has_amend_marker": false
+      },
+      {
+        "line": 17530,
+        "level": 2,
+        "title": "S : - 3 2 a S :-3aU RT GE",
+        "has_amend_marker": false
+      },
+      {
+        "line": 17542,
+        "level": 2,
+        "title": "$\\sqrt -$",
+        "has_amend_marker": false
+      },
+      {
+        "line": 17591,
+        "level": 2,
+        "title": "परिशिष्ट",
+        "has_amend_marker": false
+      },
+      {
+        "line": 17642,
+        "level": 3,
+        "title": "2) Design criteria and standards utilities should meet the following criteria :",
+        "has_amend_marker": false
+      },
+      {
+        "line": 17680,
+        "level": 2,
+        "title": "आदेश क्र. ९२",
+        "has_amend_marker": false
+      },
+      {
+        "line": 17803,
+        "level": 2,
+        "title": "महाराष्ट्र शासन नगर विकास विभाग",
+        "has_amend_marker": false
+      },
+      {
+        "line": 17811,
+        "level": 3,
+        "title": "आदेश क्र.१३",
+        "has_amend_marker": false
+      },
+      {
+        "line": 17898,
+        "level": 2,
+        "title": "महाराष्ट्र शासन नगर विकास विभाग",
+        "has_amend_marker": false
+      },
+      {
+        "line": 17904,
+        "level": 2,
+        "title": "आदेश क्र.१४",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18079,
+        "level": 2,
+        "title": "आदेश क्र.१५",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18152,
+        "level": 2,
+        "title": "महाराष्ट्र शासन नगर विकास विभाग",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18153,
+        "level": 3,
+        "title": "चौथा मजला, मुख्य इमारत, मंत्रालय, मादाम कामा मार्ग, हुतात्मा राजगुरू चौक, मुंबई - ४०० ०३२.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18228,
+        "level": 2,
+        "title": "महाराष्ट्र शासन",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18230,
+        "level": 2,
+        "title": "नगर विकास विभाग",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18236,
+        "level": 3,
+        "title": "आदेश क्र.१६",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18410,
+        "level": 2,
+        "title": "महाराष्ट्र शासन",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18412,
+        "level": 2,
+        "title": "नगर विकास विभाग",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18422,
+        "level": 3,
+        "title": "३TFT. ३TTT.P",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18574,
+        "level": 2,
+        "title": "ANNEXURE – A",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18578,
+        "level": 3,
+        "title": "1. Threat Assessment (TA)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18586,
+        "level": 3,
+        "title": "2. Consequence Assessment (CA)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18600,
+        "level": 2,
+        "title": "3. Vulnerability Assessment (VA)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18602,
+        "level": 3,
+        "title": "3.1 Site (VA-1)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18617,
+        "level": 3,
+        "title": "3.2 Architecture (VA-2)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18634,
+        "level": 3,
+        "title": "3.3 Building Envelope (VA-3)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18646,
+        "level": 3,
+        "title": "3.3 Building Envelope (VA-3)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18660,
+        "level": 3,
+        "title": "3.5 Security Systems (VA-5)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18698,
+        "level": 2,
+        "title": "ANNEXURE B",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18860,
+        "level": 2,
+        "title": "ANNEXURE - C Fire Tower (Typical Sketches)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18862,
+        "level": 3,
+        "title": "TYPE 1",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18873,
+        "level": 3,
+        "title": "TYPE 2",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18878,
+        "level": 3,
+        "title": "TYPE 2A",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18883,
+        "level": 3,
+        "title": "TYPE 3",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18887,
+        "level": 3,
+        "title": "TYPE 3A",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18891,
+        "level": 3,
+        "title": "TYPE 4",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18895,
+        "level": 3,
+        "title": "TYPE 4A",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18899,
+        "level": 3,
+        "title": "TYPE 5",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18903,
+        "level": 3,
+        "title": "TYPE 5A",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18913,
+        "level": 1,
+        "title": "ANNEXURE - D - Fire Break Water Tank System for High-Rise Buildings of Height 90m and above",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18915,
+        "level": 2,
+        "title": "Current Issues for Fire Hydrant Systems:",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18929,
+        "level": 3,
+        "title": "Design Parameters:",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18951,
+        "level": 2,
+        "title": "Advantages:",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18979,
+        "level": 3,
+        "title": "EQUIPMENT DATA :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 18997,
+        "level": 3,
+        "title": "DESIGN BASIS :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19010,
+        "level": 2,
+        "title": "PROPOSED HIGH RISE BUILDING 90M & ABOVE SCHEMATIC",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19018,
+        "level": 2,
+        "title": "Qualifications, duties, and responsibilities of the Electrical Professional (Electrical Engineer/Consultant)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19020,
+        "level": 3,
+        "title": "i. Qualification",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19026,
+        "level": 3,
+        "title": "ii. Duties",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19030,
+        "level": 3,
+        "title": "iii. Responsibilities",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19038,
+        "level": 1,
+        "title": "ANNEXURE <mark>E-1</mark> Appointment of Electrical Professional (Electrical Engineer/ Consultant) and Contractor",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19040,
+        "level": 2,
+        "title": "<u>Standard Procedures for Executing Electrical Work In Buildings</u>",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19097,
+        "level": 3,
+        "title": "Details of Building",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19108,
+        "level": 2,
+        "title": "1. Declaration for Design",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19134,
+        "level": 1,
+        "title": "ANNEXURE <mark>E 22</mark> FORM 2- Declaration for Construction of Electrical Installation",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19136,
+        "level": 3,
+        "title": "Details of Building",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19154,
+        "level": 3,
+        "title": "2. Declaration",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19183,
+        "level": 2,
+        "title": "ANNEXURE <mark>22</mark> FORM 3- Declaration for Inspection and Testing of Electrical Installation",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19185,
+        "level": 3,
+        "title": "Details of Building",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19215,
+        "level": 3,
+        "title": "3. Declaration for Inspection and Testing",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19273,
+        "level": 2,
+        "title": "ANNEXURE <mark>G</mark> – Requirements related to Civil Construction",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19308,
+        "level": 2,
+        "title": "ANNEXURE <mark>H</mark> - Assessment of Electrical Load requirement",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19310,
+        "level": 3,
+        "title": "Standard Procedures for Executing Electrical Work In Buildings",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19311,
+        "level": 4,
+        "title": "Check List No. 3",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19312,
+        "level": 4,
+        "title": "Planning - Design Part 3",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19352,
+        "level": 2,
+        "title": "ANNEXURE <mark>I</mark> Layouts and drawings – Equipment and Internal Electrical Installation",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19400,
+        "level": 1,
+        "title": "ANNEXURE <mark>J</mark> - Single Line Diagrams",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19437,
+        "level": 2,
+        "title": "ANNEXURE <mark>K</mark> - Coordination in Activities",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19463,
+        "level": 1,
+        "title": "ANNEXURE - Points to be observed in Construction Work",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19465,
+        "level": 2,
+        "title": "<mark>Standard Procedures for Executing Electrical Work</mark>",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19467,
+        "level": 3,
+        "title": "Check List No. 9",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19469,
+        "level": 3,
+        "title": "Construction - Electrical Installation 2",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19492,
+        "level": 2,
+        "title": "ANNEXURE <mark>M-1</mark> - Model format for Test Report of Electrical Works in Buildings",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19499,
+        "level": 3,
+        "title": "1. Electrical Contractor details",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19517,
+        "level": 3,
+        "title": "2. Details of Multi-Storeyed Building",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19539,
+        "level": 3,
+        "title": "3. Date of appointment of contractor:",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19553,
+        "level": 1,
+        "title": "ANNEXURE <mark>M2</mark> - Model format for Test Report of Electrical Works in Buildings",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19555,
+        "level": 2,
+        "title": "PART-B: Verification (Inspection and Testing)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19559,
+        "level": 3,
+        "title": "B-1 Architectural Planning and Civil Construction - Electrical Requirements",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19581,
+        "level": 3,
+        "title": "B-2 Electric Supply - Details and Supplier's installation Requirements",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19615,
+        "level": 2,
+        "title": "B-3 Electric Supply – Standby supply arrangement and installation requirements",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19637,
+        "level": 2,
+        "title": "B-4 Earthing arrangements",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19649,
+        "level": 2,
+        "title": "B-5. Electrical Installation – Applicable for installations belonging to individual and common utility services",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19651,
+        "level": 3,
+        "title": "1. General/common points",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19677,
+        "level": 3,
+        "title": "5. Protection from leakage currents/electric shocks",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19681,
+        "level": 3,
+        "title": "6. Protection from surges",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19685,
+        "level": 3,
+        "title": "7. Protection from Arc Flash",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19689,
+        "level": 3,
+        "title": "8. Distribution Boxes / Consumer's unit",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19695,
+        "level": 3,
+        "title": "9. Terminations",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19699,
+        "level": 3,
+        "title": "B. Specific requirements in respect of common services in buildings",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19739,
+        "level": 2,
+        "title": "2. Electrical Installation details and testing (List-meter/individual service connection-wise)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19741,
+        "level": 3,
+        "title": "2.1 Attach separately in the following format.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19754,
+        "level": 3,
+        "title": "2.2 Handing over preparations made as per the format [Yes/No]",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19776,
+        "level": 2,
+        "title": "ANNEXURE: N-1 - Checklist for Handing-Over Documents to Individual Buyer",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19809,
+        "level": 2,
+        "title": "ANNEXURE <mark>N-21</mark> – Checklist for Handing-Over Documents to the owner's Society / Association",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19900,
+        "level": 2,
+        "title": "Attachment - C to Instructions under Annexure",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19914,
+        "level": 3,
+        "title": "CI. 17.2.2.1 of IS 3043",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19943,
+        "level": 1,
+        "title": "Attachment - D to Instructions under Annexure",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19945,
+        "level": 2,
+        "title": "ANNEX SS",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19950,
+        "level": 2,
+        "title": "REPORT OF VERIFICATION",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19952,
+        "level": 3,
+        "title": "Table 65 Model Form for Circuit Details and Test Results Schedule",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19982,
+        "level": 1,
+        "title": "ANNEXURE I - Instructions to the Electrical Professional/Engineer/ Consultants, Contractors, Stakeholders for providing information in the Test Report for high-rise buildings.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 19992,
+        "level": 2,
+        "title": "PART-I: Forms of Declarations in respect of electrical work in High-rise buildings",
+        "has_amend_marker": false
+      },
+      {
+        "line": 20043,
+        "level": 3,
+        "title": "Note 2",
+        "has_amend_marker": false
+      },
+      {
+        "line": 20079,
+        "level": 2,
+        "title": "PART-II: Particulars of Electrical Contractors and Installations",
+        "has_amend_marker": false
+      },
+      {
+        "line": 20103,
+        "level": 2,
+        "title": "PART-III: Verification (Inspection and Testing)",
+        "has_amend_marker": false
+      },
+      {
+        "line": 20105,
+        "level": 3,
+        "title": "A. Architectural Planning and Civil Construction – Electrical Requirements",
+        "has_amend_marker": false
+      },
+      {
+        "line": 20111,
+        "level": 3,
+        "title": "B-1 Electric Supply – Details and Supplier's installation requirements",
+        "has_amend_marker": false
+      },
+      {
+        "line": 20151,
+        "level": 2,
+        "title": "B-2 Electric Supply - Details of standby supply arrangement and installation requirements",
+        "has_amend_marker": false
+      },
+      {
+        "line": 20167,
+        "level": 3,
+        "title": "B-3 Earthing arrangements",
+        "has_amend_marker": false
+      },
+      {
+        "line": 20193,
+        "level": 3,
+        "title": "C-1 Electrical Installation-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 20203,
+        "level": 3,
+        "title": "C-1.3 Wiring /Cables:",
+        "has_amend_marker": false
+      },
+      {
+        "line": 20205,
+        "level": 4,
+        "title": "Indoor use:",
+        "has_amend_marker": false
+      },
+      {
+        "line": 20245,
+        "level": 3,
+        "title": "For outdoor use:",
+        "has_amend_marker": false
+      },
+      {
+        "line": 20249,
+        "level": 3,
+        "title": "For critical services requiring supply integrity:",
+        "has_amend_marker": false
+      },
+      {
+        "line": 20309,
+        "level": 2,
+        "title": "B. Specific requirement in respect of common services in buildings",
+        "has_amend_marker": false
+      },
+      {
+        "line": 20321,
+        "level": 3,
+        "title": "C-1.8 Earthing:",
+        "has_amend_marker": false
+      },
+      {
+        "line": 20337,
+        "level": 2,
+        "title": "C-2 Electrical Installation details and test results (List - meter-wise):",
+        "has_amend_marker": false
+      },
+      {
+        "line": 20341,
+        "level": 3,
+        "title": "C-2.1",
+        "has_amend_marker": false
+      },
+      {
+        "line": 20365,
+        "level": 3,
+        "title": "C-2.3 Handing-Over checklist to each individual consumer shall be as per the Annexure E-12 These checklists shall be ready with details.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 20384,
+        "level": 2,
+        "title": "महाराष्ट्र प्रादेशिक नियोजन व नगर रचना अधिनियम, १९६६",
+        "has_amend_marker": false
+      },
+      {
+        "line": 20386,
+        "level": 3,
+        "title": "क्र.टिपीएस-१८२३/किआयपी-५३/प्र.क्र.९४/२०२३/निदेश/नवि-१३ :-",
+        "has_amend_marker": false
+      },
+      {
+        "line": 20404,
+        "level": 2,
+        "title": "शासन निदेश",
+        "has_amend_marker": false
+      },
+      {
+        "line": 20448,
+        "level": 2,
+        "title": "महाराष्ट्र शासन नगर विकास विभाग",
+        "has_amend_marker": false
+      },
+      {
+        "line": 20449,
+        "level": 2,
+        "title": "शासन शुध्दीपत्रक क्र.टिपीएस-१८२३/व्हिआयपी-५३/प्र.क्र.९४/२०२३/नवि-१३.",
+        "has_amend_marker": false
+      },
+      {
+        "line": 20456,
+        "level": 3,
+        "title": "सुधारित पूरकपत्र",
+        "has_amend_marker": false
+      },
+      {
+        "line": 20540,
+        "level": 2,
+        "title": "आदेश",
+        "has_amend_marker": false
+      },
+      {
+        "line": 20564,
+        "level": 2,
+        "title": "शासन निदेश",
+        "has_amend_marker": false
+      }
+    ],
+    "amended_count": 159
+  }
+]

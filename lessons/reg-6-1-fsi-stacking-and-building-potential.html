@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regulation 6.1 & 6.3 FSI Stacking, Premium FSI & TDR Building Potential | UDCPR from Scratch</title>
+  <meta name="description" content="Master UDCPR Chapter 6 FSI stacking rules under Table 6-A (Congested) and Table 6-G (Non-Congested), 35% ASR premium rates, TDR caps, and Note (xiv) net plot calculations.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/blueprint.css">
+  <link rel="stylesheet" href="/css/components.css">
+</head>
+<body>
+
+  <!-- THE DRAWING SHEET CONTAINER -->
+  <div class="sheet">
+    <div class="ruler-top"></div>
+    <div class="corner-tick tl"></div>
+    <div class="corner-tick tr"></div>
+    <div class="corner-tick bl"></div>
+    <div class="corner-tick br"></div>
+
+    <!-- Statutory Disclaimer Strip -->
+    <div class="disclaimer-strip">
+      <strong>DISCLAIMER:</strong> Educational summary and reference guide only, not legal or municipal advice. Always verify with official Government Notifications and sanctioned Development Plans.
+    </div>
+
+    <!-- Sheet Navigation -->
+    <nav class="sheet-nav">
+      <a href="/" class="brand-block">
+        <span class="brand-stamp">UDCPR</span>
+        <div class="brand-title-group">
+          <h1>UDCPR from Scratch</h1>
+          <span>Drawing Sheet • Lesson Blueprint</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="/topics/">Topics</a></li>
+        <li class="nav-item"><a href="/chapters/ch06.html" class="active">Chapter 6: General Building Requirements - Setback, Marginal Distance, Height and Permissible FSI</a></li>
+        <li class="nav-item"><a href="/glossary.html">Glossary</a></li>
+        <li class="nav-item"><a href="/formulas.html">Formulas</a></li>
+        <li class="nav-item"><a href="/amendments.html">Amendments (#)</a></li>
+        <li class="nav-item"><a href="/govt-orders.html">Orders</a></li>
+      </ul>
+
+      <div class="nav-tools">
+        <button class="tool-btn" onclick="openSearchModal()">Search <kbd style="font-family:var(--mono);">Ctrl+K</kbd></button>
+      </div>
+    </nav>
+
+    <!-- Lesson Body -->
+    <main style="max-width: 960px; margin: 0 auto; padding-top: 10px;">
+
+      <!-- Breadcrumbs & Kicker Tags -->
+      <div class="kicker-muted" style="margin-bottom: 10px;">
+        <a href="/" style="color:var(--ink-soft); text-decoration:none;">HOME</a> / 
+        <a href="/chapters/ch06.html" style="color:var(--ink-soft); text-decoration:none;">CHAPTER 6: GENERAL BUILDING REQUIREMENTS - SETBACK, MARGINAL DISTANCE, HEIGHT AND PERMISSIBLE FSI</a> / 
+        <span style="color:var(--blueprint);">Regulation 6.1 & 6.3</span>
+      </div>
+
+      <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px; flex-wrap:wrap;">
+        <span class="badge badge-clause">Regulation 6.1 & 6.3</span>
+        <span class="badge badge-amended">Amended (#) UDCPR-2020 Tables 6-A & 6-G, amended dt. 14th Jan 2021, 08th Oct 2021, 02nd Dec 2021, and 12th Oct 2022</span>
+        <span class="badge badge-status-done">CORE STATUTORY SPECIFICATION</span>
+      </div>
+
+      <h1 style="font-size:2.2rem; margin-bottom:12px; line-height:1.2;">
+        FSI Stacking, Premium FSI & TDR Building Potential
+      </h1>
+
+      <p style="font-size:1.05rem; color:var(--ink-soft); line-height:1.6; margin-bottom:28px;">
+        Demystify the four-tiered FSI stacking pyramid of UDCPR: Basic FSI, Premium FSI at 35% ASR, Transferable Development Rights (TDR) loading caps, and Note (xiv) net-versus-gross area base rules.
+      </p>
+
+      <!-- 1. PLAIN LANGUAGE SUMMARY -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">01 // EXECUTIVE SUMMARY</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Plain-Language Executive Summary</h2>
+        <div class="panel-info">
+          
+      <p>
+        In Maharashtra under UDCPR-2020, total buildable potential on any plot is never a single arbitrary number. Instead, it is constructed through a rigid, statutory four-tier <strong>FSI Stacking Architecture</strong> governed primarily by <strong>Table 6-A</strong> for Congested (Core/Gaothan) areas and <strong>Table 6-G</strong> for Non-Congested (Outside Core) areas.
+      </p>
+      <p>
+        The base is <strong>Basic FSI</strong>, which is available by right without premium (1.10 in non-congested areas, 1.50 to 2.00 in congested areas). Above this base sits <strong>Premium FSI</strong>, purchased directly from the Planning Authority at strictly <strong>35% of the unguided Annual Statement of Rates (ASR)</strong> land value. Above premium FSI sits <strong>TDR Loading</strong>, requiring certificates procured from the market (with a statutory mandate under Note (v) that 30% to 50% must be Slum or Urban Renewal / Amenity TDR).
+      </p>
+      <p>
+        Crucially, under <strong>Note (xiv) to Table 6-G</strong> (clarified dt. 17th Sept 2021 and 2nd Dec 2021), Basic FSI is calculated strictly on the <em>net plot remaining</em> with the owner after deducting surrendered DP roads, reservations, and amenity space. In contrast, <em>Premium FSI and TDR potential</em> are calculated on the <strong>entire gross plot area</strong> prior to surrender!
+      </p>
+    
+        </div>
+      </section>
+
+      <!-- 2. THE STATUTORY RULE -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">02 // STATUTORY RULE</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Statutory Rule &amp; Clause Breakdown</h2>
+        <div class="panel-info" style="border-left-color: var(--blueprint);">
+          <div class="kicker" style="color:var(--blueprint); margin-bottom:6px;">UDCPR Regulation 6.1 & 6.3 STATUTORY PROVISION</div>
+          <p style="font-size:0.92rem; color:var(--ink); font-style:italic; line-height:1.6;">
+            "
+### 6.1.1 Regulations for Congested Area... Table No. 6-A
+| Sr. No. | Road width in meter | Basic FSI | For all Municipal Corporations & CIDCO NTDA | For remaining authorities / areas |
+| --- | --- | --- | --- | --- |
+| 1 | Below 9.0 m. | 1.50 | Premium: -- | TDR: -- | Max: 1.50 | Premium: -- | TDR: -- | Max: 1.50 |
+| 2 | 9.0 m. and below 18.0 m. | 2.00 | Premium: 0.30 | TDR: 0.30 | Max: 2.60 | Premium: 0.30 | TDR: 0.10 | Max: 2.40 |
+| 3 | 18.0 m. and below 30.0 m. | 2.00 | Premium: 0.30 | TDR: 0.50 | Max: 2.80 | Premium: 0.30 | TDR: 0.20 | Max: 2.50 |
+| 4 | 30.0 m. and above | 2.00 | Premium: 0.30 | TDR: 0.70 | Max: 3.00 | Premium: 0.30 | TDR: 0.20 | Max: 2.50 |
+
+### 6.3 PERMISSIBLE FSI (Non-Congested Area) Table 6-G
+| Sr. No. | Road width in meters | Basic FSI | For all Municipal Corporations & CIDCO NTDA | For remaining Authorities / Areas |
+| --- | --- | --- | --- | --- |
+| 1 | Below 9.0 m. | 1.10 | Premium: -- | TDR: -- | Max: 1.10 | Premium: -- | TDR: -- | Max: 1.10 |
+| 2 | 9.0 m. and above but below 12.0 m. | 1.10 | Premium: 0.50 | TDR: 0.40 | Max: 2.00 | Premium: 0.30 | TDR: 0.30 | Max: 1.70 |
+| 3 | 12.0 m. and above but below 15.0 m. | 1.10 | Premium: 0.50 | TDR: 0.65 | Max: 2.25 | Premium: 0.30 | TDR: 0.60 | Max: 2.00 |
+| 4 | 15.0 m. and above but below 24.0 m. | 1.10 | Premium: 0.50 | TDR: 0.90 | Max: 2.50 | Premium: 0.30 | TDR: 0.70 | Max: 2.10 |
+| 5 | 24.0 m. and above but below 30.0 m. | 1.10 | Premium: 0.50 | TDR: 1.15 | Max: 2.75 | Premium: 0.30 | TDR: 0.90 | Max: 2.30 |
+| 6 | 30.0 m. and above | 1.10 | Premium: 0.50 | TDR: 1.40 | Max: 3.00 | Premium: 0.30 | TDR: 1.10 | Max: 2.50 |
+
+Note viii) Premium - Rate of premium for the premium F.S.I., as mentioned in Column No. 4 and 7 above shall be 35% of the rate of the said land mentioned in Annual Statement of Rates without considering the guidelines therein.
+Note xiv) Entire area of plot may be considered for calculating the potential of plot in respect of premium FSI + TDR, but not the basic FSI. Basic FSI shall be calculated on area of the plot remaining with the owner after deducting area under D.P. road / road widening / reservations and amenity space.
+    "
+          </p>
+        </div>
+        
+      <div class="card-grid">
+        <div class="card">
+          <span class="kicker-card">TIER 1 • BASE</span>
+          <h3 class="card-title">Basic FSI Entitlement</h3>
+          <p class="card-body">
+            Basic FSI is free of premium. In non-congested areas, it is universally <strong>1.10</strong> across all road widths (Table 6-G Col 3). In congested gaothan areas, it is <strong>1.50</strong> on roads &lt; 9.0m, jumping to <strong>2.00</strong> on roads &ge; 9.0m (Table 6-A Col 3). Computed strictly on the <em>net remaining plot</em> after DP road and amenity surrender.
+          </p>
+        </div>
+
+        <div class="card">
+          <span class="kicker-card">TIER 2 • PAID LEVY</span>
+          <h3 class="card-title">Premium FSI @ 35% ASR</h3>
+          <p class="card-body">
+            Permissible on roads &ge; 9.0m. In Municipal Corporations and CIDCO NTDA, premium FSI is a flat <strong>0.50</strong> for all roads &ge; 9.0m. In Municipal Councils and RP areas, it is capped at <strong>0.30</strong>. Purchased directly from the local authority at strictly <strong>35% of unguided ASR land rate</strong>.
+          </p>
+        </div>
+
+        <div class="card">
+          <span class="kicker-card">TIER 3 • MARKET TDR</span>
+          <h3 class="card-title">TDR Loading & Slum Quota</h3>
+          <p class="card-body">
+            Scales progressively with road width: from <strong>0.40</strong> on 9.0m roads up to <strong>1.40</strong> on &ge; 30.0m roads in Corporations. Note (v) mandates that <strong>minimum 30% and maximum 50%</strong> of loaded TDR must be Slum TDR or Urban Renewal / Amenity TDR. TDR is not permitted where no Planning Authority exists.
+          </p>
+        </div>
+
+        <div class="card">
+          <span class="kicker-card">SPECIAL CONDITIONS</span>
+          <h3 class="card-title">Access & Regularization Rules</h3>
+          <p class="card-body">
+            <strong>Point Access (Note xii):</strong> Full potential is permissible on dead-end roads only if length does not exceed <strong>100 m</strong>.<br>
+            <strong>Gunthewari Plots (Note xi):</strong> Regularized plots get full Basic/Premium FSI, but TDR loading is strictly reduced to <strong>50%</strong>.<br>
+            <strong>Subdivided plots &le; 0.4 Ha (Note ix):</strong> Basic & Premium are 75%, TDR is 50%.
+          </p>
+        </div>
+      </div>
+    
+      </section>
+
+      <!-- 3. BLUEPRINT PLATE / KEY NUMBERS TABLE -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">03 // SPECIFICATION &amp; DATA PLATE</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Blueprint Plate &amp; Key Numbers Table</h2>
+        
+      <div class="table-container">
+        <table class="drawing-table">
+          <thead>
+            <tr>
+              <th rowspan="2">Road Width (m)</th>
+              <th rowspan="2">Basic FSI</th>
+              <th colspan="3" style="text-align:center;">Municipal Corporations & CIDCO NTDA</th>
+              <th colspan="3" style="text-align:center;">Municipal Councils, NPs & RP Areas</th>
+            </tr>
+            <tr>
+              <th>Prem. FSI</th>
+              <th>TDR Cap</th>
+              <th>Max Potential</th>
+              <th>Prem. FSI</th>
+              <th>TDR Cap</th>
+              <th>Max Potential</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Below 9.0 m</strong></td>
+              <td>1.10</td>
+              <td>--</td>
+              <td>--</td>
+              <td><strong>1.10</strong></td>
+              <td>--</td>
+              <td>--</td>
+              <td><strong>1.10</strong></td>
+            </tr>
+            <tr>
+              <td><strong>9.0 m to &lt; 12.0 m</strong></td>
+              <td>1.10</td>
+              <td>0.50</td>
+              <td>0.40</td>
+              <td><strong>2.00</strong></td>
+              <td>0.30</td>
+              <td>0.30</td>
+              <td><strong>1.70</strong></td>
+            </tr>
+            <tr>
+              <td><strong>12.0 m to &lt; 15.0 m</strong></td>
+              <td>1.10</td>
+              <td>0.50</td>
+              <td>0.65</td>
+              <td><strong>2.25</strong></td>
+              <td>0.30</td>
+              <td>0.60</td>
+              <td><strong>2.00</strong></td>
+            </tr>
+            <tr>
+              <td><strong>15.0 m to &lt; 24.0 m</strong></td>
+              <td>1.10</td>
+              <td>0.50</td>
+              <td>0.90</td>
+              <td><strong>2.50</strong></td>
+              <td>0.30</td>
+              <td>0.70</td>
+              <td><strong>2.10</strong></td>
+            </tr>
+            <tr>
+              <td><strong>24.0 m to &lt; 30.0 m</strong></td>
+              <td>1.10</td>
+              <td>0.50</td>
+              <td>1.15</td>
+              <td><strong>2.75</strong></td>
+              <td>0.30</td>
+              <td>0.90</td>
+              <td><strong>2.30</strong></td>
+            </tr>
+            <tr>
+              <td><strong>30.0 m and above</strong></td>
+              <td>1.10</td>
+              <td>0.50</td>
+              <td>1.40</td>
+              <td><strong>3.00</strong></td>
+              <td>0.30</td>
+              <td>1.10</td>
+              <td><strong>2.50</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft); margin-top:8px;">
+        * Note: Inclusive Housing FSI under Reg 3.8 and Ancillary Area FSI under Reg 6.3 Note (i) are over and above the Maximum Building Potential listed above.
+      </div>
+    
+      </section>
+
+      <!-- 4. WORKED NUMERICAL EXAMPLE -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker" style="color:var(--amber);">04 // WORKED PRACTICAL EXAMPLE</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Worked Practical Calculation</h2>
+        <div class="panel-example">
+          
+      <div class="math-box">
+        <h4 style="font-family:var(--disp); font-weight:700; margin-bottom:12px; color:var(--ink);">
+          Worked Case: Building Potential Computation under Table 6-G & Note (xiv)
+        </h4>
+        <p><strong>Site Parameters:</strong></p>
+        <ul>
+          <li>Gross Plot Area = <strong>2,000 sq.m</strong> in a Municipal Corporation area.</li>
+          <li>Fronting Road Width = <strong>18.0 meters</strong> (falls in 15.0m to &lt; 24.0m tier).</li>
+          <li>Area surrendered to Corporation for 18.0m DP road widening = <strong>200 sq.m</strong>.</li>
+          <li>ASR Land Rate for the parcel = <strong>Rs 25,000 / sq.m</strong>.</li>
+        </ul>
+
+        <div style="margin: 16px 0; border-left: 3px solid var(--blueprint); padding-left: 14px;">
+          <p><strong>Step 1: Net Plot vs Gross Plot Allocation (Note xiv)</strong></p>
+          <p>Net Retained Plot Area = $2,000 - 200 = \mathbf{1,800\text{ sq.m}}$.</p>
+          <p>Basic FSI is calculated strictly on the <em>net remaining plot</em>:
+            $$\text{Basic BUA} = 1,800\text{ sq.m} \times 1.10 = \mathbf{1,980\text{ sq.m}}$$
+          </p>
+        </div>
+
+        <div style="margin: 16px 0; border-left: 3px solid var(--amber); padding-left: 14px;">
+          <p><strong>Step 2: Premium FSI on Gross Area (Table 6-G, Col 4 & Note xiv)</strong></p>
+          <p>Under Note (xiv), Premium FSI potential applies to the <em>gross plot area</em>:
+            $$\text{Permissible Premium FSI} = 0.50$$
+            $$\text{Premium BUA} = 2,000\text{ sq.m} \times 0.50 = \mathbf{1,000\text{ sq.m}}$$
+            $$\text{Cost of Premium FSI} = 1,000\text{ sq.m} \times (0.35 \times \text{Rs } 25,000) = \mathbf{\text{Rs } 8,750,000}$$
+          </p>
+        </div>
+
+        <div style="margin: 16px 0; border-left: 3px solid var(--blueprint-soft); padding-left: 14px;">
+          <p><strong>Step 3: TDR Loading Capacity (Table 6-G, Col 5 & Note xiv)</strong></p>
+          <p>TDR potential applies to the gross plot area:
+            $$\text{Permissible TDR Factor} = 0.90$$
+            $$\text{Maximum TDR BUA} = 2,000\text{ sq.m} \times 0.90 = \mathbf{1,800\text{ sq.m}}$$
+          </p>
+          <p>Under Note (v), mandatory Slum / Urban Renewal TDR quota (30% to 50%):
+            $$\text{Mandatory Slum TDR (min 30%)} = 1,800 \times 0.30 = \mathbf{540\text{ sq.m}}$$
+            $$\text{General / Reserved TDR (balance 70%)} = 1,800 \times 0.70 = \mathbf{1,260\text{ sq.m}}$$
+          </p>
+        </div>
+
+        <div style="margin: 16px 0; border-top: 1px solid var(--line-strong); padding-top: 12px; background:var(--paper-raised); padding:12px;">
+          <p><strong>Total Statutory Built-Up Potential (Before Ancillary FSI):</strong></p>
+          <p>Total BUA = $1,980\text{ (Basic)} + 1,000\text{ (Premium)} + 1,800\text{ (TDR)} = \mathbf{4,780\text{ sq.m}}$.</p>
+          <p>Effective FSI on net retained plot = $4,780 / 1,800 = \mathbf{2.655}$. (Notice how Note (xiv) gross loading elevates the effective potential on the remaining parcel!)</p>
+        </div>
+      </div>
+    
+        </div>
+      </section>
+
+      <!-- 5. COMMON PITFALLS & SITE WATCHOUTS -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker" style="color:var(--brick);">05 // SCRUTINY WATCHOUTS</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Common Pitfalls &amp; Sanction Watchouts</h2>
+        <div class="panel-alert">
+          <div style="display:flex; flex-direction:column; gap:12px;">
+            
+      <div class="panel-alert">
+        <h4 style="font-family:var(--disp); font-weight:700; color:var(--brick); margin-bottom:8px;">
+          CRITICAL STATUTORY COMPLIANCE PITFALLS: REGULATION 6.1 & 6.3
+        </h4>
+        <ul style="margin-left: 18px; line-height: 1.6;">
+          <li>
+            <strong>Miscalculating Note (xiv) Base Areas:</strong> Applying the Basic FSI of 1.10 to the gross plot area prior to DP road surrender is illegal and will be rejected during scrutiny. Basic FSI is <em>only</em> on the net plot retained.
+          </li>
+          <li>
+            <strong>Ignoring the 100m Point Access Limit (Note xii):</strong> If your plot accesses a wide public road via a private or dead-end approach less than the required table width, full Table 6-G potential is allowed <em>only if</em> the length of that point access does not exceed 100 meters. Exceeding 100m demotes the building potential to the width of the approach road itself!
+          </li>
+          <li>
+            <strong>Violating the Slum TDR Sub-Quota (Note v):</strong> Attempting to load 100% General or Agricultural Reservation TDR without procuring the mandatory 30% to 50% Slum / Urban Renewal TDR will block final Occupancy Certificate issuance.
+          </li>
+          <li>
+            <strong>Assuming Roads &lt; 9.0m Allow TDR or Premium:</strong> Under both Table 6-A and Table 6-G, road widths below 9.0m have strictly <strong>nil</strong> Premium FSI and <strong>nil</strong> TDR loading. The plot is strictly locked to Basic FSI (1.10 or 1.50).
+          </li>
+        </ul>
+      </div>
+    
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. AMENDMENT / CLARIFICATION HISTORY -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">06 // AMENDMENT HISTORY</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Amendment &amp; Clarification History (#)</h2>
+        <div class="panel-info">
+          
+      <div class="panel-info">
+        <h4 style="font-family:var(--disp); font-weight:700; margin-bottom:8px;">Statutory Evolution & Government Orders</h4>
+        <ul style="font-size:0.92rem; line-height:1.6; margin-left:18px;">
+          <li><strong>Addendum CR 236/18 (dt. 14 Jan 2021):</strong> Clarified non-applicability of ancillary FSI to SRA rehabilitation component.</li>
+          <li><strong>Letter Clarification CR 236/18 Part-2 (dt. 17 Sept 2021):</strong> Confirmed Note (xiv) allowing entire gross plot area for Premium FSI + TDR calculation, preserving net plot restriction for Basic FSI.</li>
+          <li><strong>Addendum CR 236/18 Part-1 (dt. 08 Oct 2021):</strong> Added flexibility for Planning Authorities to mandate equal-proportionate consumption of Premium FSI and TDR via reasoned speaking orders.</li>
+          <li><strong>Corrigendum CR 121/21 (dt. 02 Dec 2021):</strong> Formalized inclusion of Urban Renewal Project (URP) and Amenity construction TDR under the 30%–50% mandatory tranche in Note (v).</li>
+          <li><strong>Notification CR 236/18 Part-6 (dt. 12 Oct 2022):</strong> Formally extended the Municipal Corporation FSI columns in Tables 6-A and 6-G to CIDCO acting as Planning Authority (NTDA).</li>
+        </ul>
+      </div>
+    
+        </div>
+      </section>
+
+      <!-- 7. INTERACTIVE QUIZ -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">07 // VERIFICATION QUIZ</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Quick Quiz: Check Your Understanding</h2>
+        <div class="quiz-container" id="quiz-6-1"></div>
+      </section>
+
+      <!-- Back / Next Navigation (Bordered Button Group) -->
+      <div style="display:flex; justify-content:space-between; align-items:center; border-top:1px solid var(--ink); padding-top:20px; margin-top:36px; flex-wrap:wrap; gap:12px;">
+        <a href="/lessons/reg-5-4-special-regional-plans.html" class="tool-btn" style="padding:8px 16px; text-decoration:none;">
+          ← Reg 5.4 to 5.12: Special Regional Plans & Eco-Sensitive Buffers
+        </a>
+        <a href="/lessons/reg-6-3-ancillary-area-fsi.html" class="tool-btn" style="background:var(--ink); color:var(--paper-raised); padding:8px 16px; text-decoration:none;">
+          Reg 6.3: Ancillary Area FSI (60% Res / 80% Non-Res) →
+        </a>
+      </div>
+
+    </main>
+
+    <!-- Sheet Footer -->
+    <footer class="sheet-footer">
+      <div>UDCPR FROM SCRATCH • MAHARASHTRA UNIFIED DCRP-2020</div>
+      <div>REG. Regulation 6.1 & 6.3 • DRAWING SHEET SYSTEM</div>
+    </footer>
+  </div>
+
+  <!-- Universal Search Modal -->
+  <div class="search-modal-backdrop" id="search-modal-backdrop" onclick="if(event.target === this) closeSearchModal()">
+    <div class="search-modal">
+      <div class="search-modal-header">
+        <span style="font-family:var(--mono); font-size:13px; font-weight:700;">SEARCH //</span>
+        <input type="text" id="search-modal-input" class="search-modal-input" placeholder="Type clause (e.g. 3.4.1), term (e.g. FSI), or keyword..." autocomplete="off">
+        <button onclick="closeSearchModal()" class="tool-btn" style="padding:2px 8px;">ESC</button>
+      </div>
+      <ul class="search-results-list" id="search-results-list"></ul>
+    </div>
+  </div>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/search.js"></script>
+  <script src="/js/quiz.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const questions = [{"question": "Under Table 6-G (Non-Congested Area), what is the Maximum Building Potential (Basic + Premium + TDR) for a plot on a 15.0m road in a Municipal Corporation?", "options": ["2.00", "2.25", "2.50", "3.00"], "answer": 2, "explanation": "Under Table 6-G Sr. No. 4 (15.0m to < 24.0m road in Municipal Corporation), Basic FSI is 1.10, Premium FSI is 0.50, and TDR cap is 0.90, making total building potential exactly 2.50."}, {"question": "How is the purchase price for Premium FSI calculated under UDCPR Regulation 6.3 Note (viii)?", "options": ["50% of the ASR land rate including all guidelines", "35% of the ASR land rate without considering guidelines", "20% of the ready reckoner rate for construction", "100% of the land valuation decided by District Collector"], "answer": 1, "explanation": "Note (viii) explicitly mandates that the rate of premium shall be 35% of the land rate in the Annual Statement of Rates (ASR) without considering guidelines therein."}, {"question": "Under Note (xiv) below Table 6-G, which FSI component must be calculated strictly on the NET remaining plot after DP road surrender?", "options": ["Transferable Development Rights (TDR)", "Premium FSI", "Basic FSI", "All components must use the net plot"], "answer": 2, "explanation": "Note (xiv) clarifies that entire gross plot area may be considered for calculating Premium FSI + TDR potential, but Basic FSI must be calculated strictly on the net plot remaining after deducting surrendered DP road / amenity / reservation areas."}, {"question": "What is the statutory sub-quota for Slum / Urban Renewal TDR under Table 6-G Note (v)?", "options": ["Minimum 10% and maximum 25%", "Minimum 30% and maximum 50%", "Exactly 50% in all cases", "100% must be Slum TDR"], "answer": 1, "explanation": "Note (v) mandates that out of the quantum of TDR utilized, a minimum of 30% and maximum of 50% shall be utilized from Slum TDR or Urban Renewal / Amenity TDR."}];
+      initQuiz('quiz-6-1', questions, '6.1');
+    });
+  </script>
+</body>
+</html>

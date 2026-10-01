@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 9: Requirements of Parts of Buildings | UDCPR from Scratch</title>
+  <meta name="description" content="Chapter 9 of UDCPR-2020: Room heights, sanitary dimensions, lofts, 50% mezzanines, basements (free vs counted FSI), ramps, ventilation shafts (Table 9-C), travel distances (Table 9-D), occupant loads (Table 9-E), staircase widths (Table 9-G), refuge areas (>24m), and >70m fire evacuation towers.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/blueprint.css">
+  <link rel="stylesheet" href="/css/components.css">
+</head>
+<body>
+
+  <!-- THE DRAWING SHEET CONTAINER -->
+  <div class="sheet">
+    <div class="ruler-top"></div>
+    <div class="corner-tick tl"></div>
+    <div class="corner-tick tr"></div>
+    <div class="corner-tick bl"></div>
+    <div class="corner-tick br"></div>
+
+    <!-- Statutory Disclaimer Strip -->
+    <div class="disclaimer-strip">
+      <strong>DISCLAIMER:</strong> Educational reference and statutory curriculum guide. Always verify with official Urban Development Department gazettes, municipal Chief Fire Officers (CFO), and Part IV of NBC-2016.
+    </div>
+
+    <!-- Sheet Navigation -->
+    <nav class="sheet-nav">
+      <a href="/" class="brand-block">
+        <span class="brand-stamp">UDCPR</span>
+        <div class="brand-title-group">
+          <h1>UDCPR from Scratch</h1>
+          <span>Chapter 9 Syllabus • Drawing Sheet</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="/topics/">Topics</a></li>
+        <li class="nav-item"><a href="/chapters/" class="active">Chapters</a></li>
+        <li class="nav-item"><a href="/glossary.html">Glossary</a></li>
+        <li class="nav-item"><a href="/formulas.html">Formulas</a></li>
+        <li class="nav-item"><a href="/amendments.html">Amendments (#)</a></li>
+        <li class="nav-item"><a href="/govt-orders.html">Orders</a></li>
+      </ul>
+
+      <div class="nav-tools">
+        <button class="tool-btn" onclick="openSearchModal()">Search <kbd style="font-family:var(--mono);">Ctrl+K</kbd></button>
+      </div>
+    </nav>
+
+    <!-- Header Title Block -->
+    <header class="title-block">
+      <div>
+        <div class="kicker">CHAPTER 9 • L6172 - L6974 // PARTS OF BUILDINGS &amp; LIFE-SAFETY</div>
+        <h1 style="font-size: 2.2rem; margin-bottom: 8px;">
+          Chapter 9: Requirements of Parts of Buildings
+        </h1>
+        <p style="color: var(--ink-soft); max-width: 760px; font-size: 1.02rem; line-height: 1.6;">
+          Master internal spatial dimensions, vertical headrooms, and life-safety evacuation architecture across Maharashtra: Table 9-A room heights, bathroom/WC sizes, 50% mezzanines, basement FSI rules, vehicular ramps (1:8), Table 9-C ventilation shafts, Table 9-D travel distances, Table 9-E occupant loads, Table 9-G staircase widths, high-rise refuge areas (&gt;24m), and &gt;70m fire evacuation towers.
+        </p>
+      </div>
+
+      <div style="border:1px solid var(--ink); background:var(--paper); padding:16px; display:flex; flex-direction:column; justify-content:center;">
+        <span class="kicker-muted">CURRICULUM STATUS</span>
+        <div style="font-family:var(--disp); font-size:2.2rem; font-weight:700; color:var(--blueprint); line-height:1;">100%</div>
+        <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft); margin-top:6px;">
+          5 Finished Lessons Active
+        </div>
+      </div>
+    </header>
+
+    <main style="margin-top: 28px;">
+
+      <!-- Chapter Summary Panel -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">STATUTORY HIGHLIGHTS</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Key Chapter Takeaways</h2>
+        <div class="panel-info">
+          <ul style="padding-left:20px; display:flex; flex-direction:column; gap:8px; font-size:0.92rem; color:var(--ink-soft);">
+            <li><strong>Plinth Elevation &amp; Flood Protections (Reg 9.1):</strong> Minimum $30\text{ cm}$ plinth above ground level; elevated to $\ge 45\text{ cm}$ above High Flood Level (HFL) in flood zones; $15\text{ cm}$ for covered garages.</li>
+            <li><strong>Habitable Room Heights (Table 9-A):</strong> Standard flat-roof rooms require $\ge 2.75\text{ m}$ ($2.40\text{ m}$ if AC; beam soffit minimum $\ge 2.40\text{ m}$). Commercial shops, offices, and assembly halls require $\ge 3.00\text{ m}$ (up to $6.00\text{ m}+$ without FSI penalty).</li>
+            <li><strong>Sanitary Minimums &amp; Heights (Reg 9.4):</strong> Bath: $1.00\text{m} \times 1.20\text{m}$; WC: $0.90\text{m} \times 0.90\text{m}$; Combined: $1.50\text{ sq.m}$ (min width $1.00\text{ m}$). Clear height $\ge 2.10\text{ m}$. Window $\ge 0.30\text{ sq.m}$.</li>
+            <li><strong>Lofts vs Mezzanines (Reg 9.5 &amp; 9.7):</strong> Lofts ($2.10\text{ m}$ headroom below, max $1.50\text{ m}$ height) allow 25% coverage in habitable rooms and 100% over toilets (free of FSI). Mezzanine floors are capped at <strong>50% of room carpet area</strong>, mandate $2.10\text{ m}$ headroom below, must be set back $1.80\text{ m}$ from front wall, and are <strong>strictly counted in FSI</strong>.</li>
+            <li><strong>Basement Free vs Counted FSI (Reg 9.11):</strong> Parking, AC machinery, DG sets, substations, ETPs, and Data Center storage are <strong>100% Free of FSI</strong>. First-basement mall retail, bank vaults, mortuaries, and tenant storage are <strong>Counted in FSI</strong>. Ground-flushed basements can extend to within $1.50\text{ m}$ of plot boundaries.</li>
+            <li><strong>Vehicular Ramps &amp; Car Lifts (Reg 9.12):</strong> Maximum vehicular slope is <strong>1 in 8</strong>. Requires two $3.00\text{ m}$ ramps or one $6.00\text{ m}$ ramp. Plots $\le 1,000\text{ sq.m}$ or $\le 2,000\text{ sq.m}$ may deploy <strong>2 Car Lifts</strong> in lieu of ramps.</li>
+            <li><strong>Table 9-C Ventilation Shafts:</strong> Toilet shafts scale with building height: $1.20\text{ sq.m}$ ($\le 10\text{m}$) up to $9.00\text{ sq.m}$ with min dimension $3.00\text{ m}$ for towers $>30\text{m}$ (where <strong>mechanical exhaust blowers are compulsory</strong>).</li>
+            <li><strong>Table 9-D Travel Distances &amp; Sprinklers:</strong> Maximum travel distance is $22.50\text{ m}$ for residential/schools and $30.00\text{ m}$ for commercial. <strong>+50% bonus for 100% sprinklered buildings</strong> ($33.75\text{ m}$ and $45.00\text{ m}$).</li>
+            <li><strong>Refuge Areas Above 24.0 Metres (Reg 9.29.6):</strong> Compulsory for towers $>24\text{ m}$. Minimum $15\text{ sq.m}$ or $0.3\text{ sq.m/person}$ for 2 consecutive floors. Stacking: 1st above $24\text{m}$, 2nd above $39\text{m}$, and every $15\text{m}$ thereafter (100% free of FSI).</li>
+            <li><strong>Mega-Towers Above 70.0 Metres (Reg 9.29.9):</strong> Compulsory 4-hour fire chute shafts ($2.5\text{m} \times 1.5\text{m}$) or external Fire Evacuation Towers with a pressurized smoke lobby raised <strong>75 mm step-up</strong> to prevent firefighting water ingress.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Chapter 9 Lessons List -->
+      <section style="margin-bottom:36px;">
+        <span class="kicker">CURRICULUM LESSONS</span>
+        <h2 style="font-size:1.25rem; margin-bottom:16px;">Chapter 9 Blueprint Lessons</h2>
+
+        <div style="display:flex; flex-direction:column; gap:16px;">
+
+          <!-- Lesson 9.1 -->
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--blueprint); padding:20px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <div>
+                <span class="badge badge-clause" style="margin-right:6px;">Reg. 9.1 to 9.8</span>
+                <span class="badge badge-amended">Table 9-A &amp; 9-B</span>
+              </div>
+              <span class="badge badge-status-done">ACTIVE LESSON</span>
+            </div>
+            <h3 style="font-family:var(--disp); font-size:1.2rem; font-weight:700; color:var(--ink); margin-bottom:6px;">
+              Plinth Standards, Room Heights, Sanitary Sizes &amp; Mezzanines
+            </h3>
+            <p style="font-size:0.9rem; color:var(--ink-soft); margin-bottom:14px; line-height:1.5;">
+              Finished plinth levels (30cm / 45cm flood), Table 9-A room heights (2.75m flat roof, 2.40m beam soffit, 3.00m commercial), bathroom and WC footprints, Table 9-B loft coverage, 0.60m cupboards, and 50% mezzanine carpet area rules.
+            </p>
+            <a href="/lessons/reg-9-1-room-dimensions-and-height-clearances.html" class="tool-btn" style="text-decoration:none; display:inline-block;">
+              Open Lesson &amp; Quiz →
+            </a>
+          </div>
+
+          <!-- Lesson 9.2 -->
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--blueprint); padding:20px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <div>
+                <span class="badge badge-clause" style="margin-right:6px;">Reg. 9.11, 9.12, 9.13 &amp; 9.16</span>
+                <span class="badge badge-amended">CR.79/2021</span>
+              </div>
+              <span class="badge badge-status-done">ACTIVE LESSON</span>
+            </div>
+            <h3 style="font-family:var(--disp); font-size:1.2rem; font-weight:700; color:var(--ink); margin-bottom:6px;">
+              Basements, Podiums, Vehicular Ramps &amp; Stilt Clearances
+            </h3>
+            <p style="font-size:0.9rem; color:var(--ink-soft); margin-bottom:14px; line-height:1.5;">
+              Basement FSI exemptions vs counted retail, 1.50m boundary flush extensions, vehicular ramp slopes (max 1:8), paired 3.0m / single 6.0m ramps, small plot car lift options, podium fire engine ratings, and 2.4m/4.5m stilt heights.
+            </p>
+            <a href="/lessons/reg-9-11-basements-podiums-and-vehicular-ramps.html" class="tool-btn" style="text-decoration:none; display:inline-block;">
+              Open Lesson &amp; Quiz →
+            </a>
+          </div>
+
+          <!-- Lesson 9.3 -->
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--blueprint); padding:20px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <div>
+                <span class="badge badge-clause" style="margin-right:6px;">Reg. 9.14 &amp; 9.20 to 9.26</span>
+                <span class="badge badge-amended">Table 9-C</span>
+              </div>
+              <span class="badge badge-status-done">ACTIVE LESSON</span>
+            </div>
+            <h3 style="font-family:var(--disp); font-size:1.2rem; font-weight:700; color:var(--ink); margin-bottom:6px;">
+              Light, Ventilation, Shafts, Balconies &amp; Boundary Walls
+            </h3>
+            <p style="font-size:0.9rem; color:var(--ink-soft); margin-bottom:14px; line-height:1.5;">
+              The 1/10th floor area window opening rule, 7.50m daylighting depth limit, Table 9-C ventilation shaft geometry (1.2 to 9.0 sq.m), balcony depths and fire margin buffers, 1.0-1.2m parapets, and compound wall heights with corner vision splays.
+            </p>
+            <a href="/lessons/reg-9-20-lighting-ventilation-and-shafts.html" class="tool-btn" style="text-decoration:none; display:inline-block;">
+              Open Lesson &amp; Quiz →
+            </a>
+          </div>
+
+          <!-- Lesson 9.4 -->
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--amber); padding:20px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <div>
+                <span class="badge badge-clause" style="margin-right:6px;">Reg. 9.27 &amp; 9.28</span>
+                <span class="badge badge-amended">Tables 9-D to 9-G</span>
+              </div>
+              <span class="badge badge-status-done">EVACUATION CORE</span>
+            </div>
+            <h3 style="font-family:var(--disp); font-size:1.2rem; font-weight:700; color:var(--ink); margin-bottom:6px;">
+              Exit Requirements, Staircase Widths, Occupant Loads &amp; Travel Distances
+            </h3>
+            <p style="font-size:0.9rem; color:var(--ink-soft); margin-bottom:14px; line-height:1.5;">
+              Passenger lift thresholds (&gt;15m, &gt;24m, senior housing), Table 9-D travel distances (22.5m/30m + 50% sprinkler bonus), Table 9-E occupant load population factors, Table 9-F unit exit capacities (50cm), and Table 9-G staircase widths.
+            </p>
+            <a href="/lessons/reg-9-28-exit-requirements-and-staircases.html" class="tool-btn" style="text-decoration:none; display:inline-block; background:var(--ink); color:var(--paper-raised);">
+              Launch Lesson Plate &amp; Quiz →
+            </a>
+          </div>
+
+          <!-- Lesson 9.5 -->
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--blueprint); padding:20px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <div>
+                <span class="badge badge-clause" style="margin-right:6px;">Reg. 9.29 to 9.33</span>
+                <span class="badge badge-amended">CR.236/18</span>
+              </div>
+              <span class="badge badge-status-done">ACTIVE LESSON</span>
+            </div>
+            <h3 style="font-family:var(--disp); font-size:1.2rem; font-weight:700; color:var(--ink); margin-bottom:6px;">
+              Refuge Areas, High-Rise Fire Towers, Chutes &amp; Society Amenities
+            </h3>
+            <p style="font-size:0.9rem; color:var(--ink-soft); margin-bottom:14px; line-height:1.5;">
+              Staircase treads and risers, high-rise Refuge Areas (&gt;24m, stacked every 15m thereafter, 15 sq.m / 0.3 sqm/person), &gt;70m evacuation towers with 75mm water ingress barriers, 1.80m technical service floors, and mandatory housing scheme amenities (Reg 9.31).
+            </p>
+            <a href="/lessons/reg-9-29-refuge-areas-fire-towers-and-amenities.html" class="tool-btn" style="text-decoration:none; display:inline-block;">
+              Open Lesson &amp; Quiz →
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Sheet Footer -->
+    <footer class="sheet-footer">
+      <div>UDCPR FROM SCRATCH • CHAPTER 9: REQUIREMENTS OF PARTS OF BUILDINGS</div>
+      <div>DRAWING SHEET SYSTEM • MAHARASHTRA STATE</div>
+    </footer>
+  </div>
+
+  <!-- Universal Search Modal -->
+  <div class="search-modal-backdrop" id="search-modal-backdrop" onclick="if(event.target === this) closeSearchModal()">
+    <div class="search-modal">
+      <div class="search-modal-header">
+        <span style="font-family:var(--mono); font-size:13px; font-weight:700;">SEARCH //</span>
+        <input type="text" id="search-modal-input" class="search-modal-input" placeholder="Search Chapter 9..." autocomplete="off">
+        <button onclick="closeSearchModal()" class="tool-btn" style="padding:2px 8px;">ESC</button>
+      </div>
+      <ul class="search-results-list" id="search-results-list"></ul>
+    </div>
+  </div>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/search.js"></script>
+</body>
+</html>

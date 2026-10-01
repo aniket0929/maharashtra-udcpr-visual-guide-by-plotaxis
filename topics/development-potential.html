@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Development Potential &amp; FSI Calculation | UDCPR from Scratch</title>
+  <meta name="description" content="Calculate maximum permissible FSI in Maharashtra under UDCPR Regulation 6.3 and Table 6-A. Basic FSI, Premium FSI at 35% ASR, and TDR loading caps.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/blueprint.css">
+  <link rel="stylesheet" href="/css/components.css">
+</head>
+<body>
+
+  <!-- THE DRAWING SHEET CONTAINER -->
+  <div class="sheet">
+    <div class="ruler-top"></div>
+    <div class="corner-tick tl"></div>
+    <div class="corner-tick tr"></div>
+    <div class="corner-tick bl"></div>
+    <div class="corner-tick br"></div>
+
+    <!-- Statutory Disclaimer Strip -->
+    <div class="disclaimer-strip">
+      <strong>DISCLAIMER:</strong> Educational summary and reference guide. Always verify with official Municipal Corporation building sanction guidelines and local reservation schedules.
+    </div>
+
+    <!-- Sheet Navigation -->
+    <nav class="sheet-nav">
+      <a href="/" class="brand-block">
+        <span class="brand-stamp">UDCPR</span>
+        <div class="brand-title-group">
+          <h1>UDCPR from Scratch</h1>
+          <span>Topic Workbench • Drawing Sheet</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="/topics/" class="active">Topics</a></li>
+        <li class="nav-item"><a href="/chapters/">Chapters</a></li>
+        <li class="nav-item"><a href="/glossary.html">Glossary</a></li>
+        <li class="nav-item"><a href="/formulas.html">Formulas</a></li>
+        <li class="nav-item"><a href="/amendments.html">Amendments (#)</a></li>
+        <li class="nav-item"><a href="/govt-orders.html">Orders</a></li>
+      </ul>
+
+      <div class="nav-tools">
+        <button class="tool-btn" onclick="openSearchModal()">Search <kbd style="font-family:var(--mono);">Ctrl+K</kbd></button>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main style="max-width: 960px; margin: 0 auto; padding-top: 10px;">
+
+      <!-- Breadcrumbs & Kicker -->
+      <div class="kicker-muted" style="margin-bottom: 10px;">
+        <a href="/" style="color:var(--ink-soft); text-decoration:none;">HOME</a> / 
+        <a href="/topics/" style="color:var(--ink-soft); text-decoration:none;">TOPICS</a> / 
+        <span style="color:var(--blueprint);">DEVELOPMENT POTENTIAL &amp; FSI</span>
+      </div>
+
+      <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px; flex-wrap:wrap;">
+        <span class="badge badge-clause">Reg. 6.3 &amp; Table 6-A</span>
+        <span class="badge badge-status-done">Core Workbench</span>
+      </div>
+
+      <h1 style="font-size:2.2rem; margin-bottom:12px; line-height:1.2;">
+        Mastering Development Potential &amp; FSI Computation
+      </h1>
+
+      <p style="font-size:1.05rem; color:var(--ink-soft); line-height:1.6; margin-bottom:28px;">
+        How to determine the maximum permissible built-up area for any plot in Maharashtra. Understand the four stacking layers of building potential under Regulation 6.3: Basic FSI, Premium FSI, TDR Loading, and Ancillary FSI.
+      </p>
+
+      <!-- SECTION 1: THE FOUR-TIER FSI EQUATION -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">01 // MECHANISM</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">The Four Stacking Layers of Potential</h2>
+        <div class="panel-info">
+          <p style="margin-bottom:14px;">
+            Unlike older municipal by-laws with a single flat FSI number, UDCPR uses an <strong>additive stacking system</strong> where road width governs how high your building potential can climb:
+          </p>
+
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:12px; margin-bottom:16px;">
+            <div style="background:var(--paper); border:1px solid var(--line-strong); padding:12px;">
+              <span class="kicker" style="color:var(--blueprint);">Layer 1</span>
+              <div style="font-family:var(--disp); font-weight:700; font-size:1rem; margin-top:2px;">Basic FSI</div>
+              <p style="font-size:0.82rem; color:var(--ink-soft); margin-top:4px;">Available as of right without extra government charges (1.10 for most Municipal Corporations).</p>
+            </div>
+            <div style="background:var(--paper); border:1px solid var(--line-strong); padding:12px;">
+              <span class="kicker" style="color:var(--amber);">Layer 2</span>
+              <div style="font-family:var(--disp); font-weight:700; font-size:1rem; margin-top:2px;">Premium FSI</div>
+              <p style="font-size:0.82rem; color:var(--ink-soft); margin-top:4px;">Purchased directly from the Planning Authority at 35% of the prevailing ASR land rate.</p>
+            </div>
+            <div style="background:var(--paper); border:1px solid var(--line-strong); padding:12px;">
+              <span class="kicker" style="color:var(--ink);">Layer 3</span>
+              <div style="font-family:var(--disp); font-weight:700; font-size:1rem; margin-top:2px;">TDR Loading</div>
+              <p style="font-size:0.82rem; color:var(--ink-soft); margin-top:4px;">Purchased from the open market as DRC certificates generated from surrendered lands.</p>
+            </div>
+            <div style="background:var(--paper); border:1px solid var(--line-strong); padding:12px;">
+              <span class="kicker" style="color:var(--blueprint-soft);">Layer 4</span>
+              <div style="font-family:var(--disp); font-weight:700; font-size:1rem; margin-top:2px;">Ancillary Area FSI</div>
+              <p style="font-size:0.82rem; color:var(--ink-soft); margin-top:4px;">Up to 60% (residential) or 80% (commercial) extra area for flowerbeds and balconies at premium.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: STATUTORY TABLE 6-A -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">02 // STATUTORY SPECIFICATION</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Statutory Table No. 6-A (Municipal Corporations)</h2>
+        <div style="overflow-x:auto;">
+          <table class="drawing-table">
+            <thead>
+              <tr>
+                <th>Abutting Road Width</th>
+                <th class="num-col">Basic FSI</th>
+                <th class="num-col">Premium FSI</th>
+                <th class="num-col">Max TDR</th>
+                <th class="num-col">Total Max FSI</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="font-weight:600;">Below 9.0 m</td>
+                <td class="num-col">1.10</td>
+                <td class="num-col" style="color:var(--ink-soft);">--</td>
+                <td class="num-col" style="color:var(--ink-soft);">--</td>
+                <td class="num-col" style="font-weight:700; color:var(--blueprint);">1.10</td>
+              </tr>
+              <tr>
+                <td style="font-weight:600;">9.0 m to &lt; 12.0 m</td>
+                <td class="num-col">1.10</td>
+                <td class="num-col" style="color:var(--amber);">0.30</td>
+                <td class="num-col" style="color:var(--ink-soft);">--</td>
+                <td class="num-col" style="font-weight:700; color:var(--blueprint);">1.40</td>
+              </tr>
+              <tr>
+                <td style="font-weight:600;">12.0 m to &lt; 15.0 m</td>
+                <td class="num-col">1.10</td>
+                <td class="num-col" style="color:var(--amber);">0.30</td>
+                <td class="num-col">0.20</td>
+                <td class="num-col" style="font-weight:700; color:var(--blueprint);">1.60</td>
+              </tr>
+              <tr>
+                <td style="font-weight:600;">15.0 m to &lt; 18.0 m</td>
+                <td class="num-col">1.10</td>
+                <td class="num-col" style="color:var(--amber);">0.40</td>
+                <td class="num-col">0.30</td>
+                <td class="num-col" style="font-weight:700; color:var(--blueprint);">1.80</td>
+              </tr>
+              <tr style="background:rgba(214, 208, 191, 0.4);">
+                <td style="font-weight:600;">18.0 m to &lt; 24.0 m</td>
+                <td class="num-col">1.10</td>
+                <td class="num-col" style="color:var(--amber);">0.50</td>
+                <td class="num-col">0.40</td>
+                <td class="num-col" style="font-weight:700; color:var(--blueprint);">2.00</td>
+              </tr>
+              <tr>
+                <td style="font-weight:600;">24.0 m to &lt; 30.0 m</td>
+                <td class="num-col">1.10</td>
+                <td class="num-col" style="color:var(--amber);">0.50</td>
+                <td class="num-col">0.50</td>
+                <td class="num-col" style="font-weight:700; color:var(--blueprint);">2.10</td>
+              </tr>
+              <tr>
+                <td style="font-weight:600;">30.0 m and above</td>
+                <td class="num-col">1.10</td>
+                <td class="num-col" style="color:var(--amber);">0.50</td>
+                <td class="num-col">0.65</td>
+                <td class="num-col" style="font-weight:700; color:var(--blueprint);">2.25</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- SECTION 3: BLUEPRINT PLATE (FIG_002) -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">03 // DRAWING PLATE</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Blueprint Plate: FSI Stacking Mechanism</h2>
+        <div class="blueprint-plate">
+          <div class="blueprint-plate-header">
+            <span class="fig-number">FIG_002 // STATUTORY FSI STACKING</span>
+            <span class="fig-title">Building Potential Tranches based on Road Width (Table 6-A)</span>
+          </div>
+
+          <div class="plate-content">
+            <svg viewBox="0 0 720 320" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" style="max-width:680px; font-family:var(--mono);">
+              <defs>
+                <pattern id="fsiGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+                  <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#D6D0BF" stroke-width="0.5"/>
+                </pattern>
+              </defs>
+
+              <rect width="720" height="320" fill="#FAF8F2"/>
+              <rect width="720" height="320" fill="url(#fsiGrid)"/>
+
+              <!-- Axis Line -->
+              <line x1="60" y1="260" x2="680" y2="260" stroke="#181D24" stroke-width="1.5"/>
+              <text x="60" y="285" fill="#5B5748" font-size="11" font-weight="600">ROAD WIDTH:</text>
+              <text x="130" y="285" fill="#181D24" font-size="11">&lt; 9.0m</text>
+              <text x="250" y="285" fill="#181D24" font-size="11">9.0–12m</text>
+              <text x="380" y="285" fill="#181D24" font-size="11">12–15m</text>
+              <text x="520" y="285" fill="#181D24" font-size="11">18–24m</text>
+              <text x="630" y="285" fill="#181D24" font-size="11">30m+</text>
+
+              <!-- Column 1: <9m (1.10 Base) -->
+              <rect x="120" y="150" width="60" height="110" fill="#FAF8F2" stroke="#2B4C7E" stroke-width="1.5"/>
+              <text x="135" y="210" fill="#2B4C7E" font-size="12" font-weight="700">1.10</text>
+              <text x="130" y="140" fill="#2B4C7E" font-size="11" font-weight="700">1.10 FSI</text>
+
+              <!-- Column 2: 9-12m (1.10 Base + 0.30 Prem) -->
+              <rect x="250" y="150" width="60" height="110" fill="#FAF8F2" stroke="#2B4C7E" stroke-width="1.5"/>
+              <rect x="250" y="120" width="60" height="30" fill="#FAF8F2" stroke="#DD7A0E" stroke-width="1.5"/>
+              <text x="260" y="140" fill="#DD7A0E" font-size="10" font-weight="700">+0.30</text>
+              <text x="260" y="110" fill="#2B4C7E" font-size="11" font-weight="700">1.40 FSI</text>
+
+              <!-- Column 3: 12-15m (1.10 Base + 0.30 Prem + 0.20 TDR) -->
+              <rect x="380" y="150" width="60" height="110" fill="#FAF8F2" stroke="#2B4C7E" stroke-width="1.5"/>
+              <rect x="380" y="120" width="60" height="30" fill="#FAF8F2" stroke="#DD7A0E" stroke-width="1.5"/>
+              <rect x="380" y="100" width="60" height="20" fill="#FAF8F2" stroke="#5B5748" stroke-width="1.5"/>
+              <text x="390" y="115" fill="#5B5748" font-size="10" font-weight="700">+0.20</text>
+              <text x="390" y="90" fill="#2B4C7E" font-size="11" font-weight="700">1.60 FSI</text>
+
+              <!-- Column 4: 18-24m (1.10 Base + 0.50 Prem + 0.40 TDR = 2.00) -->
+              <rect x="520" y="150" width="60" height="110" fill="#FAF8F2" stroke="#2B4C7E" stroke-width="1.5"/>
+              <rect x="520" y="100" width="60" height="50" fill="#FAF8F2" stroke="#DD7A0E" stroke-width="1.5"/>
+              <rect x="520" y="60" width="60" height="40" fill="#FAF8F2" stroke="#5B5748" stroke-width="1.5"/>
+              <text x="530" y="85" fill="#5B5748" font-size="10" font-weight="700">+0.40</text>
+              <text x="530" y="50" fill="#2B4C7E" font-size="11" font-weight="700">2.00 FSI</text>
+
+              <!-- Column 5: 30m+ (1.10 Base + 0.50 Prem + 0.65 TDR = 2.25) -->
+              <rect x="630" y="150" width="60" height="110" fill="#FAF8F2" stroke="#2B4C7E" stroke-width="1.5"/>
+              <rect x="630" y="100" width="60" height="50" fill="#FAF8F2" stroke="#DD7A0E" stroke-width="1.5"/>
+              <rect x="630" y="35" width="60" height="65" fill="#FAF8F2" stroke="#5B5748" stroke-width="1.5"/>
+              <text x="640" y="70" fill="#5B5748" font-size="10" font-weight="700">+0.65</text>
+              <text x="640" y="25" fill="#2B4C7E" font-size="11" font-weight="700">2.25 FSI</text>
+            </svg>
+          </div>
+
+          <div class="plate-caption">
+            FIG_002: Stacking tranches: Blue border = Basic FSI (1.10), Amber border = Premium FSI (35% ASR), Ink border = TDR Loading Cap (Reg. 6.3).
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 4: INTERACTIVE POTENTIAL CALCULATOR -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">04 // INTERACTIVE TOOL</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Live Building Potential Calculator</h2>
+        <div style="background:var(--paper-raised); border:1px solid var(--ink); padding:24px;">
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:20px;">
+            <div class="calc-field">
+              <label for="plot-calc-size">Gross Plot Area (sq.m)</label>
+              <input type="number" id="plot-calc-size" class="sheet-input" value="1500" min="50">
+            </div>
+            <div class="calc-field">
+              <label for="plot-calc-road">Abutting Road Width</label>
+              <select id="plot-calc-road" class="sheet-input">
+                <option value="9">Below 9.0m (FSI: 1.10 Base)</option>
+                <option value="12">9.0m to &lt; 12.0m (FSI: 1.40 Total)</option>
+                <option value="15">12.0m to &lt; 15.0m (FSI: 1.60 Total)</option>
+                <option value="18">15.0m to &lt; 18.0m (FSI: 1.80 Total)</option>
+                <option value="24" selected>18.0m to &lt; 24.0m (FSI: 2.00 Total)</option>
+                <option value="30">24.0m to &lt; 30.0m (FSI: 2.10 Total)</option>
+                <option value="31">30.0m and above (FSI: 2.25 Total)</option>
+              </select>
+            </div>
+          </div>
+
+          <div style="background:var(--paper); border:1px solid var(--ink); padding:18px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; border-bottom:1px solid var(--line-strong); padding-bottom:8px;">
+              <span style="font-family:var(--mono); font-size:11px; text-transform:uppercase; color:var(--ink-soft);">Total Permissible Built-up Area:</span>
+              <span style="font-family:var(--disp); font-size:1.8rem; font-weight:700; color:var(--blueprint);" id="calc-total-bua">3,000.00 sq.m</span>
+            </div>
+
+            <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px; font-family:var(--mono); font-size:12px;">
+              <div>
+                <span style="color:var(--ink-soft);">Base BUA:</span><br>
+                <strong id="calc-base-bua" style="color:var(--ink);">1,650 sq.m</strong>
+              </div>
+              <div>
+                <span style="color:var(--ink-soft);">Premium BUA:</span><br>
+                <strong id="calc-prem-bua" style="color:var(--amber);">750 sq.m</strong>
+              </div>
+              <div>
+                <span style="color:var(--ink-soft);">Max TDR BUA:</span><br>
+                <strong id="calc-tdr-bua" style="color:var(--ink);">600 sq.m</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 5: QUIZ -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">05 // VERIFICATION QUIZ</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Knowledge Check: FSI Rules</h2>
+        <div class="quiz-container" id="fsi-quiz-box"></div>
+      </section>
+
+    </main>
+
+    <!-- Sheet Footer -->
+    <footer class="sheet-footer">
+      <div>UDCPR FROM SCRATCH • REGULATION 6.3 &amp; TABLE 6-A</div>
+      <div>DRAWING SHEET SYSTEM • MAHARASHTRA STATE</div>
+    </footer>
+  </div>
+
+  <!-- Universal Search Modal -->
+  <div class="search-modal-backdrop" id="search-modal-backdrop" onclick="if(event.target === this) closeSearchModal()">
+    <div class="search-modal">
+      <div class="search-modal-header">
+        <span style="font-family:var(--mono); font-size:13px; font-weight:700;">SEARCH //</span>
+        <input type="text" id="search-modal-input" class="search-modal-input" placeholder="Search clauses..." autocomplete="off">
+        <button onclick="closeSearchModal()" class="tool-btn" style="padding:2px 8px;">ESC</button>
+      </div>
+      <ul class="search-results-list" id="search-results-list"></ul>
+    </div>
+  </div>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/search.js"></script>
+  <script src="/js/quiz.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const sizeEl = document.getElementById('plot-calc-size');
+      const roadEl = document.getElementById('plot-calc-road');
+      const totalBuaEl = document.getElementById('calc-total-bua');
+      const baseBuaEl = document.getElementById('calc-base-bua');
+      const premBuaEl = document.getElementById('calc-prem-bua');
+      const tdrBuaEl = document.getElementById('calc-tdr-bua');
+
+      const fsiTable = {
+        '9':  { base: 1.10, prem: 0.00, tdr: 0.00, total: 1.10 },
+        '12': { base: 1.10, prem: 0.30, tdr: 0.00, total: 1.40 },
+        '15': { base: 1.10, prem: 0.30, tdr: 0.20, total: 1.60 },
+        '18': { base: 1.10, prem: 0.40, tdr: 0.30, total: 1.80 },
+        '24': { base: 1.10, prem: 0.50, tdr: 0.40, total: 2.00 },
+        '30': { base: 1.10, prem: 0.50, tdr: 0.50, total: 2.10 },
+        '31': { base: 1.10, prem: 0.50, tdr: 0.65, total: 2.25 }
+      };
+
+      function updateCalc() {
+        const area = parseFloat(sizeEl.value) || 0;
+        const tier = fsiTable[roadEl.value] || fsiTable['24'];
+
+        const baseVal = area * tier.base;
+        const premVal = area * tier.prem;
+        const tdrVal = area * tier.tdr;
+        const totalVal = area * tier.total;
+
+        totalBuaEl.textContent = totalVal.toFixed(2) + ' sq.m';
+        baseBuaEl.textContent = baseVal.toFixed(2) + ' sq.m';
+        premBuaEl.textContent = premVal.toFixed(2) + ' sq.m';
+        tdrBuaEl.textContent = tdrVal.toFixed(2) + ' sq.m';
+      }
+
+      sizeEl.addEventListener('input', updateCalc);
+      roadEl.addEventListener('change', updateCalc);
+      updateCalc();
+
+      // Quiz
+      const fsiQuizQuestions = [
+        {
+          question: "Can Transferable Development Rights (TDR) be loaded on a road width of less than 12.0 meters under Table 6-A?",
+          options: [
+            "Yes, up to 0.20 FSI",
+            "No, TDR loading is 0.00 on roads under 12.0m",
+            "Yes, if premium is paid to the municipal commissioner",
+            "Only for commercial buildings"
+          ],
+          correctAnswer: 1,
+          explanation: "Under Table 6-A of Regulation 6.3, maximum permissible TDR loading is 0.00 for roads below 12.0 meters in width."
+        },
+        {
+          question: "At what rate is Premium FSI purchased from the Planning Authority under Regulation 2.2.14?",
+          options: [
+            "100% of the Annual Statement of Rates (ASR) land value",
+            "50% of the ASR land value",
+            "35% of the prevailing ASR land value",
+            "Fixed nominal charge of ₹500 per sq.m"
+          ],
+          correctAnswer: 2,
+          explanation: "Under Regulation 2.2.14 and Regulation 6.3, Premium FSI is charged at exactly 35% of the prevailing Annual Statement of Rates (Ready Reckoner) for land."
+        },
+        {
+          question: "What is the maximum total permissible FSI (Base + Premium + TDR) on a road width of 18m to less than 24m?",
+          options: [
+            "1.80",
+            "2.00",
+            "2.50",
+            "3.00"
+          ],
+          correctAnswer: 1,
+          explanation: "For road widths between 18.0m and 24.0m, Table 6-A grants Basic FSI 1.10 + Premium FSI 0.50 + Max TDR 0.40 = 2.00 Maximum Total Permissible FSI."
+        }
+      ];
+
+      initQuiz('fsi-quiz-box', fsiQuizQuestions, 'topic-dev-potential');
+    });
+  </script>
+</body>
+</html>

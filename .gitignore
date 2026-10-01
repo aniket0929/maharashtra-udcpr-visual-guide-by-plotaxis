@@ -1,0 +1,38 @@
+# ==============================================================================
+# UDCPR FROM SCRATCH - GITIGNORE
+# ==============================================================================
+
+# 1. Source Legal Raw Text & Internal Verification Audit (User Requested)
+ucpr_real.md
+udcpr_real.md
+NEEDS_VERIFICATION.md
+
+# 2. Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# 3. Vercel Deployment & Build Cache
+.vercel/
+
+# 4. OS System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 5. Editor & IDE Settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 6. Logs & Scratch Artifacts
+*.log
+scratch/
+tmp/

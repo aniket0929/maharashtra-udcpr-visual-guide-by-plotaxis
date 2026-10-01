@@ -1,0 +1,207 @@
+"""
+UDCPR FROM SCRATCH - CHAPTER 4: LESSON 4.5
+Module: scripts/ch04_lessons/lesson_4_5_protection_and_special_zones.py
+Governing Regulations: Regulations 4.12 to 4.25 (Green Belt, Rivers, Regional Parks, Tourism, Afforestation, HTHS, Forest, Defence, Quarry)
+"""
+
+lesson_data = {
+    'filename': 'reg-4-12-environmental-and-special-zones.html',
+    'lesson_id': 'lesson-reg-4-5',
+    'quiz_id': 'quiz-reg-4-5',
+    'clause': 'Reg. 4.12 – 4.25',
+    'title': 'Environmental Buffers, Hill Slopes & Special Purpose Zones',
+    'badge_status': 'Core Environmental Protection',
+    'ch_slug': 'ch04',
+    'ch_title': 'Chapter 4: Land Use Classification & Permissible Uses',
+    'meta_desc': 'UDCPR Regulations 4.12 to 4.25: River protection green belts (15m/9m offsets), Hill Top-Hill Slope (HTHS 1:5 gradient), Afforestation forest houses, Defence clearance buffers, and Quarry zones.',
+    'lead_summary': 'Master the statutory protection corridors and specialized land use envelopes across Maharashtra: River Protection Belts (Reg. 4.12) with 15m/9m buffers, non-buildable Hill Top - Hill Slope (HTHS) zones with gradients steeper than 1:5, Afforestation forest dwelling norms, Defence boundary clearance radii, and quarrying safety perimeters.',
+    'amendment_cite': 'CR.121/21 & CR.122/23',
+    'plain_summary_html': """
+      <p style="margin-bottom:14px;">
+        Maharashtra's planning framework designates vital ecological and strategic defense zones that impose stringent development barriers. Regulations 4.12 to 4.25 define which activities are permitted and which are completely barred in these sensitive environments.
+      </p>
+
+      <h4 style="font-family:var(--disp); font-size:1rem; margin:16px 0 8px; color:var(--ink);">1. Green Belt &amp; River Protection Belt (Reg. 4.12)</h4>
+      <p style="margin-bottom:10px; font-size:0.92rem; color:var(--ink-soft);">
+        Lands flanking natural water bodies are placed in the Green Belt / River Protection Belt. Permissible activities are strictly limited to non-polluting and open recreational uses:
+      </p>
+      <ul style="padding-left:20px; display:flex; flex-direction:column; gap:8px; font-size:0.92rem; color:var(--ink-soft);">
+        <li>Agriculture, horticulture, nurseries, and public gardens.</li>
+        <li>Pedestrian walkways, jogging tracks, cycle paths, and boat clubs.</li>
+        <li><strong>River &amp; Nallah Buffers (Reg. 4.12.1(v)):</strong> Swimming pools, clubhouses, and recreational structures are permitted only <strong>after leaving a clear 15.0m buffer from river banks</strong> and <strong>9.0m from nallahs</strong>.</li>
+        <li><strong>Integration with Layout Open Space (Reg. 4.12.1(vii)):</strong> If an adjoining developable plot touches the green belt, the mandatory 10% Recreational Open Space (ROS) may be placed inside the green belt land after observing the 15m/9m water body buffer.</li>
+      </ul>
+
+      <h4 style="font-family:var(--disp); font-size:1rem; margin:16px 0 8px; color:var(--ink);">2. Hill Top - Hill Slope (HTHS) &amp; Afforestation Zones (Reg. 4.16 &amp; 4.17)</h4>
+      <div style="background:var(--paper); border:1px solid var(--line-strong); padding:16px; margin-bottom:16px;">
+        <ul style="padding-left:18px; font-size:0.88rem; color:var(--ink); display:flex; flex-direction:column; gap:6px;">
+          <li><strong>HTHS Slope Gradient Rule (Reg. 4.2(XIV) &amp; 4.17):</strong> Any hill slope having a gradient <strong>steeper than 1:5</strong> (vertical to horizontal), irrespective of whether specifically demarcated on the plan or not, is treated as non-buildable hill slope to prevent landslides and soil erosion.</li>
+          <li><strong>Forest Houses in Afforestation Zone (Reg. 4.16(ii)):</strong> Permitted for caretakers and tourists on forest plots not less than <strong>0.40 Hectare (4,000 sq.m)</strong>, with maximum built-up area of <strong>150 sq.m</strong>, Ground + 1 floor, height at or below 7.0m, and mandatory planting of <strong>250 trees per hectare</strong>.</li>
+        </ul>
+      </div>
+
+      <h4 style="font-family:var(--disp); font-size:1rem; margin:16px 0 8px; color:var(--ink);">3. Defence, Quarry &amp; Transport Zones (Reg. 4.13, 4.20, 4.21)</h4>
+      <ul style="padding-left:20px; display:flex; flex-direction:column; gap:8px; font-size:0.92rem; color:var(--ink-soft);">
+        <li><strong>Defence Zone (Reg. 4.20):</strong> Reserved exclusively for Ministry of Defence facilities. Surrounding private lands fall under restrictive security buffers (typically 100m to 500m per Ministry guidelines) requiring mandatory Defence NOC prior to municipal sanction.</li>
+        <li><strong>Mines &amp; Quarry Zone (Reg. 4.21):</strong> Stone crushing and quarrying permissible subject to safe blasting distance buffers (typically 500m from inhabited gaothans and schools) under Regulation 15.1.</li>
+        <li><strong>Traffic &amp; Transportation Zone (Reg. 4.13):</strong> Railway and transit hubs. Crucially, separable surplus railway lands are legally permissible to be developed for <strong>Commercial Zone uses</strong> to fund transit modernization.</li>
+      </ul>
+    """,
+    'statutory_extract': "4.12 GREEN BELT ZONE / RIVER PROTECTION BELT: Following uses shall be permissible: i) Agriculture, ii) Tree Plantation, Gardens, Public park, Recreational Open Space... v) Swimming pools, club houses, recreational facilities after leaving 15.0 m. belt along river bank and 9.0 m. from Nallahs... 4.16 AFFORESTATION ZONE: ii) Forest houses... not exceeding 150 sq.m., provided forest plot is not less than 0.4 hectare, ground + 1 floor, height not more than 7.0 m... 4.13 TRAFFIC AND TRANSPORTATION ZONE: ii) Separable lands of Railways shall be allowed to be developed for uses permissible in Commercial Zone.",
+    'clause_cards_html': """
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:16px;">
+        <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--blueprint); padding:16px;">
+          <span class="kicker">REG. 4.12 // RIVER BUFFER</span>
+          <h4 style="font-family:var(--disp); font-size:0.95rem; margin-top:4px; margin-bottom:8px;">15.0m River / 9.0m Nallah</h4>
+          <p style="font-size:0.85rem; color:var(--ink-soft); line-height:1.5;">
+            Mandates permanent non-buildable setback along watercourses. Recreational clubhouses and pools are permitted only outside this 15.0m boundary.
+          </p>
+        </div>
+        <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--amber); padding:16px;">
+          <span class="kicker" style="color:var(--amber);">REG. 4.17 // HTHS 1:5 GRADIENT</span>
+          <h4 style="font-family:var(--disp); font-size:0.95rem; margin-top:4px; margin-bottom:8px;">Slope Stability Safeguard</h4>
+          <p style="font-size:0.85rem; color:var(--ink-soft); line-height:1.5;">
+            Slopes steeper than 1:5 gradient are non-buildable whether colored on DP or not. Prevents slope cutting, foundation failure, and ecological degradation.
+          </p>
+        </div>
+      </div>
+    """,
+    'plate_or_table_html': """
+      <div style="border:1px solid var(--ink); background:var(--paper-raised); padding:16px; margin-top:12px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--line-strong); padding-bottom:8px; margin-bottom:12px;">
+          <span style="font-family:var(--mono); font-size:12px; font-weight:700; color:var(--blueprint);">FIG_019 // ENVIRONMENTAL &amp; SPECIAL ZONES MATRIX</span>
+          <span style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">CHAPTER 4 SPECIAL ENVELOPES</span>
+        </div>
+        <div style="overflow-x:auto;">
+          <table style="width:100%; border-collapse:collapse; font-family:var(--mono); font-size:11.5px;">
+            <thead>
+              <tr style="background:var(--ink); color:var(--paper-raised);">
+                <th style="padding:6px 8px; text-align:left; border:1px solid var(--line-strong);">Zone Name</th>
+                <th style="padding:6px 8px; text-align:left; border:1px solid var(--line-strong);">Governing Regulation</th>
+                <th style="padding:6px 8px; text-align:left; border:1px solid var(--line-strong);">Permissible Primary Uses</th>
+                <th style="padding:6px 8px; text-align:left; border:1px solid var(--line-strong);">Key Restrictions / Buffers</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong);"><strong>Green Belt / River Belt</strong></td>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong);">Reg. 4.12</td>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong);">Landscaping, pathways, boat clubs, open sports</td>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong); font-weight:700;">15m from river / 9m from nallah buffer</td>
+              </tr>
+              <tr style="background:var(--paper);">
+                <td style="padding:6px 8px; border:1px solid var(--line-strong);"><strong>Hill Top - Hill Slope (HTHS)</strong></td>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong);">Reg. 4.17</td>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong);">Afforestation, contour preservation</td>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong); font-weight:700;">Slopes &gt; 1:5 gradient are non-buildable</td>
+              </tr>
+              <tr>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong);"><strong>Afforestation Zone</strong></td>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong);">Reg. 4.16</td>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong);">Forest houses, tourism, eco-cottages</td>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong); font-weight:700;">Max 150 sqm BUA, G+1, 7m ht, 250 trees/Ha</td>
+              </tr>
+              <tr style="background:var(--paper);">
+                <td style="padding:6px 8px; border:1px solid var(--line-strong);"><strong>Traffic &amp; Transport</strong></td>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong);">Reg. 4.13</td>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong);">Transit terminals, parking, railway expansion</td>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong); font-weight:700;">Railway surplus land allowed commercial use</td>
+              </tr>
+              <tr>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong);"><strong>Defence Zone</strong></td>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong);">Reg. 4.20</td>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong);">Military establishments, cantonments</td>
+                <td style="padding:6px 8px; border:1px solid var(--line-strong); font-weight:700;">Prior Defence NOC for surrounding private land</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    """,
+    'worked_example_html': r"""
+      <p style="margin-bottom:12px;">
+        <strong>Practical Scrutiny Problem:</strong> An architect is hired to plan a resort clubhouse on a land parcel in Karjat bordering a river. The building height is designed at 12.0 meters.
+      </p>
+      <div class="worked-step">
+        <span class="step-badge">RIVER BUFFER AUDIT</span>
+        <div>
+          Under Regulation 4.12.1(v) &amp; (c), the setback from the river bank must be the greater of:
+          <br>1. Mandatory statutory river buffer = <strong>15.0 meters</strong>.
+          <br>2. Building height setback ($H/5$) = $12.0 / 5 = \mathbf{2.40\text{ meters}}$.
+          <br>3. Offset from Green Belt boundary = <strong>4.50 meters</strong>.
+        </div>
+      </div>
+      <div class="worked-step">
+        <span class="step-badge">SITE LAYOUT PLACEMENT</span>
+        <div>
+          The 15.0-meter statutory river buffer governs as the strictest constraint.
+          <br>The 15.0m riverfront strip is designed as open lawns and tree grove. The clubhouse foundation starts exactly at 15.01m from the river bank edge.
+        </div>
+      </div>
+      <div style="border-top:1px solid var(--line-strong); padding-top:10px; margin-top:14px; font-family:var(--mono); font-size:0.85rem; color:var(--ink);">
+        ✓ STATUTORY RESULT: Siting approved under Reg. 4.12.1(v) with zero ecological encroachment.
+      </div>
+    """,
+    'pitfalls_html': """
+      <div class="callout callout-amber">
+        <strong>Pitfall 1: Leveling Steep Hill Slopes Without Slope Gradient Certification</strong>
+        <p style="font-size:0.84rem; color:var(--ink-soft); margin-top:4px;">
+          Even if an area is colored as general development zone on an older regional plan, if the physical site slope exceeds a 1:5 gradient, Regulation 4.2(XIV) and 4.16(vi) classify it as non-buildable HTHS. Building on it exposes the developer to criminal action under the Environment Protection Act.
+        </p>
+      </div>
+      <div class="callout callout-amber">
+        <strong>Pitfall 2: Confusing Green Belt 15m Buffer with Normal Side Margins</strong>
+        <p style="font-size:0.84rem; color:var(--ink-soft); margin-top:4px;">
+          Normal low-rise buildings require only 2.25m or 3.0m side margins. However, whenever a building abuts a river, the 15.0m Green Belt buffer overrides standard marginal distances.
+        </p>
+      </div>
+    """,
+    'amendment_section_html': """
+      <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
+        <span class="badge badge-amended">Govt Letter CR.122/23/UD-12 (26 Oct 2023)</span>
+        <span style="font-family:var(--mono); font-size:12px; color:var(--ink-soft);">Green Belt Landscaping &amp; ROS Clarification</span>
+      </div>
+      <p style="font-size:0.88rem; color:var(--ink-soft); line-height:1.5;">
+        Clarified that landscaping, forestry, and public recreational open spaces are fully permissible in Green Belt / River Protection zones, and can be integrated into adjacent layout open space quotas after observing mandatory 15m/9m water margins.
+      </p>
+    """,
+    'quiz': [
+      {
+        'question': 'Under Regulation 4.12.1(v), what is the minimum buffer distance to be observed along river banks before club houses or swimming pools can be sited?',
+        'options': [
+          '6.0 meters',
+          '9.0 meters',
+          '15.0 meters',
+          '30.0 meters'
+        ],
+        'correctAnswer': 2,
+        'explanation': 'Under Regulation 4.12.1(v), recreational facilities such as swimming pools and club houses are permissible only after leaving a mandatory 15.0m belt along river banks (and 9.0m from nallahs).'
+      },
+      {
+        'question': 'At what terrain gradient is a hill slope classified as non-buildable Hill Top - Hill Slope (HTHS) under UDCPR?',
+        'options': [
+          'Steeper than 1:10',
+          'Steeper than 1:5',
+          'Steeper than 1:3',
+          'Steeper than 1:2'
+        ],
+        'correctAnswer': 1,
+        'explanation': 'Under Regulation 4.2(XIV) and 4.16(vi), any slope having a gradient steeper than 1:5 (vertical to horizontal) is classified as non-buildable hill slope.'
+      },
+      {
+        'question': 'What is the maximum permissible built-up area and height for a forest house in an Afforestation Zone under Regulation 4.16(ii)?',
+        'options': [
+          '400 sq.m and 9.0m height',
+          '150 sq.m and 7.0m height',
+          '100 sq.m and 5.0m height',
+          '50 sq.m single storey'
+        ],
+        'correctAnswer': 1,
+        'explanation': 'Regulation 4.16(ii) restricts forest houses on minimum 0.40 Ha plots to a maximum built-up area of 150 sq.m and a maximum height of 7.0m (Ground + 1 floor).'
+      }
+    ],
+    'prev_url': '/lessons/reg-4-11-agricultural-and-green-zone.html',
+    'prev_title': 'Reg. 4.11 Agricultural & Green Zone',
+    'next_url': '/lessons/reg-4-27-public-semi-public-and-dp-reservations.html',
+    'next_title': 'Reg. 4.10 & 4.27 P/SP & DP Reservations'
+}

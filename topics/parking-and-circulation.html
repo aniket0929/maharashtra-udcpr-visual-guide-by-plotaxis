@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parking &amp; Circulation Standards | UDCPR from Scratch</title>
+  <meta name="description" content="Calculate off-street parking quotas, vehicle bay dimensions, basement ramp slopes, and visitor parking under UDCPR Chapter 8.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/blueprint.css">
+  <link rel="stylesheet" href="/css/components.css">
+</head>
+<body>
+
+  <!-- THE DRAWING SHEET CONTAINER -->
+  <div class="sheet">
+    <div class="ruler-top"></div>
+    <div class="corner-tick tl"></div>
+    <div class="corner-tick tr"></div>
+    <div class="corner-tick bl"></div>
+    <div class="corner-tick br"></div>
+
+    <!-- Statutory Disclaimer Strip -->
+    <div class="disclaimer-strip">
+      <strong>DISCLAIMER:</strong> Educational summary and reference guide. Always verify with official Sanctioned Municipal Parking Schedules and Chief Fire Officer requirements.
+    </div>
+
+    <!-- Sheet Navigation -->
+    <nav class="sheet-nav">
+      <a href="/" class="brand-block">
+        <span class="brand-stamp">UDCPR</span>
+        <div class="brand-title-group">
+          <h1>UDCPR from Scratch</h1>
+          <span>Topic Workbench • Drawing Sheet</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="/topics/" class="active">Topics</a></li>
+        <li class="nav-item"><a href="/chapters/">Chapters</a></li>
+        <li class="nav-item"><a href="/glossary.html">Glossary</a></li>
+        <li class="nav-item"><a href="/formulas.html">Formulas</a></li>
+        <li class="nav-item"><a href="/amendments.html">Amendments (#)</a></li>
+        <li class="nav-item"><a href="/govt-orders.html">Orders</a></li>
+      </ul>
+
+      <div class="nav-tools">
+        <button class="tool-btn" onclick="openSearchModal()">Search <kbd style="font-family:var(--mono);">Ctrl+K</kbd></button>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main style="max-width: 960px; margin: 0 auto; padding-top: 10px;">
+
+      <!-- Breadcrumbs & Kicker -->
+      <div class="kicker-muted" style="margin-bottom: 10px;">
+        <a href="/" style="color:var(--ink-soft); text-decoration:none;">HOME</a> / 
+        <a href="/topics/" style="color:var(--ink-soft); text-decoration:none;">TOPICS</a> / 
+        <span style="color:var(--blueprint);">PARKING STANDARDS</span>
+      </div>
+
+      <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px; flex-wrap:wrap;">
+        <span class="badge badge-clause">Chapter 8 • Table 8-1</span>
+        <span class="badge badge-status-done">Core Workbench</span>
+      </div>
+
+      <h1 style="font-size:2.2rem; margin-bottom:12px; line-height:1.2;">
+        Off-Street Parking &amp; Circulation Standards
+      </h1>
+
+      <p style="font-size:1.05rem; color:var(--ink-soft); line-height:1.6; margin-bottom:28px;">
+        Master vehicular parking design under Chapter 8: bay dimensions for cars, two-wheelers, and transport trucks; tenement-based residential quotas; mandatory 10% visitor additions; and basement ramp gradient limits (1:10).
+      </p>
+
+      <!-- SECTION 1: STATUTORY BAY DIMENSIONS -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">01 // DIMENSIONAL ENVELOPES</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Statutory Vehicle Stall Dimensions (Reg. 8.1.1)</h2>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:12px;">
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); padding:16px;">
+            <span class="kicker" style="color:var(--blueprint);">FOUR-WHEELER (CAR)</span>
+            <div style="font-family:var(--disp); font-size:1.4rem; font-weight:700; margin:6px 0; color:var(--ink);">2.5m &times; 5.0m</div>
+            <p style="font-size:0.82rem; color:var(--ink-soft);">Minimum area 12.5 sq.m. Clear driving aisle &ge; 3.0m (one-way) or 6.0m (two-way).</p>
+          </div>
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); padding:16px;">
+            <span class="kicker" style="color:var(--amber);">TWO-WHEELER (SCOOTER)</span>
+            <div style="font-family:var(--disp); font-size:1.4rem; font-weight:700; margin:6px 0; color:var(--ink);">1.0m &times; 2.0m</div>
+            <p style="font-size:0.82rem; color:var(--ink-soft);">Minimum area 2.0 sq.m. Provided at 2 spaces per tenement.</p>
+          </div>
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); padding:16px;">
+            <span class="kicker" style="color:var(--ink);">BICYCLE</span>
+            <div style="font-family:var(--disp); font-size:1.4rem; font-weight:700; margin:6px 0; color:var(--ink);">0.7m &times; 1.4m</div>
+            <p style="font-size:0.82rem; color:var(--ink-soft);">Minimum area 1.0 sq.m for non-motorized transport.</p>
+          </div>
+          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); padding:16px;">
+            <span class="kicker" style="color:var(--blueprint-soft);">LOADING / TRANSPORT</span>
+            <div style="font-family:var(--disp); font-size:1.4rem; font-weight:700; margin:6px 0; color:var(--ink);">3.75m &times; 7.5m</div>
+            <p style="font-size:0.82rem; color:var(--ink-soft);">For commercial markets, warehouses, and freight unloading.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: BLUEPRINT PLATE (FIG_004) -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">02 // TECHNICAL PLATE</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Blueprint Plate: Parking Stall Geometry &amp; Ramp Slope</h2>
+        <div class="blueprint-plate">
+          <div class="blueprint-plate-header">
+            <span class="fig-number">FIG_004 // PARKING GEOMETRY</span>
+            <span class="fig-title">Car Stall Dimensions (2.5x5.0m) &amp; Basement Ramp Slope (1:10)</span>
+          </div>
+
+          <div class="plate-content">
+            <svg viewBox="0 0 720 320" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" style="max-width:680px; font-family:var(--mono);">
+              <defs>
+                <pattern id="parkGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+                  <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#D6D0BF" stroke-width="0.5"/>
+                </pattern>
+              </defs>
+
+              <rect width="720" height="320" fill="#FAF8F2"/>
+              <rect width="720" height="320" fill="url(#parkGrid)"/>
+
+              <!-- Parking Bay 1 -->
+              <rect x="60" y="50" width="90" height="150" fill="#FAF8F2" stroke="#2B4C7E" stroke-width="1.5"/>
+              <text x="85" y="130" fill="#181D24" font-size="12" font-weight="700">BAY 1</text>
+              <text x="75" y="150" fill="#2B4C7E" font-size="10">2.5m x 5.0m</text>
+
+              <!-- Parking Bay 2 -->
+              <rect x="160" y="50" width="90" height="150" fill="#FAF8F2" stroke="#2B4C7E" stroke-width="1.5"/>
+              <text x="185" y="130" fill="#181D24" font-size="12" font-weight="700">BAY 2</text>
+              <text x="175" y="150" fill="#2B4C7E" font-size="10">2.5m x 5.0m</text>
+
+              <!-- Parking Bay 3 -->
+              <rect x="260" y="50" width="90" height="150" fill="#FAF8F2" stroke="#2B4C7E" stroke-width="1.5"/>
+              <text x="285" y="130" fill="#181D24" font-size="12" font-weight="700">BAY 3</text>
+              <text x="275" y="150" fill="#2B4C7E" font-size="10">2.5m x 5.0m</text>
+
+              <!-- Dimension callout for 2.5m width -->
+              <line x1="60" y1="40" x2="150" y2="40" stroke="#2B4C7E" stroke-width="1"/>
+              <line x1="60" y1="35" x2="60" y2="45" stroke="#2B4C7E" stroke-width="1"/>
+              <line x1="150" y1="35" x2="150" y2="45" stroke="#2B4C7E" stroke-width="1"/>
+              <text x="105" y="32" fill="#2B4C7E" font-size="10" text-anchor="middle">2.5m WIDTH</text>
+
+              <!-- Dimension callout for 5.0m depth -->
+              <line x1="45" y1="50" x2="45" y2="200" stroke="#2B4C7E" stroke-width="1"/>
+              <line x1="40" y1="50" x2="50" y2="50" stroke="#2B4C7E" stroke-width="1"/>
+              <line x1="40" y1="200" x2="50" y2="200" stroke="#2B4C7E" stroke-width="1"/>
+              <text x="35" y="130" fill="#2B4C7E" font-size="10" text-anchor="middle" transform="rotate(-90, 35, 130)">5.0m DEPTH</text>
+
+              <!-- Driveway Aisle (6.0m Two-way) -->
+              <rect x="40" y="210" width="330" height="80" fill="#F1EEE4" stroke="#5B5748" stroke-width="1.2"/>
+              <text x="120" y="255" fill="#181D24" font-size="11" font-weight="600">6.0m TWO-WAY DRIVING AISLE</text>
+
+              <!-- Ramp Section on the right -->
+              <path d="M 430 70 L 680 270 L 680 300 L 430 300 Z" fill="#FAF8F2" stroke="#DD7A0E" stroke-width="1.5"/>
+              <text x="500" y="160" fill="#DD7A0E" font-size="11" font-weight="700">BASEMENT RAMP</text>
+              <text x="510" y="180" fill="#5B5748" font-size="10">SLOPE MAX 1:10 (10%)</text>
+              <text x="510" y="200" fill="#5B5748" font-size="9">HEADROOM &ge; 2.4m</text>
+            </svg>
+          </div>
+
+          <div class="plate-caption">
+            FIG_004: Standard car bay geometry (2.5m &times; 5.0m), 6.0m driving aisle, and basement ramp slope limit of 1:10 with minimum 2.4m clear headroom (Reg. 8.1 &amp; 8.2).
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3: PARKING CALCULATOR -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">03 // INTERACTIVE TOOL</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Residential Parking Quota Calculator</h2>
+        <div style="background:var(--paper-raised); border:1px solid var(--ink); padding:24px;">
+          <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:16px; margin-bottom:20px;">
+            <div class="calc-field">
+              <label for="park-large">Flats &gt; 75 sq.m (1 car / flat)</label>
+              <input type="number" id="park-large" class="sheet-input" value="40" min="0">
+            </div>
+            <div class="calc-field">
+              <label for="park-med">Flats 50–75 sq.m (1 car / 2 flats)</label>
+              <input type="number" id="park-med" class="sheet-input" value="30" min="0">
+            </div>
+            <div class="calc-field">
+              <label for="park-small">Flats &lt; 50 sq.m (1 car / 4 flats)</label>
+              <input type="number" id="park-small" class="sheet-input" value="20" min="0">
+            </div>
+          </div>
+
+          <div style="background:var(--paper); border:1px solid var(--ink); padding:18px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; border-bottom:1px solid var(--line-strong); padding-bottom:8px;">
+              <span style="font-family:var(--mono); font-size:11px; text-transform:uppercase; color:var(--ink-soft);">Total Required Car Parking (Incl. 10% Visitor):</span>
+              <span style="font-family:var(--disp); font-size:1.8rem; font-weight:700; color:var(--blueprint);" id="calc-park-total">66 Car Bays</span>
+            </div>
+
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; font-family:var(--mono); font-size:12px;">
+              <div>
+                <span style="color:var(--ink-soft);">Resident Cars:</span>
+                <strong id="calc-park-res" style="color:var(--ink);">60 bays</strong>
+              </div>
+              <div>
+                <span style="color:var(--ink-soft);">Mandatory 10% Visitor Cars:</span>
+                <strong id="calc-park-vis" style="color:var(--amber);">6 bays</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Sheet Footer -->
+    <footer class="sheet-footer">
+      <div>UDCPR FROM SCRATCH • CHAPTER 8: PARKING STANDARDS</div>
+      <div>DRAWING SHEET SYSTEM • MAHARASHTRA STATE</div>
+    </footer>
+  </div>
+
+  <!-- Universal Search Modal -->
+  <div class="search-modal-backdrop" id="search-modal-backdrop" onclick="if(event.target === this) closeSearchModal()">
+    <div class="search-modal">
+      <div class="search-modal-header">
+        <span style="font-family:var(--mono); font-size:13px; font-weight:700;">SEARCH //</span>
+        <input type="text" id="search-modal-input" class="search-modal-input" placeholder="Search clauses..." autocomplete="off">
+        <button onclick="closeSearchModal()" class="tool-btn" style="padding:2px 8px;">ESC</button>
+      </div>
+      <ul class="search-results-list" id="search-results-list"></ul>
+    </div>
+  </div>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/search.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const lEl = document.getElementById('park-large');
+      const mEl = document.getElementById('park-med');
+      const sEl = document.getElementById('park-small');
+      const totalEl = document.getElementById('calc-park-total');
+      const resEl = document.getElementById('calc-park-res');
+      const visEl = document.getElementById('calc-park-vis');
+
+      function update() {
+        const l = parseFloat(lEl.value) || 0;
+        const m = parseFloat(mEl.value) || 0;
+        const s = parseFloat(sEl.value) || 0;
+
+        const resCars = (l * 1.0) + (m * 0.5) + (s * 0.25);
+        const visCars = Math.ceil(resCars * 0.10);
+        const total = Math.ceil(resCars + visCars);
+
+        totalEl.textContent = total + ' Car Bays';
+        resEl.textContent = Math.ceil(resCars) + ' bays';
+        visEl.textContent = visCars + ' bays';
+      }
+
+      lEl.addEventListener('input', update);
+      mEl.addEventListener('input', update);
+      sEl.addEventListener('input', update);
+      update();
+    });
+  </script>
+</body>
+</html>

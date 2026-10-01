@@ -1,0 +1,592 @@
+{
+  "gazette_notifications_count": 53,
+  "gazette_notifications": [
+    {
+      "id": 1,
+      "type": "Government Notification",
+      "reference": "TPS-1818/C.R.236/18/DP",
+      "date": "2020-2025",
+      "line_number": 36,
+      "description": "These Unified Development Control and Promotion Regulations are sanctioned by the State Government under Section 37(1AA)(c) and Section 20(4) of the Maharashtra Regional & Town Planning Act, 1966 vide Notification No.TPS-1818/C.R.236/18/DP&RP/Sec.37(1AA)(c) & Sec.20(4)/UD-13, Dated 02nd December, 2020."
+    },
+    {
+      "id": 2,
+      "type": "Notice u/s 37 / 20",
+      "reference": "TPS-1818/",
+      "date": "2020-2025",
+      "line_number": 38,
+      "description": "These Unified Development Control and Promotion Regulations are published by the State Government under Section 20(3) of the Maharashtra Regional & Town Planning Act, 1966 vide Notice No.TPS-1818/ C.R.236/18/ Sec.20(3)/UD-13, Dated 02nd December, 2020."
+    },
+    {
+      "id": 3,
+      "type": "Directives u/s 154",
+      "reference": "TPS-1818/C.R.236/18/S",
+      "date": "2020-2025",
+      "line_number": 40,
+      "description": "Directives under Section 154 of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1818/C.R.236/18/Sec.20(3)/UD-13, Dated 02nd December, 2020."
+    },
+    {
+      "id": 4,
+      "type": "Government Notification",
+      "reference": "TPS-1818/C.R.236/18/",
+      "date": "2020-2025",
+      "line_number": 42,
+      "description": "These Unified Development Control and Promotion Regulations are published by the State Government under Section 37(1AA) of the Maharashtra Regional & Town Planning Act, 1966 vide Notification No.TPS-1818/C.R.236/18/ Sec.37(1AA)/UD-13, Dated 02nd December, 2020."
+    },
+    {
+      "id": 5,
+      "type": "Directives u/s 154",
+      "reference": "TPS-1818/C.R.236/18/S",
+      "date": "2020-2025",
+      "line_number": 44,
+      "description": "Directives under Section 154 of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1818/C.R.236/18/Sec.37(1AA)/UD-13, Dated 02nd December, 2020."
+    },
+    {
+      "id": 6,
+      "type": "Corrigendum",
+      "reference": "TPS-1818/C.R.236/18/D.P.",
+      "date": "2020-2025",
+      "line_number": 46,
+      "description": "Corrigendum under section 37(1AA)(c) & 20(4) of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1818/C.R.236/18/D.P. and R.P./Sec.37(1AA)(c)/Sec.20(4)/ Corrigendum/UD-13, Dated 9th December, 2020."
+    },
+    {
+      "id": 7,
+      "type": "Addendum",
+      "reference": "1.10",
+      "date": "2020-2025",
+      "line_number": 48,
+      "description": "Notification under Regulation No.1.10 of the Unified Development control and Promotion Regulations issued by the State Government vide Resolution No.TPS-1818/C.R.236/18/Sec.37(1AA) & Sec.20(3)(Part 1)/Addendum/ UD-13, Dated 14th January, 2021."
+    },
+    {
+      "id": 8,
+      "type": "Government Order",
+      "reference": "TPS-1818/C.R.236/18/(P",
+      "date": "2020-2025",
+      "line_number": 50,
+      "description": "Government Order No.TPS-1818/C.R.236/18/(Part 1)/UD-13, Dated 1st March, 2021."
+    },
+    {
+      "id": 9,
+      "type": "Government Notification",
+      "reference": "TPS-1818/C.R.236/18(P",
+      "date": "2020-2025",
+      "line_number": 52,
+      "description": "Notification under Section 37(1AA)(c) & 20(4) of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1818/C.R.236/18(Part3)/Sec.37(1AA)(c) & Sec.20(4)/ Modification/UD-13, Dated 16th June, 2021."
+    },
+    {
+      "id": 10,
+      "type": "Addendum",
+      "reference": "1.10",
+      "date": "2020-2025",
+      "line_number": 54,
+      "description": "Notification under Regulation No.1.10 of the Unified Development control and Promotion Regulations issued by the State Government vide Resolution No.TPS-1818/C.R.236/18(Part1)/Addendum/UD-13, Dated 23rd June, 2021."
+    },
+    {
+      "id": 11,
+      "type": "Government Order",
+      "reference": "TPS-1818/C.R.236/18(P",
+      "date": "2020-2025",
+      "line_number": 56,
+      "description": "Government Order No.TPS-1818/C.R.236/18(Part1)/UD-13, Dated 26th July, 2021."
+    },
+    {
+      "id": 12,
+      "type": "Addendum",
+      "reference": "TPS-1818/C.R.236/18(P",
+      "date": "2020-2025",
+      "line_number": 58,
+      "description": "State Government Resolution No.TPS-1818/C.R.236/18(Part1)/Addendum/UD-13, Dated 8th October, 2021."
+    },
+    {
+      "id": 13,
+      "type": "Addendum",
+      "reference": "1.10",
+      "date": "2020-2025",
+      "line_number": 60,
+      "description": "Addendum under Regulation No.1.10 of Unified Development Control and Promotion Regulations issued by State Government vide Addendum No.TPS-1821/575/C.R.121/21/Addendum/UD-13, Dated 27th October, 2021."
+    },
+    {
+      "id": 14,
+      "type": "Government Order",
+      "reference": "TPS-1818/C.R.236/18(P",
+      "date": "2020-2025",
+      "line_number": 62,
+      "description": "Guidelines issued by the State Government vide Order No.TPS-1818/C.R.236/18(Part-1)/UD-13, Dated 02nd December 2021."
+    },
+    {
+      "id": 15,
+      "type": "Government Notification",
+      "reference": "TPS-1818/C.R.236/18(P",
+      "date": "2020-2025",
+      "line_number": 64,
+      "description": "Notification under Section 37(1AA)(c) & 20(4) of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1818/C.R.236/18(Part-3)/Sec.37(1AA)(c) & Sec.20 (4)/ Modification/UD-13, Dated 02nd December, 2021."
+    },
+    {
+      "id": 16,
+      "type": "Corrigendum",
+      "reference": "1.10",
+      "date": "2020-2025",
+      "line_number": 66,
+      "description": "Corrigendum / Addendum under Regulation No.1.10 of Unified Development Control and Promotion Regulations issued by State Government vide Corrigendum / Addendum No.TPS-1820/614/C.R.79/2021/ UD-13, Dated 02nd December, 2021."
+    },
+    {
+      "id": 17,
+      "type": "Corrigendum",
+      "reference": "1.10",
+      "date": "2020-2025",
+      "line_number": 68,
+      "description": "Corrigendum / Addendum under Regulation No.1.10 of Unified Development Control and Promotion Regulations issued by the State Government vide Corrigendum / Addendum No.TPS-1821/575/C.R.121/21/ UD-13, Dated 02nd December, 2021."
+    },
+    {
+      "id": 18,
+      "type": "Directives u/s 154",
+      "reference": "TPS-1216/3196/C.R.421/16/UD-12",
+      "date": "2020-2025",
+      "line_number": 86,
+      "description": "*Notice under Section 20(3) of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1216/3196/C.R.421/16/UD-12, Dated 21st December, 2021 & Directives under Section 154 of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution Dated 21st December, 2021*"
+    },
+    {
+      "id": 19,
+      "type": "Government Notification",
+      "reference": "TPS-1919/436/C.R.83/19/S",
+      "date": "2020-2025",
+      "line_number": 88,
+      "description": "*Notification under Section 20(4) of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1919/436/C.R.83/19/Sec.20(4)/UD-13, Dated 23rd December, 2021.*"
+    },
+    {
+      "id": 20,
+      "type": "Government Notification",
+      "reference": "TPS-1818/C.R.236/18(P",
+      "date": "2020-2025",
+      "line_number": 90,
+      "description": "*Notification under Section 37(1AA)(c) & Section 20(4) of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1818/C.R.236/18(Part-3)/Section 37(1AA)(c) & Section 20(4)/ Modification/UD-13, Dated 3rd February, 2022.*"
+    },
+    {
+      "id": 21,
+      "type": "Government Order",
+      "reference": "4.2",
+      "date": "2020-2025",
+      "line_number": 92,
+      "description": "*Order issued by Director of Town Planning under Note below Regulation No.4.2 vide No.URC/1939, Dated 7th April, 2022.*"
+    },
+    {
+      "id": 22,
+      "type": "Directives u/s 154",
+      "reference": "TPS-1822/C.R.04/2022/UD-13",
+      "date": "2020-2025",
+      "line_number": 94,
+      "description": "*Notice under Section 37(1) & Section 20(3) with Directives under Section 154 of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1822/C.R.04/2022/UD-13, Dated 2nd June, 2022.*"
+    },
+    {
+      "id": 23,
+      "type": "Directives u/s 154",
+      "reference": "TPS-1222/1089/C.R.70/22/UD-12",
+      "date": "2020-2025",
+      "line_number": 96,
+      "description": "*Directives under Section 154 of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1222/1089/C.R.70/22/UD-12, Dated 27th June, 2022.*"
+    },
+    {
+      "id": 24,
+      "type": "Government Notification",
+      "reference": "TPS-1818/950/C.R.158/19/S",
+      "date": "2020-2025",
+      "line_number": 98,
+      "description": "*Notification under Section 37(1AA)(c) & Section 20(4) of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1818/950/C.R.158/19/Sec.37(1AA)(c) & Sec.20(4)/UD-13, Dated 10th October, 2022.*"
+    },
+    {
+      "id": 25,
+      "type": "Government Notification",
+      "reference": "TPS-1818/C.R.236/18/S",
+      "date": "2020-2025",
+      "line_number": 100,
+      "description": "*Notification under Section 37(1AA)(c) of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1818/C.R.236/18/Section 37(1AA)(C)/UD-13(Part-6), Dated 12th October, 2022.*"
+    },
+    {
+      "id": 26,
+      "type": "Government Notification",
+      "reference": "TPS-1818/C.R.236/18(P",
+      "date": "2020-2025",
+      "line_number": 102,
+      "description": "*Notification under Section 37(2) of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1818/C.R.236/18(Part-5)/Section 37(2)/UD-13, Dated 16th December, 2022.*"
+    },
+    {
+      "id": 27,
+      "type": "Directives u/s 154",
+      "reference": "TPS-1818/C.R.236/18(P",
+      "date": "2020-2025",
+      "line_number": 104,
+      "description": "*Directives under Section 154 of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1818/C.R.236/18(Part-5)/UD-13, Dated 16th December, 2022.*"
+    },
+    {
+      "id": 28,
+      "type": "Government Notification",
+      "reference": "TPS-1818/C.R.236/18(P",
+      "date": "2020-2025",
+      "line_number": 106,
+      "description": "*Notification under Section 37(1AA)(c) & Section 20(4) of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1818/C.R.236/18(Part-4)/Sec.37(1AA)(c) & Section 20(4)/ Modification/UD-13, Dated 28th December, 2022.*"
+    },
+    {
+      "id": 29,
+      "type": "Corrigendum",
+      "reference": "TPS-1818/C.R.236/18",
+      "date": "2020-2025",
+      "line_number": 108,
+      "description": "*Corrigendum for Notification Dated 28th December, 2022 vide Government Resolution No.TPS-1818/C.R.236/18 (Part-4)/Sec.37(1AA)(c) & Sec.20(4)/Modification/UD-13, Dated 11th January, 2023.*"
+    },
+    {
+      "id": 30,
+      "type": "Corrigendum",
+      "reference": "TPS-1818/C.R.236/18",
+      "date": "2020-2025",
+      "line_number": 110,
+      "description": "*Corrigendum for Notification Dt.28th December, 2022 vide Government Resolution No.TPS-1818/C.R.236/18 (Part-4)/ Sec.37(1AA)(c) & Sec.20(4)/Corrigendum/UD-13, Dated 12th January, 2023.*"
+    },
+    {
+      "id": 31,
+      "type": "Directives u/s 154",
+      "reference": "TPS-1823/CR.07/2023/UD-13",
+      "date": "2020-2025",
+      "line_number": 112,
+      "description": "*Directives under Section 154 of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1823/CR.07/2023/UD-13, Dated 27th February, 2023 regarding Class – 2 lands.*"
+    },
+    {
+      "id": 32,
+      "type": "Government Order",
+      "reference": "4.2",
+      "date": "2020-2025",
+      "line_number": 114,
+      "description": "*Order issued by Director of Town Planning under Note below Regulation No.4.2 vide No. परिपत्रक क्र.१/२०२३/नासंघ 4274, Dated 25th August, 2023.*"
+    },
+    {
+      "id": 33,
+      "type": "Directives u/s 154",
+      "reference": "TPS-1822/1818/C.R.179/2022/UD-13",
+      "date": "2020-2025",
+      "line_number": 116,
+      "description": "*Directives under Section 154 of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1822/1818/C.R.179/2022/UD-13, Dated 25th August, 2023 regarding inclusion of Addendum to Model Building Bye-Laws – 2016.*"
+    },
+    {
+      "id": 34,
+      "type": "Government Notification",
+      "reference": "TPS-1818/C.R.236/18(P",
+      "date": "2020-2025",
+      "line_number": 118,
+      "description": "*Notification under Section 37(1AA)(c) & Section 20(4) of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1818/C.R.236/18(Part-3)/Section 37(1AA)(c) & Section 20(4)/ Modification/UD-13, Dated 27th October, 2023.*"
+    },
+    {
+      "id": 35,
+      "type": "Government Notification",
+      "reference": "TPS-1822/251/C.R.09/2023/UD-13",
+      "date": "2020-2025",
+      "line_number": 120,
+      "description": "*Notification under Section 37(2) of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1822/251/C.R.09/2023/UD-13, Dated 05th December, 2023.*"
+    },
+    {
+      "id": 36,
+      "type": "Government Notification",
+      "reference": "TPS-1823/UOR-54/CR.97/2023/UD-13",
+      "date": "2020-2025",
+      "line_number": 122,
+      "description": "*Notification under Section 37(1AA)(c) & Section 20(4) of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1823/UOR-54/CR.97/2023/UD-13, Dated 12th January, 2024.*"
+    },
+    {
+      "id": 37,
+      "type": "Directives u/s 154",
+      "reference": "TPS-1823/VIP-53/C.R.94/2023/D",
+      "date": "2020-2025",
+      "line_number": 124,
+      "description": "*Directives under Section 154 of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1823/VIP-53/C.R.94/2023/Directives/UD-13, Dated 01st March, 2024 regarding applicability of UDCPR to Ratnagiri District.*"
+    },
+    {
+      "id": 38,
+      "type": "Addendum",
+      "reference": "TPS-1823/VIP-53/C.R.94/2023/UD-13",
+      "date": "2020-2025",
+      "line_number": 126,
+      "description": "*Revised Addendum No.TPS-1823/VIP-53/C.R.94/2023/UD-13, Dated 01st March, 2024 issued by the State Government to Addendum No.TPS-1818/C.R.236/18/Sec.37(1AA) & Sec.20(3)(Part-1)/Addendum/UD-13, Dated 14th January, 2021.*"
+    },
+    {
+      "id": 39,
+      "type": "Government Notification",
+      "reference": "TPS-1219/2172/C.R.110/19/UD-12",
+      "date": "2020-2025",
+      "line_number": 128,
+      "description": "*Notification under Section 37(1AA)(c) of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1219/2172/C.R.110/19/UD-12, Dated 15th March, 2024.*"
+    },
+    {
+      "id": 40,
+      "type": "Directives u/s 154",
+      "reference": "TPS-1824/1075/C.R.87/2024/UD-13",
+      "date": "2020-2025",
+      "line_number": 134,
+      "description": "*Notice under Section 37(1AA)(a) with Directives under Section 154 of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1824/1075/C.R.87/2024/UD-13, Dated 23rd July, 2024 regarding Regulation No.3.8.2(b).*"
+    },
+    {
+      "id": 41,
+      "type": "Government Notification",
+      "reference": "TPS-1824/225/C.R.96/2024/UD-13",
+      "date": "2020-2025",
+      "line_number": 136,
+      "description": "*Notification under Section 37(1AA)(c) & Section 20(4) of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1824/225/C.R.96/2024/UD-13, Dated 05th September, 2024 regarding Regulation No.11.2.5.*"
+    },
+    {
+      "id": 42,
+      "type": "Government Notification",
+      "reference": "TPS-1821/452/C.R.105/2022/(P",
+      "date": "2020-2025",
+      "line_number": 138,
+      "description": "*Notification under Section 37(1AA)(c) & Section 20(4) of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1821/452/C.R.105/2022/(Part-2)/UD-13, Dated 05th September, 2024 regarding ITP Policy.*"
+    },
+    {
+      "id": 43,
+      "type": "Government Order",
+      "reference": "4.2",
+      "date": "2020-2025",
+      "line_number": 140,
+      "description": "*Order issued by Director of Town Planning under Note below Regulation No.4.2 vide No.Order No.1/Equivalency of Zones/2024/TPV-7/4946, Dated 10th September, 2024.*"
+    },
+    {
+      "id": 44,
+      "type": "Directives u/s 154",
+      "reference": "TPS-1824/UOR-31/2024/",
+      "date": "2020-2025",
+      "line_number": 142,
+      "description": "*Notice under Section 37(1AA)(a) & Section 20(3) alongwith Directives under Section 154 of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1824/UOR-31/2024/ C.R.100/2024/UD-13, Dated 25th September, 2024 regarding Regulation No.6.10.1.*"
+    },
+    {
+      "id": 45,
+      "type": "Government Notification",
+      "reference": "TPS-1224/1175/C.R.53/24/S",
+      "date": "2020-2025",
+      "line_number": 144,
+      "description": "*Notification under Section 37(1AA)(c) of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1224/1175/C.R.53/24/Sec.37(1AA)(c)/UD-12, Dated 04th October, 2024 regarding Regulations No.10.3, 10.4, 11.2.*"
+    },
+    {
+      "id": 46,
+      "type": "Government Notification",
+      "reference": "TPS-1224/1018/C.R.15/24/UD-12",
+      "date": "2020-2025",
+      "line_number": 146,
+      "description": "*Notification under Section 37(1AA)(c) of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1224/1018/C.R.15/24/UD-12, Dated 07th October, 2024 regarding New Regulation No.10.16.*"
+    },
+    {
+      "id": 47,
+      "type": "Directives u/s 154",
+      "reference": "TPS-1824/UOR-38/C.R.118/2024/",
+      "date": "2020-2025",
+      "line_number": 148,
+      "description": "*Notice under Section 37(1AA)(a) & Section 20(3) alongwith Directives under Section 154 of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1824/UOR-38/C.R.118/2024/ UD-13, Dated 07th October, 2024 regarding Regulation No.7.6.*"
+    },
+    {
+      "id": 48,
+      "type": "Government Notification",
+      "reference": "TPB-4322/10/C.R.45/2022/UD-11",
+      "date": "2020-2025",
+      "line_number": 150,
+      "description": "*Notification under Section 37(1AA)(c) of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPB-4322/10/C.R.45/2022/UD-11, Dated 10th October, 2024 regarding New Regulation No.13.6.*"
+    },
+    {
+      "id": 49,
+      "type": "Corrigendum",
+      "reference": "TPS-1824/1264/C.R.116/2024/UD-13",
+      "date": "2020-2025",
+      "line_number": 152,
+      "description": "*Corrigendum issued by the State Government vide Resolution No.TPS-1824/1264/C.R.116/2024/UD-13, Dated 11th October, 2024 regarding Regulation No.11.2.5.*"
+    },
+    {
+      "id": 50,
+      "type": "Government Order",
+      "reference": "TPS-1824/1264/C.R.116/2024/(P",
+      "date": "2020-2025",
+      "line_number": 154,
+      "description": "*Order No.TPS-1824/1264/C.R.116/2024/(Part-2)/Order/UD-13, Dated 11th October, 2024 under clause (c) - RoD in Notification under Section 37(2) of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1822/251/C.R.09/2023/UD-13, Dated 05th December, 2023 regarding Regulation No.14.6.*"
+    },
+    {
+      "id": 51,
+      "type": "Directives u/s 154",
+      "reference": "TPS-1824/1264/C.R.116/2024/UD-13",
+      "date": "2020-2025",
+      "line_number": 156,
+      "description": "*Notice under Section 37(1AA)(a) alongwith Directives under Section 154 of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1824/1264/C.R.116/2024/UD-13, Dated 11th October, 2024 regarding Regulation No.14.6.16(2).*"
+    },
+    {
+      "id": 52,
+      "type": "Directives u/s 154",
+      "reference": "TPS-1824/1159/C.R.94/2024/UD-13",
+      "date": "2020-2025",
+      "line_number": 158,
+      "description": "*Notice under Section 37(1AA)(a) & Section 20(3) alongwith Directives under Section 154 of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1824/1159/C.R.94/2024/UD-13, Dated 11th October, 2024 regarding Regulation No.2.2.14.*"
+    },
+    {
+      "id": 53,
+      "type": "Government Notification",
+      "reference": "TPS-1823/C.R.35/2023/UD-13",
+      "date": "2020-2025",
+      "line_number": 160,
+      "description": "*Notification under Section 37(1AA)(c) & Section 20(4) of the Maharashtra Regional & Town Planning Act, 1966 issued by the State Government vide Resolution No.TPS-1823/C.R.35/2023/UD-13, Dated 27th November, 2024 regarding New Regulation No.6.15.*"
+    }
+  ],
+  "appendix_orders_count": 32,
+  "appendix_orders": [
+    {
+      "line": 16129,
+      "heading": "परिशिष्ट",
+      "tag": "परिशिष्ट"
+    },
+    {
+      "line": 16417,
+      "heading": "आदेश क्र. ८",
+      "tag": "आदेश क्र. ८"
+    },
+    {
+      "line": 16696,
+      "heading": "आदेश क्र.१",
+      "tag": "आदेश क्र.१"
+    },
+    {
+      "line": 16813,
+      "heading": "आदेश क्र.१०",
+      "tag": "आदेश क्र.१०"
+    },
+    {
+      "line": 16945,
+      "heading": "आदेश क्र.११",
+      "tag": "आदेश क्र.११"
+    },
+    {
+      "line": 17077,
+      "heading": "निदेश",
+      "tag": "निदेश"
+    },
+    {
+      "line": 17236,
+      "heading": "शुद्धीपत्रक (आदेश क्र.११ संदर्भात)",
+      "tag": "शुद्धीपत्रक"
+    },
+    {
+      "line": 17409,
+      "heading": "आदेश क्र.१२",
+      "tag": "आदेश क्र.१२"
+    },
+    {
+      "line": 17591,
+      "heading": "परिशिष्ट",
+      "tag": "परिशिष्ट"
+    },
+    {
+      "line": 17680,
+      "heading": "आदेश क्र. ९२",
+      "tag": "आदेश क्र. ९२"
+    },
+    {
+      "line": 17811,
+      "heading": "आदेश क्र.१३",
+      "tag": "आदेश क्र.१३"
+    },
+    {
+      "line": 17904,
+      "heading": "आदेश क्र.१४",
+      "tag": "आदेश क्र.१४"
+    },
+    {
+      "line": 18079,
+      "heading": "आदेश क्र.१५",
+      "tag": "आदेश क्र.१५"
+    },
+    {
+      "line": 18236,
+      "heading": "आदेश क्र.१६",
+      "tag": "आदेश क्र.१६"
+    },
+    {
+      "line": 18574,
+      "heading": "ANNEXURE – A",
+      "tag": "ANNEXURE – A"
+    },
+    {
+      "line": 18698,
+      "heading": "ANNEXURE B",
+      "tag": "ANNEXURE B"
+    },
+    {
+      "line": 18860,
+      "heading": "ANNEXURE - C Fire Tower (Typical Sketches)",
+      "tag": "ANNEXURE - C"
+    },
+    {
+      "line": 18913,
+      "heading": "ANNEXURE - D - Fire Break Water Tank System for High-Rise Buildings of Height 90m and above",
+      "tag": "ANNEXURE - D"
+    },
+    {
+      "line": 19038,
+      "heading": "ANNEXURE <mark>E-1</mark> Appointment of Electrical Professional (Electrical Engineer/ Consultant) and Contractor",
+      "tag": "ANNEXURE "
+    },
+    {
+      "line": 19134,
+      "heading": "ANNEXURE <mark>E 22</mark> FORM 2- Declaration for Construction of Electrical Installation",
+      "tag": "ANNEXURE "
+    },
+    {
+      "line": 19183,
+      "heading": "ANNEXURE <mark>22</mark> FORM 3- Declaration for Inspection and Testing of Electrical Installation",
+      "tag": "ANNEXURE "
+    },
+    {
+      "line": 19273,
+      "heading": "ANNEXURE <mark>G</mark> – Requirements related to Civil Construction",
+      "tag": "ANNEXURE "
+    },
+    {
+      "line": 19308,
+      "heading": "ANNEXURE <mark>H</mark> - Assessment of Electrical Load requirement",
+      "tag": "ANNEXURE "
+    },
+    {
+      "line": 19352,
+      "heading": "ANNEXURE <mark>I</mark> Layouts and drawings – Equipment and Internal Electrical Installation",
+      "tag": "ANNEXURE "
+    },
+    {
+      "line": 19400,
+      "heading": "ANNEXURE <mark>J</mark> - Single Line Diagrams",
+      "tag": "ANNEXURE "
+    },
+    {
+      "line": 19437,
+      "heading": "ANNEXURE <mark>K</mark> - Coordination in Activities",
+      "tag": "ANNEXURE "
+    },
+    {
+      "line": 19463,
+      "heading": "ANNEXURE - Points to be observed in Construction Work",
+      "tag": "ANNEXURE - Points"
+    },
+    {
+      "line": 19492,
+      "heading": "ANNEXURE <mark>M-1</mark> - Model format for Test Report of Electrical Works in Buildings",
+      "tag": "ANNEXURE "
+    },
+    {
+      "line": 19553,
+      "heading": "ANNEXURE <mark>M2</mark> - Model format for Test Report of Electrical Works in Buildings",
+      "tag": "ANNEXURE "
+    },
+    {
+      "line": 19776,
+      "heading": "ANNEXURE: N-1 - Checklist for Handing-Over Documents to Individual Buyer",
+      "tag": "ANNEXURE"
+    },
+    {
+      "line": 19809,
+      "heading": "ANNEXURE <mark>N-21</mark> – Checklist for Handing-Over Documents to the owner's Society / Association",
+      "tag": "ANNEXURE "
+    },
+    {
+      "line": 19982,
+      "heading": "ANNEXURE I - Instructions to the Electrical Professional/Engineer/ Consultants, Contractors, Stakeholders for providing information in the Test Report for high-rise buildings.",
+      "tag": "ANNEXURE I"
+    }
+  ]
+}

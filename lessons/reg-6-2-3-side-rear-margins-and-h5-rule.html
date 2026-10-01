@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regulation 6.1.1(iii), 6.2.3 & 6.2.4 Side & Rear Margins, Building Separation & The H/5 Rule | UDCPR from Scratch</title>
+  <meta name="description" content="Master UDCPR side and rear marginal distances: the H/5 high-rise formula, the 12.0m plot boundary cap, building-to-building separation rules, dead-wall concessions, and step margins.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/blueprint.css">
+  <link rel="stylesheet" href="/css/components.css">
+</head>
+<body>
+
+  <!-- THE DRAWING SHEET CONTAINER -->
+  <div class="sheet">
+    <div class="ruler-top"></div>
+    <div class="corner-tick tl"></div>
+    <div class="corner-tick tr"></div>
+    <div class="corner-tick bl"></div>
+    <div class="corner-tick br"></div>
+
+    <!-- Statutory Disclaimer Strip -->
+    <div class="disclaimer-strip">
+      <strong>DISCLAIMER:</strong> Educational summary and reference guide only, not legal or municipal advice. Always verify with official Government Notifications and sanctioned Development Plans.
+    </div>
+
+    <!-- Sheet Navigation -->
+    <nav class="sheet-nav">
+      <a href="/" class="brand-block">
+        <span class="brand-stamp">UDCPR</span>
+        <div class="brand-title-group">
+          <h1>UDCPR from Scratch</h1>
+          <span>Drawing Sheet • Lesson Blueprint</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="/topics/">Topics</a></li>
+        <li class="nav-item"><a href="/chapters/ch06.html" class="active">Chapter 6: General Building Requirements - Setback, Marginal Distance, Height and Permissible FSI</a></li>
+        <li class="nav-item"><a href="/glossary.html">Glossary</a></li>
+        <li class="nav-item"><a href="/formulas.html">Formulas</a></li>
+        <li class="nav-item"><a href="/amendments.html">Amendments (#)</a></li>
+        <li class="nav-item"><a href="/govt-orders.html">Orders</a></li>
+      </ul>
+
+      <div class="nav-tools">
+        <button class="tool-btn" onclick="openSearchModal()">Search <kbd style="font-family:var(--mono);">Ctrl+K</kbd></button>
+      </div>
+    </nav>
+
+    <!-- Lesson Body -->
+    <main style="max-width: 960px; margin: 0 auto; padding-top: 10px;">
+
+      <!-- Breadcrumbs & Kicker Tags -->
+      <div class="kicker-muted" style="margin-bottom: 10px;">
+        <a href="/" style="color:var(--ink-soft); text-decoration:none;">HOME</a> / 
+        <a href="/chapters/ch06.html" style="color:var(--ink-soft); text-decoration:none;">CHAPTER 6: GENERAL BUILDING REQUIREMENTS - SETBACK, MARGINAL DISTANCE, HEIGHT AND PERMISSIBLE FSI</a> / 
+        <span style="color:var(--blueprint);">Regulation 6.1.1(iii), 6.2.3 & 6.2.4</span>
+      </div>
+
+      <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px; flex-wrap:wrap;">
+        <span class="badge badge-clause">Regulation 6.1.1(iii), 6.2.3 & 6.2.4</span>
+        <span class="badge badge-amended">Amended (#) UDCPR-2020 Reg 6.2.3 & 6.2.4, amended dt. 02nd Dec 2021 and 23rd Dec 2021</span>
+        <span class="badge badge-status-done">CORE STATUTORY SPECIFICATION</span>
+      </div>
+
+      <h1 style="font-size:2.2rem; margin-bottom:12px; line-height:1.2;">
+        Side & Rear Margins, Building Separation & The H/5 Rule
+      </h1>
+
+      <p style="font-size:1.05rem; color:var(--ink-soft); line-height:1.6; margin-bottom:28px;">
+        Learn the mathematical and legal framework governing side and rear margins: how Table 6-D transitions into the H/5 height formula, the statutory 12.0m boundary ceiling, the taller-building separation rule, and step-margin terracing.
+      </p>
+
+      <!-- 1. PLAIN LANGUAGE SUMMARY -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">01 // EXECUTIVE SUMMARY</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Plain-Language Executive Summary</h2>
+        <div class="panel-info">
+          
+      <p>
+        While front setbacks are anchored to road widths, <strong>Side and Rear Margins</strong> are directly linked to building height, structural separation, fire safety, and natural light/ventilation.
+      </p>
+      <p>
+        In low-rise construction (&le; 15.0m height), margins are fixed by <strong>Table 6-D</strong> (typically 1.5m to 3.0m). However, once a building exceeds the heights specified in Table 6-D, <strong>Regulation 6.2.3(b)</strong> activates Maharashtra's celebrated <strong>H/5 Rule</strong>:
+      </p>
+      <div style="background:var(--paper-raised); border-left:4px solid var(--blueprint); padding:12px; margin:14px 0; font-family:var(--mono);">
+        $$\text{Side or Rear Marginal Distance} = \frac{H}{5} \quad (\text{subject to a statutory ceiling of } \mathbf{12.0\text{ meters}})$$
+      </div>
+      <p>
+        Here, $H$ is the total building height above ground, but critically excludes <strong>up to 6.0m of parking podium/stilt floors</strong>! Furthermore, when two buildings stand on the same layout plot under <strong>Regulation 6.2.4</strong>, the clear distance between them must equal the full side/rear margin required for the <em>taller of the two buildings</em>.
+      </p>
+    
+        </div>
+      </section>
+
+      <!-- 2. THE STATUTORY RULE -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">02 // STATUTORY RULE</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Statutory Rule &amp; Clause Breakdown</h2>
+        <div class="panel-info" style="border-left-color: var(--blueprint);">
+          <div class="kicker" style="color:var(--blueprint); margin-bottom:6px;">UDCPR Regulation 6.1.1(iii), 6.2.3 & 6.2.4 STATUTORY PROVISION</div>
+          <p style="font-size:0.92rem; color:var(--ink); font-style:italic; line-height:1.6;">
+            "
+### 6.1.1(iii) Side and Rear Marginal Distances in Congested Area (Table No. 6-C)
+| Plot Area | Side Margin | Rear Margin |
+| --- | --- | --- |
+| Up to 1000 Sq.m. | 0.00 | 0.00 |
+| Above 1000 & upto 4000 Sq.m. | 1.00 m. | 1.00 m. |
+| Above 4000 Sq.m. | As per Regulation for non-congested area |
+
+Note 2: Irrespective of the area of a plot, if the width thereof is 7.0 m. or less, then the side margin shall be nil.
+vi) Height: Above setback and marginal distances shall be applicable for buildings less than 15.0 m. in height. Marginal distances shall be increased by 1.0 m. for buildings having height 15.0 m. and more but less than 24.0 m. For buildings having height 24.0 m. and more, marginal distances shall be as per regulations of non-congested area.
+
+### 6.2.3(b) Side or rear marginal distance (Non-Congested Area)
+The marginal distance on all sides shall be as per Table No.6-D / Table No.6-E for building height or floors mentioned therein. For height more than stipulated in Table No.6-D / Table No.6-E, the marginal distance on all sides, except the front side of a building, shall be minimum H / 5 (Where H = Height of the building above ground level).
+
+Provided that, such marginal distance shall be subject to a maximum of 12.0 m. from the plot boundary and distance between two buildings shall be as per Regulation No.6.2.4.
+
+Provided further that, such marginal distance from recreational open space shall be 3.0 m. in case of non-special buildings and 6.0 m. in case of special buildings, irrespective of its height.
+
+Provided further that, the building height for the purposes of this regulation and for calculating the marginal distances shall be exclusive of height of parking floors upto 6.0 m.
+
+Provided further that, where rooms do not derive light and ventilation from the exterior open space, i.e. dead walls, such marginal distance may be reduced to 6.0 m. in case of special building and 3.0 m. in case of other buildings.
+
+### 6.2.3(c) Provision for Step Margin
+Step margins may be allowed to be provided on upper floors to achieve required side or rear marginal distances as mentioned in these regulations subject to minimum marginal distance of 6.0 m. on ground level in case of special building.
+
+### 6.2.4 Distance between two buildings
+The distance between two buildings shall be the side / rear marginal distance required for the taller building between the two adjoining buildings.
+    "
+          </p>
+        </div>
+        
+      <div class="card-grid">
+        <div class="card">
+          <span class="kicker-card">CORE FORMULA</span>
+          <h3 class="card-title">The H/5 High-Rise Rule</h3>
+          <p class="card-body">
+            For heights exceeding Table 6-D limits, all side and rear margins equal <strong>H / 5</strong>. If a tower is 45m tall (with no stilt parking), required margin is $45 / 5 = \mathbf{9.0\text{ m}}$. Applies symmetrically to all non-front plot boundaries.
+          </p>
+        </div>
+
+        <div class="card">
+          <span class="kicker-card">STATUTORY CEILING</span>
+          <h3 class="card-title">The 12.0m Boundary Cap</h3>
+          <p class="card-body">
+            No matter how tall a skyscraper rises—even 80m, 100m, or 150m tall—the required setback from the <strong>plot boundary is capped at 12.0 meters</strong>. Developers are never forced to leave 20m or 30m offsets from their outer perimeter.
+          </p>
+        </div>
+
+        <div class="card">
+          <span class="kicker-card">EXCLUSION BENEFIT</span>
+          <h3 class="card-title">Parking Height Deduction</h3>
+          <p class="card-body">
+            When computing $H$ for marginal distances, the height of <strong>parking podiums/stilts up to 6.0 meters is deducted</strong>! If a building has total height of 36m including a 6m parking stilt, effective $H = 30\text{m}$, requiring a margin of $30 / 5 = \mathbf{6.0\text{ m}}$ instead of 7.2m.
+          </p>
+        </div>
+
+        <div class="card">
+          <span class="kicker-card">LAYOUT SEPARATION</span>
+          <h3 class="card-title">Taller Building Principle (Reg 6.2.4)</h3>
+          <p class="card-body">
+            When two towers (e.g. Tower A at 30m and Tower B at 60m) stand in the same layout, the clear spacing between them is governed strictly by the <strong>taller building</strong> ($60 / 5 = \mathbf{12.0\text{ m}}$), preventing narrow light-starved canyons between unequal towers.
+          </p>
+        </div>
+      </div>
+    
+      </section>
+
+      <!-- 3. BLUEPRINT PLATE / KEY NUMBERS TABLE -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">03 // SPECIFICATION &amp; DATA PLATE</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Blueprint Plate &amp; Key Numbers Table</h2>
+        
+      <div class="table-container">
+        <table class="drawing-table">
+          <thead>
+            <tr>
+              <th>Building Height (above ground)</th>
+              <th>Parking Floor Deduction (up to 6m)</th>
+              <th>Effective Height ($H$) for Margins</th>
+              <th>Calculated Side/Rear Margin ($H/5$)</th>
+              <th>Statutory Plot Boundary Margin Required</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>15.0 m</strong> (Low-Rise)</td>
+              <td>0.0 m</td>
+              <td>15.0 m</td>
+              <td>Table 6-D</td>
+              <td><strong>1.5 m to 3.0 m</strong> (as per Table 6-D)</td>
+            </tr>
+            <tr>
+              <td><strong>25.0 m</strong> (Mid-Rise)</td>
+              <td>5.0 m stilt</td>
+              <td>20.0 m</td>
+              <td>20.0 / 5 = 4.0 m</td>
+              <td><strong>6.0 m</strong> (Special Bldg min fire driveway)</td>
+            </tr>
+            <tr>
+              <td><strong>36.0 m</strong> (High-Rise)</td>
+              <td>6.0 m podium</td>
+              <td>30.0 m</td>
+              <td>30.0 / 5 = 6.0 m</td>
+              <td><strong>6.0 m</strong></td>
+            </tr>
+            <tr>
+              <td><strong>50.0 m</strong> (High-Rise)</td>
+              <td>5.0 m stilt</td>
+              <td>45.0 m</td>
+              <td>45.0 / 5 = 9.0 m</td>
+              <td><strong>9.0 m</strong></td>
+            </tr>
+            <tr>
+              <td><strong>70.0 m</strong> (High-Rise)</td>
+              <td>6.0 m podium</td>
+              <td>64.0 m</td>
+              <td>64.0 / 5 = 12.8 m</td>
+              <td><strong>12.0 m</strong> (Statutory Cap Applied)</td>
+            </tr>
+            <tr>
+              <td><strong>100.0 m</strong> (Skyscraper)</td>
+              <td>6.0 m podium</td>
+              <td>94.0 m</td>
+              <td>94.0 / 5 = 18.8 m</td>
+              <td><strong>12.0 m</strong> (Statutory Cap Applied)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    
+      </section>
+
+      <!-- 4. WORKED NUMERICAL EXAMPLE -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker" style="color:var(--amber);">04 // WORKED PRACTICAL EXAMPLE</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Worked Practical Calculation</h2>
+        <div class="panel-example">
+          
+      <div class="math-box">
+        <h4 style="font-family:var(--disp); font-weight:700; margin-bottom:12px; color:var(--ink);">
+          Worked Case: Setting Out Margins for a Mixed-Height Layout with Step Margins
+        </h4>
+        <p><strong>Site Setup:</strong></p>
+        <ul>
+          <li>Plot in PCMC non-congested area. Two residential towers proposed on a shared 5.0m parking podium.</li>
+          <li><strong>Tower 1:</strong> Total height = <strong>35.0 meters</strong>.</li>
+          <li><strong>Tower 2:</strong> Total height = <strong>55.0 meters</strong>.</li>
+        </ul>
+
+        <div style="margin: 16px 0; border-left: 3px solid var(--blueprint); padding-left: 14px;">
+          <p><strong>Step 1: Effective Heights for Marginal Distances</strong></p>
+          <p>Under Reg 6.2.3(b), the 5.0m parking podium is deducted from height calculations:
+            $$\text{Effective } H_1 = 35.0 - 5.0 = \mathbf{30.0\text{ meters}}$$
+            $$\text{Effective } H_2 = 55.0 - 5.0 = \mathbf{50.0\text{ meters}}$$
+          </p>
+        </div>
+
+        <div style="margin: 16px 0; border-left: 3px solid var(--amber); padding-left: 14px;">
+          <p><strong>Step 2: Plot Boundary Margins for Each Tower</strong></p>
+          <p>For Tower 1 facing the southern plot boundary:
+            $$\text{Margin}_1 = \frac{H_1}{5} = \frac{30.0}{5} = \mathbf{6.0\text{ meters}}$$
+          </p>
+          <p>For Tower 2 facing the northern plot boundary:
+            $$\text{Margin}_2 = \frac{H_2}{5} = \frac{50.0}{5} = \mathbf{10.0\text{ meters}}$$
+          </p>
+          <p><em>Step Margin Option (Reg 6.2.3c):</em> Tower 2 could maintain a 6.0m margin at ground/podium level, and step back to 10.0m on upper floors above 35m height!</p>
+        </div>
+
+        <div style="margin: 16px 0; border-left: 3px solid var(--blueprint-soft); padding-left: 14px;">
+          <p><strong>Step 3: Distance Between Tower 1 and Tower 2 (Reg 6.2.4)</strong></p>
+          <p>Under Reg 6.2.4, the separation distance equals the side/rear margin required for the <em>taller building</em>:
+            $$\text{Taller Building} = \text{Tower 2 with required margin of } \mathbf{10.0\text{ meters}}$$
+            $$\text{Mandatory Clear Separation Between Towers} = \mathbf{10.0\text{ meters}}$$
+          </p>
+        </div>
+      </div>
+    
+        </div>
+      </section>
+
+      <!-- 5. COMMON PITFALLS & SITE WATCHOUTS -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker" style="color:var(--brick);">05 // SCRUTINY WATCHOUTS</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Common Pitfalls &amp; Sanction Watchouts</h2>
+        <div class="panel-alert">
+          <div style="display:flex; flex-direction:column; gap:12px;">
+            
+      <div class="panel-alert">
+        <h4 style="font-family:var(--disp); font-weight:700; color:var(--brick); margin-bottom:8px;">
+          FATAL ARCHITECTURAL PITFALLS IN MARGIN COMPUTATION
+        </h4>
+        <ul style="margin-left: 18px; line-height: 1.6;">
+          <li>
+            <strong>Averaging Margins for Building Separation:</strong> Many architects wrongly average the heights or margins of two towers ($(6.0 + 10.0)/2 = 8.0	ext{m}$). Reg 6.2.4 strictly mandates the full margin of the <em>taller building</em> (10.0m).
+          </li>
+          <li>
+            <strong>Violating the 6.0m Fire Driveway Floor Base:</strong> While Step Margins (Reg 6.2.3c) allow upper floor terracing, the ground level margin for any Special Building (&ge; 15m height) can <em>never</em> drop below <strong>6.0 meters</strong>.
+          </li>
+          <li>
+            <strong>Forgetting Dead-Wall Concessions:</strong> If an entire facade has zero windows or ventilation openings (a pure dead wall), you do not need the full $H/5$ margin. Under Reg 6.2.3(b), it can be reduced to <strong>6.0m</strong> for special buildings and <strong>3.0m</strong> for normal buildings, saving massive site area!
+          </li>
+          <li>
+            <strong>Failing to Keep 6.0m Clear from ROS:</strong> For special buildings, the margin between the building footprint and the internal Recreational Open Space (ROS) must be at least <strong>6.0 meters</strong>, irrespective of whether it is a front or side edge.
+          </li>
+        </ul>
+      </div>
+    
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. AMENDMENT / CLARIFICATION HISTORY -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">06 // AMENDMENT HISTORY</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Amendment &amp; Clarification History (#)</h2>
+        <div class="panel-info">
+          
+      <div class="panel-info">
+        <h4 style="font-family:var(--disp); font-weight:700; margin-bottom:8px;">Statutory Amendments & Orders</h4>
+        <ul style="font-size:0.92rem; line-height:1.6; margin-left:18px;">
+          <li><strong>Corrigendum CR 79/2021 (dt. 02 Dec 2021):</strong> Clarified building separation references under Regulation 6.2.4 and dead-wall clearances.</li>
+          <li><strong>Order CR 236/18 Part-2 (dt. 23 Dec 2021):</strong> Formal clarification confirming the exclusion of up to 6.0m parking floors when computing building height for $H/5$ margins.</li>
+        </ul>
+      </div>
+    
+        </div>
+      </section>
+
+      <!-- 7. INTERACTIVE QUIZ -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">07 // VERIFICATION QUIZ</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Quick Quiz: Check Your Understanding</h2>
+        <div class="quiz-container" id="quiz-6-4"></div>
+      </section>
+
+      <!-- Back / Next Navigation (Bordered Button Group) -->
+      <div style="display:flex; justify-content:space-between; align-items:center; border-top:1px solid var(--ink); padding-top:20px; margin-top:36px; flex-wrap:wrap; gap:12px;">
+        <a href="/lessons/reg-6-2-front-setbacks-and-street-alignments.html" class="tool-btn" style="padding:8px 16px; text-decoration:none;">
+          ← Reg 6.1.1(ii) & 6.2.1: Front Road Setbacks & Street Alignments
+        </a>
+        <a href="/lessons/reg-6-7-projections-fsi-exclusions-and-fire-driveways.html" class="tool-btn" style="background:var(--ink); color:var(--paper-raised); padding:8px 16px; text-decoration:none;">
+          Reg 6.7 & 6.8: Projections, FSI Exclusions & Fire Driveways →
+        </a>
+      </div>
+
+    </main>
+
+    <!-- Sheet Footer -->
+    <footer class="sheet-footer">
+      <div>UDCPR FROM SCRATCH • MAHARASHTRA UNIFIED DCRP-2020</div>
+      <div>REG. Regulation 6.1.1(iii), 6.2.3 & 6.2.4 • DRAWING SHEET SYSTEM</div>
+    </footer>
+  </div>
+
+  <!-- Universal Search Modal -->
+  <div class="search-modal-backdrop" id="search-modal-backdrop" onclick="if(event.target === this) closeSearchModal()">
+    <div class="search-modal">
+      <div class="search-modal-header">
+        <span style="font-family:var(--mono); font-size:13px; font-weight:700;">SEARCH //</span>
+        <input type="text" id="search-modal-input" class="search-modal-input" placeholder="Type clause (e.g. 3.4.1), term (e.g. FSI), or keyword..." autocomplete="off">
+        <button onclick="closeSearchModal()" class="tool-btn" style="padding:2px 8px;">ESC</button>
+      </div>
+      <ul class="search-results-list" id="search-results-list"></ul>
+    </div>
+  </div>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/search.js"></script>
+  <script src="/js/quiz.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const questions = [{"question": "For a building exceeding Table 6-D low-rise heights, what is the statutory formula for side and rear marginal distances under Regulation 6.2.3(b)?", "options": ["H / 3", "H / 4", "H / 5 (subject to a maximum of 12.0 meters)", "H / 6 with no upper ceiling"], "answer": 2, "explanation": "Under Reg 6.2.3(b), the marginal distance on all sides (except front) shall be minimum H / 5, subject to a statutory maximum cap of 12.0 meters from the plot boundary."}, {"question": "When calculating building height (H) for the H/5 marginal distance formula, what height exemption is granted under Reg 6.2.3(b)?", "options": ["Total height of the top 3 penthouses", "Height of parking floors up to 6.0 meters", "Height of all basement levels combined", "Height of the lift machine room and water tank"], "answer": 1, "explanation": "Reg 6.2.3(b) explicitly provides that the building height for calculating marginal distances shall be exclusive of the height of parking floors up to 6.0 meters."}, {"question": "In a layout with two adjoining buildings of heights 25m and 60m, what is the mandatory separation distance between them under Regulation 6.2.4?", "options": ["The side margin required for the shorter building (25m)", "The average of the side margins of both buildings", "The side/rear marginal distance required for the taller building (60m)", "A flat 4.5 meters in all cases"], "answer": 2, "explanation": "Regulation 6.2.4 mandates that the distance between two buildings shall be the side/rear marginal distance required for the taller building between the two adjoining buildings."}, {"question": "Under Regulation 6.2.3(b), what is the permissible reduced marginal distance for a Special Building if the wall is a pure dead wall (no light or ventilation openings)?", "options": ["1.5 meters", "3.0 meters", "6.0 meters", "Dead walls receive no reduction"], "answer": 2, "explanation": "Reg 6.2.3(b) provides that where rooms do not derive light and ventilation from the exterior open space (dead walls), the marginal distance may be reduced to 6.0 m in case of special buildings and 3.0 m in case of other buildings."}];
+      initQuiz('quiz-6-4', questions, '6.4');
+    });
+  </script>
+</body>
+</html>
