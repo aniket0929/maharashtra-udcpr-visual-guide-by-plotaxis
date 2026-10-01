@@ -56,8 +56,8 @@
       }
       const progressPercentEl = document.getElementById('total-progress-percent');
       if (progressPercentEl) {
-        // Total active core lessons = 47 (Ch 1: 4, Ch 2: 5, Ch 3: 6, Ch 4: 6, Ch 5: 5, Ch 6: 6, Ch 7: 6, Ch 8: 4, Ch 9: 5)
-        const pct = Math.min(100, Math.round((data.completedLessons.length / 47) * 100));
+        // Total active core lessons = 76 (Ch 1: 4, Ch 2: 5, Ch 3: 6, Ch 4: 6, Ch 5: 5, Ch 6: 6, Ch 7: 6, Ch 8: 4, Ch 9: 5, Ch 10: 7, Ch 11: 4, Ch 12: 4, Ch 13: 4, Ch 14: 7, Ch 15: 3)
+        const pct = Math.min(100, Math.round((data.completedLessons.length / 76) * 100));
         progressPercentEl.textContent = pct + '%';
       }
     }

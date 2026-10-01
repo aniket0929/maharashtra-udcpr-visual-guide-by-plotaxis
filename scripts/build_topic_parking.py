@@ -1,4 +1,15 @@
-<!DOCTYPE html>
+"""
+UDCPR FROM SCRATCH - TOPIC 3 WORKBENCH GENERATOR
+Builds topics/parking-and-circulation.html with dynamic interactive CAD stall layout plates,
+basement ramp cross-section, tenement quota engine, and verification quiz.
+"""
+
+import os
+import sys
+
+sys.stdout.reconfigure(encoding='utf-8')
+
+HTML_CONTENT = """<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -664,3 +675,13 @@
   </script>
 </body>
 </html>
+"""
+
+def main():
+    target_path = os.path.join(os.path.dirname(__file__), '..', 'topics', 'parking-and-circulation.html')
+    with open(target_path, 'w', encoding='utf-8') as f:
+        f.write(HTML_CONTENT)
+    print(f"✓ Rebuilt {target_path} with dynamic interactive CAD stall layout engine.")
+
+if __name__ == '__main__':
+    main()

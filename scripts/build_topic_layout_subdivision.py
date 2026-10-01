@@ -1,0 +1,566 @@
+"""
+UDCPR FROM SCRATCH - TOPIC 4 WORKBENCH GENERATOR
+Builds topics/layout-and-subdivision.html with interactive CAD subdivision partition plate,
+land budget calculator (Net Plot, ROS, Amenity, Inclusive Housing), and verification quiz.
+"""
+
+import os
+import sys
+
+sys.stdout.reconfigure(encoding='utf-8')
+
+HTML_CONTENT = """<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout &amp; Land Subdivision Workbench | UDCPR from Scratch</title>
+  <meta name="description" content="Master land subdivision, layout internal roads, 10% Recreational Open Space (ROS), 5% Amenity Space, and 20% Inclusive Housing under UDCPR Chapter 3.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/blueprint.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <style>
+    .svg-dimension-text {
+      font-family: var(--mono);
+      font-size: 11px;
+      font-weight: 700;
+      fill: var(--ink);
+    }
+    .svg-witness-line {
+      stroke: var(--ink-soft);
+      stroke-width: 1;
+      stroke-dasharray: 2, 2;
+    }
+    .breakdown-card {
+      border: 1px solid var(--line-strong);
+      background: var(--paper);
+      padding: 14px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- THE DRAWING SHEET CONTAINER -->
+  <div class="sheet">
+    <div class="ruler-top"></div>
+    <div class="corner-tick tl"></div>
+    <div class="corner-tick tr"></div>
+    <div class="corner-tick bl"></div>
+    <div class="corner-tick br"></div>
+
+    <!-- Statutory Disclaimer Strip -->
+    <div class="disclaimer-strip">
+      <strong>STATUTORY SPECIFICATION:</strong> Reg. 3.1 to 3.8, Reg. 3.4.1 (ROS), Reg. 3.5 (Amenity Space), Reg. 3.8 (Inclusive Housing), and Table 3-A &amp; 3-C of UDCPR-2020.
+    </div>
+
+    <!-- Sheet Navigation -->
+    <nav class="sheet-nav">
+      <a href="/" class="brand-block">
+        <span class="brand-stamp">UDCPR</span>
+        <div class="brand-title-group">
+          <h1>UDCPR from Scratch</h1>
+          <span>Practice Workbench • Drawing Sheet</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="/topics/" class="active">Topics</a></li>
+        <li class="nav-item"><a href="/chapters/">Chapters</a></li>
+        <li class="nav-item"><a href="/glossary.html">Glossary</a></li>
+        <li class="nav-item"><a href="/formulas.html">Formulas</a></li>
+        <li class="nav-item"><a href="/amendments.html">Amendments (#)</a></li>
+        <li class="nav-item"><a href="/govt-orders.html">Orders</a></li>
+      </ul>
+
+      <div class="nav-tools">
+        <button class="tool-btn" onclick="openSearchModal()">Search <kbd style="font-family:var(--mono);">Ctrl+K</kbd></button>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main style="max-width: 980px; margin: 0 auto; padding-top: 10px;">
+
+      <!-- Breadcrumbs & Kicker -->
+      <div class="kicker-muted" style="margin-bottom: 10px;">
+        <a href="/" style="color:var(--ink-soft); text-decoration:none;">HOME</a> / 
+        <a href="/topics/" style="color:var(--ink-soft); text-decoration:none;">TOPICS</a> / 
+        <span style="color:var(--blueprint);">LAYOUT &amp; LAND SUBDIVISION</span>
+      </div>
+
+      <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px; flex-wrap:wrap;">
+        <span class="badge badge-clause">Reg. 3.1 – 3.8</span>
+        <span class="badge badge-clause">10% ROS &amp; 5% Amenity</span>
+        <span class="badge badge-status-done">CAD Land Budget Engine</span>
+      </div>
+
+      <h1 style="font-size:2.2rem; margin-bottom:12px; line-height:1.2;">
+        Layout Planning, Land Subdivision &amp; Net Plot Area
+      </h1>
+
+      <p style="font-size:1.05rem; color:var(--ink-soft); line-height:1.6; margin-bottom:28px;">
+        Master the statutory partitioning of large land holdings under Chapter 3. Understand how Development Plan (DP) road deductions, internal access roads (Table 3-A vs 3-C), <strong>10% Recreational Open Space (ROS)</strong>, <strong>5% Amenity Space</strong>, and <strong>20% Inclusive Housing</strong> shape the final Net Plot Area available for FSI consumption.
+      </p>
+
+      <!-- SECTION 1: THE STATUTORY LAND BUDGET EQUATION -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">01 // PEDAGOGICAL BREAKDOWN</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">The Step-by-Step Land Partition Sequence</h2>
+        <div class="panel-info">
+          <p style="margin-bottom:14px;">
+            A surveyor begins with the <strong>Gross Holding Area</strong> from 7/12 land records. Before any building can be designed, the land must pass through four statutory partitions:
+          </p>
+
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(210px, 1fr)); gap:12px;">
+            <div style="background:var(--paper); border:1px solid var(--line-strong); padding:12px;">
+              <span class="kicker" style="color:var(--ink);">Step 1 • DP Deductions</span>
+              <div style="font-family:var(--disp); font-weight:700; font-size:1rem; margin-top:2px;">Road Widening &amp; Reservations</div>
+              <p style="font-size:0.82rem; color:var(--ink-soft); margin-top:4px;">Land affected by DP roads or public reservations must be surrendered to the Authority (compensated via FSI / TDR under Reg. 11.1).</p>
+            </div>
+            <div style="background:var(--paper); border:1px solid var(--line-strong); padding:12px;">
+              <span class="kicker" style="color:var(--green);">Step 2 • 10% ROS</span>
+              <div style="font-family:var(--disp); font-weight:700; font-size:1rem; margin-top:2px;">Recreational Open Space</div>
+              <p style="font-size:0.82rem; color:var(--ink-soft); margin-top:4px;">Mandatory on layouts &gt; 0.40 Ha (4,000 sqm). Min 400 sqm and min 10m dimension. <strong>Crucially: Not deducted from Net Plot FSI!</strong></p>
+            </div>
+            <div style="background:var(--paper); border:1px solid var(--line-strong); padding:12px;">
+              <span class="kicker" style="color:var(--amber);">Step 3 • 5% Amenity</span>
+              <div style="font-family:var(--disp); font-weight:700; font-size:1rem; margin-top:2px;">Public Amenity Space</div>
+              <p style="font-size:0.82rem; color:var(--ink-soft); margin-top:4px;">Mandatory on layouts &gt; 2.0 Ha (20,000 sqm) in Municipal areas. Surrendered to Corporation or constructed in-situ for civic uses.</p>
+            </div>
+            <div style="background:var(--paper); border:1px solid var(--line-strong); padding:12px;">
+              <span class="kicker" style="color:var(--blueprint);">Step 4 • 20% Inclusive</span>
+              <div style="font-family:var(--disp); font-weight:700; font-size:1rem; margin-top:2px;">Social Housing Quota</div>
+              <p style="font-size:0.82rem; color:var(--ink-soft); margin-top:4px;">On plots &ge; 4,000 sqm, 20% of basic FSI or 20% of plots (30–50 sqm) must be constructed for EWS/LIG families (Reg. 3.8).</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: INTERACTIVE CAD PARTITION PLAN -->
+      <section style="margin-bottom:32px;">
+        <div style="display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid var(--ink); padding-bottom:6px; margin-bottom:14px;">
+          <div>
+            <span class="kicker">02 // INTERACTIVE WORKBENCH</span>
+            <h2 style="font-size:1.35rem; margin:0;">Live Land Budget &amp; Layout Partition CAD Engine</h2>
+          </div>
+          <span style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">REACTIVE CAD PARTITION</span>
+        </div>
+
+        <div style="background:var(--paper-raised); border:1px solid var(--ink); padding:20px;">
+          <!-- Controls Grid -->
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(210px, 1fr)); gap:16px; margin-bottom:20px;">
+            <div class="calc-field">
+              <label for="layout-gross-area" style="font-family:var(--mono); font-size:11px; font-weight:700; text-transform:uppercase;">Gross Holding Area (sq.m)</label>
+              <input type="number" id="layout-gross-area" class="sheet-input" value="10000" min="500" max="200000" step="500">
+              <span style="font-family:var(--mono); font-size:10px; color:var(--ink-soft);" id="layout-ha-readout">1.00 Hectare (2.47 Acres)</span>
+            </div>
+
+            <div class="calc-field">
+              <label for="layout-dp-road" style="font-family:var(--mono); font-size:11px; font-weight:700; text-transform:uppercase;">DP Road / Widening Surrender (sq.m)</label>
+              <input type="number" id="layout-dp-road" class="sheet-input" value="800" min="0" step="50">
+              <span style="font-family:var(--mono); font-size:10px; color:var(--ink-soft);">Surrendered for 100% in-situ FSI</span>
+            </div>
+
+            <div class="calc-field">
+              <label for="layout-type" style="font-family:var(--mono); font-size:11px; font-weight:700; text-transform:uppercase;">Development Type</label>
+              <select id="layout-type" class="sheet-input">
+                <option value="plotted" selected>Plotted Layout (Table 3-A • Min 9.0m Roads)</option>
+                <option value="group">Group Housing Scheme (Table 3-C • Min 7.5m Pathways)</option>
+              </select>
+            </div>
+
+            <div class="calc-field">
+              <label for="layout-amenity-option" style="font-family:var(--mono); font-size:11px; font-weight:700; text-transform:uppercase;">5% Amenity Space Disposal</label>
+              <select id="layout-amenity-option" class="sheet-input">
+                <option value="surrender" selected>Surrender Land to Authority (TDR/FSI Credit)</option>
+                <option value="insitu">Develop In-Situ (Retain in Society Ownership)</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- DYNAMIC CAD SUBDIVISION PLATE -->
+          <div class="blueprint-plate" style="margin-bottom:20px;">
+            <div class="blueprint-plate-header">
+              <span class="fig-number">FIG_001A // DYNAMIC LAYOUT PARTITION PLAN</span>
+              <span class="fig-title">Land Subdivision: DP Road, Internal Roads, 10% ROS, 5% Amenity &amp; Net Buildable Plots</span>
+            </div>
+
+            <div class="plate-content" style="padding:16px 8px; overflow-x:auto;">
+              <svg id="subdivision-cad-svg" viewBox="0 0 860 380" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" style="min-width:680px; font-family:var(--mono); display:block; margin:0 auto;">
+                <defs>
+                  <marker id="subArrowStart" markerWidth="6" markerHeight="6" refX="0" refY="3" orient="auto">
+                    <path d="M 6 0 L 0 3 L 6 6 z" fill="#2B4C7E"/>
+                  </marker>
+                  <marker id="subArrowEnd" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
+                    <path d="M 0 0 L 6 3 L 0 6 z" fill="#2B4C7E"/>
+                  </marker>
+
+                  <pattern id="rosGrassPattern" width="12" height="12" patternUnits="userSpaceOnUse">
+                    <circle cx="3" cy="3" r="1.2" fill="#137333" opacity="0.3"/>
+                    <circle cx="9" cy="9" r="1.2" fill="#137333" opacity="0.3"/>
+                  </pattern>
+
+                  <pattern id="roadStripPattern" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+                    <rect width="8" height="16" fill="#F1EEE4"/>
+                    <rect x="8" width="8" height="16" fill="#EAE5D7"/>
+                  </pattern>
+                </defs>
+
+                <!-- Drawing Surface -->
+                <rect width="860" height="380" fill="#FAF8F2"/>
+
+                <!-- OUTER GROSS HOLDING BOUNDARY -->
+                <rect x="40" y="30" width="780" height="320" fill="none" stroke="#181D24" stroke-width="2.5"/>
+                <text x="50" y="22" fill="#5B5748" font-size="10" font-weight="700">GROSS HOLDING BOUNDARY (7/12 RECORD)</text>
+
+                <!-- 1. DP ROAD WIDENING STRIP (FRONT SURRENDER) -->
+                <rect id="svg-dp-strip" x="40" y="30" width="780" height="45" fill="url(#roadStripPattern)" stroke="#DD7A0E" stroke-width="1.8"/>
+                <text id="svg-dp-text" x="270" y="58" fill="#DD7A0E" font-size="12" font-weight="700">DP ROAD WIDENING STRIP: 800 sq.m (SURRENDERED)</text>
+                
+                <!-- 2. INTERNAL ACCESS ROAD (CENTRAL SPINE) -->
+                <rect id="svg-internal-road" x="40" y="170" width="780" height="40" fill="#EAE5D7" stroke="#5B5748" stroke-width="1.2"/>
+                <text id="svg-road-name" x="290" y="195" fill="#181D24" font-size="11" font-weight="700">9.0m INTERNAL LAYOUT ROAD (TABLE 3-A)</text>
+
+                <!-- 3. RECREATIONAL OPEN SPACE (10% ROS) -->
+                <rect id="svg-ros-rect" x="40" y="75" width="220" height="95" fill="url(#rosGrassPattern)" stroke="#137333" stroke-width="2"/>
+                <text x="55" y="115" fill="#137333" font-size="13" font-weight="700">10% ROS</text>
+                <text id="svg-ros-area" x="55" y="135" fill="#137333" font-size="11" font-weight="700">920.00 sq.m</text>
+                <text x="55" y="152" fill="#5B5748" font-size="9">Club House G+1 (15% Ground Cover)</text>
+
+                <!-- 4. 5% AMENITY SPACE -->
+                <rect id="svg-amenity-rect" x="600" y="75" width="220" height="95" fill="#FCE8D5" stroke="#DD7A0E" stroke-width="1.8"/>
+                <text x="615" y="115" fill="#DD7A0E" font-size="13" font-weight="700">5% AMENITY</text>
+                <text id="svg-amenity-area" x="615" y="135" fill="#DD7A0E" font-size="11" font-weight="700">460.00 sq.m</text>
+                <text id="svg-amenity-disposal" x="615" y="152" fill="#5B5748" font-size="9">Surrender to Corporation</text>
+
+                <!-- 5. NET BUILDABLE PLOTS / GROUP HOUSING POCKETS -->
+                <!-- Pocket A (Top Center) -->
+                <rect x="260" y="75" width="340" height="95" fill="#FAF8F2" stroke="#2B4C7E" stroke-width="1.5"/>
+                <text x="350" y="125" fill="#2B4C7E" font-size="13" font-weight="700">NET PLOT SECTOR A</text>
+                <text x="350" y="145" fill="#5B5748" font-size="10">Buildable Residential Zone</text>
+
+                <!-- Pocket B (Bottom Left - Inclusive Housing) -->
+                <rect x="40" y="210" width="280" height="140" fill="#EAE5D7" stroke="#2B4C7E" stroke-width="1.5"/>
+                <text x="60" y="270" fill="#2B4C7E" font-size="12" font-weight="700">20% INCLUSIVE HOUSING</text>
+                <text id="svg-inclusive-units" x="60" y="290" fill="#181D24" font-size="10">EWS/LIG Flats (30–50 sq.m)</text>
+                <text x="60" y="310" fill="#5B5748" font-size="9">Reg. 3.8 Statutory Quota</text>
+
+                <!-- Pocket C (Bottom Right - Free Sale Net Plots) -->
+                <rect x="320" y="210" width="500" height="140" fill="#FAF8F2" stroke="#2B4C7E" stroke-width="1.8"/>
+                <text x="470" y="270" fill="#2B4C7E" font-size="14" font-weight="700">FREE-SALE NET PLOTS</text>
+                <text id="svg-net-plot-readout" x="470" y="295" fill="#181D24" font-size="12" font-weight="700">Net Area: 7,820 sq.m</text>
+                <text x="470" y="315" fill="#5B5748" font-size="10">Full FSI Consumption Zone (Reg. 3.9)</text>
+
+                <!-- Dimension Lines -->
+                <line x1="835" y1="30" x2="835" y2="350" stroke="#181D24" stroke-width="1.8" marker-start="url(#subArrowStart)" marker-end="url(#subArrowEnd)"/>
+                <text x="840" y="195" fill="#181D24" font-size="11" font-weight="700" transform="rotate(90 840 195)">LAYOUT DEPTH</text>
+              </svg>
+            </div>
+
+            <div class="plate-caption">
+              FIG_001A: Architectural layout subdivision plan illustrating statutory partitioning of gross land holdings: DP road reserve surrender, internal layout roads, 10% Recreational Open Space (ROS), 5% Amenity Space, and 20% Inclusive Housing allocation.
+            </div>
+          </div>
+
+          <!-- SUMMARY BREAKDOWN METRICS -->
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:12px; margin-bottom:16px;">
+            <div class="breakdown-card">
+              <div>
+                <span class="kicker" style="color:var(--green);">1. RECREATIONAL OPEN SPACE (10%)</span>
+                <div style="font-family:var(--disp); font-size:1.5rem; font-weight:700; margin:4px 0;" id="metric-ros-area">920.00 sq.m</div>
+              </div>
+              <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">
+                Threshold: &gt; 0.40 Ha • <strong style="color:var(--green);">FSI Retained (Not Deducted)</strong>
+              </div>
+            </div>
+
+            <div class="breakdown-card">
+              <div>
+                <span class="kicker" style="color:var(--amber);">2. AMENITY SPACE (5%)</span>
+                <div style="font-family:var(--disp); font-size:1.5rem; font-weight:700; margin:4px 0; color:var(--amber);" id="metric-amenity-area">460.00 sq.m</div>
+              </div>
+              <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);" id="metric-amenity-note">
+                Mandatory for &gt; 2.0 Ha • Surrender Option
+              </div>
+            </div>
+
+            <div class="breakdown-card">
+              <div>
+                <span class="kicker" style="color:var(--blueprint);">3. 20% INCLUSIVE HOUSING</span>
+                <div style="font-family:var(--disp); font-size:1.5rem; font-weight:700; margin:4px 0;" id="metric-inclusive-quota">1,840.00 sq.m BUA</div>
+              </div>
+              <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);" id="metric-inclusive-units">
+                ~46 Flats (30–50 sq.m each) for EWS/LIG
+              </div>
+            </div>
+
+            <div class="breakdown-card">
+              <div>
+                <span class="kicker" style="color:var(--ink);">4. NET PLOT FOR FSI</span>
+                <div style="font-family:var(--disp); font-size:1.5rem; font-weight:700; margin:4px 0; color:var(--blueprint);" id="metric-net-area">8,740.00 sq.m</div>
+              </div>
+              <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">
+                Base for FSI Potential (Reg. 3.9)
+              </div>
+            </div>
+          </div>
+
+          <!-- TOTAL LAND BUDGET STRIP -->
+          <div style="background:var(--paper); border:2px solid var(--ink); padding:16px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px;">
+            <div>
+              <span class="kicker" style="color:var(--blueprint);">STATUTORY NET PLOT AREA (REG. 3.9)</span>
+              <div style="font-family:var(--disp); font-size:1.8rem; font-weight:700; color:var(--ink);" id="calc-master-net-plot">8,740.00 sq.m Net Potential</div>
+              <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft); margin-top:2px;">
+                Net Plot = Gross Holding (10,000) &minus; DP Road (800) &minus; Surrendered Amenity (460) = <strong>8,740 sq.m</strong>
+              </div>
+            </div>
+
+            <div style="text-align:right;">
+              <span class="kicker-muted">CLUB HOUSE ENTITLEMENT</span>
+              <div style="font-family:var(--disp); font-size:1.4rem; font-weight:700; color:var(--green);" id="calc-club-house">138.00 sq.m Footprint</div>
+              <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">
+                G+1 Floor (Max 15% ROS ground coverage)
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- SECTION 3: ROAD WIDTH RULES (TABLE 3-A & 3-C) -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">03 // ROAD WIDTH STANDARDS</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Internal Layout Roads: Plotted Layouts vs Group Housing</h2>
+        <div style="overflow-x:auto;">
+          <table class="drawing-table">
+            <thead>
+              <tr>
+                <th>Length of Internal Road</th>
+                <th>Plotted Layout (Table 3-A)</th>
+                <th>Group Housing Scheme (Table 3-C)</th>
+                <th>Cul-de-Sac Allowance</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Up to 75 meters</td>
+                <td style="font-family:var(--mono);">9.00 meters</td>
+                <td style="font-family:var(--mono);">7.50 meters</td>
+                <td style="font-family:var(--mono);">9.0m turning head required</td>
+              </tr>
+              <tr>
+                <td>75m to 150 meters</td>
+                <td style="font-family:var(--mono);">9.00 meters</td>
+                <td style="font-family:var(--mono);">7.50 meters</td>
+                <td style="font-family:var(--mono);">Turning head required</td>
+              </tr>
+              <tr style="background:rgba(214, 208, 191, 0.4);">
+                <td>150m to 300 meters</td>
+                <td style="font-family:var(--mono); font-weight:700; color:var(--blueprint);">12.00 meters</td>
+                <td style="font-family:var(--mono); font-weight:700; color:var(--blueprint);">9.00 meters</td>
+                <td style="font-family:var(--mono);">Through circulation preferred</td>
+              </tr>
+              <tr>
+                <td>Over 300 meters</td>
+                <td style="font-family:var(--mono);">15.00 meters</td>
+                <td style="font-family:var(--mono);">12.00 meters</td>
+                <td style="font-family:var(--mono);">Must connect two arterial roads</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- SECTION 4: SCRUTINY WATCHOUTS -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">04 // SCRUTINY WATCHOUTS</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Top 5 Layout Scrutiny Traps Triggering Plan Rejection</h2>
+        <div class="panel-warning">
+          <ul style="padding-left:18px; margin:0; display:flex; flex-direction:column; gap:10px; font-size:0.92rem; line-height:1.55;">
+            <li>
+              <strong>1. Deducting 10% Recreational Open Space from Net Plot Area:</strong> Under Regulation 3.9(ii), Recreational Open Space (ROS) is <strong>NEVER deducted</strong> when computing Net Plot Area for FSI. An architect deducting ROS loses 10% of their client's legitimate building potential.
+            </li>
+            <li>
+              <strong>2. Fragmenting ROS into Unusable Pockets:</strong> Under Reg. 3.4.1, no recreational open space pocket can measure less than <strong>400 sq.m</strong>, and the minimum dimension along any side cannot be less than <strong>10.0 meters</strong>. Providing residual slivers or strips between buildings is strictly non-compliant.
+            </li>
+            <li>
+              <strong>3. Placing Club House Outside 15% Ground Coverage Limit:</strong> While a G+1 club house / gym is permissible in the ROS, its ground coverage cannot exceed <strong>15% of the ROS area</strong>, and it must maintain a 3.0m margin from ROS boundaries.
+            </li>
+            <li>
+              <strong>4. Violating Cul-de-Sac Turnaround Dimensions:</strong> Dead-end internal layout roads must provide a turning circle with a <strong>minimum 9.0m radius</strong> (or $9.0\text{m} \times 9.0\text{m}$ hammerhead) so emergency fire tenders and municipal garbage trucks can turn without reversing.
+            </li>
+            <li>
+              <strong>5. Evading 20% Inclusive Housing on 4,000+ sqm Plots:</strong> Attempting to artificially fragment a single 6,000 sqm survey number into smaller plots to bypass the 4,000 sqm Inclusive Housing threshold (Reg. 3.8) triggers automatic revocation under MRTP Section 51.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- SECTION 5: VERIFICATION QUIZ -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">05 // VERIFICATION QUIZ</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Knowledge Check: Layout &amp; Land Subdivision</h2>
+        <div class="quiz-container" id="layout-quiz-box"></div>
+      </section>
+
+    </main>
+
+    <!-- Sheet Footer -->
+    <footer class="sheet-footer">
+      <div>UDCPR FROM SCRATCH • TOPIC 04: LAYOUT &amp; LAND SUBDIVISION WORKBENCH</div>
+      <div>DRAWING SHEET ARCHITECTURAL SPECIFICATION • MAHARASHTRA STATE</div>
+    </footer>
+  </div>
+
+  <!-- Universal Search Modal -->
+  <div class="search-modal-backdrop" id="search-modal-backdrop" onclick="if(event.target === this) closeSearchModal()">
+    <div class="search-modal">
+      <div class="search-modal-header">
+        <span style="font-family:var(--mono); font-size:13px; font-weight:700;">SEARCH //</span>
+        <input type="text" id="search-modal-input" class="search-modal-input" placeholder="Search clauses, topics, formulas..." autocomplete="off">
+        <button onclick="closeSearchModal()" class="tool-btn" style="padding:2px 8px;">ESC</button>
+      </div>
+      <ul class="search-results-list" id="search-results-list"></ul>
+    </div>
+  </div>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/search.js"></script>
+  <script src="/js/quiz.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const grossEl = document.getElementById('layout-gross-area');
+      const dpRoadEl = document.getElementById('layout-dp-road');
+      const typeEl = document.getElementById('layout-type');
+      const amenityOptEl = document.getElementById('layout-amenity-option');
+
+      function updateLayoutBudget() {
+        const grossArea = parseFloat(grossEl.value) || 0;
+        const dpRoadArea = parseFloat(dpRoadEl.value) || 0;
+        const devType = typeEl.value;
+        const amenityOpt = amenityOptEl.value;
+
+        // Holding in Ha
+        const ha = grossArea / 10000;
+        document.getElementById('layout-ha-readout').textContent = ha.toFixed(2) + ' Hectares (' + (ha * 2.471).toFixed(2) + ' Acres)';
+
+        // Holding minus DP road
+        const balanceHolding = Math.max(0, grossArea - dpRoadArea);
+
+        // 10% ROS applies if balanceHolding >= 4,000 sqm (0.40 Ha)
+        let rosArea = 0;
+        if (balanceHolding >= 4000) {
+          rosArea = balanceHolding * 0.10;
+        }
+
+        // 5% Amenity space applies if balanceHolding >= 20,000 sqm (2.0 Ha) in municipal areas
+        let amenityArea = 0;
+        let amenityRequired = balanceHolding >= 20000;
+        if (amenityRequired) {
+          amenityArea = balanceHolding * 0.05;
+        }
+
+        // Net Plot Computation (Reg. 3.9)
+        // Net Plot = Gross - DP Road - Surrendered Amenity Space
+        // Note: 10% ROS is NOT deducted from Net Plot!
+        let netPlotArea = balanceHolding;
+        if (amenityRequired && amenityOpt === 'surrender') {
+          netPlotArea -= amenityArea;
+        }
+
+        // Inclusive Housing (Reg. 3.8): applies if gross/net plot >= 4,000 sqm
+        let inclusiveQuotaBua = 0;
+        let inclusiveUnits = 0;
+        if (netPlotArea >= 4000) {
+          // 20% of Basic FSI (assume 1.10 base)
+          inclusiveQuotaBua = netPlotArea * 1.10 * 0.20;
+          inclusiveUnits = Math.floor(inclusiveQuotaBua / 40); // avg 40 sqm tenement
+        }
+
+        // Club House in ROS: max 15% ground coverage
+        const clubHouseFootprint = rosArea * 0.15;
+
+        // Update Readouts
+        document.getElementById('metric-ros-area').textContent = rosArea.toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2}) + ' sq.m';
+        document.getElementById('metric-amenity-area').textContent = amenityArea > 0 ? (amenityArea.toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2}) + ' sq.m') : 'Exempted (< 2.0 Ha)';
+        document.getElementById('metric-amenity-note').textContent = amenityRequired ? ('5% Statutory Mandate • ' + (amenityOpt === 'surrender' ? 'Surrendered' : 'In-Situ')) : 'Plot < 2.0 Ha threshold';
+
+        document.getElementById('metric-inclusive-quota').textContent = inclusiveQuotaBua > 0 ? (inclusiveQuotaBua.toLocaleString('en-IN', {maximumFractionDigits: 1}) + ' sq.m BUA') : 'Exempted (< 4,000 sqm)';
+        document.getElementById('metric-inclusive-units').textContent = inclusiveUnits > 0 ? ('~' + inclusiveUnits + ' EWS/LIG Flats (30–50 sqm)') : 'No Inclusive Quota';
+
+        document.getElementById('metric-net-area').textContent = netPlotArea.toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2}) + ' sq.m';
+        document.getElementById('calc-master-net-plot').textContent = netPlotArea.toLocaleString('en-IN', {maximumFractionDigits: 1}) + ' sq.m Net Potential';
+        document.getElementById('calc-club-house').textContent = clubHouseFootprint > 0 ? (clubHouseFootprint.toFixed(1) + ' sq.m Footprint') : 'None (No ROS)';
+
+        // Update SVG Elements
+        document.getElementById('svg-dp-text').textContent = 'DP ROAD WIDENING STRIP: ' + dpRoadArea.toFixed(0) + ' sq.m (SURRENDERED)';
+        document.getElementById('svg-ros-area').textContent = rosArea.toFixed(1) + ' sq.m';
+        document.getElementById('svg-amenity-area').textContent = amenityArea > 0 ? (amenityArea.toFixed(1) + ' sq.m') : '0.00 sq.m (Exempt)';
+        document.getElementById('svg-amenity-disposal').textContent = amenityRequired ? (amenityOpt === 'surrender' ? 'Surrendered to Corp' : 'In-Situ Development') : 'Exempt (< 20,000 sqm)';
+        document.getElementById('svg-inclusive-units').textContent = inclusiveUnits > 0 ? ('~' + inclusiveUnits + ' EWS/LIG Flats (30–50 sq.m)') : 'Exempted';
+        document.getElementById('svg-net-plot-readout').textContent = 'Net Area: ' + netPlotArea.toLocaleString('en-IN', {maximumFractionDigits: 0}) + ' sq.m';
+        document.getElementById('svg-road-name').textContent = devType === 'plotted' ? '9.0m INTERNAL LAYOUT ROAD (TABLE 3-A)' : '7.5m GROUP HOUSING PATHWAY (TABLE 3-C)';
+      }
+
+      grossEl.addEventListener('input', updateLayoutBudget);
+      dpRoadEl.addEventListener('input', updateLayoutBudget);
+      typeEl.addEventListener('change', updateLayoutBudget);
+      amenityOptEl.addEventListener('change', updateLayoutBudget);
+      updateLayoutBudget();
+
+      // Quiz Engine
+      const layoutQuizQuestions = [
+        {
+          question: "Under Regulation 3.9(ii), is the mandatory 10% Recreational Open Space (ROS) deducted from the Gross Plot Area when calculating Net Plot FSI?",
+          options: [
+            "Yes, all open spaces are subtracted from net FSI",
+            "No, Recreational Open Space (ROS) is NOT deducted when computing Net Plot Area for FSI",
+            "Deducted only if the plot exceeds 5 hectares",
+            "Deducted at 50% value"
+          ],
+          correctAnswer: 1,
+          explanation: "Under Regulation 3.9(ii), Recreational Open Space (ROS) is explicitly NOT deducted from the plot area when calculating net building FSI entitlement."
+        },
+        {
+          question: "What is the minimum plot area threshold that triggers the mandatory 20% Inclusive Housing requirement under Regulation 3.8?",
+          options: [
+            "1,000 sq.m",
+            "2,000 sq.m",
+            "4,000 sq.m (0.40 Hectare)",
+            "10,000 sq.m (1.0 Hectare)"
+          ],
+          correctAnswer: 2,
+          explanation: "Under Regulation 3.8, plots or layouts measuring 4,000 sq.m (0.40 Ha) or more in urban planning authority areas are legally mandated to provide 20% Inclusive Housing for EWS/LIG families."
+        },
+        {
+          question: "What is the maximum permissible ground coverage for a clubhouse or gymnasium built inside a Recreational Open Space (ROS) under Regulation 3.4.1?",
+          options: [
+            "10% of the ROS area",
+            "15% of the ROS area (G+1 floor only)",
+            "25% of the ROS area",
+            "50% of the ROS area"
+          ],
+          correctAnswer: 1,
+          explanation: "Under Regulation 3.4.1(iv), a clubhouse, gymnasium, or community hall can be constructed inside the ROS with ground coverage not exceeding 15% of that open space, restricted to Ground + 1 upper floor."
+        }
+      ];
+
+      initQuiz('layout-quiz-box', layoutQuizQuestions, 'topic-layout-subdivision');
+    });
+  </script>
+</body>
+</html>
+"""
+
+def main():
+    target_path = os.path.join(os.path.dirname(__file__), '..', 'topics', 'layout-and-subdivision.html')
+    with open(target_path, 'w', encoding='utf-8') as f:
+        f.write(HTML_CONTENT)
+    print(f"✓ Created {target_path} with interactive CAD layout subdivision engine.")
+
+if __name__ == '__main__':
+    main()

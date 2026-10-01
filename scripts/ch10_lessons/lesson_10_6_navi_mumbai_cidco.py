@@ -1,0 +1,309 @@
+"""
+UDCPR FROM SCRATCH - CHAPTER 10, LESSON 6
+Regulation 10.10 & 10.14: Navi Mumbai (NMMC) & CIDCO Ecosystem (Redevelopment & 12.5% GES)
+File: scripts/ch10_lessons/lesson_10_6_navi_mumbai_cidco.py
+"""
+
+lesson_data = {
+    'filename': 'reg-10-10-navi-mumbai-and-cidco-ecosystem.html',
+    'lesson_id': 'reg-10-10-navi-mumbai-and-cidco-ecosystem',
+    'quiz_id': 'quiz-10-6',
+    'clause': 'Reg. 10.10 & 10.14',
+    'title': 'Navi Mumbai (NMMC) & CIDCO Ecosystem: 10.10.2 Mega-Redevelopment & 12.5% GES',
+    'badge_status': 'STATUTORY • NAVI MUMBAI & CIDCO',
+    'ch_slug': 'ch10',
+    'ch_title': 'Chapter 10: City Specific Regulations',
+    'meta_desc': 'Master UDCPR Regulations 10.10 & 10.14 for Navi Mumbai (NMMC) & CIDCO: Base FSI 1.50 (+0.5 bonus), 10.10.2 Dilapidated/30-year building redevelopment (FSI up to 3.00, 35% carpet bonus, Table 10-D cluster incentives), and 12.5% / 22.5% Land Compensation Schemes (GES).',
+    
+    'lead_summary': (
+        'Navi Mumbai stands as one of the world’s largest planned urban agglomerations, conceived by CIDCO and administered jointly with NMMC. '
+        'Regulations 10.10 and 10.14 govern this high-growth node with powerful statutory levers: setting a basic FSI of 1.50 for commercial/residential '
+        'plots >= 1,000 sq.m on >= 15 m roads (with a special +0.50 building potential bonus), establishing the transformative Regulation 10.10.2 '
+        'framework for the reconstruction and redevelopment of aging CIDCO housing (>30 years of age or dilapidated) granting FSI up to 3.00, '
+        'guaranteeing existing owners an automatic 35% carpet area expansion (min 300 sq.ft) plus Table 10-D plot consolidation bonuses up to 20%, '
+        'and codifying the 12.5% / 22.5% Gaothan Expansion Schemes (Land Compensation Scheme) with Pushpak Node TDR utilization.'
+    ),
+    
+    'amendment_cite': 'Notification u/s 37(1AA)(c) No. CR 236/18 (Part 6) dt. 12-10-2022 & Clarification dt. 24-07-2023',
+    
+    'plain_summary_html': r'''
+<p>
+  Navi Mumbai’s unique master-planned layout requires distinct FSI and renewal policies to manage its aging residential condominiums:
+</p>
+<ul class="rule-list">
+  <li><strong>Basic FSI &amp; Building Potential (Reg 10.10.1):</strong>
+    <ul>
+      <li>Plots <strong>&lt; 1,000 sq.m:</strong> Basic FSI is <strong>1.00</strong>.</li>
+      <li>Plots <strong>&ge; 1,000 sq.m &amp; fronting &ge; 15.0 m road:</strong> Basic FSI is <strong>1.50</strong>. (Grandfathering clause: CIDCO plots previously leased with 1.50 FSI on roads &lt; 15 m are exempt from the 15 m road width requirement).</li>
+      <li><strong>Potential Bonus:</strong> On plots where basic FSI is 1.50, the maximum building potential from Table 6-G <strong>can be exceeded by an additional 0.50 FSI</strong>.</li>
+      <li><strong>PAP 12.5% / 22.5% Allotments:</strong> Basic FSI is 1.50 (with up to 15% commercial use). Permissible building height is capped at <strong>13.0 m</strong> for row houses (1.5 m front margin), semi-detached (3.0 m front), and detached structures (3.0 m all around).</li>
+    </ul>
+  </li>
+  <li><strong>Regulation 10.10.2 Mega-Redevelopment Scheme (Aging CIDCO Buildings):</strong> Applies to CIDCO-constructed residential complexes that are either <strong>declared dilapidated</strong> or have exceeded <strong>30 years of age</strong> (irrespective of structural condition):
+    <ul>
+      <li><strong>Permissible FSI (Table 10-C):</strong>
+        <ul>
+          <li>Plot &ge; 1,000 sq.m on &ge; 15.0 m road: <strong>FSI = 3.00</strong>.</li>
+          <li>Plot &ge; 1,000 sq.m on &ge; 9.0 m road: <strong>FSI = 2.00</strong>.</li>
+          <li>All other plots (road &lt; 9.0 m): <strong>FSI = 1.80</strong> (or authorized FSI + 50% incentive).</li>
+        </ul>
+      </li>
+      <li><strong>Rehabilitation Carpet Entitlement:</strong> Every existing resident is statutorily entitled to:
+        $$\text{Rehab Carpet} = (\text{Existing Carpet} \times 1.35) + \text{Table 10-D Plot Bonus}$$
+        Subject to an absolute minimum of <strong>300 sq.ft carpet area</strong>.</li>
+      <li><strong>Table 10-D Plot Consolidation Bonus:</strong>
+        <ul>
+          <li>Plots up to 4,000 sq.m: <strong>Nil</strong>.</li>
+          <li>Above 4,000 sq.m to 2 Ha: <strong>+10%</strong> additional carpet area.</li>
+          <li>Above 2 Ha to 5 Ha: <strong>+15%</strong> additional carpet area.</li>
+          <li>Above 5 Ha to 10 Ha: <strong>+20%</strong> additional carpet area.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>CIDCO Land Compensation Scheme - 12.5% GES (Reg 10.14.2):</strong> Allotment of developed plots to Project Affected Persons (PAP):
+    <ul>
+      <li><strong>Component-I:</strong> 10% developed land in lieu of monetary compensation (after 30% deduction for infrastructure).</li>
+      <li><strong>Component-II:</strong> 12.5% developed land (after 30% infrastructure deduction). Maximum 15% commercial use.</li>
+      <li><strong>Pushpak Node TDR:</strong> TDR utilization up to <strong>0.50 FSI</strong> permitted along service roads and roads &ge; 20.0 m.</li>
+    </ul>
+  </li>
+  <li><strong>Temporary Development on Notified Land (Reg 10.14.3):</strong> Land notified for acquisition but not yet acquired can obtain temporary 1-year renewable permissions upon depositing a <strong>Security Deposit of Rs. 10 per sq.m</strong> of proposed floor area.</li>
+</ul>
+''',
+
+    'statutory_extract': r"""10.10 NAVI MUMBAI MUNICIPAL CORPORATION
+10.10.1 Basic FSI Permissible for Certain Categories of Plots:
+Business or Mercantile use wholly or in combination with residential...
+a. For plots of area below 1000 sq.m. Basic FSI = 1.00
+b. For plots of area 1000 sq.m. and above & fronting on minimum 15.0 m. wide road Basic FSI = 1.50
+Note 2: All plots leased by CIDCO with FSI 1.50 and fronting on roads less than 15.0 m. if any, prior to sanction of this UDCPR shall be exempted...
+Note 3: In case of plot where basic FSI is 1.5 the maximum building potential of plot including in-situ FSI as mentioned in table 6-G may be allowed to be exceeded by further 0.5.
+
+10.10.2 Reconstruction / Redevelopment of Building in CIDCO / NMMC Areas:
+Reconstruction / Redevelopment... of a building previously constructed by CIDCO... declared dilapidated by the Commissioner NMMC or a building constructed by CIDCO which is above 30 years of age, irrespective of its status of dilapidation...
+Table No. 10-C:
+i) Plot area of 1000 sq.m. or more and access road min 15.0 m: Permissible FSI = 3.00
+ii) Plot area of 1000 sq.m. or more and access road min 9.0 m: Permissible FSI = 2.00
+iii) All other plots having access road below 9.0 m: Permissible FSI = 1.80 or Authorised consumed + 50% Incentive...
+
+2. A) Rehabilitation Area Entitlement:
+(a) basic entitlement equivalent to carpet area of existing tenement plus 35% thereof, subject to minimum carpet area of 300 sq.ft.
+(b) additional entitlement, governed by size of plot under redevelopment (Table 10-D):
+- Upto 4000 sq.m: Nil
+- Above 4000 sq.m to 2 hect: 10%
+- Above 2 hect to 5 hect: 15%
+- Above 5 hect to 10 hect: 20%
+
+10.14.2 Regulations for Land Compensation Scheme (12.5% / 22.5%):
+- Component I: 10% developed land after deduction of 30% for infrastructure.
+- Component II: 12.5% developed land after deduction of 30% for infrastructure.
+Pushpak Node: Max permissible TDR up to 0.5 FSI on roads >= 20.0 m.""",
+
+    'clause_cards_html': r'''
+<div class="card-grid">
+  <div class="card">
+    <div class="card-header">
+      <span class="card-num">01</span>
+      <h4>NMMC Base FSI &amp; +0.50 Bonus (Reg 10.10.1)</h4>
+    </div>
+    <div class="card-body">
+      <p>Plots &ge; 1,000 sq.m on roads &ge; 15.0 m achieve <strong>1.50 Base FSI</strong>. Crucially, Note 3 allows the total building potential from Table 6-G to be <strong>exceeded by an additional 0.50 FSI</strong>.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-num">02</span>
+      <h4>10.10.2 Mega-Redevelopment Scheme</h4>
+    </div>
+    <div class="card-body">
+      <p>Applies to CIDCO buildings <strong>above 30 years of age</strong> or declared dilapidated. Unlocks <strong>FSI 3.00</strong> on roads &ge; 15 m, and <strong>FSI 2.00</strong> on roads &ge; 9 m, based on gross plot area.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-num">03</span>
+      <h4>Rehab Carpet &amp; Cluster Bonus (Table 10-D)</h4>
+    </div>
+    <div class="card-body">
+      <p>Every resident receives <strong>Existing Carpet + 35%</strong> (min 300 sq.ft). Society amalgamations receive additional plot bonuses: <strong>+10% (4,000m&sup2;–2Ha)</strong>, <strong>+15% (2–5Ha)</strong>, and <strong>+20% (5–10Ha)</strong>.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-num">04</span>
+      <h4>12.5% GES &amp; Pushpak Node TDR (Reg 10.14)</h4>
+    </div>
+    <div class="card-body">
+      <p>Governs CIDCO Land Compensation Schemes (10% &amp; 12.5% allotments) with 13 m height caps for PAP houses. Allows up to <strong>0.50 TDR loading</strong> in Pushpak Node on roads &ge; 20.0 m.</p>
+    </div>
+  </div>
+</div>
+''',
+
+    'plate_or_table_html': r'''
+<div class="drawing-sheet-plate">
+  <div class="plate-header">
+    <span class="plate-num">PLATE 10.6-A: CIDCO / NMMC REDEVELOPMENT &amp; CARPET ENTITLEMENT MATRIX</span>
+    <span class="plate-scale">STATUTORY ENTITLEMENTS &bull; TABLES 10-C &amp; 10-D</span>
+  </div>
+  
+  <div class="table-responsive">
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Redevelopment Parameter</th>
+          <th>Threshold / Criterion</th>
+          <th>Statutory Permissible Value</th>
+          <th>Governing Clause</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Building Age Qualifier</strong></td>
+          <td>Constructed by CIDCO</td>
+          <td><strong>&gt; 30 Years</strong> (No dilapidation cert required)</td>
+          <td>Reg 10.10.2 Preamble</td>
+        </tr>
+        <tr>
+          <td><strong>FSI: Major Arterial</strong></td>
+          <td>Plot &ge; 1,000 m&sup2; &amp; Road &ge; 15.0 m</td>
+          <td><strong>3.00 Base Gross FSI</strong></td>
+          <td>Table 10-C (i)</td>
+        </tr>
+        <tr>
+          <td><strong>FSI: Secondary Road</strong></td>
+          <td>Plot &ge; 1,000 m&sup2; &amp; Road &ge; 9.0 m</td>
+          <td><strong>2.00 Base Gross FSI</strong></td>
+          <td>Table 10-C (ii)</td>
+        </tr>
+        <tr>
+          <td><strong>Rehab Base Carpet</strong></td>
+          <td>Every residential tenement</td>
+          <td><strong>Existing Carpet + 35%</strong> (Min 300 sq.ft)</td>
+          <td>Reg 10.10.2.2(A)(a)</td>
+        </tr>
+        <tr>
+          <td><strong>Cluster Bonus: 4,000 m&sup2; to 2 Ha</strong></td>
+          <td>Plot amalgamation</td>
+          <td><strong>+10% Additional Carpet</strong></td>
+          <td>Table 10-D</td>
+        </tr>
+        <tr>
+          <td><strong>Cluster Bonus: 2 Ha to 5 Ha</strong></td>
+          <td>Mega-society amalgamation</td>
+          <td><strong>+15% Additional Carpet</strong></td>
+          <td>Table 10-D</td>
+        </tr>
+        <tr>
+          <td><strong>Cluster Bonus: 5 Ha to 10 Ha</strong></td>
+          <td>Neighborhood township</td>
+          <td><strong>+20% Additional Carpet</strong></td>
+          <td>Table 10-D</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+''',
+
+    'worked_example_html': r"""
+<div class="example-box">
+  <h4>PRACTICAL SCRUTINY CALCULATION: CIDCO HOUSING RENEWAL &amp; CARPET EXPANSION</h4>
+  <p><strong>Scenario: Redevelopment of Amalgamated CIDCO Sector in Vashi</strong></p>
+  <p>Three adjacent cooperative housing societies comprising CIDCO buildings built in 1986 (38 years old) amalgamate into a single contiguous plot of <strong>6,000 sq.m (0.60 Hectares)</strong> abutting an 18.0 m road. An existing resident owns a flat measuring <strong>400 sq.ft carpet area</strong>. Calculate the project FSI and the resident’s statutory new carpet area.</p>
+  
+  <div class="step-box">
+    <strong>Step 1: Check Age &amp; Road Eligibility under Reg 10.10.2</strong>
+    <ul>
+      <li>Building Age: 38 years ($> 30\text{ years}$ threshold). Automatically eligible under Reg 10.10.2 without requiring a dilapidation order.</li>
+      <li>Consolidated Plot: $6,000\text{ sq.m} \ge 1,000\text{ sq.m}$.</li>
+      <li>Abutting Road: $18.0\text{ m} \ge 15.0\text{ m}$.</li>
+      <li>Permissible FSI under Table 10-C (i) = <strong>3.00</strong>.</li>
+      <li>Total Project Gross BUA: $6,000\text{ sq.m} \times 3.00 = \mathbf{18,000\text{ sq.m}}$.</li>
+    </ul>
+  </div>
+
+  <div class="step-box">
+    <strong>Step 2: Calculate Flat Owner's Base Rehab Carpet (Clause 2.A.a)</strong>
+    <ul>
+      <li>Existing Carpet Area: $400.00\text{ sq.ft}$.</li>
+      <li>Base Statutory Expansion: $+35\%$.</li>
+      <li>Base Rehab Entitlement = $400 \times 1.35 = \mathbf{540.00\text{ sq.ft carpet}}$. (Exceeds the $300\text{ sq.ft}$ minimum).</li>
+    </ul>
+  </div>
+
+  <div class="step-box">
+    <strong>Step 3: Calculate Cluster Amalgamation Bonus (Table 10-D)</strong>
+    <ul>
+      <li>Amalgamated plot area = $6,000\text{ sq.m}$ (Falls into "Above 4,000 sq.m to 2 Hectares" bracket).</li>
+      <li>Additional Cluster Entitlement = <strong>+10% of existing carpet area</strong>.</li>
+      <li>Cluster Bonus = $400\text{ sq.ft} \times 10\% = \mathbf{40.00\text{ sq.ft carpet}}$.</li>
+    </ul>
+  </div>
+
+  <div class="step-box">
+    <strong>Step 4: Final Re-accommodated Flat Area</strong>
+    <ul>
+      <li>Total Carpet Entitlement = $540\text{ sq.ft (Base)} + 40\text{ sq.ft (Cluster)} = \mathbf{580.00\text{ sq.ft}}$.</li>
+      <li>The member receives a brand new 580 sq.ft carpet apartment completely free of cost (a net 45% increase in living space).</li>
+    </ul>
+  </div>
+</div>
+""",
+
+    'pitfalls_html': r'''
+<div class="alert-box alert-warning">
+  <h4>COMMON SANCTION &amp; SCRUTINY PITFALLS IN NAVI MUMBAI &amp; CIDCO</h4>
+  <ul class="warning-list">
+    <li><strong>Demanding Structural Dilapidation Certificates for 30+ Year Buildings:</strong> Municipal engineers wrongly requiring C-1 dangerous building certificates for 32-year-old CIDCO societies. Reg 10.10.2 clearly states: <em>"or a building constructed by CIDCO which is above 30 years of age, irrespective of its status of dilapidation."</em></li>
+    <li><strong>Failing to Award the 300 sq.ft Minimum Carpet Floor:</strong> Calculating 35% on a 200 sq.ft EWS flat yields 270 sq.ft. Providing 270 sq.ft violates the statute—Reg 10.10.2.2(A)(a) guarantees an absolute statutory floor of <strong>300 sq.ft carpet</strong>.</li>
+    <li><strong>Applying 15m Road Width Rules to Pre-UDCPR 1.50 FSI Leases:</strong> Denying 1.50 base FSI to older CIDCO commercial plots fronting 11m or 12m roads. Note 2 below Reg 10.10.1 expressly grandfathers all prior 1.50 CIDCO leases.</li>
+    <li><strong>Forgetting the +0.50 FSI Potential Bonus:</strong> Under Note 3 to Reg 10.10.1, plots with 1.50 base FSI are statutorily entitled to exceed the maximum building potential from Table 6-G by an extra <strong>0.50 FSI</strong>.</li>
+  </ul>
+</div>
+''',
+
+    'amendment_section_html': r'''
+<div class="amendment-card">
+  <h4>Statutory History &amp; Clarifications for Navi Mumbai &amp; CIDCO</h4>
+  <p><strong>Order No. CR 236/18 (Part 2) dt. 12-10-2022 &amp; Clarification dt. 24-07-2023:</strong></p>
+  <p>Re-affirmed Note 3 below Reg 10.10.1 allowing the maximum building potential in NMMC to exceed Table 6-G caps by 0.50 FSI, and clarified that CIDCO reconstruction schemes under 10.10.2 take precedence over standard redevelopment rules across all nodes.</p>
+</div>
+''',
+
+    'quiz': [
+      {
+        'question': 'Under NMMC Regulation 10.10.2, what is the age threshold after which a CIDCO-constructed building is eligible for redevelopment without proving structural dilapidation?',
+        'options': ['20 years', '25 years', '30 years', '40 years'],
+        'answer': 2,
+        'explanation': 'Under Regulation 10.10.2, buildings constructed by CIDCO which are above 30 years of age qualify for redevelopment irrespective of their status of dilapidation.'
+      },
+      {
+        'question': 'What is the permissible FSI under Table 10-C for redevelopment of a CIDCO housing scheme on a 1,500 sq.m plot fronting a 15.0m road?',
+        'options': ['1.80', '2.00', '2.50', '3.00'],
+        'answer': 3,
+        'explanation': 'Table 10-C Item (i) grants a permissible FSI of 3.00 for plots of 1,000 sq.m or more having an access road of minimum 15.0 m width.'
+      },
+      {
+        'question': 'Under Table 10-D, what additional carpet area percentage is awarded when redeveloping an amalgamated CIDCO plot measuring between 4,000 sq.m and 2 Hectares?',
+        'options': ['5%', '10%', '15%', '20%'],
+        'answer': 1,
+        'explanation': 'Table 10-D awards an additional 10% carpet area entitlement for plots measuring above 4,000 sq.m to 2 Hectares (15% for 2-5 Ha, and 20% for 5-10 Ha).'
+      },
+      {
+        'question': 'What is the minimum statutory carpet area guaranteed to any re-accommodated residential tenement under Reg 10.10.2.2(A)(a)?',
+        'options': ['250 sq.ft', '275 sq.ft', '300 sq.ft', '350 sq.ft'],
+        'answer': 2,
+        'explanation': 'Regulation 10.10.2.2(A)(a) guarantees existing carpet area + 35%, "subject to a minimum carpet area of 300 sq.ft."'
+      }
+    ],
+
+    'prev_url': '/lessons/reg-10-5-nashik-and-kolhapur-heritage-enclaves.html',
+    'prev_title': 'Reg 10.5 & 10.9: Nashik Riverfronts & Kolhapur Heritage Enclaves',
+    'next_url': '/lessons/reg-10-14-mmr-growth-centers-and-special-authorities.html',
+    'next_title': 'Reg 10.6 to 10.16: MMR Growth Centers, Logistics & Special Authorities'
+}

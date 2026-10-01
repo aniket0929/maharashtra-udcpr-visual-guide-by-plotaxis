@@ -1,6 +1,6 @@
 /**
  * UDCPR From Scratch - Client-Side Instant Search Engine
- * Full indexing across all 15 Core Blueprint Lessons, 141 Glossary Definitions,
+ * Full indexing across all 76 Core Blueprint Lessons (Chapters 1-15 Complete), 141 Glossary Definitions,
  * 9 Master Formulas, 79 Amendments (#), and Practical Topic Workbenches.
  */
 
@@ -352,33 +352,264 @@
           badge: 'Reg. 9.29 to 9.33',
           snippet: 'Staircase treads/risers, Refuge Areas (>24m, stacked every 15m thereafter, 15 sq.m / 0.3 sqm/person), >70m fire towers (75mm water barrier), 1.8m service floors, and Reg 9.31 society amenities.',
           url: '/lessons/reg-9-29-refuge-areas-fire-towers-and-amenities.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Pune City Municipal Corporation: Koregaon Park Sanad, Heights & Defense Zones',
+          badge: 'Reg. 10.1',
+          snippet: 'PMC road width vs building height (12m for >36m, 15m for >=50m), Koregaon Park British-era Collector Sanad Rules (G+1, 1/3 coverage, 20ft setbacks), Parvati/Chatushrungi 21m view caps, and ARDE (75m) / HEMRL (457.2m) defense envelopes.',
+          url: '/lessons/reg-10-1-pune-municipal-corporation.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Thane Municipal Corporation: High-Density Corridors, Metro PPL & Redevelopment Matrix',
+          badge: 'Reg. 10.2 (Part I)',
+          snippet: 'Ram Maruti & Gokhale Road stepped setbacks, Eastern Express Highway 7.5m setback, Metro Public Parking Lots (PPL) with 50% incentive FSI, and dilapidated building redevelopment (70m height on 9-12m roads, 1.5m podium margins, 0.8 parking factor).',
+          url: '/lessons/reg-10-2-thane-urban-corridors-and-redevelopment.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Thane Hazard Zones, Defence Envelopes & Yeur Forest',
+          badge: 'Reg. 10.2.4 to 10.2.8',
+          snippet: 'Hazardous Chemical Industries concentric safety rings (100m Green Belt + 150m Low Density Zone 0.50 FSI with suo-moto cessation upon closure), Air Force Station 100m security zone, Kolshet/Kavesar radar obstacle height plates, and Yeur forest controls.',
+          url: '/lessons/reg-10-2-4-thane-environmental-and-defence-buffers.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Nagpur Municipal Corporation (NMC) & NMRDA Special Schemes',
+          badge: 'Reg. 10.3 & 10.4',
+          snippet: 'NMC Commercial Zone 2.50 base FSI, Industrial 2.50 FSI, NIT leased I-to-R conversion premiums (15% res / 20% comm), NMRDA 250m Outer Ring Road corridor, 15-Hectare Agricultural townships with 10% free land handover, and rural Gaothan expansions.',
+          url: '/lessons/reg-10-3-nagpur-nmc-and-nmrda.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Nashik Riverfronts & Kolhapur Heritage Enclaves (Mahalaxmi Kiranotsav Marg)',
+          badge: 'Reg. 10.5 & 10.9',
+          snippet: 'Nashik Godavari river cycle tracks, Gangapur-Ambad 36m DP road 3.0m setback plate, Kolhapur Table 10-B historic layouts (Rajarampuri, Shahupuri, Laxmipuri, Tarabai Park), and the sacred Mahalaxmi Temple Kiranotsav Marg sun-ray solar height restrictions.',
+          url: '/lessons/reg-10-5-nashik-and-kolhapur-heritage-enclaves.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Navi Mumbai (NMMC) & CIDCO Ecosystem: 10.10.2 Mega-Redevelopment & 12.5% GES',
+          badge: 'Reg. 10.10 & 10.14',
+          snippet: 'Base FSI 1.50 (+0.50 potential bonus), Regulation 10.10.2 renewal for CIDCO housing >30 years old (FSI up to 3.00, 35% carpet expansion, Table 10-D cluster incentives up to 20%), 12.5% Land Compensation Schemes, and Pushpak Node TDR.',
+          url: '/lessons/reg-10-10-navi-mumbai-and-cidco-ecosystem.html'
+        },
+        {
+          type: 'lesson',
+          title: 'MMR Growth Centers, Logistics & Special Authorities (Vasai, Ulhasnagar, Bhiwandi & Panvel)',
+          badge: 'Reg. 10.6 to 10.16',
+          snippet: 'Vasai-Virar Low Density Zone (0.50 max FSI), Mira-Bhayandar agricultural ribbons, Ulhasnagar Regularisation Act (4.00 FSI + Ancillary), Bhiwandi BSNA 3.00 FSI Affordable Housing Scheme, Panvel 75% TDR conversion @ 60% ASR premium, and sunset clauses.',
+          url: '/lessons/reg-10-14-mmr-growth-centers-and-special-authorities.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Accommodation Reservation & Surrender Mechanics (Table 11-A)',
+          badge: 'Reg. 11.1',
+          snippet: 'Table 11-A surrender options (40% land / 50% built amenity handover in A/B/C Class MCs), 100% gross plot FSI and TDR transferred to remaining plot with NO CAP on in-situ consumption under Note xi, deemed rezoning under Note xiii, and composite building premium.',
+          url: '/lessons/reg-11-1-manner-of-development-and-accommodation-reservation.html'
+        },
+        {
+          type: 'lesson',
+          title: 'TDR Generation & Amenity Construction Incentive ((A/B) × 1.35)',
+          badge: 'Reg. 11.2.1 - 11.2.5',
+          snippet: 'Surrender multipliers (2.0x non-congested, 3.0x congested), compound wall reduction factors (1.85 / 2.85), DP road surrender exemptions, 8% BDP statutory cap, and Amenity Construction TDR formula (A/B) x 1.35 based on PWD DSR per Sep 2024 notification.',
+          url: '/lessons/reg-11-2-tdr-generation-and-amenity-construction.html'
+        },
+        {
+          type: 'lesson',
+          title: 'TDR Utilisation, Universal ASR Indexation & Receiving Prohibitions',
+          badge: 'Reg. 11.2.6 - 11.2.13',
+          snippet: 'Universal ASR indexation formula X = (Rg / Rr) x Y pegged to generating year, road width loading caps under Table 6-A and 6-G, zero infrastructure charges guarantee under Reg 11.2.11, and prohibited receiving zones (NDZ, CRZ-I, Grade-I Heritage).',
+          url: '/lessons/reg-11-2-6-tdr-utilisation-indexation-and-restrictions.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Reservation Credit Certificate (RCC) & Statutory Financial Offsets',
+          badge: 'Reg. 11.3',
+          snippet: 'Regulation 11.3 rupee-denominated credit notes, 100% surrender valuation at current ASR, redemption against Development Charges, Premium FSI, and municipal property taxes, 10% statutory discount for redemptions after 6 months, and open-market transferability.',
+          url: '/lessons/reg-11-3-reservation-credit-certificate-and-financial-offsets.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Structural Safety, Materials Quality & Building Services',
+          badge: 'Reg. 12.1 - 12.4',
+          snippet: 'NBC Part-6 structural engineering compliance, BIS seismic certificates, PWD material standards, mosquito-safe borrow pits, alternative material testing (2-year retention), and NBC Part-8 building services with 1-floor vertical lift extension waiver.',
+          url: '/lessons/reg-12-1-structural-design-materials-and-building-services.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Water Supply Demands & Statutory Flushing Storage Capacities',
+          badge: 'Reg. 12.5, Table 12-A & 12-B',
+          snippet: 'Population calculation (5 persons/tenement), Table 12-A daily per capita demands (135 lpcd residential, 180 lpcd hotel, 340/450 lpcd hospital, 70 lpcd restaurant), and Table 12-B mandatory separate flushing cistern storage quotas.',
+          url: '/lessons/reg-12-5-water-supply-and-flushing-storage-capacities.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Drainage Standards & Institutional Sanitation Fitments',
+          badge: 'Reg. 12.6.1 - 12.6.3',
+          snippet: 'Residential drainage standards, strict ban on drinking fountains inside toilets, emergency decontamination showers with wheelchair access, crèche sanitary ratios, and fixture schedules for Offices (12-C), Factories (12-D), Theatres (12-E), and Hospitals (12-G to 12-J).',
+          url: '/lessons/reg-12-6-drainage-and-institutional-sanitation.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Commercial, Transit Sanitation & Outdoor Display Signs',
+          badge: 'Reg. 12.6.3 & 12.7',
+          snippet: 'Sanitation for Hotels (12-K), Restaurants (12-L), Schools (12-M), Hostels (12-N), Shopping Malls (12-O), Airports/Railways (12-P with disabled WC quotas of 1 per 4,000), and Regulation 12.7 billboard prohibitions on heritage and government structures.',
+          url: '/lessons/reg-12-6-commercial-hospitality-sanitation-and-signs.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Barrier-Free Access & Universal Design for Differently Abled Persons',
+          badge: 'Reg. 13.1',
+          snippet: 'Universal accessibility on public plots > 2,000 sqm: standard wheelchair dimensions (1050x750mm), 1,800mm walkways, 3.6m parking bays within 30m, 1:12 ramps, 13-pax BIS lifts, and 1,500x1,750mm outward-swinging accessible toilet cubicles.',
+          url: '/lessons/reg-13-1-barrier-free-access-for-differently-abled.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Rooftop Solar SWH / RTPV & Rainwater Harvesting Infrastructure',
+          badge: 'Reg. 13.2 & 13.3',
+          snippet: 'Mandatory solar heating and PV (plot > 4,000 sqm, 25% roof area, 50 kg/sqm loading), and mandatory Rain Water Harvesting (plots >= 500 sqm, 4-layer filter percolation pits, two 100mm pipes per 100 sqm, and 100% free of FSI).',
+          url: '/lessons/reg-13-2-solar-and-rainwater-harvesting.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Grey Water Recycling, Dual Plumbing & Solid Waste Management',
+          badge: 'Reg. 13.4 & 13.5',
+          snippet: 'Grey water recycling thresholds (>= 100 flats, >= 1,500 sqm commercial, >= 40 hospital beds), dual plumbing, 5% property tax rebate, water disconnection penalties, and on-site Organic Waste Composting (OWC >= 4,000 sqm BUA).',
+          url: '/lessons/reg-13-3-grey-water-and-solid-waste.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Disaster Resilience, Fire Towers & Electrical Safety (Oct 2024 Gazette)',
+          badge: 'Reg. 13.6',
+          snippet: 'Breakthrough 10th October 2024 Gazette Notification: Reg 13.6 disaster resilience (BUA > 10,000 sqm or 1,000+ occupants), 2-hour Fire Towers exempting duplicate staircases, 90m+ fire break water tanks at 65m stages, and mandatory 5-year electrical safety audits.',
+          url: '/lessons/reg-13-4-disaster-fire-towers-electrical.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Integrated Township Projects (ITP) - Mega-City Master Planning',
+          badge: 'Reg. 14.1 & Tables 14-A to 14-J',
+          snippet: '40-Hectare minimum contiguous land threshold, 18m access roads, zoning balance (60% Res, 10% Comm, 10% Open, 15% Roads), Tables 14-A to 14-J public amenity plates (50-bed hospital, fire station, police station), 20% social housing handover, and up to 2.00 FSI.',
+          url: '/lessons/reg-14-1-integrated-township-projects.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Transit Oriented Development (TOD) - Metro & BRT Corridor Densification',
+          badge: 'Reg. 14.2 (14.2.1 to 14.2.5)',
+          snippet: '500m Metro station influence zones, road-based FSI scaling up to 4.00, 50% premium revenue sharing to Metro SPVs (MahaMetro), 1/4th TDR loading ratio, 50% statutory parking cuts, split-plot rules, and 200m public parking incentives.',
+          url: '/lessons/reg-14-2-transit-oriented-development.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Affordable Housing Scheme (AHS) & Pradhan Mantri Awas Yojana (PMAY)',
+          badge: 'Reg. 14.3 & 14.4',
+          snippet: '4,000 sqm min plot, 18m road frontage, 3.00 gross FSI, 1:3 land pocket partition (25% Affordable vs 75% Free Sale), 27.88 sqm unit caps, Table 14-S staged FSI release, off-site infrastructure charges (min Rs. 2,000/sqm), and PMAY up to 2.50 FSI without premium or TDR.',
+          url: '/lessons/reg-14-3-affordable-housing-and-pmay.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Conservation of Heritage Buildings, Precincts & Heritage TDR',
+          badge: 'Reg. 14.5',
+          snippet: 'Appendix-L listing process, Grade I (preservation), Grade II (adaptive reuse & harmony), Grade III (townscape character), Heritage Conservation Committee (HCC), non-delegable overrule, skyline covenants, billboard bans, and unconsumed FSI compensation via Heritage TDR.',
+          url: '/lessons/reg-14-4-heritage-conservation-and-tdr.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Slum Rehabilitation Schemes (SRS) - In-Situ & Slum TDR Economics',
+          badge: 'Reg. 14.6 & 14.7',
+          snippet: '51% dweller consent, 27.88 sqm (300 sq.ft) free carpet rehab units for protected occupiers (01-Jan-2000), statutory incentive formula [1:R = 2.8 - 0.3n], high-density bonuses (+20% to +30%), Oct 2024 staircase caps (60%), and Slum TDR formula (X = Rg/Rr * Y).',
+          url: '/lessons/reg-14-5-slum-rehabilitation-schemes.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Urban Renewal Schemes (URS) - Cluster Redevelopment & Master Renewal',
+          badge: 'Reg. 14.8 & Table 14-X',
+          snippet: '10,000 sqm non-congested vs 4,000 sqm congested cluster thresholds, 18m road access, 30-year building age criteria, Table 14-X rehab entitlements (min 30 sqm + 25% bonus for authorized owners), incentive FSI matrices based on LR/RC ratios, FSI 4.00+, and Urban Renewal TDR (URT).',
+          url: '/lessons/reg-14-6-urban-renewal-cluster-redevelopment.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Special Industrial, Logistics & Eco-Tourism Ecosystems',
+          badge: 'Reg. 14.9 to 14.13',
+          snippet: 'Reg 14.9 Eco-Tourism & Nature Conservancy (5km buffer, 10% BUA, 9m height, open fencing), Reg 14.10 Integrated IT Townships (IITP - min 10 acres / 4 Ha, 50:50 IT vs support split, up to 2.50 FSI), Reg 14.11 Integrated Logistics Parks (ILP - min 5 acres, 15m road, 70:30 split, up to 200% additional FSI with 0-15% premium, 24m height), Reg 14.12 Aerospace & Defense Townships, and Reg 14.13 Integrated Industrial Areas under MIDC.',
+          url: '/lessons/reg-14-7-special-industrial-logistics-ecosystems.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Quarrying Operations & Natural Resource Extraction',
+          badge: 'Reg. 15.1',
+          snippet: 'Permitted in Agricultural zones outside CRZ/ESZ/Heritage, 1:5,000 location and 1:500 contour excavation plans, 200m separation buffer from roads/settlements (500m for blasting), 500m labor camp offset, 0.50m soil capping, 0.50% ASR development charge, and 1-year annual revalidation up to 3 years max.',
+          url: '/lessons/reg-15-1-quarrying-and-mining-operations.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Telecommunication Infrastructure & Mobile Towers',
+          badge: 'Reg. 15.2',
+          snippet: 'Ground-based towers, rooftop Base Transceiver Stations (BTS), DoT norms, the 25-Aug-2023 Section 154 Directives adopting Model Building Bye-Laws 2016, 5G small cells on street furniture, in-building fiber ducts, and structural safety certifications.',
+          url: '/lessons/reg-15-2-mobile-towers-and-telecom-infrastructure.html'
+        },
+        {
+          type: 'lesson',
+          title: 'Local Area Plans (LAP) & Complete Street Design Guidelines',
+          badge: 'Reg. 15.3 & 15.4 (Appendix-M)',
+          snippet: 'Micro-level Local Area Plans (LAP) under MRTP Section 33 that legally prevail over UDCPR, and Complete Street Design Guidelines for 18m to 60m roads (segregated pedestrian walkways, cycle tracks, multi-utility zones, carriageways, and universal accessibility).',
+          url: '/lessons/reg-15-3-local-area-plans-and-street-design.html'
         }
       ];
 
       coreLessons.forEach(l => searchIndex.push(l));
 
-      // 2. Index Practical Topic Workbenches
+      // 2. Index Practical Topic Workbenches (7 CAD Engines)
       const topicPages = [
         {
           type: 'topic',
-          title: 'Maximum Building Potential & Permissible FSI',
-          badge: 'Topic Workbench',
-          snippet: 'Master FSI calculator, Table 6-A base FSI, Premium FSI purchase, Ancillary BUA 35%/60%, and TDR loading caps by road width.',
+          title: 'Development Potential & FSI Stacking Engine',
+          badge: 'CAD Workbench 01',
+          snippet: 'Master FSI stacking calculator, Table 6-A base FSI, Premium FSI purchase at 35% ASR rate, Ancillary BUA 60%/80%, and TDR loading caps with live CAD dimension plate.',
           url: '/topics/development-potential.html'
         },
         {
           type: 'topic',
-          title: 'Marginal Distances & High-Rise Setbacks',
-          badge: 'Topic Workbench',
-          snippet: 'Front setbacks, side and rear H/5 margin equation, 6.0m clear peripheral fire tender driveway, and step-back margins.',
+          title: 'Setbacks, Margins & High-Rise Fire Clearances',
+          badge: 'CAD Workbench 02',
+          snippet: 'Dynamic CAD section: front road setback (3.0m/4.5m/6.0m), side/rear H/5 margin equation, and mandatory 6.0m clear peripheral fire tender driveway envelope.',
           url: '/topics/setbacks-and-margins.html'
         },
         {
           type: 'topic',
-          title: 'Off-Street Parking Requirements & Circulation',
-          badge: 'Topic Workbench',
-          snippet: 'Residential and commercial car parking quotas, 2.5m x 5.0m bay dimensions, two-wheeler standards, and 1:10 ramp slope limits.',
+          title: 'Off-Street Parking Standards, Stall CAD & Circulation Ramps',
+          badge: 'CAD Workbench 03',
+          snippet: 'Interactive CAD stall plates (90°/60° car bays, two-wheeler clusters), 1:10 basement ramp profile with 1:20 transitions, and apartment quota engine.',
           url: '/topics/parking-and-circulation.html'
+        },
+        {
+          type: 'topic',
+          title: 'Layout Planning, Land Subdivision & Net Plot Area',
+          badge: 'CAD Workbench 04',
+          snippet: 'Dynamic CAD subdivision partition plan: DP road surrender, internal layout roads (Table 3-A vs 3-C), 10% ROS retention, 5% Amenity Space, and 20% Inclusive Housing.',
+          url: '/topics/layout-and-subdivision.html'
+        },
+        {
+          type: 'topic',
+          title: 'High-Rise Fire Safety, Evacuation Stairs & Refuge Floors',
+          badge: 'CAD Workbench 05',
+          snippet: 'Interactive CAD high-rise elevation: statutory 15m/24m/50m height steps, refuge floors (every 7th floor above 24m), pressurized stairs, and dedicated fire water storage.',
+          url: '/topics/fire-safety-and-high-rise.html'
+        },
+        {
+          type: 'topic',
+          title: 'TDR Generation Multipliers, Indexation & Credit Notes',
+          badge: 'CAD Workbench 06',
+          snippet: 'Interactive DRC generation flow (2.00x non-congested vs 3.00x congested), statutory indexation formula X = (Rg/Rr) * Y, receiving road restrictions, and Reservation Credit Notes.',
+          url: '/topics/tdr-and-credit-notes.html'
+        },
+        {
+          type: 'topic',
+          title: 'Urban Redevelopment, Cluster Schemes & TOD Corridors',
+          badge: 'CAD Workbench 07',
+          snippet: 'Interactive feasibility engine: Slum Rehabilitation (SRS 51% consent, 1:R formula), Cluster Redevelopment (Table 14-X, 10,000 sqm holding), and Metro TOD corridors (FSI 4.00).',
+          url: '/topics/redevelopment-navigator.html'
         }
       ];
       topicPages.forEach(t => searchIndex.push(t));

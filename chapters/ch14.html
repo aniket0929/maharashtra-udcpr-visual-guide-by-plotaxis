@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 14: Special Schemes | UDCPR from Scratch</title>
+  <meta name="description" content="Chapter 14 of UDCPR-2020: Integrated Township Projects (Reg 14.1), Transit Oriented Development TOD (Reg 14.2), Affordable Housing & PMAY (Reg 14.3 & 14.4), Heritage Conservation & Heritage TDR (Reg 14.5), Slum Rehabilitation SRS (Reg 14.6 & 14.7), Urban Renewal Cluster Schemes (Reg 14.8), and Special Industrial & Logistics Ecosystems (Reg 14.9 - 14.13).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/blueprint.css">
+  <link rel="stylesheet" href="/css/components.css">
+</head>
+<body>
+
+  <!-- THE DRAWING SHEET CONTAINER -->
+  <div class="sheet">
+    <div class="ruler-top"></div>
+    <div class="corner-tick tl"></div>
+    <div class="corner-tick tr"></div>
+    <div class="corner-tick bl"></div>
+    <div class="corner-tick br"></div>
+
+    <!-- Statutory Disclaimer Strip -->
+    <div class="disclaimer-strip">
+      <strong>DISCLAIMER:</strong> Educational reference and statutory curriculum guide. Always verify with official Urban Development Department gazettes, sanctioned Regional &amp; Development Plans, and local Slum Rehabilitation Authorities (SRA / High Power Committees).
+    </div>
+
+    <!-- Sheet Navigation -->
+    <nav class="sheet-nav">
+      <a href="/" class="brand-block">
+        <span class="brand-stamp">UDCPR</span>
+        <div class="brand-title-group">
+          <h1>UDCPR from Scratch</h1>
+          <span>Chapter 14 Syllabus • Drawing Sheet</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="/topics/">Topics</a></li>
+        <li class="nav-item"><a href="/chapters/" class="active">Chapters</a></li>
+        <li class="nav-item"><a href="/glossary.html">Glossary</a></li>
+        <li class="nav-item"><a href="/formulas.html">Formulas</a></li>
+        <li class="nav-item"><a href="/amendments.html">Amendments (#)</a></li>
+        <li class="nav-item"><a href="/govt-orders.html">Orders</a></li>
+      </ul>
+
+      <div class="nav-tools">
+        <button class="tool-btn" onclick="openSearchModal()">Search <kbd style="font-family:var(--mono);">Ctrl+K</kbd></button>
+      </div>
+    </nav>
+
+    <!-- Header Title Block -->
+    <header class="title-block">
+      <div>
+        <div class="kicker">CHAPTER 14 • L9425 - L13174 // SPECIAL SCHEMES: ITP, TOD, AHS, PMAY, HERITAGE, SRS, CLUSTERS &amp; INDUSTRIAL ECOSYSTEMS</div>
+        <h1 style="font-size: 2.2rem; margin-bottom: 8px;">
+          Chapter 14: Special Schemes
+        </h1>
+        <p style="color: var(--ink-soft); max-width: 760px; font-size: 1.02rem; line-height: 1.6;">
+          Master Maharashtra’s flagship large-scale urban development schemes: Integrated Township Projects (ITP, 40 Ha, 2.00 FSI, 20% social housing), 
+          Transit Oriented Development (TOD, 500m Metro buffers, FSI up to 4.00, 50% parking cuts, 50:50 premium split with Metro SPVs), 
+          Affordable Housing Schemes (AHS, 4,000 sqm, 1:3 land partition, 27.88 sqm unit caps) &amp; PMAY (up to 2.50 basic FSI without premium/TDR), 
+          Heritage Conservation &amp; Heritage TDR (Grades I/II/III, HCC oversight, skyline preservation), Slum Rehabilitation Schemes 
+          (SRS, 51% consent, 27.88 sqm free homes, <code>1:R</code> incentive formulas, +30% density bonuses, Oct-2024 staircase caps, Slum TDR), 
+          Urban Renewal Schemes (URS Cluster Redevelopment, 10,000 sqm non-congested vs 4,000 sqm congested, min 30 sqm + 25% bonus for legal owners, FSI 4.00+), 
+          and Special Industrial Ecosystems (Eco-tourism buffers, Integrated IT Townships IITP, Logistics Parks ILP with +200% FSI, Aerospace/Defense, and MIDC IIA).
+        </p>
+      </div>
+
+      <div style="border:1px solid var(--ink); background:var(--paper); padding:16px; display:flex; flex-direction:column; justify-content:center;">
+        <span class="kicker-muted">CURRICULUM STATUS</span>
+        <div style="font-family:var(--disp); font-size:2.2rem; font-weight:700; color:var(--blueprint); line-height:1;">100%</div>
+        <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft); margin-top:6px;">
+          7 Finished Lessons Active
+        </div>
+      </div>
+    </header>
+
+    <main style="margin-top: 28px;">
+
+      <!-- Chapter Summary Panel -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">STATUTORY HIGHLIGHTS</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Key Chapter Takeaways</h2>
+        <div class="panel-info">
+          <ul style="padding-left:20px; display:flex; flex-direction:column; gap:8px; font-size:0.92rem; color:var(--ink-soft);">
+            <li><strong>Integrated Township Projects (Reg 14.1):</strong> Private smart cities requiring minimum <strong>40 Hectares (100 Acres)</strong> contiguous land on an 18.0m road. Enforces a strict 60% Residential, 10% Commercial, 10% Parks, 15% Roads land use balance. Unlocks <strong>2.00 FSI on gross land</strong>, 50% stamp duty exemption, and deemed NA conversion in return for Tables 14-A to 14-J amenities (50-bed hospital, fire station, police station) and handing over <strong>20% residential BUA for EWS/LIG social housing</strong>.</li>
+            <li><strong>Transit Oriented Development (Reg 14.2):</strong> Statutorily active within <strong>500 meters</strong> of Metro station boundaries (and 100m of PCMC BRT). FSI scales by road width from 2.50 (9m road) up to <strong>4.00 (24m road)</strong>. Premium (30% to 35% of ASR) is split <strong>50:50 between Planning Authority and Metro SPV</strong>. Mandates 1/4th TDR pairing, requires 50% of residential FSI to be in &le;60 sqm flats, slashes statutory parking by <strong>50%</strong>, and offers FSI-free bonuses for public parking within 200 meters.</li>
+            <li><strong>Affordable Housing &amp; PMAY (Reg 14.3 &amp; 14.4):</strong> Under AHS, plots &ge; <strong>4,000 sq.m</strong> on 18m roads get <strong>3.00 FSI</strong>, partitioned 1:3 between Affordable (25% land) and Free Sale (75% land). Affordable flats are exactly <strong>27.88 sq.m. carpet area</strong> handed over free to ULBs via Table 14-S milestones, paying off-site infra charges (5% ASR, min &#8377;2,000/sqm). Under PMAY, up to <strong>2.50 FSI is basic allowable FSI with ZERO premium and ZERO TDR</strong> in developable zones, with 1.00 FSI in peripheral green zones.</li>
+            <li><strong>Heritage Conservation &amp; Heritage TDR (Reg 14.5):</strong> Establishes statutory listing (Appendix-L card) and 3-tier grading: Grade I (careful preservation; like-to-like repairs; zero high-rises), Grade II (intelligent conservation; adaptive reuse; harmonious wings), and Grade III (townscape character). Regulated by multi-disciplinary Heritage Conservation Committees (HCC). Owners deprived of utilizing permissible FSI are compensated via <strong>Heritage TDR (DRC)</strong>. Bans commercial billboards and preserves skylines.</li>
+            <li><strong>Slum Rehabilitation Schemes (Reg 14.6 &amp; 14.7):</strong> 51% registered dweller consent unlocks free <strong>27.88 sq.m. (300 sq.ft.) carpet</strong> ownership flats for protected occupiers (cut-off: 01-Jan-2000). Commercial viability is powered by statutory incentive formula <code>1 : R = [2.8 - 0.3n]</code> (min 1.50, max 3.00) based on ASR flat and construction rates. Offers +20% to +30% high-density bonuses and +10% cluster bonuses. Oct-2024 Gazette caps common areas at <strong>60% of rehab BUA</strong>. Unconsumed FSI generates Slum TDR: <code>X = (Rg / Rr) &times; Y</code>.</li>
+            <li><strong>Urban Renewal Schemes / Cluster Redevelopment (Reg 14.8):</strong> Revitalizes decaying cores over minimum <strong>10,000 sq.m. (non-congested)</strong> or <strong>4,000 sq.m. (congested gaothan)</strong> clusters on 18m roads. Covers buildings &gt;30 years old, dilapidated structures, and up to 25% slums. Legal owners receive old carpet (min 30 sq.m.) PLUS a mandatory <strong>25% bonus carpet free of cost</strong> (Table 14-X). Total FSI is Rehab + Incentive, or <strong>4.00 FSI</strong> whichever is higher, based on Land Rate to Construction Rate (LR/RC) ratios. Unconsumed FSI yields Urban Renewal TDR (URT).</li>
+            <li><strong>Special Industrial &amp; Logistics Ecosystems (Reg 14.9 to 14.13):</strong> Reg 14.9 Eco-Tourism permits 10% BUA (9m G+1) within 5km of sanctuaries with open chainlink fencing and 50% solar power. Reg 14.10 IITP (Jan 2024 amendment) enables 10-acre IT campuses with 2.50 FSI, 50:50 IT/support split, and 140 lpcd water. Reg 14.11 Logistics Parks (ILP, min 5 acres on 15m roads) unlocks <strong>up to 200% additional FSI</strong> at 0-15% premium with 24.0m warehouse heights. Reg 14.12 grants +0.50 FSI bonuses for Aerospace &amp; Defense R&amp;D facilities.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Chapter 14 Lessons List -->
+      <section style="margin-bottom:36px;">
+        <span class="kicker">CURRICULUM LESSONS</span>
+        <h2 style="font-size:1.25rem; margin-bottom:16px;">Chapter 14 Blueprint Lessons</h2>
+
+        <div style="display:flex; flex-direction:column; gap:16px;">
+
+          <!-- Lesson 14.1 -->
+          <div class="sheet" style="padding:20px; border-left:4px solid var(--blueprint);">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <span class="badge badge-clause">Reg. 14.1 &amp; Tables 14-A to 14-J</span>
+              <span class="badge badge-status-done">STATUTORY • MEGA-CITY MASTER PLANNING</span>
+            </div>
+            <h3 style="font-size:1.15rem; margin-bottom:6px;">
+              <a href="/lessons/reg-14-1-integrated-township-projects.html" style="text-decoration:none; color:var(--ink);">
+                Integrated Township Projects (ITP) - Mega-City Master Planning
+              </a>
+            </h3>
+            <p style="font-size:0.92rem; color:var(--ink-soft); line-height:1.5; margin-bottom:12px;">
+              The 40-Hectare minimum contiguous land threshold, 18m access roads, zoning balance (60% Res, 10% Comm, 10% Open, 15% Roads), Tables 14-A to 14-J public amenity plates (50-bed hospital, fire station, police station), 20% social housing handover to MHADA, up to 2.00 FSI, and 50% stamp duty exemption.
+            </p>
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">4 CHECKPOINTS • COMPLETE</span>
+              <a href="/lessons/reg-14-1-integrated-township-projects.html" class="tool-btn" style="padding:4px 10px; text-decoration:none; font-size:12px;">Open Lesson →</a>
+            </div>
+          </div>
+
+          <!-- Lesson 14.2 -->
+          <div class="sheet" style="padding:20px; border-left:4px solid var(--blueprint);">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <span class="badge badge-clause">Reg. 14.2 (14.2.1 to 14.2.5)</span>
+              <span class="badge badge-status-done">STATUTORY • METRO &amp; BRT DENSIFICATION</span>
+            </div>
+            <h3 style="font-size:1.15rem; margin-bottom:6px;">
+              <a href="/lessons/reg-14-2-transit-oriented-development.html" style="text-decoration:none; color:var(--ink);">
+                Transit Oriented Development (TOD) - Metro &amp; BRT Corridor Densification
+              </a>
+            </h3>
+            <p style="font-size:0.92rem; color:var(--ink-soft); line-height:1.5; margin-bottom:12px;">
+              500m Metro station influence zones, road-based FSI scaling up to 4.00, 50% premium revenue sharing to Metro SPVs (MahaMetro), 1/4th TDR loading ratio, 50% statutory parking cuts, split-plot rules, and 200m public parking incentives.
+            </p>
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">4 CHECKPOINTS • COMPLETE</span>
+              <a href="/lessons/reg-14-2-transit-oriented-development.html" class="tool-btn" style="padding:4px 10px; text-decoration:none; font-size:12px;">Open Lesson →</a>
+            </div>
+          </div>
+
+          <!-- Lesson 14.3 -->
+          <div class="sheet" style="padding:20px; border-left:4px solid var(--blueprint);">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <span class="badge badge-clause">Reg. 14.3 &amp; 14.4 (Tables 14-S, 14-T)</span>
+              <span class="badge badge-status-done">STATUTORY • MASS SOCIAL HOUSING</span>
+            </div>
+            <h3 style="font-size:1.15rem; margin-bottom:6px;">
+              <a href="/lessons/reg-14-3-affordable-housing-and-pmay.html" style="text-decoration:none; color:var(--ink);">
+                Affordable Housing Scheme (AHS) &amp; Pradhan Mantri Awas Yojana (PMAY)
+              </a>
+            </h3>
+            <p style="font-size:0.92rem; color:var(--ink-soft); line-height:1.5; margin-bottom:12px;">
+              4,000 sqm min plot, 18m road frontage, 3.00 gross FSI, 1:3 land pocket partition (25% Affordable vs 75% Free Sale), 27.88 sqm unit caps, Table 14-S staged FSI release, off-site infrastructure charges (min &#8377;2,000/sqm), and PMAY up to 2.50 FSI without premium or TDR.
+            </p>
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">4 CHECKPOINTS • COMPLETE</span>
+              <a href="/lessons/reg-14-3-affordable-housing-and-pmay.html" class="tool-btn" style="padding:4px 10px; text-decoration:none; font-size:12px;">Open Lesson →</a>
+            </div>
+          </div>
+
+          <!-- Lesson 14.4 -->
+          <div class="sheet" style="padding:20px; border-left:4px solid var(--blueprint);">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <span class="badge badge-clause">Reg. 14.5 (14.5.1 to 14.5.12)</span>
+              <span class="badge badge-status-done">STATUTORY • HERITAGE CONSERVATION</span>
+            </div>
+            <h3 style="font-size:1.15rem; margin-bottom:6px;">
+              <a href="/lessons/reg-14-4-heritage-conservation-and-tdr.html" style="text-decoration:none; color:var(--ink);">
+                Conservation of Heritage Buildings, Precincts &amp; Heritage TDR
+              </a>
+            </h3>
+            <p style="font-size:0.92rem; color:var(--ink-soft); line-height:1.5; margin-bottom:12px;">
+              Appendix-L listing process, Grade I (preservation), Grade II (adaptive reuse &amp; harmony), Grade III (townscape character), Heritage Conservation Committee (HCC), non-delegable overrule, skyline covenants, billboard bans, and unconsumed FSI compensation via Heritage TDR.
+            </p>
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">4 CHECKPOINTS • COMPLETE</span>
+              <a href="/lessons/reg-14-4-heritage-conservation-and-tdr.html" class="tool-btn" style="padding:4px 10px; text-decoration:none; font-size:12px;">Open Lesson →</a>
+            </div>
+          </div>
+
+          <!-- Lesson 14.5 -->
+          <div class="sheet" style="padding:20px; border-left:4px solid var(--blueprint);">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <span class="badge badge-clause">Reg. 14.6 &amp; 14.7</span>
+              <span class="badge badge-status-done">STATUTORY • SLUM REHABILITATION</span>
+            </div>
+            <h3 style="font-size:1.15rem; margin-bottom:6px;">
+              <a href="/lessons/reg-14-5-slum-rehabilitation-schemes.html" style="text-decoration:none; color:var(--ink);">
+                Slum Rehabilitation Schemes (SRS) - In-Situ &amp; Slum TDR Economics
+              </a>
+            </h3>
+            <p style="font-size:0.92rem; color:var(--ink-soft); line-height:1.5; margin-bottom:12px;">
+              51% dweller consent, 27.88 sqm (300 sq.ft) free carpet rehab units for protected occupiers (01-Jan-2000), statutory incentive formula [1:R = 2.8 - 0.3n], high-density bonuses (+20% to +30%), Oct 2024 staircase caps (60%), and Slum TDR formula (X = Rg/Rr * Y).
+            </p>
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">4 CHECKPOINTS • COMPLETE</span>
+              <a href="/lessons/reg-14-5-slum-rehabilitation-schemes.html" class="tool-btn" style="padding:4px 10px; text-decoration:none; font-size:12px;">Open Lesson →</a>
+            </div>
+          </div>
+
+          <!-- Lesson 14.6 -->
+          <div class="sheet" style="padding:20px; border-left:4px solid var(--blueprint);">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <span class="badge badge-clause">Reg. 14.8 (Table 14-X)</span>
+              <span class="badge badge-status-done">STATUTORY • CLUSTER REDEVELOPMENT</span>
+            </div>
+            <h3 style="font-size:1.15rem; margin-bottom:6px;">
+              <a href="/lessons/reg-14-6-urban-renewal-cluster-redevelopment.html" style="text-decoration:none; color:var(--ink);">
+                Urban Renewal Schemes (URS) - Cluster Redevelopment &amp; Master Renewal
+              </a>
+            </h3>
+            <p style="font-size:0.92rem; color:var(--ink-soft); line-height:1.5; margin-bottom:12px;">
+              10,000 sqm non-congested vs 4,000 sqm congested cluster thresholds, 18m road access, 30-year building age criteria, Table 14-X rehab entitlements (min 30 sqm + 25% bonus for authorized owners), incentive FSI matrices based on LR/RC ratios, FSI 4.00+, and Urban Renewal TDR (URT).
+            </p>
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">4 CHECKPOINTS • COMPLETE</span>
+              <a href="/lessons/reg-14-6-urban-renewal-cluster-redevelopment.html" class="tool-btn" style="padding:4px 10px; text-decoration:none; font-size:12px;">Open Lesson →</a>
+            </div>
+          </div>
+
+          <!-- Lesson 14.7 -->
+          <div class="sheet" style="padding:20px; border-left:4px solid var(--blueprint);">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <span class="badge badge-clause">Reg. 14.9 to 14.13</span>
+              <span class="badge badge-status-done">STATUTORY • INDUSTRIAL &amp; LOGISTICS</span>
+            </div>
+            <h3 style="font-size:1.15rem; margin-bottom:6px;">
+              <a href="/lessons/reg-14-7-special-industrial-logistics-ecosystems.html" style="text-decoration:none; color:var(--ink);">
+                Special Industrial, Logistics &amp; Eco-Tourism Ecosystems
+              </a>
+            </h3>
+            <p style="font-size:0.92rem; color:var(--ink-soft); line-height:1.5; margin-bottom:12px;">
+              Reg 14.9 Eco-Tourism &amp; Nature Conservancy (5km buffer, 10% BUA, 9m height, open fencing), Reg 14.10 Integrated IT Townships (IITP - min 10 acres / 4 Ha, 50:50 IT vs support split, up to 2.50 FSI), Reg 14.11 Integrated Logistics Parks (ILP - min 5 acres, 15m road, 70:30 split, up to 200% additional FSI with 0-15% premium, 24m height), Reg 14.12 Aerospace &amp; Defense Townships, and Reg 14.13 Integrated Industrial Areas under MIDC.
+            </p>
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">4 CHECKPOINTS • COMPLETE</span>
+              <a href="/lessons/reg-14-7-special-industrial-logistics-ecosystems.html" class="tool-btn" style="padding:4px 10px; text-decoration:none; font-size:12px;">Open Lesson →</a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Bottom Drawing Sheet Title Strip -->
+    <footer style="margin-top:40px; padding-top:16px; border-top:1px solid var(--line); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
+      <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">
+        MAHARASHTRA UDCPR-2020 • CHAPTER 14 SPECIAL SCHEMES • STATUTORY BLUEPRINT SUITE
+      </div>
+      <div>
+        <a href="/chapters/" class="tool-btn" style="text-decoration:none; padding:4px 12px; font-size:12px;">← Back to Chapters Index</a>
+      </div>
+    </footer>
+
+  </div>
+
+  <div id="searchModal" class="search-modal" style="display:none;">
+    <div class="search-box">
+      <div class="search-header">
+        <input type="text" id="searchInput" placeholder="Search UDCPR rules, clauses, numbers..." autocomplete="off">
+        <button class="close-btn" onclick="closeSearchModal()">&times;</button>
+      </div>
+      <div id="searchResults" class="search-results"></div>
+    </div>
+  </div>
+
+  <script src="/js/search.js"></script>
+</body>
+</html>

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reg. 11.2.1 to 11.2.5 TDR Generation, Surrender Multipliers & Construction Amenity Formula | UDCPR from Scratch</title>
+  <meta name="description" content="Master UDCPR Regulations 11.2.1 to 11.2.5 for Transferable Development Rights (TDR) Generation: DRC issuance, 2x non-congested and 3x congested multipliers, 1.85/2.85 compound wall factors, 8% BDP, and the Construction Amenity TDR formula: A/B * 1.35.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/blueprint.css">
+  <link rel="stylesheet" href="/css/components.css">
+</head>
+<body>
+
+  <!-- THE DRAWING SHEET CONTAINER -->
+  <div class="sheet">
+    <div class="ruler-top"></div>
+    <div class="corner-tick tl"></div>
+    <div class="corner-tick tr"></div>
+    <div class="corner-tick bl"></div>
+    <div class="corner-tick br"></div>
+
+    <!-- Statutory Disclaimer Strip -->
+    <div class="disclaimer-strip">
+      <strong>DISCLAIMER:</strong> Educational summary and reference guide only, not legal or municipal advice. Always verify with official Government Notifications and sanctioned Development Plans.
+    </div>
+
+    <!-- Sheet Navigation -->
+    <nav class="sheet-nav">
+      <a href="/" class="brand-block">
+        <span class="brand-stamp">UDCPR</span>
+        <div class="brand-title-group">
+          <h1>UDCPR from Scratch</h1>
+          <span>Drawing Sheet • Lesson Blueprint</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="/topics/">Topics</a></li>
+        <li class="nav-item"><a href="/chapters/ch11.html" class="active">Chapter 11: Acquisition of Reserved Sites & TDR</a></li>
+        <li class="nav-item"><a href="/glossary.html">Glossary</a></li>
+        <li class="nav-item"><a href="/formulas.html">Formulas</a></li>
+        <li class="nav-item"><a href="/amendments.html">Amendments (#)</a></li>
+        <li class="nav-item"><a href="/govt-orders.html">Orders</a></li>
+      </ul>
+
+      <div class="nav-tools">
+        <button class="tool-btn" onclick="openSearchModal()">Search <kbd style="font-family:var(--mono);">Ctrl+K</kbd></button>
+      </div>
+    </nav>
+
+    <!-- Lesson Body -->
+    <main style="max-width: 960px; margin: 0 auto; padding-top: 10px;">
+
+      <!-- Breadcrumbs & Kicker Tags -->
+      <div class="kicker-muted" style="margin-bottom: 10px;">
+        <a href="/" style="color:var(--ink-soft); text-decoration:none;">HOME</a> / 
+        <a href="/chapters/ch11.html" style="color:var(--ink-soft); text-decoration:none;">CHAPTER 11: ACQUISITION OF RESERVED SITES & TDR</a> / 
+        <span style="color:var(--blueprint);">Reg. 11.2.1 to 11.2.5</span>
+      </div>
+
+      <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px; flex-wrap:wrap;">
+        <span class="badge badge-clause">Reg. 11.2.1 to 11.2.5</span>
+        <span class="badge badge-amended">Amended (#) Notification u/s 37(1AA)(c) No. CR 96/2024/UD-13 dt. 05-09-2024 (1.35 multiplier & comprehensive DSR cost)</span>
+        <span class="badge badge-status-done">STATUTORY • TDR GENERATION</span>
+      </div>
+
+      <h1 style="font-size:2.2rem; margin-bottom:12px; line-height:1.2;">
+        TDR Generation, Surrender Multipliers & Construction Amenity Formula
+      </h1>
+
+      <p style="font-size:1.05rem; color:var(--ink-soft); line-height:1.6; margin-bottom:28px;">
+        Transferable Development Rights (TDR) serve as Maharashtra’s statutory virtual currency for urban infrastructure acquisition. Regulations 11.2.1 through 11.2.5 establish the rigorous rules governing how a Development Rights Certificate (DRC) is born. When land under a Development Plan reservation or road widening is surrendered free of cost and encumbrances, the owner receives a DRC computed at statutory multipliers: 2.00 times the land area in non-congested zones, and 3.00 times in congested zones (reduced to 1.85 and 2.85 if the mandatory 1.5 m compound wall is omitted, though DP roads receive full credit without compound walls). Furthermore, when an owner constructs the public amenity or DP road at their own expense, Regulation 11.2.5 awards Construction Amenity TDR using the formula (A / B) * 1.35, factoring comprehensive PWD DSR rates against the local ASR land value.
+      </p>
+
+      <!-- 1. PLAIN LANGUAGE SUMMARY -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">01 // EXECUTIVE SUMMARY</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Plain-Language Executive Summary</h2>
+        <div class="panel-info">
+          
+<p>
+  TDR generation separates the right to build from the physical parcel of land. Rather than accepting slow, discounted cash compensation under eminent domain, landowners surrender their land to the Municipal Corporation and receive tradable <strong>Development Rights Certificates (DRC)</strong>:
+</p>
+<ul class="rule-list">
+  <li><strong>Development Rights Certificate (DRC) Mechanics (Reg 11.2.1):</strong>
+    <ul>
+      <li>Issued directly under the signature of the Municipal Commissioner or Chief Officer.</li>
+      <li>Endorses in words and figures: (1) FSI credit in square meters, (2) the geographic origin/plot of generation, and (3) the official <strong>Annual Statement of Rates (ASR) land rate</strong> for the generating plot in the year of generation.</li>
+      <li>TDR generated within an authority's jurisdiction must be utilized within the same municipal territory.</li>
+    </ul>
+  </li>
+  <li><strong>Statutory Land Surrender Multipliers (Reg 11.2.4):</strong>
+    <ul>
+      <li><strong>Non-Congested Area:</strong> <strong>2.00 times (2x)</strong> the area of surrendered land.</li>
+      <li><strong>Congested Area:</strong> <strong>3.00 times (3x)</strong> the area of surrendered land.</li>
+      <li><strong>Compound Wall Factor (Clause b):</strong> Surrendered land must be leveled and secured with a <strong>1.50 m high compound wall</strong> (0.60 m brick/stone plinth + upper fencing and gate). If omitted, the generation multiplier drops to <strong>1.85</strong> (non-congested) or <strong>2.85</strong> (congested), unless the owner pays the cash cost of the wall.</li>
+      <li><strong>DP Roads Exemption:</strong> Land surrendered for Development Plan roads is <strong>exempt from compound walls</strong> and receives the full 2.00x / 3.00x multiplier with zero reduction!</li>
+      <li><strong>Special Ecological/Legal Zones:</strong> Bio-Diversity Park (BDP) reservations generate <strong>8% of gross area (0.08 FSI)</strong>. Lands under legal impediments (CRZ, Hazardous, Low Density) generate <strong>50% of standard TDR</strong>.</li>
+      <li><strong>Long-Term Government Leases:</strong> Government land leased for > 30 years remaining earns <strong>90% of private land TDR</strong>.</li>
+    </ul>
+  </li>
+  <li><strong>Construction Amenity TDR Formula (Reg 11.2.5):</strong> When the landowner voluntarily builds the public facility (or new DP road) at their own cost and delivers it to the public:
+    $$\text{Construction Amenity TDR (sq.m)} = \left(\frac{A}{B}\right) \times 1.35$$
+    <ul>
+      <li><strong>A = Comprehensive Cost of Construction (Rs.):</strong> Calculated per PWD District Schedule of Rates (DSR) for the year construction commences, encompassing civil, electrical, plumbing, site leveling, ramps, parking, municipal fees, and labor cess (movables excluded).</li>
+      <li><strong>B = Land Rate (Rs./sq.m):</strong> Official ASR land rate per square meter for the year construction commences.</li>
+      <li><strong>1.35 = Statutory Incentive Factor:</strong> Upgraded from earlier 1.00 / 1.25 benchmarks via the landmark September 2024 gazette notification!</li>
+    </ul>
+  </li>
+</ul>
+
+        </div>
+      </section>
+
+      <!-- 2. THE STATUTORY RULE -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">02 // STATUTORY RULE</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Statutory Rule &amp; Clause Breakdown</h2>
+        <div class="panel-info" style="border-left-color: var(--blueprint);">
+          <div class="kicker" style="color:var(--blueprint); margin-bottom:6px;">UDCPR Reg. 11.2.1 to 11.2.5 STATUTORY PROVISION</div>
+          <p style="font-size:0.92rem; color:var(--ink); font-style:italic; line-height:1.6;">
+            "11.2 REGULATIONS FOR GRANT OF TRANSFERABLE DEVELOPMENT RIGHTS
+11.2.1 Transferable Development Rights:
+Transferable Development Rights (TDR) is compensation in the form of Floor Space Index (FSI) or Development Rights which shall entitle the owner for construction of built-up area... This FSI credit shall be issued in a certificate which shall be called as Development Right Certificate (DRC).
+
+11.2.4 Generation of the Transferable Development Rights (TDR):
+a. For surrender of the gross area of the land which is subjected to acquisition, free of cost and free from all encumbrances, the owner shall be entitled for TDR or DR:
+- Non-Congested Area: 2 times the area of surrendered land.
+- Congested Area: 3 times the area of surrendered land.
+Note:
+i) The quantum of TDR generated for reservation in area having total legal impediment / constraint... like CRZ / Hazardous / Low Density zone, shall be 50% of TDR generated as prescribed above.
+ii) The quantum of TDR generated for Bio Diversity Park reservation shall be 8% of gross area.
+Provided that, if levelling of land and construction/erection of compound wall... is not desirable... quantum of TDR shall be reduced to 1 : 1.85 and 1 : 2.85 in non congested area and congested area respectively...
+Provided further that such construction / erection of compound wall / fencing shall not be necessary for area under development plan roads. In such cases TDR equivalent to entitlement as mentioned above shall be granted without any reduction.
+
+11.2.5 Transferable Development Rights (TDR) against Construction of Amenity:
+Construction Amenity TDR in Sq.m. = A / B * 1.35
+Where,
+A = cost of construction of amenity in rupees for all type of buildings and roads, should be calculated as per DSR prepared by PWD for the year in which construction of amenity is commenced...
+B = land rate per Sq.m. as per ASR prepared by IGR for the year in which construction of amenity is commenced."
+          </p>
+        </div>
+        
+<div class="card-grid">
+  <div class="card">
+    <div class="card-header">
+      <span class="card-num">01</span>
+      <h4>Land Multipliers (2x &amp; 3x) (Reg 11.2.4)</h4>
+    </div>
+    <div class="card-body">
+      <p>Surrender of unencumbered DP land yields <strong>2.00 times</strong> the land area in non-congested zones, and <strong>3.00 times</strong> in congested urban cores, establishing double and triple value compensation.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-num">02</span>
+      <h4>Compound Wall Factor (1.85 / 2.85)</h4>
+    </div>
+    <div class="card-body">
+      <p>Omitting the mandatory 1.5m perimeter compound wall drops the credit to <strong>1.85x</strong> (non-congested) and <strong>2.85x</strong> (congested). However, <strong>DP roads receive 100% full credit without compound walls</strong>.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-num">03</span>
+      <h4>Construction Amenity Formula (Reg 11.2.5)</h4>
+    </div>
+    <div class="card-body">
+      <p>Constructing the public building or road generates bonus TDR: <strong>Construction TDR = (A / B) &times; 1.35</strong>, indexing comprehensive PWD DSR expenditure against the base ASR land value.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-num">04</span>
+      <h4>Bio-Diversity &amp; Legal Buffers</h4>
+    </div>
+    <div class="card-body">
+      <p>Bio-Diversity Park (BDP) reservations generate <strong>8% of gross area (0.08 FSI)</strong>. Legal constraint belts (CRZ, chemical hazards, low density) generate <strong>50% of standard TDR</strong>.</p>
+    </div>
+  </div>
+</div>
+
+      </section>
+
+      <!-- 3. BLUEPRINT PLATE / KEY NUMBERS TABLE -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">03 // SPECIFICATION &amp; DATA PLATE</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Blueprint Plate &amp; Key Numbers Table</h2>
+        
+<div class="drawing-sheet-plate">
+  <div class="plate-header">
+    <span class="plate-num">PLATE 11.2-A: TDR GENERATION MULTIPLIERS &amp; FORMULA METRICS</span>
+    <span class="plate-scale">STATUTORY MULTIPLIERS &bull; REGULATION 11.2</span>
+  </div>
+  
+  <div class="table-responsive">
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Category of Land Surrendered</th>
+          <th>Physical Boundary Condition</th>
+          <th>TDR Generation Multiplier</th>
+          <th>Statutory Remarks &amp; Conditions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Non-Congested DP Land</strong></td>
+          <td>With 1.5 m compound wall &amp; leveled</td>
+          <td><strong>2.00 &times; Land Area</strong></td>
+          <td>Standard land surrender benchmark</td>
+        </tr>
+        <tr>
+          <td><strong>Non-Congested DP Land</strong></td>
+          <td>Without compound wall</td>
+          <td><strong>1.85 &times; Land Area</strong></td>
+          <td>Owner has option to pay wall cost instead</td>
+        </tr>
+        <tr>
+          <td><strong>Congested Area DP Land</strong></td>
+          <td>With 1.5 m compound wall &amp; leveled</td>
+          <td><strong>3.00 &times; Land Area</strong></td>
+          <td>Triple credit for core city acquisitions</td>
+        </tr>
+        <tr>
+          <td><strong>Congested Area DP Land</strong></td>
+          <td>Without compound wall</td>
+          <td><strong>2.85 &times; Land Area</strong></td>
+          <td>Owner has option to pay wall cost instead</td>
+        </tr>
+        <tr>
+          <td><strong>DP Road / Road Widening</strong></td>
+          <td>Open road corridor</td>
+          <td><strong>2.00&times; / 3.00&times; Full Credit</strong></td>
+          <td><strong>Exempt from compound wall requirement</strong></td>
+        </tr>
+        <tr>
+          <td><strong>Bio-Diversity Park (BDP)</strong></td>
+          <td>Hilltop / Green corridor</td>
+          <td><strong>0.08 &times; Gross Area (8%)</strong></td>
+          <td>Strict environmental conservation ceiling</td>
+        </tr>
+        <tr>
+          <td><strong>CRZ / Hazardous / Low-Density</strong></td>
+          <td>Legal restriction zones</td>
+          <td><strong>50% of Standard Multiplier</strong></td>
+          <td>1.00x non-congested / 1.50x congested</td>
+        </tr>
+        <tr>
+          <td><strong>Amenity Construction TDR</strong></td>
+          <td>Turn-key finished public amenity</td>
+          <td><strong>(A / B) &times; 1.35</strong></td>
+          <td>A = PWD DSR cost, B = ASR land rate</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+      </section>
+
+      <!-- 4. WORKED NUMERICAL EXAMPLE -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker" style="color:var(--amber);">04 // WORKED PRACTICAL EXAMPLE</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Worked Practical Calculation</h2>
+        <div class="panel-example">
+          
+<div class="example-box">
+  <h4>PRACTICAL SCRUTINY CALCULATION: LAND TDR &amp; AMENITY CONSTRUCTION TDR</h4>
+  <p><strong>Scenario: DP School Reservation Surrender &amp; Construction in Thane</strong></p>
+  <p>A landowner in Thane (non-congested area) owns a <strong>5,000 sq.m land parcel</strong> reserved for a "Primary School". The local ASR land rate is <strong>Rs. 25,000 per sq.m</strong>. The owner levels the land, constructs a 1.5 m compound wall, and with municipal sanction, constructs a 2-storey school building having a comprehensive PWD DSR cost of <strong>Rs. 6,75,00,000 (Rs. 6.75 Crores)</strong>. How much Land TDR and Construction Amenity TDR are generated?</p>
+  
+  <div class="step-box">
+    <strong>Step 1: Calculate Land Surrender TDR (Reg 11.2.4)</strong>
+    <ul>
+      <li>Surrendered Land Area = $5,000\text{ sq.m}$ (Non-congested).</li>
+      <li>Compound wall constructed: Yes (1.5 m wall provided).</li>
+      <li>Statutory Multiplier = <strong>2.00</strong>.</li>
+      <li>$\text{Land TDR} = 5,000\text{ sq.m} \times 2.00 = \mathbf{10,000\text{ sq.m of FSI Credit}}$.</li>
+    </ul>
+  </div>
+
+  <div class="step-box">
+    <strong>Step 2: Calculate Construction Amenity TDR (Reg 11.2.5)</strong>
+    <ul>
+      <li>$A$ = PWD DSR Cost of Construction = $\text{Rs. 6,75,00,000}$.</li>
+      <li>$B$ = ASR Land Rate = $\text{Rs. 25,000 / sq.m}$.</li>
+      <li>Statutory Formula: $\text{Construction TDR} = \left(\frac{A}{B}\right) \times 1.35$.</li>
+      <li>Cost-to-Land Ratio: $\frac{6,75,00,000}{25,000} = 2,700\text{ sq.m}$.</li>
+      <li>Apply 1.35 Incentive Multiplier: $2,700 \times 1.35 = \mathbf{3,645\text{ sq.m of FSI Credit}}$.</li>
+    </ul>
+  </div>
+
+  <div class="step-box">
+    <strong>Step 3: Total Development Rights Certificate (DRC) Issued</strong>
+    <ul>
+      <li>$\text{Total DRC Quantum} = 10,000\text{ sq.m (Land)} + 3,645\text{ sq.m (Construction)} = \mathbf{13,645\text{ sq.m}}$.</li>
+      <li>The Municipal Commissioner issues a DRC for <strong>13,645 sq.m</strong>, endorsing the generating ASR rate of <strong>Rs. 25,000 / sq.m</strong>.</li>
+    </ul>
+  </div>
+</div>
+
+        </div>
+      </section>
+
+      <!-- 5. COMMON PITFALLS & SITE WATCHOUTS -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker" style="color:var(--brick);">05 // SCRUTINY WATCHOUTS</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Common Pitfalls &amp; Sanction Watchouts</h2>
+        <div class="panel-alert">
+          <div style="display:flex; flex-direction:column; gap:12px;">
+            
+<div class="alert-box alert-warning">
+  <h4>COMMON SANCTION &amp; SCRUTINY PITFALLS IN TDR GENERATION</h4>
+  <ul class="warning-list">
+    <li><strong>Demanding Compound Walls on DP Roads:</strong> Scrutiny officers cutting road widening TDR from 2.0x down to 1.85x because no compound wall was built along the road. Reg 11.2.4 Proviso explicitly clarifies: <em>"construction / erection of compound wall / fencing shall not be necessary for area under development plan roads. In such cases TDR equivalent to entitlement... shall be granted without any reduction."</em></li>
+    <li><strong>Using Outdated 1.00 / 1.25 Multipliers for Amenity TDR:</strong> Calculating Construction Amenity TDR without the 1.35 multiplier. The September 2024 statutory gazette notification substituted the multiplier with <strong>1.35</strong>.</li>
+    <li><strong>Including Movable Furniture in Amenity Cost:</strong> Project proponents including benches, projectors, and desks in school estimates. Reg 11.2.5(ii) strictly bars movable items from the PWD DSR calculation.</li>
+    <li><strong>Claiming Land TDR for Internal Layout Roads:</strong> Applying for TDR on internal 9m layout roads or 10% recreational open spaces. Under Reg 11.2.3, sub-divided layout roads and mandatory layout open spaces are strictly <strong>ineligible for TDR</strong>.</li>
+  </ul>
+</div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. AMENDMENT / CLARIFICATION HISTORY -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">06 // AMENDMENT HISTORY</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Amendment &amp; Clarification History (#)</h2>
+        <div class="panel-info">
+          
+<div class="amendment-card">
+  <h4>Statutory History &amp; Clarifications for TDR Generation</h4>
+  <p><strong>Notification u/s 37(1AA)(c) No. CR 96/2024/UD-13 dt. 05-09-2024 &amp; Corrigendum dt. 11-10-2024:</strong></p>
+  <p>Standardized the Construction Amenity TDR multiplier at <strong>1.35</strong> across all authorities and explicitly directed that PWD DSR estimates must comprehensively include civil, electrical, plumbing, site leveling, ramps, parking, environmental infrastructure, and municipal consultant/BOCW charges.</p>
+</div>
+
+        </div>
+      </section>
+
+      <!-- 7. INTERACTIVE QUIZ -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">07 // VERIFICATION QUIZ</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Quick Quiz: Check Your Understanding</h2>
+        <div class="quiz-container" id="quiz-11-2"></div>
+      </section>
+
+      <!-- Back / Next Navigation (Bordered Button Group) -->
+      <div style="display:flex; justify-content:space-between; align-items:center; border-top:1px solid var(--ink); padding-top:20px; margin-top:36px; flex-wrap:wrap; gap:12px;">
+        <a href="/lessons/reg-11-1-manner-of-development-and-accommodation-reservation.html" class="tool-btn" style="padding:8px 16px; text-decoration:none;">
+          ← Reg 11.1 & Table 11-A: Accommodation Reservation Principle & Land-Sharing
+        </a>
+        <a href="/lessons/reg-11-2-6-tdr-utilisation-indexation-and-restrictions.html" class="tool-btn" style="background:var(--ink); color:var(--paper-raised); padding:8px 16px; text-decoration:none;">
+          Reg 11.2.6 to 11.2.13: TDR Utilisation, ASR Indexation & Receiving Caps →
+        </a>
+      </div>
+
+    </main>
+
+    <!-- Sheet Footer -->
+    <footer class="sheet-footer">
+      <div>UDCPR FROM SCRATCH • MAHARASHTRA UNIFIED DCRP-2020</div>
+      <div>REG. Reg. 11.2.1 to 11.2.5 • DRAWING SHEET SYSTEM</div>
+    </footer>
+  </div>
+
+  <!-- Universal Search Modal -->
+  <div class="search-modal-backdrop" id="search-modal-backdrop" onclick="if(event.target === this) closeSearchModal()">
+    <div class="search-modal">
+      <div class="search-modal-header">
+        <span style="font-family:var(--mono); font-size:13px; font-weight:700;">SEARCH //</span>
+        <input type="text" id="search-modal-input" class="search-modal-input" placeholder="Type clause (e.g. 3.4.1), term (e.g. FSI), or keyword..." autocomplete="off">
+        <button onclick="closeSearchModal()" class="tool-btn" style="padding:2px 8px;">ESC</button>
+      </div>
+      <ul class="search-results-list" id="search-results-list"></ul>
+    </div>
+  </div>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/search.js"></script>
+  <script src="/js/quiz.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const questions = [{"question": "What is the standard TDR generation multiplier for surrendering unencumbered reserved land in a non-congested area with compound wall (Reg 11.2.4)?", "options": ["1.00 times", "1.50 times", "2.00 times", "3.00 times"], "answer": 2, "explanation": "Under Regulation 11.2.4(a), the owner is entitled to 2 times the area of surrendered land in non-congested areas."}, {"question": "If a landowner in a congested area surrenders DP land without erecting a 1.5m compound wall, what is the reduced TDR multiplier?", "options": ["2.00 times", "2.50 times", "2.85 times", "3.00 times"], "answer": 2, "explanation": "Under Regulation 11.2.4 Proviso, if compound wall is not erected, the multiplier reduces from 3.00 to 2.85 in congested areas (and from 2.00 to 1.85 in non-congested areas)."}, {"question": "Are compound walls required for land surrendered under Development Plan roads to receive full TDR?", "options": ["Yes, compound wall is compulsory on both sides", "No, DP road land is statutorily exempt and receives full TDR without reduction", "Only if the road is wider than 24 meters", "Only in congested areas"], "answer": 1, "explanation": "Regulation 11.2.4 Proviso explicitly provides that compound wall / fencing is not necessary for area under development plan roads, and full TDR is granted without reduction."}, {"question": "What is the statutory incentive multiplier in the Construction Amenity TDR formula under the September 2024 notification (Reg 11.2.5)?", "options": ["1.00", "1.20", "1.25", "1.35"], "answer": 3, "explanation": "Under Regulation 11.2.5 as amended on 05-09-2024, Construction Amenity TDR = (A / B) * 1.35."}];
+      initQuiz('quiz-11-2', questions, 'reg-11-2-tdr-generation-and-amenity-construction');
+    });
+  </script>
+</body>
+</html>

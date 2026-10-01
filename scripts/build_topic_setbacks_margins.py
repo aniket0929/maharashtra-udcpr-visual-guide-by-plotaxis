@@ -1,4 +1,15 @@
-<!DOCTYPE html>
+"""
+UDCPR FROM SCRATCH - TOPIC 2 WORKBENCH GENERATOR
+Builds topics/setbacks-and-margins.html with dynamic interactive CAD sectional dimension-line SVG diagram,
+height sliders, fire tender clearance envelopes, statutory tables, and verification quiz.
+"""
+
+import os
+import sys
+
+sys.stdout.reconfigure(encoding='utf-8')
+
+HTML_CONTENT = """<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -133,7 +144,7 @@
             </li>
             <li>
               <strong>3. High-Rise Side &amp; Rear Margin (Height &gt; 15.0m):</strong> Governed by the statutory height formula:
-              <div class="math-block" style="margin: 8px 0; font-size: 1.15rem;">$$	ext{Margin} = rac{H}{5}$$</div>
+              <div class="math-block" style="margin: 8px 0; font-size: 1.15rem;">$$\text{Margin} = \frac{H}{5}$$</div>
               Where $H$ is the total building height from ground level to terrace slab. Crucially, once height exceeds 15.0m or 24.0m, an <strong>unobstructed 6.0m hard-paved fire driveway</strong> must wrap around the building for emergency firefighting access.
             </li>
           </ul>
@@ -433,7 +444,7 @@
               <strong>4. Fire Driveway Structural Load Bearing Failure:</strong> Paving over soft soil without structural reinforcement triggers CFO rejection. The fire driveway must be engineered to support a minimum axle load of <strong>45 metric tonnes</strong>.
             </li>
             <li>
-              <strong>5. Misinterpreting H/5 for Mixed Occupancy:</strong> When commercial podiums (e.g. 12m height) support a residential tower (e.g. 45m height), the setback for the podium can follow low-rise rules, but the upper tower must step back to satisfy the full $H/5 = 9.0	ext{m}$ margin from the plot boundary.
+              <strong>5. Misinterpreting H/5 for Mixed Occupancy:</strong> When commercial podiums (e.g. 12m height) support a residential tower (e.g. 45m height), the setback for the podium can follow low-rise rules, but the upper tower must step back to satisfy the full $H/5 = 9.0\text{m}$ margin from the plot boundary.
             </li>
           </ul>
         </div>
@@ -773,3 +784,13 @@
   </script>
 </body>
 </html>
+"""
+
+def main():
+    target_path = os.path.join(os.path.dirname(__file__), '..', 'topics', 'setbacks-and-margins.html')
+    with open(target_path, 'w', encoding='utf-8') as f:
+        f.write(HTML_CONTENT)
+    print(f"✓ Rebuilt {target_path} with dynamic interactive CAD sectional dimension engine.")
+
+if __name__ == '__main__':
+    main()

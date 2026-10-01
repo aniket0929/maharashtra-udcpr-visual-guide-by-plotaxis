@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 11: Acquisition of Reserved Sites &amp; TDR | UDCPR from Scratch</title>
+  <meta name="description" content="Chapter 11 of UDCPR-2020: Accommodation Reservation Principle (Table 11-A), Transferable Development Rights (TDR) Generation (2x/3x multipliers, A/B*1.35 construction formula), TDR Utilisation (X = Rg/Rr * Y), and Reservation Credit Certificates (RCC).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/blueprint.css">
+  <link rel="stylesheet" href="/css/components.css">
+</head>
+<body>
+
+  <!-- THE DRAWING SHEET CONTAINER -->
+  <div class="sheet">
+    <div class="ruler-top"></div>
+    <div class="corner-tick tl"></div>
+    <div class="corner-tick tr"></div>
+    <div class="corner-tick bl"></div>
+    <div class="corner-tick br"></div>
+
+    <!-- Statutory Disclaimer Strip -->
+    <div class="disclaimer-strip">
+      <strong>DISCLAIMER:</strong> Educational reference and statutory curriculum guide. Always verify with official Urban Development Department gazettes, municipal Town Planning Departments, and local Development Rights Certificate (DRC) ledgers.
+    </div>
+
+    <!-- Sheet Navigation -->
+    <nav class="sheet-nav">
+      <a href="/" class="brand-block">
+        <span class="brand-stamp">UDCPR</span>
+        <div class="brand-title-group">
+          <h1>UDCPR from Scratch</h1>
+          <span>Chapter 11 Syllabus • Drawing Sheet</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="/topics/">Topics</a></li>
+        <li class="nav-item"><a href="/chapters/" class="active">Chapters</a></li>
+        <li class="nav-item"><a href="/glossary.html">Glossary</a></li>
+        <li class="nav-item"><a href="/formulas.html">Formulas</a></li>
+        <li class="nav-item"><a href="/amendments.html">Amendments (#)</a></li>
+        <li class="nav-item"><a href="/govt-orders.html">Orders</a></li>
+      </ul>
+
+      <div class="nav-tools">
+        <button class="tool-btn" onclick="openSearchModal()">Search <kbd style="font-family:var(--mono);">Ctrl+K</kbd></button>
+      </div>
+    </nav>
+
+    <!-- Header Title Block -->
+    <header class="title-block">
+      <div>
+        <div class="kicker">CHAPTER 11 • L8206 - L8701 // ACQUISITION OF RESERVED SITES, TDR &amp; RCC</div>
+        <h1 style="font-size: 2.2rem; margin-bottom: 8px;">
+          Chapter 11: Acquisition of Reserved Sites &amp; Transferable Development Rights
+        </h1>
+        <p style="color: var(--ink-soft); max-width: 760px; font-size: 1.02rem; line-height: 1.6;">
+          Master Maharashtra’s statutory land acquisition and development rights framework: the Accommodation Reservation Principle (Table 11-A), Transferable Development Rights (TDR) generation multipliers ($2.0\times$ non-congested, $3.0\times$ congested, $1.35\times$ construction formula), the universal ASR ratio indexation formula ($X = \frac{R_g}{R_r} \times Y$), road-width receiving caps, and Reservation Credit Certificates (RCC) with 10% holding discounts.
+        </p>
+      </div>
+
+      <div style="border:1px solid var(--ink); background:var(--paper); padding:16px; display:flex; flex-direction:column; justify-content:center;">
+        <span class="kicker-muted">CURRICULUM STATUS</span>
+        <div style="font-family:var(--disp); font-size:2.2rem; font-weight:700; color:var(--blueprint); line-height:1;">100%</div>
+        <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft); margin-top:6px;">
+          4 Finished Lessons Active
+        </div>
+      </div>
+    </header>
+
+    <main style="margin-top: 28px;">
+
+      <!-- Chapter Summary Panel -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">STATUTORY HIGHLIGHTS</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Key Chapter Takeaways</h2>
+        <div class="panel-info">
+          <ul style="padding-left:20px; display:flex; flex-direction:column; gap:8px; font-size:0.92rem; color:var(--ink-soft);">
+            <li><strong>Accommodation Reservation (Reg 11.1 &amp; Table 11-A):</strong> Private owners develop DP reservations by surrendering an independent plot and turn-key constructed amenity to the Authority free of cost ($40\%$ land / $50\%$ built in A/B/C Class Corporations; $35\% / 25\%$ in D Class; $30\% / 20\%$ in Councils).</li>
+            <li><strong>100% Gross FSI Transfer (Note xi):</strong> The owner retains the remaining $60\%$ parcel and is entitled to develop it with the full FSI and TDR potential of the <strong>entire original gross plot</strong> without any in-situ capping!</li>
+            <li><strong>Deemed Rezoning &amp; Composite Relief (Notes iv &amp; xiii):</strong> The retained parcel automatically converts into a Residential or Commercial zone upon final OC. Small plots can build composite buildings by surrendering ground/stilt floors and paying a $40\%$ ASR land premium.</li>
+            <li><strong>TDR Land Surrender Multipliers (Reg 11.2.4):</strong> Surrender of unencumbered reserved land generates <strong>$2.00\times$ the land area</strong> in non-congested zones and <strong>$3.00\times$ in congested zones</strong> ($1.85\times$ and $2.85\times$ if the $1.5\text{ m}$ compound wall is omitted). <strong>DP roads receive full $2.00\times / 3.00\times$ credit without compound walls</strong>.</li>
+            <li><strong>Construction Amenity TDR Formula (Reg 11.2.5):</strong> Constructing the public amenity or DP road yields bonus TDR: $\text{Amenity TDR} = \left(\frac{A}{B}\right) \times 1.35$, factoring comprehensive PWD DSR construction costs ($A$) against the local ASR land rate ($B$) with a $1.35$ incentive multiplier.</li>
+            <li><strong>The Universal ASR Indexation Formula (Reg 11.2.6):</strong> When TDR travels between zones, it is equalized by land value: $X = \left(\frac{R_g}{R_r}\right) \times Y$, where both generating ($R_g$) and receiving ($R_r$) rates are frozen at the historic <strong>generating year</strong> of the DRC.</li>
+            <li><strong>Zero Infrastructure Improvement Charges (Reg 11.2.11):</strong> Municipal corporations are strictly barred from levying betterment or infrastructure charges on TDR utilization.</li>
+            <li><strong>Reservation Credit Certificate (RCC) (Reg 11.3):</strong> Rupee-denominated, non-interest bearing, transferable financial credit issued in lieu of immediately required land. Directly offsets Development Charges, Premium FSI, and annual Property Taxes, with a <strong>$10\%$ statutory discount</strong> on redemptions made after $6\text{ months}$.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Chapter 11 Lessons List -->
+      <section style="margin-bottom:36px;">
+        <span class="kicker">CURRICULUM LESSONS</span>
+        <h2 style="font-size:1.25rem; margin-bottom:16px;">Chapter 11 Blueprint Lessons</h2>
+
+        <div style="display:flex; flex-direction:column; gap:16px;">
+
+          <!-- Lesson 11.1 -->
+          <div class="sheet" style="padding:20px; border-left:4px solid var(--blueprint);">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <span class="badge badge-clause">Reg. 11.1 &amp; Table 11-A</span>
+              <span class="badge badge-status-done">STATUTORY • TABLE 11-A</span>
+            </div>
+            <h3 style="font-size:1.15rem; margin-bottom:6px;">
+              <a href="/lessons/reg-11-1-manner-of-development-and-accommodation-reservation.html" style="text-decoration:none; color:var(--ink);">
+                Accommodation Reservation Principle &amp; DP Land-Sharing (Table 11-A)
+              </a>
+            </h3>
+            <p style="font-size:0.92rem; color:var(--ink-soft); line-height:1.5; margin-bottom:12px;">
+              How private owners develop DP reservations (schools, hospitals, public housing, markets), hand over built amenities free to the Authority, unlock the remaining plot with 100% gross FSI without in-situ caps, and achieve automatic deemed rezoning.
+            </p>
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">5 CHECKPOINTS • COMPLETE</span>
+              <a href="/lessons/reg-11-1-manner-of-development-and-accommodation-reservation.html" class="tool-btn" style="padding:4px 10px; text-decoration:none; font-size:12px;">Open Lesson →</a>
+            </div>
+          </div>
+
+          <!-- Lesson 11.2 -->
+          <div class="sheet" style="padding:20px; border-left:4px solid var(--blueprint);">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <span class="badge badge-clause">Reg. 11.2.1 to 11.2.5</span>
+              <span class="badge badge-status-done">STATUTORY • TDR GENERATION</span>
+            </div>
+            <h3 style="font-size:1.15rem; margin-bottom:6px;">
+              <a href="/lessons/reg-11-2-tdr-generation-and-amenity-construction.html" style="text-decoration:none; color:var(--ink);">
+                TDR Generation, Surrender Multipliers &amp; Construction Amenity Formula
+              </a>
+            </h3>
+            <p style="font-size:0.92rem; color:var(--ink-soft); line-height:1.5; margin-bottom:12px;">
+              DRC issuance, 2x non-congested and 3x congested land surrender multipliers, 1.85/2.85 compound wall factors, DP road wall exemptions, 8% BDP caps, and the Construction Amenity TDR formula: A/B * 1.35.
+            </p>
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">5 CHECKPOINTS • COMPLETE</span>
+              <a href="/lessons/reg-11-2-tdr-generation-and-amenity-construction.html" class="tool-btn" style="padding:4px 10px; text-decoration:none; font-size:12px;">Open Lesson →</a>
+            </div>
+          </div>
+
+          <!-- Lesson 11.3 -->
+          <div class="sheet" style="padding:20px; border-left:4px solid var(--blueprint);">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <span class="badge badge-clause">Reg. 11.2.6 to 11.2.13</span>
+              <span class="badge badge-status-done">STATUTORY • TDR UTILISATION</span>
+            </div>
+            <h3 style="font-size:1.15rem; margin-bottom:6px;">
+              <a href="/lessons/reg-11-2-6-tdr-utilisation-indexation-and-restrictions.html" style="text-decoration:none; color:var(--ink);">
+                TDR Utilisation, ASR Indexation Formula &amp; Receiving Caps
+              </a>
+            </h3>
+            <p style="font-size:0.92rem; color:var(--ink-soft); line-height:1.5; margin-bottom:12px;">
+              The universal ASR ratio formula X = (Rg / Rr) * Y, road-width receiving caps under Table 6-A &amp; 6-G, zero infrastructure charges (Reg 11.2.11), restricted receiving zones (NDZ, CRZ-I, Heritage-I), and DRC transfer ledgers.
+            </p>
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">5 CHECKPOINTS • COMPLETE</span>
+              <a href="/lessons/reg-11-2-6-tdr-utilisation-indexation-and-restrictions.html" class="tool-btn" style="padding:4px 10px; text-decoration:none; font-size:12px;">Open Lesson →</a>
+            </div>
+          </div>
+
+          <!-- Lesson 11.4 -->
+          <div class="sheet" style="padding:20px; border-left:4px solid var(--blueprint);">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <span class="badge badge-clause">Reg. 11.3</span>
+              <span class="badge badge-status-done">STATUTORY • MONETARY CREDITS</span>
+            </div>
+            <h3 style="font-size:1.15rem; margin-bottom:6px;">
+              <a href="/lessons/reg-11-3-reservation-credit-certificate-and-financial-offsets.html" style="text-decoration:none; color:var(--ink);">
+                Reservation Credit Certificate (RCC) &amp; Municipal Financial Offsets
+              </a>
+            </h3>
+            <p style="font-size:0.92rem; color:var(--ink-soft); line-height:1.5; margin-bottom:12px;">
+              Rupee-denominated credit compensation in lieu of reserved land, open-market transferability, redemption against Development Charges, Premium FSI, and Property Taxes, and the 10% statutory holding discount after 6 months.
+            </p>
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">4 CHECKPOINTS • COMPLETE</span>
+              <a href="/lessons/reg-11-3-reservation-credit-certificate-and-financial-offsets.html" class="tool-btn" style="padding:4px 10px; text-decoration:none; font-size:12px;">Open Lesson →</a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Navigation Footer -->
+      <div style="display:flex; justify-content:space-between; align-items:center; border-top:1px solid var(--ink); padding-top:20px; margin-top:36px; flex-wrap:wrap; gap:12px;">
+        <a href="/chapters/ch10.html" class="tool-btn" style="padding:8px 16px; text-decoration:none;">
+          ← Chapter 10: City Specific Regulations
+        </a>
+        <a href="/chapters/index.html" class="tool-btn" style="background:var(--ink); color:var(--paper-raised); padding:8px 16px; text-decoration:none;">
+          All Chapters Index →
+        </a>
+      </div>
+
+    </main>
+
+    <!-- Sheet Footer -->
+    <footer class="sheet-footer">
+      <div>UDCPR FROM SCRATCH • MAHARASHTRA UNIFIED DCRP-2020</div>
+      <div>CHAPTER 11 • ACQUISITION OF RESERVED SITES, TDR &amp; RCC • STATUTORY BLUEPRINT</div>
+    </footer>
+  </div>
+
+  <!-- Universal Search Modal -->
+  <div class="search-modal-backdrop" id="search-modal-backdrop" onclick="if(event.target === this) closeSearchModal()">
+    <div class="search-modal">
+      <div class="search-modal-header">
+        <span style="font-family:var(--mono); font-size:13px; font-weight:700;">SEARCH //</span>
+        <input type="text" id="search-modal-input" class="search-modal-input" placeholder="Type clause (e.g. 11.2.6), term (e.g. TDR, DRC, RCC), or keyword..." autocomplete="off">
+        <button onclick="closeSearchModal()" class="tool-btn" style="padding:2px 8px;">ESC</button>
+      </div>
+      <ul class="search-results-list" id="search-results-list"></ul>
+    </div>
+  </div>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/search.js"></script>
+</body>
+</html>

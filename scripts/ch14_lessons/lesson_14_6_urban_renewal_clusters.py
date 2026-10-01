@@ -1,0 +1,257 @@
+"""
+UDCPR Chapter 14 - Lesson 14.6: Urban Renewal Scheme (URS) - Cluster Redevelopment
+Statutory Clauses: Regulation 14.8 (14.8.1 to 14.8.19, Table 14-X)
+"""
+
+import sys
+sys.path.append('scripts')
+from generate_lessons import create_lesson_page
+
+lesson_data = {
+    'clause': 'Reg. 14.8 (Table 14-X)',
+    'title': 'Urban Renewal Schemes (URS) - Cluster Redevelopment & Master Renewal',
+    'meta_desc': 'Master UDCPR Regulation 14.8 for Urban Renewal Scheme (URS / Cluster Redevelopment): 10,000 sqm non-congested vs 4,000 sqm congested cluster thresholds, 18m road access, 30-year building age criteria, Table 14-X rehab entitlements (min 30 sqm + 25% bonus for authorized owners), incentive FSI matrices based on LR/RC ratios, FSI 4.00+, and Urban Renewal TDR (URT).',
+    'ch_slug': 'ch14',
+    'ch_title': 'Chapter 14: Special Schemes',
+    'badge_status': '100% COMPLETE',
+    'amendment_cite': 'UDD Notification No. CR 236/18 (Part-3 & 4) dt. 28-Dec-2022 & Addendum dt. 27-Oct-2023',
+    'filename': 'reg-14-6-urban-renewal-cluster-redevelopment.html',
+    'lesson_id': 'ch14_lesson_6',
+    'quiz_id': 'quiz_ch14_6',
+    'prev_url': '/lessons/reg-14-5-slum-rehabilitation-schemes.html',
+    'prev_title': 'Reg. 14.6 & 14.7 Slum Rehabilitation Schemes (SRS)',
+    'next_url': '/lessons/reg-14-7-special-industrial-logistics-ecosystems.html',
+    'next_title': 'Reg. 14.9 to 14.13 Special Industrial & Logistics Ecosystems',
+    'lead_summary': (
+        'To prevent catastrophic structural collapses of aging urban cores and achieve comprehensive neighborhood revitalization, '
+        'Regulation 14.8 establishes the Urban Renewal Scheme (URS), widely known as Cluster Redevelopment. Departing from piecemeal '
+        'single-plot redevelopments that choke urban streets, URS amalgamates vast swathes of land (minimum 10,000 sq.m. in non-congested '
+        'areas and 4,000 sq.m. in congested gaothans) accessed by an 18.0-meter road. Under Table 14-X, authorized owners receive brand-new '
+        'flats (minimum 30 sq.m.) plus a mandatory 25% bonus area free of cost. The scheme unlocks global FSI of 4.00 or higher based on '
+        'the ratio of Land Rate to Construction Rate (LR/RC), transforming decaying tenements into planned micro-cities complete with widened '
+        'boulevards, public parks, schools, and Urban Renewal TDR (URT).'
+    ),
+    'plain_summary_html': """
+      <p>
+        Urban Renewal Schemes unlock large-scale urban transformations by consolidating multiple aging plots, slums, and dilapidated chawls 
+        into an integrated masterplan under the oversight of a High Power Committee (HPC):
+      </p>
+      <ul style="padding-left: 20px; margin-top: 10px; display:flex; flex-direction:column; gap:8px;">
+        <li><strong>Cluster Land &amp; Road Thresholds (Reg 14.8.1):</strong>
+          <br>&bull; <em>Non-Congested Areas:</em> Minimum cluster area of <strong>10,000 sq.m. (1.0 Ha)</strong>. (Can be relaxed to 8,000 sq.m. by Municipal Commissioner &amp; HPC for natural hardships like railway lines or nallahs).
+          <br>&bull; <em>Congested Gaothan Areas:</em> Minimum cluster area of <strong>4,000 sq.m.</strong> (also 4,000 sq.m. across Ulhasnagar).
+          <br>&bull; <em>External Access:</em> Must be accessible by an existing or proposed DP road at least <strong>18.0 meters wide</strong>.
+        </li>
+        <li><strong>Cluster Mix &amp; Building Age Criteria (Reg 14.8.1.iii):</strong>
+          <br>&bull; <em>Eligible Structures:</em> Authorized or unauthorized buildings at least <strong>30 years of age</strong> (calculated from OC or tax assessment).
+          <br>&bull; <em>Dilapidated Buildings:</em> Structures under 30 years declared structurally unsafe or unfit for human habitation by the Designated Officer.
+          <br>&bull; <em>Slum Component:</em> Declared slums (pre-1995) permitted up to <strong>maximum 25% of cluster area</strong>.
+          <br>&bull; <em>Younger Sound Buildings (&lt;30 yrs):</em> Allowed up to <strong>40% of cluster area</strong> for planning integrity; total sound structures + slums cannot exceed 50% in aggregate.
+        </li>
+        <li><strong>Rehabilitation Entitlement &amp; Table 14-X:</strong>
+          <br>&bull; <em>Authorized Residential Owners:</em> Entitled to carpet area equivalent to their old home, <strong>minimum 30 sq.m.</strong>, PLUS an additional <strong>25% bonus carpet area completely free of cost</strong>.
+          <br>&bull; <em>Unauthorized Residential Occupants:</em> <strong>Free up to 30 sq.m.</strong>; area between 30 and 50 sq.m. at ASR Construction Cost; area above 50 sq.m. at Full ASR Market Rate.
+          <br>&bull; <em>Commercial Occupants:</em> Actual occupied carpet area; unauthorized get free up to 16.75 sq.m., balance up to 40 sq.m. at construction cost, and above 40 sq.m. at market rate.
+        </li>
+        <li><strong>FSI Calculation &amp; LR/RC Incentive Matrix (Reg 14.8.6):</strong>
+          <br>&bull; Total Permissible FSI = <strong>Rehab BUA + Incentive BUA</strong>, or <strong>4.00</strong>, whichever is higher.
+          <br>&bull; The incentive multiplier is determined by the ratio of Land Rate (LR) to Construction Rate (RC) and cluster scale (ranging from <strong>1.75 to 3.00</strong>).
+        </li>
+        <li><strong>Urban Renewal TDR (URT) &amp; Inalienability:</strong>
+          <br>&bull; FSI unconsumed on-site is converted into <strong>Urban Renewal TDR (URT)</strong> tradable across the municipal jurisdiction.
+          <br>&bull; Rehabilitation tenements cannot be sold or transferred for <strong>15 years</strong> (authorized units transfer free of premium; others pay 10% to 25% ASR differential premium).
+        </li>
+      </ul>
+    """,
+    'statutory_extract': (
+        "14.8 URBAN RENEWAL SCHEME - Minimum area of 10,000 sq.m. in non-congested area and 4000 sq.m. in congested area... accessible by DP road "
+        "at least 18.0 m. wide... Authorized residential occupants shall be entitled to minimum 30 sq.m. carpet area and additional 25% area over and "
+        "above eligible area free of cost... Permissible FSI shall be FSI required for rehabilitation + incentive FSI, or 4.00 whichever is higher... "
+        "Table 14-X sets terms of allotment for unauthorized buildings and slums."
+    ),
+    'clause_cards_html': """
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:16px; margin-top:16px;">
+        <div class="panel-card" style="border:1px solid var(--line); padding:16px; background:var(--surface);">
+          <div class="kicker" style="color:var(--blueprint);">REG. 14.8.4 // 25% FREE BONUS</div>
+          <h4 style="margin:6px 0 10px 0; font-size:1.05rem;">Authorized Owner Protection</h4>
+          <p style="font-size:0.88rem; color:var(--ink-soft); line-height:1.5;">
+            To incentivize legal owners to join cluster renewal, the statute guarantees their original carpet area (minimum 30 sq.m.) 
+            plus an automatic <strong>25% expansion free of cost</strong>. A 40 sqm old flat receives a brand-new 50 sqm ownership flat at zero cost.
+          </p>
+        </div>
+        <div class="panel-card" style="border:1px solid var(--line); padding:16px; background:var(--surface);">
+          <div class="kicker" style="color:var(--blueprint);">REG. 14.8.5.V // SUMMARY EVICTION</div>
+          <h4 style="margin:6px 0 10px 0; font-size:1.05rem;">15-Day Non-Cooperation Eviction</h4>
+          <p style="font-size:0.88rem; color:var(--ink-soft); line-height:1.5;">
+            Dissenting unauthorized occupants who refuse to join within <strong>15 days</strong> of scheme approval face summary eviction 
+            under MRTP Act. If they hold out until building permission is issued, they <strong>completely forfeit all rights to a new tenement</strong>.
+          </p>
+        </div>
+        <div class="panel-card" style="border:1px solid var(--line); padding:16px; background:var(--surface);">
+          <div class="kicker" style="color:var(--blueprint);">REG. 14.8.6.II // URT RELEASE</div>
+          <h4 style="margin:6px 0 10px 0; font-size:1.05rem;">Urban Renewal TDR Safeguards</h4>
+          <p style="font-size:0.88rem; color:var(--ink-soft); line-height:1.5;">
+            URT release is strictly pegged to completed construction: released URT can never exceed the BUA of buildings with full OC 
+            plus 50% of BUA under construction without OC, ensuring developer delivery before liquidity exit.
+          </p>
+        </div>
+      </div>
+    """,
+    'plate_or_table_html': """
+      <div style="overflow-x:auto; margin-top:12px;">
+        <div class="kicker" style="color:var(--blueprint); margin-bottom:6px;">REGULATION 14.8.6 // INCENTIVE FSI MULTIPLIER MATRIX</div>
+        <table class="blueprint-table" style="width:100%; border-collapse:collapse; font-size:0.88rem;">
+          <thead>
+            <tr style="background:var(--surface-tint); border-bottom:2px solid var(--line-bold);">
+              <th style="padding:10px; text-align:left;">Basic Ratio: Land Rate / Construction Rate (LR / RC)</th>
+              <th style="padding:10px; text-align:center;">Cluster: 0.40 Ha to 1.0 Ha</th>
+              <th style="padding:10px; text-align:center;">Cluster: 1.0 Ha to 5.0 Ha</th>
+              <th style="padding:10px; text-align:center;">Cluster: &gt; 5.0 Ha</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom:1px solid var(--line);">
+              <td style="padding:10px;"><strong>Above 2.00</strong> (High Land Value)</td>
+              <td style="padding:10px; text-align:center; font-family:var(--mono);">1.75</td>
+              <td style="padding:10px; text-align:center; font-family:var(--mono); color:var(--blueprint); font-weight:700;">2.00</td>
+              <td style="padding:10px; text-align:center; font-family:var(--mono);">2.25</td>
+            </tr>
+            <tr style="border-bottom:1px solid var(--line);">
+              <td style="padding:10px;"><strong>Above 1.50 and up to 2.00</strong></td>
+              <td style="padding:10px; text-align:center; font-family:var(--mono);">2.00</td>
+              <td style="padding:10px; text-align:center; font-family:var(--mono); color:var(--blueprint); font-weight:700;">2.25</td>
+              <td style="padding:10px; text-align:center; font-family:var(--mono);">2.50</td>
+            </tr>
+            <tr style="border-bottom:1px solid var(--line);">
+              <td style="padding:10px;"><strong>Above 1.00 and up to 1.50</strong></td>
+              <td style="padding:10px; text-align:center; font-family:var(--mono);">2.25</td>
+              <td style="padding:10px; text-align:center; font-family:var(--mono); color:var(--blueprint); font-weight:700;">2.50</td>
+              <td style="padding:10px; text-align:center; font-family:var(--mono);">2.75</td>
+            </tr>
+            <tr style="border-bottom:2px solid var(--line-bold); background:var(--surface-tint);">
+              <td style="padding:10px;"><strong>Up to 1.00</strong> (Low Land Value)</td>
+              <td style="padding:10px; text-align:center; font-family:var(--mono);">2.50</td>
+              <td style="padding:10px; text-align:center; font-family:var(--mono); color:var(--blueprint); font-weight:700;">2.75</td>
+              <td style="padding:10px; text-align:center; font-family:var(--mono); font-weight:700; color:var(--brick);">3.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="font-size:0.82rem; color:var(--ink-soft); margin-top:8px;">
+        *Note: In lower land-value areas (LR/RC &le; 1.00), the incentive multiplier rises up to 3.00 to ensure financial viability for developers.
+      </div>
+    """,
+    'worked_example_html': """
+      <div style="line-height:1.6; font-size:0.92rem;">
+        <h4 style="margin:0 0 8px 0; color:var(--amber-dark);">Scenario: 1.20 Hectare Congested Gaothan Cluster Redevelopment</h4>
+        <p>
+          A promoter amalgamates an Urban Renewal Cluster of <strong>12,000 sq.m. (1.20 Hectares)</strong> in a congested area in Thane. 
+          The cluster contains <strong>300 authorized residential units</strong> (averaging 40 sq.m. carpet area) and <strong>100 unauthorized residential units</strong> 
+          (averaging 25 sq.m. carpet area). The road frontage is a <strong>24.0-meter DP Road</strong>. 
+          Applicable ASR Land Rate (LR) is <strong>&#8377;36,000 / sq.m.</strong>, and Rate of Construction (RC) is <strong>&#8377;20,000 / sq.m.</strong>
+          Calculate the Rehab Component, Incentive FSI, Total Scheme FSI, and resulting URT potential.
+        </p>
+        <div style="background:var(--surface); border:1px solid var(--line); padding:12px; margin:10px 0; font-family:var(--mono); font-size:0.85rem;">
+          1. Rehabilitation Entitlement Calculations:<br>
+          &nbsp;&nbsp;&bull; Authorized Units (300 nos): 40 sqm + 25% bonus = <strong>50 sq.m. carpet each</strong> (Free)<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;Subtotal Carpet = 300 &times; 50 = 15,000 sq.m.<br>
+          &nbsp;&nbsp;&bull; Unauthorized Units (100 nos): 25 sqm each (&le;30 sqm is Free under Table 14-X)<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;Subtotal Carpet = 100 &times; 25 = 2,500 sq.m.<br>
+          &nbsp;&nbsp;&bull; Total Rehab Carpet Area = 15,000 + 2,500 = 17,500 sq.m.<br>
+          &nbsp;&nbsp;&bull; Rehab Built-Up Area (BUA at 1.25 multiplier) = 17,500 &times; 1.25 = <strong>21,875 sq.m.</strong><br><br>
+          2. Basic Ratio (LR / RC) &amp; Incentive Multiplier:<br>
+          &nbsp;&nbsp;&bull; LR / RC = &#8377;36,000 / &#8377;20,000 = <strong>1.80</strong><br>
+          &nbsp;&nbsp;&bull; For LR/RC between 1.50 and 2.00 on a 1.20 Ha plot (1.0 to 5.0 Ha column):<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<strong>Incentive Multiplier = 2.25</strong><br><br>
+          3. Incentive Built-Up Area &amp; Total Permissible BUA:<br>
+          &nbsp;&nbsp;&bull; Incentive BUA = 21,875 sq.m. &times; 2.25 = <strong>49,218.75 sq.m.</strong><br>
+          &nbsp;&nbsp;&bull; Total Permissible BUA = 21,875 + 49,218.75 = <strong>71,093.75 sq.m.</strong><br>
+          &nbsp;&nbsp;&bull; Equivalent Cluster FSI on 12,000 sqm = 71,093.75 / 12,000 = <strong>5.92 FSI</strong> (Well above the 4.00 statutory floor!)<br><br>
+          4. On-Site Construction vs Urban Renewal TDR (URT):<br>
+          &nbsp;&nbsp;&bull; Maximum on-site BUA consumed under height/air-funnel limit = 12,000 &times; 4.00 = 48,000 sq.m.<br>
+          &nbsp;&nbsp;&bull; Rehab BUA consumed on site = 21,875 sq.m.<br>
+          &nbsp;&nbsp;&bull; On-site Free Sale BUA = 48,000 - 21,875 = 26,125 sq.m.<br>
+          &nbsp;&nbsp;&bull; <strong>Urban Renewal TDR (URT) Generated = 71,093.75 - 48,000 = 23,093.75 sq.m. DRC!</strong>
+        </div>
+        <p style="font-size:0.85rem; color:var(--ink-soft); margin:0;">
+          <strong>Socio-Economic Balance:</strong> 400 families receive brand-new, earthquake-resistant homes with gardens and wide roads, while the promoter sells 26,125 sq.m. of luxury apartments on-site and 23,093 sq.m. of URT across the city.
+        </p>
+      </div>
+    """,
+    'pitfalls_html': """
+      <div style="border-left:3px solid var(--brick); padding-left:12px;">
+        <strong>Pitfall 1: Exceeding the 25% Slum Area Cap in the Cluster</strong>
+        <p style="font-size:0.88rem; color:var(--ink-soft); margin:4px 0 0 0;">
+          Under Reg 14.8.1.iii(g), slum pockets included in a URS cannot exceed <strong>25% of the total cluster area</strong>. If a cluster proposal contains 35% slum land, it will be disqualified from URS and must be processed under Chapter 14.6 SRS instead.
+        </p>
+      </div>
+      <div style="border-left:3px solid var(--brick); padding-left:12px;">
+        <strong>Pitfall 2: Including Sound Buildings (&lt;30 yrs) Exceeding 40%</strong>
+        <p style="font-size:0.88rem; color:var(--ink-soft); margin:4px 0 0 0;">
+          Explanation-3 to Reg 14.8.1 caps structurally sound buildings under 30 years at <strong>40% of cluster area</strong>, and mandates 70% consent from their title holders. If consent is absent, the building must be retained as-is and excluded from FSI calculations.
+        </p>
+      </div>
+      <div style="border-left:3px solid var(--brick); padding-left:12px;">
+        <strong>Pitfall 3: Failing to Grant the Mandatory 25% Bonus to Legal Owners</strong>
+        <p style="font-size:0.88rem; color:var(--ink-soft); margin:4px 0 0 0;">
+          Under Reg 14.8.4.ii, the 25% additional carpet area for authorized owners is statutory and non-negotiable. Agreements offering only 1:1 carpet exchange violate the UDCPR and will be rejected by the High Power Committee.
+        </p>
+      </div>
+    """,
+    'amendment_section_html': """
+      <p style="font-size:0.9rem; line-height:1.6; margin:0 0 10px 0;">
+        <strong>Notification u/s 37(1AA)(c) dt. 28th December 2022:</strong> Added provisions permitting non-contiguous civic plots within 400m to be included in URS, 
+        and established the 15-day non-cooperation summary eviction protocol under MRTP Act.<br>
+        <strong>Addendum dt. 27th October 2023:</strong> Clarified that incentive FSI applies directly on the gross rehabilitation area, cementing the LR/RC multiplier table.
+      </p>
+    """,
+    'quiz': [
+        {
+            'question': 'What is the minimum plot area required for an Urban Renewal Cluster in a non-congested area under Regulation 14.8.1?',
+            'options': [
+                '4,000 sq.m.',
+                '5,000 sq.m.',
+                '10,000 sq.m. (1.0 Hectare)',
+                '40,000 sq.m.'
+            ],
+            'answer': 2,
+            'explanation': 'Regulation 14.8.1(i) mandates a minimum area of 10,000 sq.m. in non-congested areas and 4,000 sq.m. in congested gaothans.'
+        },
+        {
+            'question': 'What additional carpet area bonus are authorized residential occupants entitled to receive free of cost under Regulation 14.8.4?',
+            'options': [
+                '10% additional bonus area',
+                '15% additional bonus area',
+                '25% additional bonus area',
+                '50% additional bonus area'
+            ],
+            'answer': 2,
+            'explanation': 'Regulation 14.8.4(ii) explicitly provides that residential occupants of authorized buildings shall be entitled to an additional 25% of eligible area free of cost.'
+        },
+        {
+            'question': 'What is the maximum percentage of slum area that can be included in an Urban Renewal Cluster under Regulation 14.8.1.iii(g)?',
+            'options': [
+                'Maximum 10% of cluster area',
+                'Maximum 25% of cluster area',
+                'Maximum 50% of cluster area',
+                'Unlimited'
+            ],
+            'answer': 1,
+            'explanation': 'Regulation 14.8.1.iii(g) specifies that declared slum area shall be maximum 25% of the cluster area.'
+        },
+        {
+            'question': 'What is the statutory floor for the total permissible FSI in an Urban Renewal Scheme under Regulation 14.8.6?',
+            'options': [
+                '2.50 FSI',
+                '3.00 FSI',
+                'Rehab BUA + Incentive BUA, or 4.00, whichever is higher',
+                'Strictly capped at 3.50 FSI'
+            ],
+            'answer': 2,
+            'explanation': 'Regulation 14.8.6(i) mandates that FSI permissible in URS shall be Rehab FSI + incentive FSI, or 4.00 whichever is higher.'
+        }
+    ]
+}
+
+if __name__ == '__main__':
+    create_lesson_page(lesson_data)

@@ -1,0 +1,589 @@
+"""
+UDCPR FROM SCRATCH - TOPIC 5 WORKBENCH GENERATOR
+Builds topics/fire-safety-and-high-rise.html with interactive CAD high-rise evacuation elevation,
+refuge floor calculator, fire staircase standards, and verification quiz.
+"""
+
+import os
+import sys
+
+sys.stdout.reconfigure(encoding='utf-8')
+
+HTML_CONTENT = """<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>High-Rise Safety, Fire Evacuation &amp; Refuge Floors | UDCPR from Scratch</title>
+  <meta name="description" content="Master high-rise statutory fire regulations, 15m/24m/50m height steps, refuge floor layout rules, pressurized staircases, and CFO NOC requirements under UDCPR.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/blueprint.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <style>
+    .svg-dimension-text {
+      font-family: var(--mono);
+      font-size: 11px;
+      font-weight: 700;
+      fill: var(--ink);
+    }
+    .svg-witness-line {
+      stroke: var(--ink-soft);
+      stroke-width: 1;
+      stroke-dasharray: 2, 2;
+    }
+    .breakdown-card {
+      border: 1px solid var(--line-strong);
+      background: var(--paper);
+      padding: 14px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- THE DRAWING SHEET CONTAINER -->
+  <div class="sheet">
+    <div class="ruler-top"></div>
+    <div class="corner-tick tl"></div>
+    <div class="corner-tick tr"></div>
+    <div class="corner-tick bl"></div>
+    <div class="corner-tick br"></div>
+
+    <!-- Statutory Disclaimer Strip -->
+    <div class="disclaimer-strip">
+      <strong>STATUTORY SPECIFICATION:</strong> Reg. 9.29 (Fire Protection), Reg. 13.4, Reg. 6.2.3, and Chief Fire Officer (CFO) High-Rise Building Committee Norms.
+    </div>
+
+    <!-- Sheet Navigation -->
+    <nav class="sheet-nav">
+      <a href="/" class="brand-block">
+        <span class="brand-stamp">UDCPR</span>
+        <div class="brand-title-group">
+          <h1>UDCPR from Scratch</h1>
+          <span>Practice Workbench • Drawing Sheet</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="/topics/" class="active">Topics</a></li>
+        <li class="nav-item"><a href="/chapters/">Chapters</a></li>
+        <li class="nav-item"><a href="/glossary.html">Glossary</a></li>
+        <li class="nav-item"><a href="/formulas.html">Formulas</a></li>
+        <li class="nav-item"><a href="/amendments.html">Amendments (#)</a></li>
+        <li class="nav-item"><a href="/govt-orders.html">Orders</a></li>
+      </ul>
+
+      <div class="nav-tools">
+        <button class="tool-btn" onclick="openSearchModal()">Search <kbd style="font-family:var(--mono);">Ctrl+K</kbd></button>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main style="max-width: 980px; margin: 0 auto; padding-top: 10px;">
+
+      <!-- Breadcrumbs & Kicker -->
+      <div class="kicker-muted" style="margin-bottom: 10px;">
+        <a href="/" style="color:var(--ink-soft); text-decoration:none;">HOME</a> / 
+        <a href="/topics/" style="color:var(--ink-soft); text-decoration:none;">TOPICS</a> / 
+        <span style="color:var(--blueprint);">FIRE SAFETY &amp; HIGH-RISE BUILDINGS</span>
+      </div>
+
+      <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px; flex-wrap:wrap;">
+        <span class="badge badge-clause">Reg. 9.29 &amp; 13.4</span>
+        <span class="badge badge-clause">Refuge Floors (Reg. 9.29.2)</span>
+        <span class="badge badge-status-done">CAD Elevation Engine</span>
+      </div>
+
+      <h1 style="font-size:2.2rem; margin-bottom:12px; line-height:1.2;">
+        High-Rise Fire Safety, Evacuation Stairs &amp; Refuge Floors
+      </h1>
+
+      <p style="font-size:1.05rem; color:var(--ink-soft); line-height:1.6; margin-bottom:28px;">
+        Master Maharashtra's high-rise statutory fire regulations: the critical <strong>15m, 24m, 50m, and 70m+ height thresholds</strong>, refuge floor design rules (every 7th floor above 24m), dual pressurized escape staircases (min 1.5m / 2.0m width), and Chief Fire Officer (CFO) NOC prerequisites.
+      </p>
+
+      <!-- SECTION 1: CRITICAL HEIGHT THRESHOLDS -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">01 // STATUTORY STEPS</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">The 4 Critical Statutory Height Thresholds</h2>
+        <div class="panel-info">
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(210px, 1fr)); gap:12px;">
+            <div style="background:var(--paper); border:1px solid var(--line-strong); padding:12px;">
+              <span class="kicker" style="color:var(--amber);">Step 1 • H &gt; 15.0m</span>
+              <div style="font-family:var(--disp); font-weight:700; font-size:1rem; margin-top:2px;">Special Building Trigger</div>
+              <p style="font-size:0.82rem; color:var(--ink-soft); margin-top:4px;">CFO Fire NOC becomes mandatory. Wet riser system, yard hydrants, and minimum 4.5m marginal distances required (Reg. 1.3(113)).</p>
+            </div>
+            <div style="background:var(--paper); border:1px solid var(--line-strong); padding:12px;">
+              <span class="kicker" style="color:var(--blueprint);">Step 2 • H &gt; 24.0m</span>
+              <div style="font-family:var(--disp); font-weight:700; font-size:1rem; margin-top:2px;">Statutory High-Rise &amp; Refuge</div>
+              <p style="font-size:0.82rem; color:var(--ink-soft); margin-top:4px;">Classified as High-Rise. Mandatory 6.0m all-around fire driveway. First Refuge Floor must be provided immediately above 24.0m.</p>
+            </div>
+            <div style="background:var(--paper); border:1px solid var(--line-strong); padding:12px;">
+              <span class="kicker" style="color:var(--ink);">Step 3 • H &gt; 50.0m</span>
+              <div style="font-family:var(--disp); font-weight:700; font-size:1rem; margin-top:2px;">High-Rise Committee Scrutiny</div>
+              <p style="font-size:0.82rem; color:var(--ink-soft); margin-top:4px;">Special High-Rise Building Committee sanction. Two separate pressurized fire escape staircases (min 1.5m / 2.0m width) with air-locks.</p>
+            </div>
+            <div style="background:var(--paper); border:1px solid var(--line-strong); padding:12px;">
+              <span class="kicker" style="color:var(--teal);">Step 4 • H &gt; 70.0m</span>
+              <div style="font-family:var(--disp); font-weight:700; font-size:1rem; margin-top:2px;">Super High-Rise Automation</div>
+              <p style="font-size:0.82rem; color:var(--ink-soft); margin-top:4px;">Fire evacuation lifts, automated voice alarm systems, 200,000L static water storage, and helipad feasibility review on terrace.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: INTERACTIVE CAD HIGH-RISE ELEVATION -->
+      <section style="margin-bottom:32px;">
+        <div style="display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid var(--ink); padding-bottom:6px; margin-bottom:14px;">
+          <div>
+            <span class="kicker">02 // INTERACTIVE WORKBENCH</span>
+            <h2 style="font-size:1.35rem; margin:0;">Live High-Rise Fire Safety &amp; Refuge Floor CAD Engine</h2>
+          </div>
+          <span style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">REACTIVE HIGH-RISE SECTION</span>
+        </div>
+
+        <div style="background:var(--paper-raised); border:1px solid var(--ink); padding:20px;">
+          <!-- Controls Grid -->
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:16px; margin-bottom:20px;">
+            <div class="calc-field" style="grid-column: span 2;">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+                <label for="fire-building-height" style="font-family:var(--mono); font-size:11px; font-weight:700; text-transform:uppercase;">Proposed Building Height (H)</label>
+                <span style="font-family:var(--mono); font-size:13px; font-weight:700; color:var(--blueprint);" id="display-fire-h">45.00 meters (G+14 Floors)</span>
+              </div>
+              <input type="range" id="fire-building-height" min="12" max="100" step="1" value="45" style="width:100%; accent-color:var(--blueprint); cursor:pointer;">
+              <div style="display:flex; justify-content:space-between; font-family:var(--mono); font-size:10px; color:var(--ink-soft); margin-top:4px;">
+                <span>12m (Low)</span>
+                <span>15m (Special)</span>
+                <span>24m (High-Rise / 1st Refuge)</span>
+                <span>50m (Committee)</span>
+                <span>100m (Super High)</span>
+              </div>
+            </div>
+
+            <div class="calc-field">
+              <label for="fire-occupancy" style="font-family:var(--mono); font-size:11px; font-weight:700; text-transform:uppercase;">Occupancy Classification</label>
+              <select id="fire-occupancy" class="sheet-input">
+                <option value="residential" selected>Residential Apartment Tower</option>
+                <option value="commercial">Commercial / IT Park Tower</option>
+                <option value="hotel">Star Hotel / Hospital</option>
+              </select>
+            </div>
+
+            <div class="calc-field">
+              <label for="fire-pop-per-floor" style="font-family:var(--mono); font-size:11px; font-weight:700; text-transform:uppercase;">Estimated Occupancy per Floor</label>
+              <input type="number" id="fire-pop-per-floor" class="sheet-input" value="30" min="5" max="300" step="5">
+              <span style="font-family:var(--mono); font-size:10px; color:var(--ink-soft);">Persons per floor plate</span>
+            </div>
+          </div>
+
+          <!-- DYNAMIC CAD ELEVATION PLATE -->
+          <div class="blueprint-plate" style="margin-bottom:20px;">
+            <div class="blueprint-plate-header">
+              <span class="fig-number">FIG_005A // DYNAMIC HIGH-RISE EVACUATION SECTION</span>
+              <span class="fig-title">Elevation: Statutory Height Trigger Thresholds, Refuge Floors &amp; Fire Service Infrastructure</span>
+            </div>
+
+            <div class="plate-content" style="padding:16px 8px; overflow-x:auto;">
+              <svg id="fire-cad-svg" viewBox="0 0 860 400" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" style="min-width:700px; font-family:var(--mono); display:block; margin:0 auto;">
+                <defs>
+                  <marker id="fireArrow" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
+                    <path d="M 0 0 L 6 3 L 0 6 z" fill="#2B4C7E"/>
+                  </marker>
+                  <pattern id="concreteHatch" width="10" height="10" patternUnits="userSpaceOnUse">
+                    <circle cx="2" cy="2" r="0.8" fill="#5B5748" opacity="0.3"/>
+                  </pattern>
+                </defs>
+
+                <!-- Background -->
+                <rect width="860" height="400" fill="#FAF8F2"/>
+
+                <!-- Ground Level Baseline -->
+                <line x1="30" y1="350" x2="830" y2="350" stroke="#181D24" stroke-width="2.5"/>
+                <text x="35" y="372" fill="#5B5748" font-size="10" font-weight="700">GROUND LEVEL ± 0.00m // FIRE DRIVEWAY LEVEL</text>
+
+                <!-- LEFT STATUTORY THRESHOLD MARKERS -->
+                <!-- 15m Line -->
+                <line x1="40" y1="280" x2="220" y2="280" stroke="#DD7A0E" stroke-width="1.2" stroke-dasharray="4,3"/>
+                <text x="45" y="275" fill="#DD7A0E" font-size="9" font-weight="700">15.0m // SPECIAL BLDG THRESHOLD</text>
+
+                <!-- 24m Line -->
+                <line x1="40" y1="220" x2="220" y2="220" stroke="#2B4C7E" stroke-width="1.5" stroke-dasharray="4,3"/>
+                <text x="45" y="215" fill="#2B4C7E" font-size="9" font-weight="700">24.0m // HIGH-RISE &amp; 1ST REFUGE</text>
+
+                <!-- 50m Line -->
+                <line x1="40" y1="120" x2="220" y2="120" stroke="#181D24" stroke-width="1.8" stroke-dasharray="4,3"/>
+                <text x="45" y="115" fill="#181D24" font-size="9" font-weight="700">50.0m // HIGH-RISE COMMITTEE</text>
+
+                <!-- CENTRAL BUILDING ELEVATION -->
+                <rect id="svg-bldg-rect" x="250" y="80" width="340" height="270" fill="url(#concreteHatch)" stroke="#2B4C7E" stroke-width="2.5"/>
+                
+                <!-- Floor Slab lines & Refuge Floors will be injected here -->
+                <g id="svg-floors-group"></g>
+
+                <!-- Underground Fire Water Tank on Left -->
+                <rect x="50" y="350" width="140" height="40" fill="#EAE5D7" stroke="#2B4C7E" stroke-width="1.5"/>
+                <text x="60" y="372" fill="#2B4C7E" font-size="9" font-weight="700" id="svg-ug-tank-text">UG TANK: 150,000 L</text>
+
+                <!-- Overhead Fire Tank on Terrace -->
+                <rect id="svg-oh-tank" x="370" y="55" width="100" height="25" fill="#EAE5D7" stroke="#2B4C7E" stroke-width="1.5"/>
+                <text id="svg-oh-tank-text" x="380" y="72" fill="#2B4C7E" font-size="9" font-weight="700">OH: 20,000 L</text>
+
+                <!-- RIGHT SIDE INFRASTRUCTURE CALLOUTS -->
+                <rect x="620" y="80" width="220" height="240" fill="#FAF8F2" stroke="#181D24" stroke-width="1.5"/>
+                <text x="630" y="105" fill="#2B4C7E" font-size="11" font-weight="700">STATUTORY FIRE MANDATES:</text>
+                
+                <text x="630" y="130" fill="#181D24" font-size="10" id="mandate-class">• Class: High-Rise</text>
+                <text x="630" y="152" fill="#181D24" font-size="10" id="mandate-stairs">• 2 Fire Stairs (1.5m min)</text>
+                <text x="630" y="174" fill="#181D24" font-size="10" id="mandate-refuge">• Refuge: 1 Floor (Floor 8)</text>
+                <text x="630" y="196" fill="#181D24" font-size="10" id="mandate-driveway">• 6.0m Fire Driveway</text>
+                <text x="630" y="218" fill="#181D24" font-size="10" id="mandate-lift">• Fire Evacuation Lift</text>
+                <text x="630" y="240" fill="#DD7A0E" font-size="10" font-weight="700" id="mandate-cfo">• CFO NOC Mandatory</text>
+
+                <rect x="630" y="260" width="200" height="45" fill="#EAE5D7" stroke="#5B5748" stroke-width="1"/>
+                <text x="640" y="278" fill="#5B5748" font-size="8" font-weight="700">REFUGE FSI EXEMPTION:</text>
+                <text x="640" y="293" fill="#137333" font-size="9" font-weight="700">100% Free of FSI (Reg. 6.3.3)</text>
+              </svg>
+            </div>
+
+            <div class="plate-caption">
+              FIG_005A: Dynamic high-rise fire safety elevation showing statutory height thresholds (15m, 24m, 50m), refuge floor locations, staircase pressurized egress, and dedicated fire water storage capacities.
+            </div>
+          </div>
+
+          <!-- SUMMARY BREAKDOWN METRICS -->
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:12px; margin-bottom:16px;">
+            <div class="breakdown-card">
+              <div>
+                <span class="kicker" style="color:var(--blueprint);">1. STATUTORY REFUGE FLOORS</span>
+                <div style="font-family:var(--disp); font-size:1.5rem; font-weight:700; margin:4px 0;" id="metric-refuge-count">1 Floor Required</div>
+              </div>
+              <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);" id="metric-refuge-floors">
+                Floor 8 (above 24.0m) • <strong style="color:var(--green);">Zero FSI Count</strong>
+              </div>
+            </div>
+
+            <div class="breakdown-card">
+              <div>
+                <span class="kicker" style="color:var(--amber);">2. ESCAPE STAIRCASES</span>
+                <div style="font-family:var(--disp); font-size:1.5rem; font-weight:700; margin:4px 0; color:var(--amber);" id="metric-stair-count">2 Staircases</div>
+              </div>
+              <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);" id="metric-stair-width">
+                Min 1.50m width each • 2-hr fire rated
+              </div>
+            </div>
+
+            <div class="breakdown-card">
+              <div>
+                <span class="kicker" style="color:var(--ink);">3. UNDERGROUND FIRE STORAGE</span>
+                <div style="font-family:var(--disp); font-size:1.5rem; font-weight:700; margin:4px 0;" id="metric-ug-tank">150,000 Liters</div>
+              </div>
+              <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);" id="metric-oh-tank">
+                + 20,000L Overhead Terrace Tank
+              </div>
+            </div>
+
+            <div class="breakdown-card">
+              <div>
+                <span class="kicker" style="color:var(--teal);">4. CLEAR FIRE DRIVEWAY</span>
+                <div style="font-family:var(--disp); font-size:1.5rem; font-weight:700; margin:4px 0; color:var(--teal);" id="metric-driveway-req">6.00 meters</div>
+              </div>
+              <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">
+                All-around continuous hard-paved loop
+              </div>
+            </div>
+          </div>
+
+          <!-- REFUGE AREA SPECIFICATION STRIP -->
+          <div style="background:var(--paper); border:2px solid var(--ink); padding:16px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px;">
+            <div>
+              <span class="kicker" style="color:var(--blueprint);">REFUGE AREA SIZING FORMULA (REG. 9.29.2)</span>
+              <div style="font-family:var(--disp); font-size:1.6rem; font-weight:700; color:var(--ink);" id="calc-refuge-area">63.00 sq.m per Refuge Floor</div>
+              <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft); margin-top:2px;">
+                Sized for 7 floors population: 210 persons &times; 0.3 sq.m/person = <strong>63.00 sq.m</strong> (Min 15 sq.m).
+              </div>
+            </div>
+
+            <div style="text-align:right;">
+              <span class="kicker-muted">FIRE NOC SEQUENCE</span>
+              <div style="font-family:var(--disp); font-size:1.4rem; font-weight:700; color:var(--amber);" id="calc-noc-stage">Provisional NOC Required</div>
+              <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">
+                Final CFO Fire NOC prior to Occupancy (OC)
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- SECTION 3: REFUGE FLOOR ARCHITECTURAL STANDARDS -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">03 // STATUTORY SPECIFICATION</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Refuge Floor Design Rules (Regulation 9.29.2)</h2>
+        <div class="panel-info">
+          <ul style="padding-left:18px; margin:0; display:flex; flex-direction:column; gap:10px; font-size:0.92rem; line-height:1.55;">
+            <li>
+              <strong>Mandatory Trigger Height:</strong> The first refuge floor must be located immediately above <strong>24.0 meters</strong> from ground plinth. Thereafter, successive refuge floors must be provided at <strong>every 7th habitable floor</strong>.
+            </li>
+            <li>
+              <strong>Area Sizing Equation:</strong> Calculated at <strong>0.30 sq.m per person</strong> for the entire population of the 7 floors it serves, subject to an absolute minimum of <strong>15.00 sq.m</strong>.
+            </li>
+            <li>
+              <strong>100% FSI Exemption:</strong> Under Regulation 6.3.3, approved refuge areas are completely <strong>exempt from FSI computation</strong> and do not attract premium charges.
+            </li>
+            <li>
+              <strong>Fire Door &amp; Egress:</strong> The door leading to the refuge area must have a <strong>2-hour fire resistance rating</strong>, open outwards into the refuge area, and be equipped with automatic panic hardware.
+            </li>
+            <li>
+              <strong>Prohibition of Commercial Exploitation:</strong> Refuge areas cannot be enclosed with glass, rented as clubhouses, or used for storage. Doing so constitutes a criminal safety violation under the Maharashtra Fire Prevention Act.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- SECTION 4: SCRUTINY WATCHOUTS -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">04 // SCRUTINY WATCHOUTS</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Top 5 High-Rise Plan Scrutiny Pitfalls</h2>
+        <div class="panel-warning">
+          <ul style="padding-left:18px; margin:0; display:flex; flex-direction:column; gap:10px; font-size:0.92rem; line-height:1.55;">
+            <li>
+              <strong>1. Providing a Single Staircase for Buildings &gt; 15.0m:</strong> Reg. 9.28 and CFO mandates strictly require at least <strong>two independent, enclosed fire escape staircases</strong> for all buildings exceeding 15m in height (or exceeding 500 sqm per floor plate).
+            </li>
+            <li>
+              <strong>2. Omitting Positive Pressure Ventilation in Escape Staircases:</strong> For buildings exceeding 24m, staircases must be mechanically pressurized to 50 Pa to prevent toxic smoke from infiltrating during an evacuation.
+            </li>
+            <li>
+              <strong>3. Locating Underground Fire Tanks Under Building Plinth:</strong> CFO norms mandate that the dedicated underground fire static water reservoir must be located outside the building footprint to allow uninterrupted fire engine suction connections.
+            </li>
+            <li>
+              <strong>4. Placing Cantilever Refuge Slabs Over Entry Drives Without Headroom:</strong> When refuge platforms cantilever out over the 6.0m fire driveway, they must maintain a minimum clear vertical height of <strong>4.50 meters</strong> so fire tenders are not obstructed.
+            </li>
+            <li>
+              <strong>5. Calculating Refuge Capacity for Only 1 Floor:</strong> Scrutiny engineers will reject plans if the refuge area is only sized for the immediate floor. The area must accommodate the full cumulative occupancy of all <strong>7 intermediate floors</strong>.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- SECTION 5: VERIFICATION QUIZ -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">05 // VERIFICATION QUIZ</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Knowledge Check: High-Rise Safety &amp; Refuge Floors</h2>
+        <div class="quiz-container" id="fire-quiz-box"></div>
+      </section>
+
+    </main>
+
+    <!-- Sheet Footer -->
+    <footer class="sheet-footer">
+      <div>UDCPR FROM SCRATCH • TOPIC 05: HIGH-RISE SAFETY, EVACUATION &amp; REFUGE FLOORS</div>
+      <div>DRAWING SHEET ARCHITECTURAL SPECIFICATION • MAHARASHTRA STATE</div>
+    </footer>
+  </div>
+
+  <!-- Universal Search Modal -->
+  <div class="search-modal-backdrop" id="search-modal-backdrop" onclick="if(event.target === this) closeSearchModal()">
+    <div class="search-modal">
+      <div class="search-modal-header">
+        <span style="font-family:var(--mono); font-size:13px; font-weight:700;">SEARCH //</span>
+        <input type="text" id="search-modal-input" class="search-modal-input" placeholder="Search clauses, topics, formulas..." autocomplete="off">
+        <button onclick="closeSearchModal()" class="tool-btn" style="padding:2px 8px;">ESC</button>
+      </div>
+      <ul class="search-results-list" id="search-results-list"></ul>
+    </div>
+  </div>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/search.js"></script>
+  <script src="/js/quiz.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const heightEl = document.getElementById('fire-building-height');
+      const dispHEl = document.getElementById('display-fire-h');
+      const occEl = document.getElementById('fire-occupancy');
+      const popEl = document.getElementById('fire-pop-per-floor');
+
+      function updateFireSafety() {
+        const H = parseFloat(heightEl.value) || 45;
+        const occ = occEl.value;
+        const popPerFloor = parseInt(popEl.value) || 30;
+
+        // Approximate floors: H / 3.0m
+        const totalFloors = Math.floor(H / 3.0);
+        dispHEl.textContent = H.toFixed(2) + ' meters (G+' + (totalFloors - 1) + ' Floors)';
+
+        // 1. Classification
+        const isSpecial = H > 15.0;
+        const isHighRise = H > 24.0;
+        const isCommittee = H > 50.0;
+        const isSuperHigh = H > 70.0;
+
+        let bldgClass = 'Low-Rise Building';
+        if (isSuperHigh) bldgClass = 'Super High-Rise (> 70m)';
+        else if (isCommittee) bldgClass = 'High-Rise (50m–70m)';
+        else if (isHighRise) bldgClass = 'High-Rise (24m–50m)';
+        else if (isSpecial) bldgClass = 'Special Building (15m–24m)';
+
+        // 2. Refuge Floors Calculation
+        // 1st refuge immediately above 24.0m (~Floor 8). Successive every 7 floors.
+        let refugeFloors = [];
+        if (H > 24.0) {
+          const firstRefuge = 8;
+          refugeFloors.push(firstRefuge);
+          let nextRefuge = firstRefuge + 7;
+          while (nextRefuge <= totalFloors) {
+            refugeFloors.push(nextRefuge);
+            nextRefuge += 7;
+          }
+        }
+
+        // Refuge Area per floor = 7 floors * popPerFloor * 0.3 sqm (min 15 sqm)
+        const refugeAreaPerFloor = Math.max(15, 7 * popPerFloor * 0.30);
+
+        // 3. Fire Staircase Requirements
+        let stairCount = 1;
+        let stairWidth = 1.20;
+        if (isSpecial || isHighRise || occ === 'commercial' || occ === 'hotel') {
+          stairCount = 2;
+          stairWidth = isCommittee ? 2.00 : 1.50;
+        }
+
+        // 4. Fire Water Storage
+        let ugTank = 75000;
+        let ohTank = 10000;
+        if (isSuperHigh) {
+          ugTank = 200000;
+          ohTank = 40000;
+        } else if (isHighRise) {
+          ugTank = 150000;
+          ohTank = 20000;
+        } else if (isSpecial) {
+          ugTank = 100000;
+          ohTank = 15000;
+        }
+
+        // Update Text Readouts
+        document.getElementById('metric-refuge-count').textContent = refugeFloors.length > 0 ? (refugeFloors.length + ' Floor(s) Required') : 'Not Applicable (≤ 24m)';
+        document.getElementById('metric-refuge-floors').innerHTML = refugeFloors.length > 0 ? ('Floor(s): <strong>' + refugeFloors.join(', ') + '</strong> • <strong style="color:var(--green);">Zero FSI Count</strong>') : 'Building below 24.0m trigger';
+
+        document.getElementById('metric-stair-count').textContent = stairCount + ' Escape Staircases';
+        document.getElementById('metric-stair-width').textContent = 'Min ' + stairWidth.toFixed(2) + 'm width each • 2-hr fire rated';
+
+        document.getElementById('metric-ug-tank').textContent = ugTank.toLocaleString('en-IN') + ' Liters';
+        document.getElementById('metric-oh-tank').textContent = '+ ' + ohTank.toLocaleString('en-IN') + 'L Overhead Terrace Tank';
+
+        document.getElementById('metric-driveway-req').textContent = isSpecial || isHighRise ? '6.00 meters' : '3.00 meters';
+
+        document.getElementById('calc-refuge-area').textContent = refugeFloors.length > 0 ? (refugeAreaPerFloor.toFixed(1) + ' sq.m per Refuge Floor') : 'None (H ≤ 24m)';
+        document.getElementById('calc-noc-stage').textContent = isSpecial || isHighRise ? 'Provisional CFO NOC Required' : 'Standard Municipal Sanction';
+
+        // Update Callouts Panel
+        document.getElementById('mandate-class').textContent = '• Class: ' + bldgClass;
+        document.getElementById('mandate-stairs').textContent = '• ' + stairCount + ' Fire Stairs (' + stairWidth.toFixed(2) + 'm)';
+        document.getElementById('mandate-refuge').textContent = refugeFloors.length > 0 ? ('• Refuge: ' + refugeFloors.length + ' Floors (' + refugeFloors.join(', ') + ')') : '• No Refuge (≤ 24m)';
+        document.getElementById('mandate-cfo').textContent = isSpecial || isHighRise ? '• CFO Fire NOC Mandatory' : '• Local Fire Sanction';
+        document.getElementById('svg-ug-tank-text').textContent = 'UG TANK: ' + (ugTank / 1000) + 'k L';
+        document.getElementById('svg-oh-tank-text').textContent = 'OH: ' + (ohTank / 1000) + 'k L';
+
+        // 5. Redraw SVG Floors & Refuge Blocks
+        const baseY = 350;
+        const minH = 12, maxH = 100;
+        const minPx = 80, maxPx = 280;
+        const bldgH_px = minPx + ((H - minH) / (maxH - minH)) * (maxPx - minPx);
+        const topY = baseY - bldgH_px;
+
+        const bRect = document.getElementById('svg-bldg-rect');
+        bRect.setAttribute('y', topY);
+        bRect.setAttribute('height', bldgH_px);
+
+        const ohTankRect = document.getElementById('svg-oh-tank');
+        ohTankRect.setAttribute('y', topY - 25);
+        document.getElementById('svg-oh-tank-text').setAttribute('y', topY - 8);
+
+        // Generate Floor slabs and Refuge Blocks inside group
+        const group = document.getElementById('svg-floors-group');
+        let slabHtml = '';
+        const floorH_px = bldgH_px / totalFloors;
+
+        for (let i = 1; i < totalFloors; i++) {
+          const sy = baseY - (i * floorH_px);
+          const isRefuge = refugeFloors.includes(i);
+
+          if (isRefuge) {
+            // Draw Cantilever Refuge Slab in Amber
+            slabHtml += `
+              <rect x="220" y="${sy - floorH_px}" width="370" height="${floorH_px}" fill="#FCE8D5" stroke="#DD7A0E" stroke-width="1.8"/>
+              <text x="225" y="${sy - (floorH_px / 2) + 4}" fill="#DD7A0E" font-size="9" font-weight="700">REFUGE FL ${i}</text>
+            `;
+          } else {
+            // Standard Floor Slab Line
+            slabHtml += `
+              <line x1="250" y1="${sy}" x2="590" y2="${sy}" stroke="#181D24" stroke-width="0.8" opacity="0.4"/>
+            `;
+          }
+        }
+
+        group.innerHTML = slabHtml;
+      }
+
+      heightEl.addEventListener('input', updateFireSafety);
+      occEl.addEventListener('change', updateFireSafety);
+      popEl.addEventListener('input', updateFireSafety);
+      updateFireSafety();
+
+      // Quiz Engine
+      const fireQuizQuestions = [
+        {
+          question: "At what building height threshold does the provision of the first statutory Refuge Floor become mandatory under Regulation 9.29.2?",
+          options: [
+            "Above 15.0 meters",
+            "Immediately above 24.0 meters",
+            "Above 36.0 meters",
+            "Above 50.0 meters"
+          ],
+          correctAnswer: 1,
+          explanation: "Under Regulation 9.29.2, the first statutory refuge floor must be located immediately above 24.0 meters from the ground plinth level."
+        },
+        {
+          question: "After the first refuge floor at 24.0m, at what statutory interval must successive refuge floors be provided?",
+          options: [
+            "Every 3rd floor",
+            "Every 5th floor",
+            "Every 7th habitable floor",
+            "Every 10th floor"
+          ],
+          correctAnswer: 2,
+          explanation: "Under Regulation 9.29.2, successive refuge floors must be provided at every 7th habitable floor above the first refuge floor."
+        },
+        {
+          question: "Are statutory refuge areas counted towards the building's consumed Floor Space Index (FSI)?",
+          options: [
+            "Yes, counted at 100% FSI",
+            "Counted at 50% FSI",
+            "No, approved refuge areas are 100% exempt from FSI computation under Regulation 6.3.3",
+            "Exempt only if an open terrace"
+          ],
+          correctAnswer: 2,
+          explanation: "Under Regulation 6.3.3, approved refuge areas compliant with fire department regulations are 100% free of FSI computation and attract zero municipal premium."
+        }
+      ];
+
+      initQuiz('fire-quiz-box', fireQuizQuestions, 'topic-fire-safety');
+    });
+  </script>
+</body>
+</html>
+"""
+
+def main():
+    target_path = os.path.join(os.path.dirname(__file__), '..', 'topics', 'fire-safety-and-high-rise.html')
+    with open(target_path, 'w', encoding='utf-8') as f:
+        f.write(HTML_CONTENT)
+    print(f"✓ Created {target_path} with interactive CAD high-rise fire safety engine.")
+
+if __name__ == '__main__':
+    main()

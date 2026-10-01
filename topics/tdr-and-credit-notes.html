@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TDR Generation, Indexation &amp; Credit Notes | UDCPR from Scratch</title>
+  <meta name="description" content="Master Transferable Development Rights (TDR) in Maharashtra under UDCPR Chapter 11. Calculate DRC generation multipliers (2x/3x), indexation formula X = (Rg/Rr)*Y, and Reservation Credit Notes.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/blueprint.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <style>
+    .svg-dimension-text {
+      font-family: var(--mono);
+      font-size: 11px;
+      font-weight: 700;
+      fill: var(--ink);
+    }
+    .breakdown-card {
+      border: 1px solid var(--line-strong);
+      background: var(--paper);
+      padding: 14px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- THE DRAWING SHEET CONTAINER -->
+  <div class="sheet">
+    <div class="ruler-top"></div>
+    <div class="corner-tick tl"></div>
+    <div class="corner-tick tr"></div>
+    <div class="corner-tick bl"></div>
+    <div class="corner-tick br"></div>
+
+    <!-- Statutory Disclaimer Strip -->
+    <div class="disclaimer-strip">
+      <strong>STATUTORY SPECIFICATION:</strong> Reg. 11.2 (TDR Regulations), Reg. 11.2.6 (Indexation Formula), Reg. 11.3 (Reservation Credit Certificate), and Table 6-A Loading Caps.
+    </div>
+
+    <!-- Sheet Navigation -->
+    <nav class="sheet-nav">
+      <a href="/" class="brand-block">
+        <span class="brand-stamp">UDCPR</span>
+        <div class="brand-title-group">
+          <h1>UDCPR from Scratch</h1>
+          <span>Practice Workbench • Drawing Sheet</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="/topics/" class="active">Topics</a></li>
+        <li class="nav-item"><a href="/chapters/">Chapters</a></li>
+        <li class="nav-item"><a href="/glossary.html">Glossary</a></li>
+        <li class="nav-item"><a href="/formulas.html">Formulas</a></li>
+        <li class="nav-item"><a href="/amendments.html">Amendments (#)</a></li>
+        <li class="nav-item"><a href="/govt-orders.html">Orders</a></li>
+      </ul>
+
+      <div class="nav-tools">
+        <button class="tool-btn" onclick="openSearchModal()">Search <kbd style="font-family:var(--mono);">Ctrl+K</kbd></button>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main style="max-width: 980px; margin: 0 auto; padding-top: 10px;">
+
+      <!-- Breadcrumbs & Kicker -->
+      <div class="kicker-muted" style="margin-bottom: 10px;">
+        <a href="/" style="color:var(--ink-soft); text-decoration:none;">HOME</a> / 
+        <a href="/topics/" style="color:var(--ink-soft); text-decoration:none;">TOPICS</a> / 
+        <span style="color:var(--blueprint);">TDR GENERATION &amp; INDEXATION</span>
+      </div>
+
+      <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px; flex-wrap:wrap;">
+        <span class="badge badge-clause">Chapter 11 • Reg. 11.2</span>
+        <span class="badge badge-clause">Formula: X = (Rg / Rr) × Y</span>
+        <span class="badge badge-status-done">CAD Indexation Engine</span>
+      </div>
+
+      <h1 style="font-size:2.2rem; margin-bottom:12px; line-height:1.2;">
+        TDR Generation Multipliers, Indexation &amp; Credit Notes
+      </h1>
+
+      <p style="font-size:1.05rem; color:var(--ink-soft); line-height:1.6; margin-bottom:28px;">
+        Master the economics and mechanics of Transferable Development Rights (TDR) in Maharashtra: land surrender generation multipliers (<strong>2.00x non-congested vs 3.00x congested</strong>), amenity construction bonuses, the <strong>statutory indexation formula</strong> $X = (R_g / R_r) 	imes Y$, and Reservation Credit Certificates (RCC).
+      </p>
+
+      <!-- SECTION 1: THE TDR LIFECYCLE -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">01 // STATUTORY LIFECYCLE</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">How TDR is Born, Valued, and Consumed</h2>
+        <div class="panel-info">
+          <p style="margin-bottom:14px;">
+            Transferable Development Rights allow land owners to surrender public reservations (DP roads, schools, gardens) without cash compensation from municipal coffers, receiving tradable certificates instead:
+          </p>
+
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(210px, 1fr)); gap:12px;">
+            <div style="background:var(--paper); border:1px solid var(--line-strong); padding:12px;">
+              <span class="kicker" style="color:var(--ink);">Stage 1 • Surrender</span>
+              <div style="font-family:var(--disp); font-weight:700; font-size:1rem; margin-top:2px;">Land Handover</div>
+              <p style="font-size:0.82rem; color:var(--ink-soft); margin-top:4px;">Land owner hands over unencumbered possession of reserved plot to the Planning Authority with 7/12 mutation in municipal name.</p>
+            </div>
+            <div style="background:var(--paper); border:1px solid var(--line-strong); padding:12px;">
+              <span class="kicker" style="color:var(--blueprint);">Stage 2 • Multiplier</span>
+              <div style="font-family:var(--disp); font-weight:700; font-size:1rem; margin-top:2px;">2.00x or 3.00x DRC</div>
+              <p style="font-size:0.82rem; color:var(--ink-soft); margin-top:4px;">DRC face value = <strong>2.00 &times; Land Area</strong> (Non-congested) or <strong>3.00 &times; Land Area</strong> (Congested Gaothan). +0.50x if amenity is built.</p>
+            </div>
+            <div style="background:var(--paper); border:1px solid var(--line-strong); padding:12px;">
+              <span class="kicker" style="color:var(--amber);">Stage 3 • Indexation</span>
+              <div style="font-family:var(--disp); font-weight:700; font-size:1rem; margin-top:2px;">ASR Rate Adjustment</div>
+              <p style="font-size:0.82rem; color:var(--ink-soft); margin-top:4px;">When loaded onto a receiving plot with different land value, BUA is adjusted via ratio of Ready Reckoner rates: $X = (R_g / R_r) 	imes Y$.</p>
+            </div>
+            <div style="background:var(--paper); border:1px solid var(--line-strong); padding:12px;">
+              <span class="kicker" style="color:var(--teal);">Stage 4 • Utilization</span>
+              <div style="font-family:var(--disp); font-weight:700; font-size:1rem; margin-top:2px;">Road Width Capping</div>
+              <p style="font-size:0.82rem; color:var(--ink-soft); margin-top:4px;">TDR can only be loaded on receiving roads &ge; 12.0m, up to the maximum road tier caps established in Table 6-A (max 0.65 FSI).</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: INTERACTIVE CAD TDR ENGINE -->
+      <section style="margin-bottom:32px;">
+        <div style="display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid var(--ink); padding-bottom:6px; margin-bottom:14px;">
+          <div>
+            <span class="kicker">02 // INTERACTIVE WORKBENCH</span>
+            <h2 style="font-size:1.35rem; margin:0;">Live TDR Generation &amp; Indexation Calculator Engine</h2>
+          </div>
+          <span style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">LIVE STATUTORY ENGINE</span>
+        </div>
+
+        <div style="background:var(--paper-raised); border:1px solid var(--ink); padding:20px;">
+          <!-- Controls Grid -->
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(210px, 1fr)); gap:16px; margin-bottom:20px;">
+            <div class="calc-field">
+              <label for="tdr-surrendered-area" style="font-family:var(--mono); font-size:11px; font-weight:700; text-transform:uppercase;">Surrendered Reservation Area (sq.m)</label>
+              <input type="number" id="tdr-surrendered-area" class="sheet-input" value="1000" min="50" max="50000" step="50">
+            </div>
+
+            <div class="calc-field">
+              <label for="tdr-origin-zone" style="font-family:var(--mono); font-size:11px; font-weight:700; text-transform:uppercase;">Origin Land Location</label>
+              <select id="tdr-origin-zone" class="sheet-input">
+                <option value="non-congested" selected>Non-Congested Area (2.00x Multiplier)</option>
+                <option value="congested">Congested / Gaothan Core (3.00x Multiplier)</option>
+              </select>
+            </div>
+
+            <div class="calc-field">
+              <label for="tdr-rate-origin" style="font-family:var(--mono); font-size:11px; font-weight:700; text-transform:uppercase;">Origin ASR Land Rate Rg (₹ / sq.m)</label>
+              <input type="number" id="tdr-rate-origin" class="sheet-input" value="25000" min="1000" max="200000" step="1000">
+              <span style="font-family:var(--mono); font-size:10px; color:var(--ink-soft);">Generating Plot Ready Reckoner</span>
+            </div>
+
+            <div class="calc-field">
+              <label for="tdr-rate-dest" style="font-family:var(--mono); font-size:11px; font-weight:700; text-transform:uppercase;">Receiving ASR Land Rate Rr (₹ / sq.m)</label>
+              <input type="number" id="tdr-rate-dest" class="sheet-input" value="50000" min="1000" max="200000" step="1000">
+              <span style="font-family:var(--mono); font-size:10px; color:var(--ink-soft);">Receiving Plot Ready Reckoner</span>
+            </div>
+          </div>
+
+          <!-- DYNAMIC CAD FLOW PLATE -->
+          <div class="blueprint-plate" style="margin-bottom:20px;">
+            <div class="blueprint-plate-header">
+              <span class="fig-number">FIG_006A // TDR DRC GENERATION &amp; TRANSFER FLOW</span>
+              <span class="fig-title">Surrendered Land &rarr; Multiplier (2x/3x) &rarr; DRC Certificate &rarr; Indexation Ratio (Rg / Rr)</span>
+            </div>
+
+            <div class="plate-content" style="padding:16px 8px; overflow-x:auto;">
+              <svg viewBox="0 0 860 260" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" style="min-width:680px; font-family:var(--mono); display:block; margin:0 auto;">
+                <defs>
+                  <marker id="tdrArrow" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
+                    <path d="M 0 0 L 6 3 L 0 6 z" fill="#2B4C7E"/>
+                  </marker>
+                </defs>
+
+                <rect width="860" height="260" fill="#FAF8F2"/>
+
+                <!-- Box 1: Generating Plot -->
+                <rect x="40" y="50" width="220" height="150" fill="#FAF8F2" stroke="#181D24" stroke-width="2"/>
+                <text x="55" y="80" fill="#181D24" font-size="12" font-weight="700">GENERATING PLOT (ORIGIN)</text>
+                <text id="svg-gen-area" x="55" y="110" fill="#2B4C7E" font-size="14" font-weight="700">Area: 1,000 sq.m</text>
+                <text id="svg-gen-multiplier" x="55" y="132" fill="#DD7A0E" font-size="11" font-weight="700">Multiplier: 2.00x</text>
+                <text id="svg-gen-rate" x="55" y="152" fill="#5B5748" font-size="10">ASR Rg = ₹ 25,000 / sqm</text>
+                <text x="55" y="178" fill="#181D24" font-size="9">DP Road / Reservation</text>
+
+                <!-- Arrow 1 to DRC -->
+                <line x1="260" y1="125" x2="330" y2="125" stroke="#2B4C7E" stroke-width="2" marker-end="url(#tdrArrow)"/>
+
+                <!-- Box 2: DRC Certificate -->
+                <rect x="330" y="40" width="200" height="170" fill="#FCE8D5" stroke="#DD7A0E" stroke-width="2"/>
+                <text x="345" y="70" fill="#DD7A0E" font-size="12" font-weight="700">DRC CERTIFICATE</text>
+                <text x="345" y="90" fill="#5B5748" font-size="9">Municipal Commissioner Seal</text>
+                <text id="svg-drc-face" x="345" y="125" fill="#181D24" font-size="15" font-weight="700">Y = 2,000 sq.m</text>
+                <text x="345" y="145" fill="#5B5748" font-size="10">Face Value Entitlement</text>
+                <text id="svg-drc-val" x="345" y="180" fill="#2B4C7E" font-size="11" font-weight="700">Valuation: ₹ 5.00 Cr</text>
+
+                <!-- Arrow 2 to Receiving Plot -->
+                <line x1="530" y1="125" x2="600" y2="125" stroke="#2B4C7E" stroke-width="2" marker-end="url(#tdrArrow)"/>
+
+                <!-- Box 3: Receiving Plot -->
+                <rect x="600" y="50" width="220" height="150" fill="#FAF8F2" stroke="#2B4C7E" stroke-width="2"/>
+                <text x="615" y="80" fill="#2B4C7E" font-size="12" font-weight="700">RECEIVING PLOT</text>
+                <text id="svg-rec-rate" x="615" y="105" fill="#5B5748" font-size="10">ASR Rr = ₹ 50,000 / sqm</text>
+                <text id="svg-rec-ratio" x="615" y="128" fill="#DD7A0E" font-size="11" font-weight="700">Ratio (Rg/Rr) = 0.50</text>
+                <text id="svg-rec-bua" x="615" y="155" fill="#2B4C7E" font-size="15" font-weight="700">X = 1,000 sq.m BUA</text>
+                <text x="615" y="180" fill="#137333" font-size="9" font-weight="700">Road Width &ge; 12.0m Only</text>
+              </svg>
+            </div>
+
+            <div class="plate-caption">
+              FIG_006A: Statutory TDR generation and indexation workflow under Chapter 11. Face value $Y$ is indexed by Ready Reckoner ratio $(R_g / R_r)$ to determine legal BUA utilization $X$ on receiving plot.
+            </div>
+          </div>
+
+          <!-- SUMMARY BREAKDOWN METRICS -->
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:12px; margin-bottom:16px;">
+            <div class="breakdown-card">
+              <div>
+                <span class="kicker" style="color:var(--blueprint);">1. DRC FACE VALUE (Y)</span>
+                <div style="font-family:var(--disp); font-size:1.5rem; font-weight:700; margin:4px 0;" id="metric-drc-face">2,000.00 sq.m</div>
+              </div>
+              <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);" id="metric-gen-multiplier">
+                Multiplier: <strong>2.00x</strong> (Non-Congested Area)
+              </div>
+            </div>
+
+            <div class="breakdown-card">
+              <div>
+                <span class="kicker" style="color:var(--amber);">2. INDEXATION RATIO (Rg / Rr)</span>
+                <div style="font-family:var(--disp); font-size:1.5rem; font-weight:700; margin:4px 0; color:var(--amber);" id="metric-index-ratio">0.5000</div>
+              </div>
+              <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">
+                ₹ 25,000 / ₹ 50,000 ASR Ratio
+              </div>
+            </div>
+
+            <div class="breakdown-card">
+              <div>
+                <span class="kicker" style="color:var(--green);">3. INDEXED BUA UTILIZED (X)</span>
+                <div style="font-family:var(--disp); font-size:1.5rem; font-weight:700; margin:4px 0; color:var(--green);" id="metric-indexed-bua">1,000.00 sq.m</div>
+              </div>
+              <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">
+                Permissible Consumption BUA
+              </div>
+            </div>
+
+            <div class="breakdown-card">
+              <div>
+                <span class="kicker" style="color:var(--ink);">4. ESTIMATED MARKET VALUE</span>
+                <div style="font-family:var(--disp); font-size:1.5rem; font-weight:700; margin:4px 0;" id="metric-market-val">₹ 3.00 Crore</div>
+              </div>
+              <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">
+                @ ~60% of Receiving Land Rate
+              </div>
+            </div>
+          </div>
+
+          <!-- RESERVATION CREDIT CERTIFICATE (RCC) BANNER -->
+          <div style="background:var(--paper); border:2px solid var(--ink); padding:16px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px;">
+            <div>
+              <span class="kicker" style="color:var(--blueprint);">ALTERNATIVE: RESERVATION CREDIT CERTIFICATE (REG. 11.3)</span>
+              <div style="font-family:var(--disp); font-size:1.4rem; font-weight:700; color:var(--ink);" id="calc-rcc-val">₹ 2.50 Crore Credit Note</div>
+              <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft); margin-top:2px;">
+                Tradable municipal financial note usable to offset premium FSI, development charges, and municipal property taxes.
+              </div>
+            </div>
+
+            <div style="text-align:right;">
+              <span class="kicker-muted">AMENITY CONSTRUCTION BONUS</span>
+              <div style="font-family:var(--disp); font-size:1.4rem; font-weight:700; color:var(--amber);">+0.50x to +1.50x BUA</div>
+              <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">
+                Granted if owner constructs public amenity on site
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- SECTION 3: TDR RECEIVING RESTRICTIONS -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">03 // STATUTORY RESTRICTIONS</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Where TDR Can and Cannot Be Utilized (Regulation 11.2.6)</h2>
+        <div class="panel-warning">
+          <ul style="padding-left:18px; margin:0; display:flex; flex-direction:column; gap:10px; font-size:0.92rem; line-height:1.55;">
+            <li>
+              <strong>1. Strictly Forbidden on Roads Under 12.0m:</strong> Under Table 6-A, maximum permissible TDR loading is <strong>0.00</strong> on roads narrower than 12.0 meters. Any attempt to load TDR on 9.0m or 7.5m roads will be rejected immediately.
+            </li>
+            <li>
+              <strong>2. Forbidden in Congested Core (Gaothan) Areas:</strong> Under Reg. 11.2, TDR generated from any source <strong>cannot be utilized in congested (gaothan) areas</strong>, as Gaothans lack adequate infrastructure to absorb external density.
+            </li>
+            <li>
+              <strong>3. Forbidden in Coastal Regulation Zones (CRZ) &amp; Eco-Sensitive Zones:</strong> TDR utilization is strictly barred inside CRZ-I, CRZ-II, and buffer zones surrounding national parks and wildlife sanctuaries.
+            </li>
+            <li>
+              <strong>4. Heritage TDR Priority:</strong> Heritage TDR generated from the conservation of Grade-I and Grade-II heritage structures can be loaded on any receiving plot where standard TDR is permissible, without geographical sub-zone restrictions.
+            </li>
+            <li>
+              <strong>5. TDR Cannot Exceed Table 6-A Caps:</strong> Even if an owner holds 10,000 sq.m of DRC certificates, they can only consume the maximum TDR cap specified for their abutting road width (e.g. 0.40 on 18m road, 0.65 on 30m road).
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- SECTION 4: VERIFICATION QUIZ -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">04 // VERIFICATION QUIZ</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Knowledge Check: TDR Generation &amp; Indexation</h2>
+        <div class="quiz-container" id="tdr-quiz-box"></div>
+      </section>
+
+    </main>
+
+    <!-- Sheet Footer -->
+    <footer class="sheet-footer">
+      <div>UDCPR FROM SCRATCH • TOPIC 06: TDR GENERATION, INDEXATION &amp; CREDIT NOTES</div>
+      <div>DRAWING SHEET ARCHITECTURAL SPECIFICATION • MAHARASHTRA STATE</div>
+    </footer>
+  </div>
+
+  <!-- Universal Search Modal -->
+  <div class="search-modal-backdrop" id="search-modal-backdrop" onclick="if(event.target === this) closeSearchModal()">
+    <div class="search-modal">
+      <div class="search-modal-header">
+        <span style="font-family:var(--mono); font-size:13px; font-weight:700;">SEARCH //</span>
+        <input type="text" id="search-modal-input" class="search-modal-input" placeholder="Search clauses, topics, formulas..." autocomplete="off">
+        <button onclick="closeSearchModal()" class="tool-btn" style="padding:2px 8px;">ESC</button>
+      </div>
+      <ul class="search-results-list" id="search-results-list"></ul>
+    </div>
+  </div>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/search.js"></script>
+  <script src="/js/quiz.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const areaEl = document.getElementById('tdr-surrendered-area');
+      const zoneEl = document.getElementById('tdr-origin-zone');
+      const rgEl = document.getElementById('tdr-rate-origin');
+      const rrEl = document.getElementById('tdr-rate-dest');
+
+      function formatCr(val) {
+        if (val >= 10000000) {
+          return '₹ ' + (val / 10000000).toFixed(2) + ' Cr';
+        } else if (val >= 100000) {
+          return '₹ ' + (val / 100000).toFixed(2) + ' Lakh';
+        }
+        return '₹ ' + Math.round(val).toLocaleString('en-IN');
+      }
+
+      function updateTdrCalc() {
+        const area = parseFloat(areaEl.value) || 0;
+        const zone = zoneEl.value;
+        const Rg = parseFloat(rgEl.value) || 0;
+        const Rr = parseFloat(rrEl.value) || 1;
+
+        // Multiplier: 2.00x non-congested, 3.00x congested
+        const multiplier = zone === 'congested' ? 3.00 : 2.00;
+        const drcFaceVal = area * multiplier; // Y
+
+        // Indexation Formula: X = (Rg / Rr) * Y
+        const ratio = Rg / Rr;
+        const indexedBua = drcFaceVal * ratio; // X
+
+        // DRC Valuation at Origin
+        const drcVal = drcFaceVal * Rg;
+
+        // Estimated Market Value on Receiving Plot (~60% of Rr)
+        const marketVal = indexedBua * (0.60 * Rr);
+
+        // RCC Credit Note value: Area * Rg
+        const rccVal = area * Rg;
+
+        // Update Text Readouts
+        document.getElementById('metric-drc-face').textContent = drcFaceVal.toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2}) + ' sq.m';
+        document.getElementById('metric-gen-multiplier').innerHTML = 'Multiplier: <strong>' + multiplier.toFixed(2) + 'x</strong> (' + (zone === 'congested' ? 'Congested Gaothan' : 'Non-Congested') + ')';
+        document.getElementById('metric-index-ratio').textContent = ratio.toFixed(4);
+        document.getElementById('metric-indexed-bua').textContent = indexedBua.toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2}) + ' sq.m';
+        document.getElementById('metric-market-val').textContent = formatCr(marketVal);
+        document.getElementById('calc-rcc-val').textContent = formatCr(rccVal) + ' Credit Note';
+
+        // Update SVG Elements
+        document.getElementById('svg-gen-area').textContent = 'Area: ' + area.toLocaleString('en-IN') + ' sq.m';
+        document.getElementById('svg-gen-multiplier').textContent = 'Multiplier: ' + multiplier.toFixed(2) + 'x';
+        document.getElementById('svg-gen-rate').textContent = 'ASR Rg = ₹ ' + Rg.toLocaleString('en-IN') + ' / sqm';
+        document.getElementById('svg-drc-face').textContent = 'Y = ' + drcFaceVal.toLocaleString('en-IN') + ' sq.m';
+        document.getElementById('svg-drc-val').textContent = 'Valuation: ' + formatCr(drcVal);
+        document.getElementById('svg-rec-rate').textContent = 'ASR Rr = ₹ ' + Rr.toLocaleString('en-IN') + ' / sqm';
+        document.getElementById('svg-rec-ratio').textContent = 'Ratio (Rg/Rr) = ' + ratio.toFixed(2);
+        document.getElementById('svg-rec-bua').textContent = 'X = ' + indexedBua.toLocaleString('en-IN', {maximumFractionDigits: 0}) + ' sq.m BUA';
+      }
+
+      areaEl.addEventListener('input', updateTdrCalc);
+      zoneEl.addEventListener('change', updateTdrCalc);
+      rgEl.addEventListener('input', updateTdrCalc);
+      rrEl.addEventListener('input', updateTdrCalc);
+      updateTdrCalc();
+
+      // Quiz Engine
+      const tdrQuizQuestions = [
+        {
+          question: "Under Regulation 11.2, what is the statutory TDR generation multiplier for land surrendered in a non-congested area?",
+          options: [
+            "1.00x of surrendered area",
+            "1.50x of surrendered area",
+            "2.00x of surrendered area",
+            "3.00x of surrendered area"
+          ],
+          correctAnswer: 2,
+          explanation: "Under Regulation 11.2, the DRC face value entitlement for unencumbered land surrendered in non-congested areas is strictly 2.00 times the surrendered area."
+        },
+        {
+          question: "How is TDR BUA adjusted when transferring from an origin zone to a receiving zone with a different ASR land rate under Regulation 11.2.6?",
+          options: [
+            "X = Y (no adjustment)",
+            "X = (Rg / Rr) × Y (indexed by ratio of Ready Reckoner rates)",
+            "X = (Rr / Rg) × Y",
+            "Fixed 20% discount on face value"
+          ],
+          correctAnswer: 1,
+          explanation: "Under Regulation 11.2.6, TDR is indexed via formula X = (Rg / Rr) * Y, where Rg is the ASR rate of the generating plot and Rr is the ASR rate of the receiving plot."
+        },
+        {
+          question: "Can TDR generated in a non-congested area be utilized on a plot located inside a congested (gaothan) area?",
+          options: [
+            "Yes, without restrictions",
+            "Yes, if 50% premium is paid",
+            "No, TDR utilization is strictly barred inside congested (gaothan) areas",
+            "Only for commercial buildings"
+          ],
+          correctAnswer: 2,
+          explanation: "Under Regulation 11.2, TDR cannot be utilized in congested (gaothan) areas because narrow historical lanes lack the infrastructure capacity to accommodate additional density."
+        }
+      ];
+
+      initQuiz('tdr-quiz-box', tdrQuizQuestions, 'topic-tdr-credit');
+    });
+  </script>
+</body>
+</html>

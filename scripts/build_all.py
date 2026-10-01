@@ -27,8 +27,15 @@ steps = [
     ("Step 12: Generate Full Chapter 7 Blueprint Lessons (Reg 7.1 - 7.13)", "python scripts/build_lessons_ch07_full.py"),
     ("Step 13: Generate Full Chapter 8 Blueprint Lessons (Reg 8.1 - 8.2)", "python scripts/build_lessons_ch08_full.py"),
     ("Step 14: Generate Full Chapter 9 Blueprint Lessons (Reg 9.1 - 9.33)", "python scripts/build_lessons_ch09_full.py"),
-    ("Step 15: Run Automated Statutory Verification Audit", "python scripts/generate_verification_report.py"),
-    ("Step 16: Run Link Integrity & Semantic Structure Audit", "python scripts/audit_links.py")
+    ("Step 15: Generate Full Chapter 10 Blueprint Lessons (Reg 10.1 - 10.16)", "python scripts/build_lessons_ch10_full.py"),
+    ("Step 16: Generate Full Chapter 11 Blueprint Lessons (Reg 11.1 - 11.3)", "python scripts/build_lessons_ch11_full.py"),
+    ("Step 17: Generate Full Chapter 12 Blueprint Lessons (Reg 12.1 - 12.7)", "python scripts/build_lessons_ch12_full.py"),
+    ("Step 18: Generate Full Chapter 13 Blueprint Lessons (Reg 13.1 - 13.6)", "python scripts/build_lessons_ch13_full.py"),
+    ("Step 19: Generate Full Chapter 14 Blueprint Lessons (Reg 14.1 - 14.13)", "python scripts/build_lessons_ch14_full.py"),
+    ("Step 20: Generate Full Chapter 15 Blueprint Lessons (Reg 15.1 - 15.4 & App-M)", "python scripts/build_lessons_ch15_full.py"),
+    ("Step 21: Build 7 Interactive CAD Practice Workbenches", "python scripts/build_all_topics.py"),
+    ("Step 22: Run Automated Statutory Verification Audit", "python scripts/generate_verification_report.py"),
+    ("Step 23: Run Link Integrity & Semantic Structure Audit", "python scripts/audit_links.py")
 ]
 
 print("================================================================")

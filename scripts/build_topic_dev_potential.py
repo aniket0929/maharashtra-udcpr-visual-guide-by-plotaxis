@@ -1,4 +1,15 @@
-<!DOCTYPE html>
+"""
+UDCPR FROM SCRATCH - TOPIC 1 WORKBENCH GENERATOR
+Builds topics/development-potential.html with interactive dynamic CAD-style dimension-line SVG diagram,
+authority tier switcher, financial ASR calculation, scrutiny watchouts, and verification quiz.
+"""
+
+import os
+import sys
+
+sys.stdout.reconfigure(encoding='utf-8')
+
+HTML_CONTENT = """<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -459,7 +470,7 @@
               <strong>3. Failure to Deduct DP Reservations before Calculating Net Area:</strong> If a 24m DP road reservation cuts 300 sq.m through your 2,000 sq.m holding, in-situ FSI can only be consumed on the <strong>Net Plot Area (1,700 sq.m)</strong> unless Accommodation Reservation (Reg. 11.1) is officially granted.
             </li>
             <li>
-              <strong>4. Miscalculating Ancillary Area Cap:</strong> Ancillary FSI (60% residential) is capped against the <strong>actual consumed FSI</strong>, not hypothetical gross envelopes. If you only consume 1.10 Base FSI, your ancillary entitlement is $1.10 	imes 60\% = 0.66$, not $2.00 	imes 60\%$.
+              <strong>4. Miscalculating Ancillary Area Cap:</strong> Ancillary FSI (60% residential) is capped against the <strong>actual consumed FSI</strong>, not hypothetical gross envelopes. If you only consume 1.10 Base FSI, your ancillary entitlement is $1.10 \times 60\% = 0.66$, not $2.00 \times 60\%$.
             </li>
             <li>
               <strong>5. Ignoring Staged Payment Default Penalty:</strong> Under Reg. 2.2.14, opting for installment payments of Premium FSI incurs <strong>8.5% simple annual interest</strong>. Failure to pay before the Occupancy Certificate halts OC issuance immediately.
@@ -726,3 +737,13 @@
   </script>
 </body>
 </html>
+"""
+
+def main():
+    target_path = os.path.join(os.path.dirname(__file__), '..', 'topics', 'development-potential.html')
+    with open(target_path, 'w', encoding='utf-8') as f:
+        f.write(HTML_CONTENT)
+    print(f"✓ Rebuilt {target_path} with dynamic interactive CAD dimension engine.")
+
+if __name__ == '__main__':
+    main()

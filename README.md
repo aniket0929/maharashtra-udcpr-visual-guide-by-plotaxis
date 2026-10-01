@@ -39,34 +39,50 @@ udcpr_edu/
 │
 ├── NEEDS_VERIFICATION.md      # Comprehensive 5-section statutory anomaly register & audit log
 │
-├── topics/                    # Practical Problem-Solving Workbenches
-│   ├── index.html             # Topic directory
-│   ├── development-potential.html  # FSI computation, Table 6-A, FIG_002 & live calculator
-│   ├── setbacks-and-margins.html   # Front/side/rear margins, H/5 formula, 6m fire path, FIG_003
-│   └── parking-and-circulation.html # Tenement car quotas, 2.5x5m bays, 1:10 ramp slope, FIG_004
+├── topics/                    # 7 Practical Problem-Solving CAD Workbenches
+│   ├── index.html             # Practice directory & workbench switcher
+│   ├── development-potential.html  # Topic 1: Dynamic FSI Stacking CAD, 35% ASR outlay & Table 6-A
+│   ├── setbacks-and-margins.html   # Topic 2: Dynamic Cross-Section CAD, H/5 margins & 6m fire tender path
+│   ├── parking-and-circulation.html # Topic 3: 90°/60° CAD stall plates, 1:10 ramp slope & quota engine
+│   ├── layout-and-subdivision.html  # Topic 4: Dynamic Layout Partition CAD, 10% ROS, 5% Amenity & Net Plot
+│   ├── fire-safety-and-high-rise.html # Topic 5: High-Rise Evacuation CAD, Refuge Floors & 15m/24m/50m steps
+│   ├── tdr-and-credit-notes.html   # Topic 6: DRC Generation Multipliers (2x/3x) & Indexation (Rg/Rr)*Y
+│   └── redevelopment-navigator.html # Topic 7: Slum Rehab (1:R), Cluster Renewal (Table 14-X) & Metro TOD
 │
 ├── chapters/                  # Statutory Legal Tree
-│   ├── index.html             # 15-Chapter curriculum map (Active vs Planned status)
+│   ├── index.html             # 15-Chapter curriculum map (All 15 Chapters Active)
 │   ├── ch01.html              # Chapter 1: Administration & Definitions (4 Lessons)
 │   ├── ch02.html              # Chapter 2: Development Permission & Commencement (5 Lessons)
-│   └── ch03.html              # Chapter 3: General Land Development Requirements (6 Lessons)
+│   ├── ch03.html              # Chapter 3: General Land Development Requirements (6 Lessons)
+│   ├── ch04.html              # Chapter 4: Land Use Classification & Permissible Uses (6 Lessons)
+│   ├── ch05.html              # Chapter 5: Additional Provisions for Regional Plans (5 Lessons)
+│   ├── ch06.html              # Chapter 6: Setback, Marginal Distance, Height & FSI (6 Lessons)
+│   ├── ch07.html              # Chapter 7: Higher FSI for Certain Uses (6 Lessons)
+│   ├── ch08.html              # Chapter 8: Parking, Loading and Unloading Spaces (4 Lessons)
+│   ├── ch09.html              # Chapter 9: Requirements of Parts of Buildings (5 Lessons)
+│   ├── ch10.html              # Chapter 10: City Specific Regulations (7 Lessons)
+│   ├── ch11.html              # Chapter 11: Acquisition of Reserved Sites & TDR (4 Lessons)
+│   ├── ch12.html              # Chapter 12: Structural Safety, Water Supply & Sanitation (4 Lessons)
+│   ├── ch13.html              # Chapter 13: Special Provisions for Certain Buildings (4 Lessons)
+│   ├── ch14.html              # Chapter 14: Special Schemes & Mega-Projects (7 Lessons)
+│   └── ch15.html              # Chapter 15: Regulations for Special Activities / Plans (3 Lessons)
 │
-├── lessons/                   # 15 Fully Written Core Lessons (Chapters 1–3)
-│   ├── reg-1-1-jurisdiction-and-extent.html
-│   ├── reg-1-3-statutory-definitions.html
-│   ├── reg-1-5-savings-and-interpretation.html
-│   ├── reg-1-6-legal-hierarchy-and-interpretations.html
-│   ├── reg-2-1-development-permission.html
-│   ├── reg-2-2-application-procedure.html
-│   ├── reg-2-2-fees-and-charges.html
-│   ├── reg-2-3-discretionary-powers-and-relaxations.html
-│   ├── reg-2-6-commencement-and-occupancy.html
-│   ├── reg-3-1-site-clearance-buffers.html
-│   ├── reg-3-3-internal-layout-roads.html
-│   ├── reg-3-4-1-recreational-open-space.html
-│   ├── reg-3-5-amenity-space-provision.html
-│   ├── reg-3-8-inclusive-housing.html
-│   └── reg-3-9-net-plot-area-computation.html
+├── lessons/                   # 76 Fully Written Drawing Sheet Lessons (All 15 Chapters)
+│   ├── reg-1-1 to reg-1-6     # 4 Core Lessons (Chapter 1)
+│   ├── reg-2-1 to reg-2-6     # 5 Core Lessons (Chapter 2)
+│   ├── reg-3-1 to reg-3-9     # 6 Core Lessons (Chapter 3)
+│   ├── reg-4-1 to reg-4-27    # 6 Core Lessons (Chapter 4)
+│   ├── reg-5-1 to reg-5-4     # 5 Core Lessons (Chapter 5)
+│   ├── reg-6-1 to reg-6-10    # 6 Core Lessons (Chapter 6)
+│   ├── reg-7-1 to reg-7-13    # 6 Core Lessons (Chapter 7)
+│   ├── reg-8-1 to reg-8-2-2   # 4 Core Lessons (Chapter 8)
+│   ├── reg-9-1 to reg-9-29    # 5 Core Lessons (Chapter 9)
+│   ├── reg-10-1 to reg-10-14  # 7 Core Lessons (Chapter 10)
+│   ├── reg-11-1 to reg-11-3   # 4 Core Lessons (Chapter 11)
+│   ├── reg-12-1 to reg-12-7   # 4 Core Lessons (Chapter 12)
+│   ├── reg-13-1 to reg-13-6   # 4 Core Lessons (Chapter 13)
+│   ├── reg-14-1 to reg-14-7   # 7 Core Lessons (Chapter 14)
+│   └── reg-15-1 to reg-15-3   # 3 Core Lessons (Chapter 15)
 │
 ├── data/                      # Structured JSON Data Layer
 │   ├── glossary.json          # 141 Definitions with plain summaries & categories
@@ -80,30 +96,21 @@ udcpr_edu/
 │   └── components.css         # Ruled cards, calculators, quiz widgets & dimension plates
 │
 ├── js/
-│   ├── app.js                 # Theme toggler & localStorage learner progress tracker (15 lessons)
+│   ├── app.js                 # Theme toggler & localStorage learner progress tracker (76 lessons)
 │   ├── search.js              # Client-side instant search across all data (Ctrl+K or /)
 │   ├── calculators.js         # Real-time mathematical calculation engine
 │   └── quiz.js                # Interactive quiz widget with instant scoring
 │
 └── scripts/                   # Rebuild & Verification Pipeline
-    ├── build_all.py           # Master 1-click build pipeline (10-stage execution)
+    ├── build_all.py           # Master 1-click build pipeline (22-stage automated execution)
     ├── build_heading_tree.py  # Hierarchy extractor
     ├── build_glossary.py      # Section 1.3 parser
     ├── build_formulas.py      # Formula builder
     ├── build_amendments.py    # (#) Clarification extractor
     ├── build_govt_orders.py   # Notification compiler
-    ├── build_lessons_ch02_full.py # Chapter 2 educational generator
-    ├── build_lessons_ch03_full.py # Chapter 3 master orchestrator
-    ├── ch03_lessons/          # Modular Chapter 3 lesson builders
-    │   ├── __init__.py
-    │   ├── lesson_3_1_site_clearance.py
-    │   ├── lesson_3_2_internal_roads.py
-    │   ├── lesson_3_3_recreational_open_space.py
-    │   ├── lesson_3_4_amenity_space.py
-    │   ├── lesson_3_5_inclusive_housing.py
-    │   └── lesson_3_6_net_plot_computation.py
+    ├── build_lessons_ch01_full.py to build_lessons_ch15_full.py # Educational generators
     ├── generate_verification_report.py # Automated statutory accuracy checker (49 checks)
-    └── audit_links.py         # Link integrity auditor (359 internal links)
+    └── audit_links.py         # Link integrity auditor (1,300+ internal links)
 ```
 
 ---
@@ -159,9 +166,9 @@ python scripts/build_all.py
 3. Re-compiles all formulas and calculation logic into `data/formulas.json`.
 4. Captures all 52 `(#)` clarification footnotes into `data/amendments.json`.
 5. Catalogs all gazette notifications into `data/govt_orders.json`.
-6. Regenerates Chapter 2 and Chapter 3 modular lessons with exact statutory clauses and worked numerical examples.
-7. Executes the **49-point verification audit** to ensure mathematical and statutory accuracy (100% PASS).
-8. Verifies all **359 internal links** to guarantee zero broken links.
+6. Regenerates all 76 blueprint lessons across Chapters 1 to 15 with exact statutory clauses, diagrams, and worked numerical examples.
+7. Executes the **49-point statutory verification audit** to ensure mathematical and statutory accuracy (100% PASS).
+8. Verifies all **1,300+ internal links** across all 98 HTML files to guarantee zero broken links.
 
 ---
 

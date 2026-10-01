@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 12: Structural Safety, Water Supply &amp; Sanitation | UDCPR from Scratch</title>
+  <meta name="description" content="Chapter 12 of UDCPR-2020: Structural safety under NBC Part-6, PWD materials, borrow pits, NBC Part-8 services & lift exemptions, Table 12-A water demands, Table 12-B flushing reserves, Tables 12-C to 12-P sanitation fitments, and Reg 12.7 outdoor display signs.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/blueprint.css">
+  <link rel="stylesheet" href="/css/components.css">
+</head>
+<body>
+
+  <!-- THE DRAWING SHEET CONTAINER -->
+  <div class="sheet">
+    <div class="ruler-top"></div>
+    <div class="corner-tick tl"></div>
+    <div class="corner-tick tr"></div>
+    <div class="corner-tick bl"></div>
+    <div class="corner-tick br"></div>
+
+    <!-- Statutory Disclaimer Strip -->
+    <div class="disclaimer-strip">
+      <strong>DISCLAIMER:</strong> Educational reference and statutory curriculum guide. Always verify with official Urban Development Department gazettes, the National Building Code of India (NBC), and local municipal Public Health Engineering departments.
+    </div>
+
+    <!-- Sheet Navigation -->
+    <nav class="sheet-nav">
+      <a href="/" class="brand-block">
+        <span class="brand-stamp">UDCPR</span>
+        <div class="brand-title-group">
+          <h1>UDCPR from Scratch</h1>
+          <span>Chapter 12 Syllabus • Drawing Sheet</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="/topics/">Topics</a></li>
+        <li class="nav-item"><a href="/chapters/" class="active">Chapters</a></li>
+        <li class="nav-item"><a href="/glossary.html">Glossary</a></li>
+        <li class="nav-item"><a href="/formulas.html">Formulas</a></li>
+        <li class="nav-item"><a href="/amendments.html">Amendments (#)</a></li>
+        <li class="nav-item"><a href="/govt-orders.html">Orders</a></li>
+      </ul>
+
+      <div class="nav-tools">
+        <button class="tool-btn" onclick="openSearchModal()">Search <kbd style="font-family:var(--mono);">Ctrl+K</kbd></button>
+      </div>
+    </nav>
+
+    <!-- Header Title Block -->
+    <header class="title-block">
+      <div>
+        <div class="kicker">CHAPTER 12 • L8701 - L9039 // STRUCTURAL SAFETY, WATER, DRAINAGE &amp; SANITATION</div>
+        <h1 style="font-size: 2.2rem; margin-bottom: 8px;">
+          Chapter 12: Structural Safety, Water Supply, Drainage &amp; Sanitary Requirements
+        </h1>
+        <p style="color: var(--ink-soft); max-width: 760px; font-size: 1.02rem; line-height: 1.6;">
+          Master the statutory engineering and public health foundations of Maharashtra UDCPR-2020: NBC Part-6 structural stability, 
+          Licensed Structural Engineer certification, anti-malaria interconnected borrow pits, accredited alternative material testing (with mandatory 2-year record retention), 
+          NBC Part-8 building services and the 1-floor vertical lift extension exemption, Table 12-A per capita water demands ($135\text{ lpcd}$ residential), 
+          Table 12-B dedicated flushing storage cisterns, crèche sanitation, institutional and public fixture schedules (Tables 12-C to 12-P), 
+          barrier-free accessible transit toilets ($1\text{ per }4,000$), and Regulation 12.7 commercial billboard prohibitions on heritage and government structures.
+        </p>
+      </div>
+
+      <div style="border:1px solid var(--ink); background:var(--paper); padding:16px; display:flex; flex-direction:column; justify-content:center;">
+        <span class="kicker-muted">CURRICULUM STATUS</span>
+        <div style="font-family:var(--disp); font-size:2.2rem; font-weight:700; color:var(--blueprint); line-height:1;">100%</div>
+        <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft); margin-top:6px;">
+          4 Finished Lessons Active
+        </div>
+      </div>
+    </header>
+
+    <main style="margin-top: 28px;">
+
+      <!-- Chapter Summary Panel -->
+      <section style="margin-bottom:32px;">
+        <span class="kicker">STATUTORY HIGHLIGHTS</span>
+        <h2 style="font-size:1.25rem; margin-bottom:12px;">Key Chapter Takeaways</h2>
+        <div class="panel-info">
+          <ul style="padding-left:20px; display:flex; flex-direction:column; gap:8px; font-size:0.92rem; color:var(--ink-soft);">
+            <li><strong>NBC Part-6 Structural Mandatory Certification (Reg 12.1):</strong> Foundations, RCC, steel, and masonry must obey NBC Part-6 (Sections 1 to 7) and BIS seismic/fire codes. Applications for building permission require a statutory Certificate of Structural Stability signed by an empanelled Licensed Structural Engineer.</li>
+            <li><strong>Anti-Malaria Borrow Pit Mandate (Reg 12.2.2):</strong> All borrow pits dug during construction must be deep, interconnected into continuous drainage trenches graded toward the lowest site contour, and discharged into a stream or storm sewer to eliminate standing water breeding mosquitoes.</li>
+            <li><strong>Alternative Materials &amp; 2-Year Record Retention (Reg 12.3):</strong> New materials (precast, 3D printing, composite panels) must demonstrate equivalence in strength, fire resistance, durability, and safety via advance testing by approved agencies at the owner's cost. The Authority must retain test records for at least <strong>two years</strong>.</li>
+            <li><strong>Single-Floor Lift Extension Exemption (Reg 12.4.2):</strong> In existing buildings where one additional vertical floor is proposed, the existing elevator is statutorily exempt from being extended to the new top floor, saving societies massive structural retrofitting costs.</li>
+            <li><strong>Water Supply Demands (Reg 12.5 &amp; Table 12-A):</strong> Residential population is fixed at <strong>5 persons per tenement</strong> consuming <strong>$135\text{ lpcd}$</strong>. Non-residential occupancies derive populations from Table 9-E occupant load factors. Key benchmarks: Hotel lodging $180\text{ lpcd}$ per bed, Day Schools $45\text{ lpcd}$, Hospitals $\le 100$ beds $340\text{ lpcd}$ / $> 100$ beds $450\text{ lpcd}$, Restaurants $70\text{ lpcd}$ per seat, and Cinemas $15\text{ lpcd}$ per seat.</li>
+            <li><strong>Mandatory Dedicated Flushing Reserves (Table 12-B):</strong> Independent flushing cistern storage is compulsory: $270\text{ litres net}$ for the 1st WC + $180\text{ litres}$ for each additional WC in an apartment; $900\text{ litres per WC}$ in common tenements, factories, and assembly halls ($+350\text{ L per urinal}$).</li>
+            <li><strong>Health Safeguards &amp; Crèche Quotas (Reg 12.6.3):</strong> Drinking fountains are strictly banned inside toilets. Toxic/hazardous exposure areas must have an emergency deluge shower and eye-wash jet along an accessible wheelchair route. Workplaces with crèches must provide 1 WC per 10 persons, 1 washbasin per 15 persons, and a kitchen sink with drinking water tap.</li>
+            <li><strong>Commercial &amp; Transit Sanitation (Tables 12-C to 12-P):</strong> Cinemas use a statutory demographic ratio of <strong>2/3 Male and 1/3 Female</strong>. Shopping malls mandate 1 WC per 50 floating patrons (min 2). Mass transit terminals (airports, railway stations) mandate at least <strong>1 Accessible Toilet for the Disabled per 4,000 persons (Minimum 1)</strong>.</li>
+            <li><strong>Outdoor Advertisement Prohibitions (Reg 12.7):</strong> Commercial hoardings, sky-signs, and billboards are strictly prohibited on buildings of architectural, historical, or heritage importance, and on Government buildings (except signs for the government building's own official purpose).</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Chapter 12 Lessons List -->
+      <section style="margin-bottom:36px;">
+        <span class="kicker">CURRICULUM LESSONS</span>
+        <h2 style="font-size:1.25rem; margin-bottom:16px;">Chapter 12 Blueprint Lessons</h2>
+
+        <div style="display:flex; flex-direction:column; gap:16px;">
+
+          <!-- Lesson 12.1 -->
+          <div class="sheet" style="padding:20px; border-left:4px solid var(--blueprint);">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <span class="badge badge-clause">Reg. 12.1 - 12.4</span>
+              <span class="badge badge-status-done">STATUTORY • NBC COMPLIANCE</span>
+            </div>
+            <h3 style="font-size:1.15rem; margin-bottom:6px;">
+              <a href="/lessons/reg-12-1-structural-design-materials-and-building-services.html" style="text-decoration:none; color:var(--ink);">
+                Structural Safety, Materials Quality &amp; Building Services
+              </a>
+            </h3>
+            <p style="font-size:0.92rem; color:var(--ink-soft); line-height:1.5; margin-bottom:12px;">
+              NBC Part-6 structural engineering compliance, BIS seismic certificates, PWD material standards, mosquito-safe borrow pits, alternative material testing (2-year retention), and NBC Part-8 building services with the 1-floor vertical lift extension waiver.
+            </p>
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">4 CHECKPOINTS • COMPLETE</span>
+              <a href="/lessons/reg-12-1-structural-design-materials-and-building-services.html" class="tool-btn" style="padding:4px 10px; text-decoration:none; font-size:12px;">Open Lesson →</a>
+            </div>
+          </div>
+
+          <!-- Lesson 12.2 -->
+          <div class="sheet" style="padding:20px; border-left:4px solid var(--blueprint);">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <span class="badge badge-clause">Reg. 12.5, Table 12-A &amp; 12-B</span>
+              <span class="badge badge-status-done">STATUTORY • WATER STORAGE</span>
+            </div>
+            <h3 style="font-size:1.15rem; margin-bottom:6px;">
+              <a href="/lessons/reg-12-5-water-supply-and-flushing-storage-capacities.html" style="text-decoration:none; color:var(--ink);">
+                Water Supply Demands &amp; Statutory Flushing Storage Capacities
+              </a>
+            </h3>
+            <p style="font-size:0.92rem; color:var(--ink-soft); line-height:1.5; margin-bottom:12px;">
+              Population calculation (5 persons/tenement), Table 12-A daily per capita demands (135 lpcd residential, 180 lpcd hotel, 340/450 lpcd hospital, 70 lpcd restaurant), and Table 12-B mandatory separate flushing cistern storage quotas.
+            </p>
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">4 CHECKPOINTS • COMPLETE</span>
+              <a href="/lessons/reg-12-5-water-supply-and-flushing-storage-capacities.html" class="tool-btn" style="padding:4px 10px; text-decoration:none; font-size:12px;">Open Lesson →</a>
+            </div>
+          </div>
+
+          <!-- Lesson 12.3 -->
+          <div class="sheet" style="padding:20px; border-left:4px solid var(--blueprint);">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <span class="badge badge-clause">Reg. 12.6.1 - 12.6.3, Tables 12-C to 12-J</span>
+              <span class="badge badge-status-done">STATUTORY • SANITARY SCHEDULES</span>
+            </div>
+            <h3 style="font-size:1.15rem; margin-bottom:6px;">
+              <a href="/lessons/reg-12-6-drainage-and-institutional-sanitation.html" style="text-decoration:none; color:var(--ink);">
+                Drainage Standards &amp; Institutional Sanitation Fitments
+              </a>
+            </h3>
+            <p style="font-size:0.92rem; color:var(--ink-soft); line-height:1.5; margin-bottom:12px;">
+              Residential drainage standards, strict ban on drinking fountains inside toilets, emergency decontamination showers with wheelchair access, crèche sanitary ratios, and fixture schedules for Offices (12-C), Factories (12-D), Theatres (12-E), and Hospitals (12-G to 12-J).
+            </p>
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">4 CHECKPOINTS • COMPLETE</span>
+              <a href="/lessons/reg-12-6-drainage-and-institutional-sanitation.html" class="tool-btn" style="padding:4px 10px; text-decoration:none; font-size:12px;">Open Lesson →</a>
+            </div>
+          </div>
+
+          <!-- Lesson 12.4 -->
+          <div class="sheet" style="padding:20px; border-left:4px solid var(--blueprint);">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+              <span class="badge badge-clause">Reg. 12.6.3 (Tables 12-K to 12-P) &amp; Reg. 12.7</span>
+              <span class="badge badge-status-done">STATUTORY • TRANSIT &amp; BILLBOARDS</span>
+            </div>
+            <h3 style="font-size:1.15rem; margin-bottom:6px;">
+              <a href="/lessons/reg-12-6-commercial-hospitality-sanitation-and-signs.html" style="text-decoration:none; color:var(--ink);">
+                Commercial, Transit Sanitation &amp; Outdoor Display Signs
+              </a>
+            </h3>
+            <p style="font-size:0.92rem; color:var(--ink-soft); line-height:1.5; margin-bottom:12px;">
+              Sanitation for Hotels (12-K), Restaurants (12-L), Schools (12-M), Hostels (12-N), Shopping Malls (12-O), Airports/Railways (12-P with disabled WC quotas of 1 per 4,000), and Regulation 12.7 billboard prohibitions on heritage and government structures.
+            </p>
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">4 CHECKPOINTS • COMPLETE</span>
+              <a href="/lessons/reg-12-6-commercial-hospitality-sanitation-and-signs.html" class="tool-btn" style="padding:4px 10px; text-decoration:none; font-size:12px;">Open Lesson →</a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Navigation Footer -->
+      <div style="display:flex; justify-content:space-between; align-items:center; border-top:1px solid var(--ink); padding-top:20px; margin-top:36px; flex-wrap:wrap; gap:12px;">
+        <a href="/chapters/ch11.html" class="tool-btn" style="padding:8px 16px; text-decoration:none;">
+          ← Chapter 11: Acquisition of Reserved Sites &amp; TDR
+        </a>
+        <a href="/chapters/index.html" class="tool-btn" style="background:var(--ink); color:var(--paper-raised); padding:8px 16px; text-decoration:none;">
+          All Chapters Index →
+        </a>
+      </div>
+
+    </main>
+
+    <!-- Sheet Footer -->
+    <footer class="sheet-footer">
+      <div>UDCPR FROM SCRATCH • MAHARASHTRA UNIFIED DCRP-2020</div>
+      <div>CHAPTER 12 • STRUCTURAL SAFETY, WATER, DRAINAGE &amp; SANITATION • STATUTORY BLUEPRINT</div>
+    </footer>
+  </div>
+
+  <!-- Universal Search Modal -->
+  <div class="search-modal-backdrop" id="search-modal-backdrop" onclick="if(event.target === this) closeSearchModal()">
+    <div class="search-modal">
+      <div class="search-modal-header">
+        <span style="font-family:var(--mono); font-size:13px; font-weight:700;">SEARCH //</span>
+        <input type="text" id="search-modal-input" class="search-modal-input" placeholder="Type clause (e.g. 12.5), term (e.g. Table 12-A, flushing), or keyword..." autocomplete="off">
+        <button onclick="closeSearchModal()" class="tool-btn" style="padding:2px 8px;">ESC</button>
+      </div>
+      <ul class="search-results-list" id="search-results-list"></ul>
+    </div>
+  </div>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/search.js"></script>
+</body>
+</html>
