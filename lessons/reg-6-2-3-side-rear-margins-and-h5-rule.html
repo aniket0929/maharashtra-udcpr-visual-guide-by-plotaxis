@@ -85,8 +85,15 @@
       <p>
         In low-rise construction (&le; 15.0m height), margins are fixed by <strong>Table 6-D</strong> (typically 1.5m to 3.0m). However, once a building exceeds the heights specified in Table 6-D, <strong>Regulation 6.2.3(b)</strong> activates Maharashtra's celebrated <strong>H/5 Rule</strong>:
       </p>
-      <div style="background:var(--paper-raised); border-left:4px solid var(--blueprint); padding:12px; margin:14px 0; font-family:var(--mono);">
-        $$\text{Side or Rear Marginal Distance} = \frac{H}{5} \quad (\text{subject to a statutory ceiling of } \mathbf{12.0\text{ meters}})$$
+      <div class="formula-pill-box" style="margin: 14px 0; padding: 12px 16px; border-left: 4px solid var(--blueprint);">
+        <div class="pill-eq" style="justify-content: flex-start; gap: 8px;">
+          <span class="pill-var result">Side or Rear Margin</span>
+          <span class="pill-op">=</span>
+          <span class="pill-var factor">Building Height (H)</span>
+          <span class="pill-op">&divide;</span>
+          <span class="pill-var" style="font-weight: 700; color: var(--blueprint);">5</span>
+          <span class="badge badge-clause" style="margin-left: 8px;">Statutory Ceiling: 12.0m</span>
+        </div>
       </div>
       <p>
         Here, $H$ is the total building height above ground, but critically excludes <strong>up to 6.0m of parking podium/stilt floors</strong>! Furthermore, when two buildings stand on the same layout plot under <strong>Regulation 6.2.4</strong>, the clear distance between them must equal the full side/rear margin required for the <em>taller of the two buildings</em>.
@@ -253,29 +260,29 @@ The distance between two buildings shall be the side / rear marginal distance re
 
         <div style="margin: 16px 0; border-left: 3px solid var(--blueprint); padding-left: 14px;">
           <p><strong>Step 1: Effective Heights for Marginal Distances</strong></p>
-          <p>Under Reg 6.2.3(b), the 5.0m parking podium is deducted from height calculations:
-            $$\text{Effective } H_1 = 35.0 - 5.0 = \mathbf{30.0\text{ meters}}$$
-            $$\text{Effective } H_2 = 55.0 - 5.0 = \mathbf{50.0\text{ meters}}$$
-          </p>
+          <p>Under Reg 6.2.3(b), the 5.0m parking podium is deducted from height calculations:</p>
+          <div style="font-family:var(--mono); font-size:0.95rem; margin:6px 0; color:var(--blueprint);">
+            &bull; Effective H<sub>1</sub> = 35.0m &minus; 5.0m = <strong>30.0 meters</strong><br>
+            &bull; Effective H<sub>2</sub> = 55.0m &minus; 5.0m = <strong>50.0 meters</strong>
+          </div>
         </div>
 
         <div style="margin: 16px 0; border-left: 3px solid var(--amber); padding-left: 14px;">
           <p><strong>Step 2: Plot Boundary Margins for Each Tower</strong></p>
-          <p>For Tower 1 facing the southern plot boundary:
-            $$\text{Margin}_1 = \frac{H_1}{5} = \frac{30.0}{5} = \mathbf{6.0\text{ meters}}$$
-          </p>
-          <p>For Tower 2 facing the northern plot boundary:
-            $$\text{Margin}_2 = \frac{H_2}{5} = \frac{50.0}{5} = \mathbf{10.0\text{ meters}}$$
-          </p>
-          <p><em>Step Margin Option (Reg 6.2.3c):</em> Tower 2 could maintain a 6.0m margin at ground/podium level, and step back to 10.0m on upper floors above 35m height!</p>
+          <div style="font-family:var(--mono); font-size:0.95rem; margin:6px 0; color:var(--ink);">
+            &bull; Tower 1 (South Boundary): Margin<sub>1</sub> = 30.0 &divide; 5 = <strong>6.0 meters</strong><br>
+            &bull; Tower 2 (North Boundary): Margin<sub>2</sub> = 50.0 &divide; 5 = <strong>10.0 meters</strong>
+          </div>
+          <p style="margin-top:6px;"><em>Step Margin Option (Reg 6.2.3c):</em> Tower 2 could maintain a 6.0m margin at ground/podium level, and step back to 10.0m on upper floors above 35m height!</p>
         </div>
 
         <div style="margin: 16px 0; border-left: 3px solid var(--blueprint-soft); padding-left: 14px;">
           <p><strong>Step 3: Distance Between Tower 1 and Tower 2 (Reg 6.2.4)</strong></p>
-          <p>Under Reg 6.2.4, the separation distance equals the side/rear margin required for the <em>taller building</em>:
-            $$\text{Taller Building} = \text{Tower 2 with required margin of } \mathbf{10.0\text{ meters}}$$
-            $$\text{Mandatory Clear Separation Between Towers} = \mathbf{10.0\text{ meters}}$$
-          </p>
+          <p>Under Reg 6.2.4, the separation distance equals the side/rear margin required for the <em>taller building</em>:</p>
+          <div style="font-family:var(--mono); font-size:0.95rem; margin:6px 0; color:var(--blueprint);">
+            &bull; Taller Building: Tower 2 requires <strong>10.0 meters</strong><br>
+            &bull; <strong>Mandatory Clear Separation Between Towers = 10.0 meters</strong>
+          </div>
         </div>
       </div>
     
