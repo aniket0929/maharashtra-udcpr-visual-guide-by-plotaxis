@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 8 LESSON SUITE
+UDCPR Visual Guide - CHAPTER 8 LESSON SUITE
 Package: scripts/ch08_lessons/
 Export: CH08_LESSONS (List of 4 modular lesson dictionaries for Chapter 8: Parking, Loading and Unloading Spaces)
 """

@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 7, LESSON 5
+UDCPR Visual Guide - CHAPTER 7, LESSON 5
 Module: scripts/ch07_lessons/lesson_7_5_it_data_centers_biotech.py
 Statutory Anchor: Regulation 7.8 & Regulation 7.9
 Content: IT & ITES Parks, Hyperscale Data Centers (IT Policy 2023), Biotech Parks, Concessional 10% Premium, and 0.3%/day Misuse Penalties

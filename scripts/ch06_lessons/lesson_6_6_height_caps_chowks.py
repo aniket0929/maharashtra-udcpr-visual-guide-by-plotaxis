@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 6, LESSON 6
+UDCPR Visual Guide - CHAPTER 6, LESSON 6
 Module: scripts/ch06_lessons/lesson_6_6_height_caps_chowks.py
 Statutory Anchor: Regulation 6.9, Regulation 6.10, Regulation 6.11, Regulation 6.12, Regulation 6.14, & Regulation 6.15
 Content: Height Limitations, Aviation CCZM, Interior/Exterior Chowks (H/6 & H/7), Recreational Floors, and Hirkani Kaksha

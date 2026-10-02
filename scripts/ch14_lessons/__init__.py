@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 14 LESSON PACKAGE
+UDCPR Visual Guide - CHAPTER 14 LESSON PACKAGE
 Exports all 7 modular lessons covering Chapter 14: Special Schemes (Regulations 14.1 to 14.13).
 """
 

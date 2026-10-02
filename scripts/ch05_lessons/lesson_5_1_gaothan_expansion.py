@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 5: LESSON 5.1
+UDCPR Visual Guide - CHAPTER 5: LESSON 5.1
 Module: scripts/ch05_lessons/lesson_5_1_gaothan_expansion.py
 Governing Regulation: Regulation 5.1.1 (Development Permissible Adjacent to Gaothan / Gaothan Expansion Scheme)
 """

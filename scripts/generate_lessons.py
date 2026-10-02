@@ -17,7 +17,7 @@ def create_lesson_page(lesson_data):
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{lesson_data['clause']} {lesson_data['title']} | UDCPR from Scratch</title>
+  <title>{lesson_data['clause']} {lesson_data['title']} | UDCPR Visual Guide</title>
   <meta name="description" content="{lesson_data['meta_desc']}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,9 +43,9 @@ def create_lesson_page(lesson_data):
     <!-- Sheet Navigation -->
     <nav class="sheet-nav">
       <a href="/" class="brand-block">
-        <span class="brand-stamp">UDCPR</span>
+        <span class="brand-stamp">PLOTAXIS</span>
         <div class="brand-title-group">
-          <h1>UDCPR from Scratch</h1>
+          <h1>UDCPR Visual Guide by Plotaxis</h1>
           <span>Drawing Sheet • Lesson Blueprint</span>
         </div>
       </a>
@@ -167,8 +167,8 @@ def create_lesson_page(lesson_data):
 
     <!-- Sheet Footer -->
     <footer class="sheet-footer">
-      <div>UDCPR FROM SCRATCH • MAHARASHTRA UNIFIED DCRP-2020</div>
-      <div>REG. {lesson_data['clause']} • DRAWING SHEET SYSTEM</div>
+      <div>UDCPR Visual Guide • MAHARASHTRA UNIFIED DCRP-2020</div>
+      <div>REG. {lesson_data['clause']} • </div>
     </footer>
   </div>
 

@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 10, LESSON 7
+UDCPR Visual Guide - CHAPTER 10, LESSON 7
 Regulation 10.6 to 10.16: MMR Growth Centers, Logistics & Special Authorities
 File: scripts/ch10_lessons/lesson_10_7_mmr_special_hubs.py
 """

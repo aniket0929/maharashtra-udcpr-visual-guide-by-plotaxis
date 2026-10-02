@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 3: LESSON 3.6
+UDCPR Visual Guide - CHAPTER 3: LESSON 3.6
 Module: scripts/ch03_lessons/lesson_3_6_net_plot_computation.py
 Governing Regulation: Regulation 3.9 through Regulation 3.13
 Covers: Net plot area formula, non-deduction of 10% Recreational Open Space from FSI base, in-situ FSI for DP reservations (Reg 3.10), DP road/site realignments (Reg 3.11), amalgamation rules (Reg 3.12), and cycle tracks along rivers (Reg 3.13).

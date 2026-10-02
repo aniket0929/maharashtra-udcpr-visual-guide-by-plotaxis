@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 13 LESSON PACKAGE
+UDCPR Visual Guide - CHAPTER 13 LESSON PACKAGE
 Exports all 4 modular lessons covering Chapter 13: Special Provisions for Certain Buildings (Regulations 13.0 to 13.6).
 """
 

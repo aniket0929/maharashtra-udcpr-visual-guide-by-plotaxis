@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - TOPIC 5 WORKBENCH GENERATOR
+UDCPR Visual Guide - TOPIC 5 WORKBENCH GENERATOR
 Builds topics/fire-safety-and-high-rise.html with interactive CAD high-rise evacuation elevation,
 refuge floor calculator, fire staircase standards, and verification quiz.
 """
@@ -14,7 +14,7 @@ HTML_CONTENT = """<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>High-Rise Safety, Fire Evacuation &amp; Refuge Floors | UDCPR from Scratch</title>
+  <title>High-Rise Safety, Fire Evacuation &amp; Refuge Floors | UDCPR Visual Guide</title>
   <meta name="description" content="Master high-rise statutory fire regulations, 15m/24m/50m height steps, refuge floor layout rules, pressurized staircases, and CFO NOC requirements under UDCPR.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -61,9 +61,9 @@ HTML_CONTENT = """<!DOCTYPE html>
     <!-- Sheet Navigation -->
     <nav class="sheet-nav">
       <a href="/" class="brand-block">
-        <span class="brand-stamp">UDCPR</span>
+        <span class="brand-stamp">PLOTAXIS</span>
         <div class="brand-title-group">
-          <h1>UDCPR from Scratch</h1>
+          <h1>UDCPR Visual Guide by Plotaxis</h1>
           <span>Practice Workbench • Drawing Sheet</span>
         </div>
       </a>
@@ -380,7 +380,7 @@ HTML_CONTENT = """<!DOCTYPE html>
 
     <!-- Sheet Footer -->
     <footer class="sheet-footer">
-      <div>UDCPR FROM SCRATCH • TOPIC 05: HIGH-RISE SAFETY, EVACUATION &amp; REFUGE FLOORS</div>
+      <div>UDCPR Visual Guide • TOPIC 05: HIGH-RISE SAFETY, EVACUATION &amp; REFUGE FLOORS</div>
       <div>DRAWING SHEET ARCHITECTURAL SPECIFICATION • MAHARASHTRA STATE</div>
     </footer>
   </div>

@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 11 FULL LESSON BUILDER (MODULAR ORCHESTRATOR)
+UDCPR Visual Guide - CHAPTER 11 FULL LESSON BUILDER (MODULAR ORCHESTRATOR)
 Executes building of all 4 comprehensive Drawing Sheet lessons for Chapter 11: Acquisition of Reserved Sites & TDR.
 Each lesson module resides in `scripts/ch11_lessons/` for clarity and modularity.
 """

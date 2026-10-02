@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 4: LESSON 4.4
+UDCPR Visual Guide - CHAPTER 4: LESSON 4.4
 Module: scripts/ch04_lessons/lesson_4_4_agricultural_zone.py
 Governing Regulation: Regulation 4.11 (Agricultural Zone / No Development Zone / Green Zone - 1)
 """

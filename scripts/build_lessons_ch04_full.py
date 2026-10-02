@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 4 FULL LESSON BUILDER (MODULAR ORCHESTRATOR)
+UDCPR Visual Guide - CHAPTER 4 FULL LESSON BUILDER (MODULAR ORCHESTRATOR)
 Executes building of all 6 comprehensive Drawing Sheet lessons for Chapter 4: Land Use Classification & Permissible Uses.
 Each lesson module resides in `scripts/ch04_lessons/` for clarity and modularity.
 """

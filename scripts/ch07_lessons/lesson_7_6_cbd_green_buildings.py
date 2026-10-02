@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 7, LESSON 6
+UDCPR Visual Guide - CHAPTER 7, LESSON 6
 Module: scripts/ch07_lessons/lesson_7_6_cbd_green_buildings.py
 Statutory Anchor: Regulation 7.7, Regulation 7.10, Regulation 7.11, Regulation 7.12, & Regulation 7.13
 Content: Commercial Buildings in CBD (FSI Up to 5.0), Green Building Incentives (3% to 7%), Smart Fin-Tech Hubs, and Affordable Housing

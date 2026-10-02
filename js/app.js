@@ -1,5 +1,5 @@
 /**
- * UDCPR From Scratch - Global App Logic & Progress Tracking
+ * UDCPR Visual Guide - Global App Logic & Progress Tracking
  */
 
 (function () {
@@ -43,6 +43,27 @@
         this.save(data);
       }
     },
+    unmarkLessonComplete: function (lessonId) {
+      const data = this.get();
+      const idx = data.completedLessons.indexOf(lessonId);
+      if (idx > -1) {
+        data.completedLessons.splice(idx, 1);
+        this.save(data);
+      }
+    },
+    isLessonComplete: function (lessonId) {
+      const data = this.get();
+      return Array.isArray(data.completedLessons) && data.completedLessons.includes(lessonId);
+    },
+    toggleLessonComplete: function (lessonId) {
+      if (this.isLessonComplete(lessonId)) {
+        this.unmarkLessonComplete(lessonId);
+        return false;
+      } else {
+        this.markLessonComplete(lessonId);
+        return true;
+      }
+    },
     recordQuizScore: function (lessonId, score, total) {
       const data = this.get();
       data.quizScores[lessonId] = { score, total, date: new Date().toISOString() };
@@ -63,7 +84,66 @@
     }
   };
 
+  // 3. Mobile Hamburger Navigation
+  function initMobileMenu() {
+    const navTools = document.querySelector('.sheet-nav .nav-tools');
+    const navMenu = document.querySelector('.sheet-nav .nav-menu');
+    if (!navTools || !navMenu) return;
+
+    if (!document.getElementById('mobile-menu-btn')) {
+      const btn = document.createElement('button');
+      btn.id = 'mobile-menu-btn';
+      btn.className = 'menu-toggle-btn tool-btn';
+      btn.type = 'button';
+      btn.setAttribute('aria-label', 'Toggle navigation menu');
+      btn.setAttribute('aria-expanded', 'false');
+      btn.innerHTML = `
+        <span class="hamburger-bars" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+        <span class="menu-btn-text">MENU</span>
+      `;
+
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        const isOpen = navMenu.classList.toggle('mobile-open');
+        btn.classList.toggle('open', isOpen);
+        btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      });
+
+      // Close menu when clicking outside
+      document.addEventListener('click', function (e) {
+        if (!navMenu.contains(e.target) && !btn.contains(e.target)) {
+          navMenu.classList.remove('mobile-open');
+          btn.classList.remove('open');
+          btn.setAttribute('aria-expanded', 'false');
+        }
+      });
+
+      // Close menu on ESC key
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && navMenu.classList.contains('mobile-open')) {
+          navMenu.classList.remove('mobile-open');
+          btn.classList.remove('open');
+          btn.setAttribute('aria-expanded', 'false');
+        }
+      });
+
+      // Close menu when clicking any nav link
+      navMenu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', function () {
+          navMenu.classList.remove('mobile-open');
+          btn.classList.remove('open');
+          btn.setAttribute('aria-expanded', 'false');
+        });
+      });
+
+      navTools.appendChild(btn);
+    }
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     LearnerProgress.updateUI();
+    initMobileMenu();
   });
 })();

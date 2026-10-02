@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 6, LESSON 2
+UDCPR Visual Guide - CHAPTER 6, LESSON 2
 Module: scripts/ch06_lessons/lesson_6_2_ancillary_fsi.py
 Statutory Anchor: Regulation 6.3 Note (i), Regulation 6.1.1 Note (1), & Regulation 6.6
 Content: Ancillary Area FSI (60% Res / 80% Non-Res), Premium Tariffs, and Floor-Wise P-Line Accounting

@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 9, LESSON 4
+UDCPR Visual Guide - CHAPTER 9, LESSON 4
 Regulation 9.27 & 9.28: Exit Requirements, Staircase Widths, Occupant Loads & Travel Distances
 File: scripts/ch09_lessons/lesson_9_4_exits_staircases_occupant_load.py
 """

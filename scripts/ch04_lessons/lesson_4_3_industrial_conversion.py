@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 4: LESSON 4.3
+UDCPR Visual Guide - CHAPTER 4: LESSON 4.3
 Module: scripts/ch04_lessons/lesson_4_3_industrial_conversion.py
 Governing Regulation: Regulation 4.8.1 (Allowing Residential / Commercial Uses in Industrial Zone - I-to-R)
 """

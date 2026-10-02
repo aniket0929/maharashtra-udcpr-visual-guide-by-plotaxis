@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 10, LESSON 2
+UDCPR Visual Guide - CHAPTER 10, LESSON 2
 Regulation 10.2: Thane Municipal Corporation (TMC) - Commercial Corridors, Metro PPL & Redevelopment Matrix
 File: scripts/ch10_lessons/lesson_10_2_thane_urban_corridors.py
 """

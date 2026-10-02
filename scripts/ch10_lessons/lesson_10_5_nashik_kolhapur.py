@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 10, LESSON 5
+UDCPR Visual Guide - CHAPTER 10, LESSON 5
 Regulation 10.5 & 10.9: Nashik Riverfronts & Kolhapur Heritage Enclaves
 File: scripts/ch10_lessons/lesson_10_5_nashik_kolhapur.py
 """

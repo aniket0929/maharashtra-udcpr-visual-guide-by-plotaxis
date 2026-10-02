@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 7 FULL LESSON BUILDER (MODULAR ORCHESTRATOR)
+UDCPR Visual Guide - CHAPTER 7 FULL LESSON BUILDER (MODULAR ORCHESTRATOR)
 Executes building of all 6 comprehensive Drawing Sheet lessons for Chapter 7: Higher FSI for Certain Uses.
 Each lesson module resides in `scripts/ch07_lessons/` for clarity and modularity.
 """

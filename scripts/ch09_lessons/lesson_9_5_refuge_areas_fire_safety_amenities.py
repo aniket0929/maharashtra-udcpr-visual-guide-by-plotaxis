@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 9, LESSON 5
+UDCPR Visual Guide - CHAPTER 9, LESSON 5
 Regulation 9.29 to 9.33: Refuge Areas, High-Rise Fire Towers, Chutes & Housing Amenities
 File: scripts/ch09_lessons/lesson_9_5_refuge_areas_fire_safety_amenities.py
 """

@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 3: LESSON 3.2
+UDCPR Visual Guide - CHAPTER 3: LESSON 3.2
 Module: scripts/ch03_lessons/lesson_3_2_internal_roads.py
 Governing Regulation: Regulation 3.2 (Means of Access) & Regulation 3.3 (Land Sub-division and Layout)
 Covers: Internal layout roads (Tables 3A, 3B, 3C, 3D, 3E), cul-de-sacs (9m radius), Special Building fire driveways, road chamfers/splays, and handover to Authority.

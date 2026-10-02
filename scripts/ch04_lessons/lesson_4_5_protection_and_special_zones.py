@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 4: LESSON 4.5
+UDCPR Visual Guide - CHAPTER 4: LESSON 4.5
 Module: scripts/ch04_lessons/lesson_4_5_protection_and_special_zones.py
 Governing Regulations: Regulations 4.12 to 4.25 (Green Belt, Rivers, Regional Parks, Tourism, Afforestation, HTHS, Forest, Defence, Quarry)
 """

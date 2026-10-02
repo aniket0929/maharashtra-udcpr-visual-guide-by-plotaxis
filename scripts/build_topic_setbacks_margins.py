@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - TOPIC 2 WORKBENCH GENERATOR
+UDCPR Visual Guide - TOPIC 2 WORKBENCH GENERATOR
 Builds topics/setbacks-and-margins.html with dynamic interactive CAD sectional dimension-line SVG diagram,
 height sliders, fire tender clearance envelopes, statutory tables, and verification quiz.
 """
@@ -14,7 +14,7 @@ HTML_CONTENT = """<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Setbacks, Margins &amp; High-Rise Fire Clearances | UDCPR from Scratch</title>
+  <title>Setbacks, Margins &amp; High-Rise Fire Clearances | UDCPR Visual Guide</title>
   <meta name="description" content="Interactive Setback &amp; Marginal Distance Calculator for Maharashtra UDCPR. Calculate front, side, and rear margins, H/5 high-rise rule, 6.0m fire tender paths with dynamic CAD dimension drawings.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -85,9 +85,9 @@ HTML_CONTENT = """<!DOCTYPE html>
     <!-- Sheet Navigation -->
     <nav class="sheet-nav">
       <a href="/" class="brand-block">
-        <span class="brand-stamp">UDCPR</span>
+        <span class="brand-stamp">PLOTAXIS</span>
         <div class="brand-title-group">
-          <h1>UDCPR from Scratch</h1>
+          <h1>UDCPR Visual Guide by Plotaxis</h1>
           <span>Practice Workbench • Drawing Sheet</span>
         </div>
       </a>
@@ -461,7 +461,7 @@ HTML_CONTENT = """<!DOCTYPE html>
 
     <!-- Sheet Footer -->
     <footer class="sheet-footer">
-      <div>UDCPR FROM SCRATCH • TOPIC 02: SETBACKS, MARGINS &amp; BUILDING HEIGHT</div>
+      <div>UDCPR Visual Guide • TOPIC 02: SETBACKS, MARGINS &amp; BUILDING HEIGHT</div>
       <div>DRAWING SHEET ARCHITECTURAL SPECIFICATION • MAHARASHTRA STATE</div>
     </footer>
   </div>

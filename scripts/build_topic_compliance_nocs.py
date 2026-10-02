@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - TOPIC 8 WORKBENCH GENERATOR
+UDCPR Visual Guide - TOPIC 8 WORKBENCH GENERATOR
 Builds topics/building-compliance-and-nocs.html with an interactive statutory compliance engine,
 trigger-based NOC matrix, chronological 4-stage approval roadmap, and verification quiz.
 Strictly anchored to ucpr_real.md (Reg. 2.2.11, 1.3(93)(xiv), 3.1, 9.29, 12.1, 13.2-13.4, 2.7-2.9).
@@ -15,7 +15,7 @@ HTML_CONTENT = """<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Building Compliance, Statutory NOCs &amp; Approval Roadmap | UDCPR from Scratch</title>
+  <title>Building Compliance, Statutory NOCs &amp; Approval Roadmap | UDCPR Visual Guide</title>
   <meta name="description" content="Statutory Compliance &amp; NOC Roadmap for Maharashtra UDCPR. Determine required clearances: Fire CFO, Environmental SEIAA, STP Grey Water, RWH, Airport, Railway, and Forest buffers based on exact plot parameters.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -115,9 +115,9 @@ HTML_CONTENT = """<!DOCTYPE html>
     <!-- Sheet Navigation -->
     <nav class="sheet-nav">
       <a href="/" class="brand-block">
-        <span class="brand-stamp">UDCPR</span>
+        <span class="brand-stamp">PLOTAXIS</span>
         <div class="brand-title-group">
-          <h1>UDCPR from Scratch</h1>
+          <h1>UDCPR Visual Guide by Plotaxis</h1>
           <span>Practice Workbench • Drawing Sheet</span>
         </div>
       </a>
@@ -411,7 +411,7 @@ HTML_CONTENT = """<!DOCTYPE html>
 
     <!-- Sheet Footer -->
     <footer class="sheet-footer">
-      <div>UDCPR FROM SCRATCH • TOPIC 08: BUILDING COMPLIANCE &amp; STATUTORY NOCS</div>
+      <div>UDCPR Visual Guide • TOPIC 08: BUILDING COMPLIANCE &amp; STATUTORY NOCS</div>
       <div>DRAWING SHEET ARCHITECTURAL SPECIFICATION • MAHARASHTRA STATE</div>
     </footer>
   </div>

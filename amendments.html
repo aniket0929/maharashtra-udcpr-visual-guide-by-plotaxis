@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Amendments & Clarifications (#) Tracker | UDCPR from Scratch</title>
-  <meta name="description" content="Tracker for all 52 clarified clauses marked (#) in Maharashtra UDCPR-2020. Executive orders, clarifications, and corrigenda citations.">
+  <title>Amendments & Clarifications (#) Tracker | UDCPR Visual Guide</title>
+  <meta name="description" content="Tracker for all 20 clarified clauses marked (#) in Maharashtra UDCPR-2020. Executive orders, clarifications, and corrigenda citations.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -29,20 +29,19 @@
     <!-- Sheet Navigation -->
     <nav class="sheet-nav">
       <a href="/" class="brand-block">
-        <span class="brand-stamp">UDCPR</span>
+        <span class="brand-stamp">PLOTAXIS</span>
         <div class="brand-title-group">
-          <h1>UDCPR from Scratch</h1>
+          <h1>UDCPR Visual Guide by Plotaxis</h1>
           <span>Clarifications (#) Tracker • Drawing Sheet</span>
         </div>
       </a>
 
       <ul class="nav-menu">
-        <li class="nav-item"><a href="/topics/">Topics</a></li>
-        <li class="nav-item"><a href="/chapters/">Chapters</a></li>
         <li class="nav-item"><a href="/glossary.html">Glossary</a></li>
+        <li class="nav-item"><a href="/chapters/">Chapters</a></li>
+        <li class="nav-item"><a href="/topics/">Topics</a></li>
         <li class="nav-item"><a href="/formulas.html">Formulas</a></li>
         <li class="nav-item"><a href="/amendments.html" class="active">Amendments (#)</a></li>
-        <li class="nav-item"><a href="/govt-orders.html">Orders</a></li>
       </ul>
 
       <div class="nav-tools">
@@ -53,31 +52,31 @@
     <!-- Header Title Block -->
     <header class="title-block">
       <div>
-        <div class="kicker">SYMBOL (#) DIRECTORY // 52 CLARIFIED CLAUSES</div>
+        <div class="kicker">STATUTORY CLARIFICATIONS (#) // EXECUTIVE DIRECTIVES TRACKER</div>
         <h1 style="font-size: 2.2rem; margin-bottom: 8px;">
           Government Clarifications &amp; Amendments Tracker
         </h1>
         <p style="color: var(--ink-soft); max-width: 760px; font-size: 1.02rem; line-height: 1.6;">
-          As defined in the official book note (Line 659), the symbol <strong>(#)</strong> denotes statutory clarifications and executive orders issued by the Government of Maharashtra to resolve practical ambiguities in development control.
+          In official gazettes, the symbol <strong>(#)</strong> marks executive directives and interpretations issued by the Government of Maharashtra under <strong>Section 154 of the MRTP Act, 1966</strong>. These resolve real-world disputes between architects, developers, and municipal corporations. Click any entry to view its <strong>in-situ highlighted callout</strong> directly inside the statutory chapter.
         </p>
 
         <div style="margin-top:16px; max-width:540px;">
-          <input type="text" id="amend-search-input" class="sheet-input" placeholder="Search clarified clauses (e.g. 2.2.14, 3.4.1, 6.3, Podium)...">
+          <input type="text" id="amend-search-input" class="sheet-input" placeholder="Search clarified regulations (e.g. 14.8.7, 6.3, 2.2.13, Podium, TDR)...">
         </div>
       </div>
 
-      <div style="border:1px solid var(--ink); background:var(--paper); padding:16px; display:flex; flex-direction:column; justify-content:center;">
-        <span class="kicker-muted">CLARIFIED REGS</span>
-        <div style="font-family:var(--disp); font-size:2.2rem; font-weight:700; color:var(--amber); line-height:1;">52</div>
+      <div style="border:1px solid var(--ink); background:var(--paper); padding:16px; display:flex; flex-direction:column; justify-content:center; min-width:180px;">
+        <span class="kicker-muted">DIRECTIVES</span>
+        <div style="font-family:var(--disp); font-size:2.2rem; font-weight:700; color:var(--amber); line-height:1;" id="stat-clarified-count">20</div>
         <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft); margin-top:6px;">
-          78 Gazette Body Matches
+          Sec 154 MRTP Orders
         </div>
       </div>
     </header>
 
     <main style="margin-top: 32px;">
       <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft); margin-bottom:16px;" id="amend-count">
-        Showing 52 clarified regulations
+        Loading statutory clarifications...
       </div>
 
       <div id="amendments-list">
@@ -89,8 +88,8 @@
 
     <!-- Sheet Footer -->
     <footer class="sheet-footer">
-      <div>UDCPR FROM SCRATCH • GOVERNMENT CLARIFICATIONS UNDER REG. 1.10</div>
-      <div>MAHARASHTRA STATE DRAFTING SPECIFICATION</div>
+      <div>UDCPR Visual Guide • GOVERNMENT CLARIFICATIONS UNDER SECTION 154 MRTP ACT, 1966</div>
+      <div>MAHARASHTRA STATE URBAN DEVELOPMENT DEPARTMENT</div>
     </footer>
   </div>
 
@@ -113,57 +112,81 @@
       let data = [];
       const listEl = document.getElementById('amendments-list');
       const countEl = document.getElementById('amend-count');
+      const statCountEl = document.getElementById('stat-clarified-count');
       const inputEl = document.getElementById('amend-search-input');
 
       try {
-        const res = await fetch('/data/amendments.json');
+        const res = await fetch('/data/clarifications.json');
         data = await res.json();
+        if (statCountEl) statCountEl.textContent = data.length;
         render(data);
 
         inputEl.addEventListener('input', function (e) {
           const q = e.target.value.toLowerCase().trim();
           const filtered = data.filter(d => 
-            d.clause.toLowerCase().includes(q) ||
-            d.title.toLowerCase().includes(q) ||
-            d.citation.toLowerCase().includes(q) ||
-            d.chapter.toLowerCase().includes(q)
+            (d.clause && d.clause.toLowerCase().includes(q)) ||
+            (d.title && d.title.toLowerCase().includes(q)) ||
+            (d.chapter && d.chapter.toLowerCase().includes(q)) ||
+            (d.ambiguity && d.ambiguity.toLowerCase().includes(q)) ||
+            (d.ruling && d.ruling.toLowerCase().includes(q)) ||
+            (d.takeaway && d.takeaway.toLowerCase().includes(q)) ||
+            (d.order_ref && d.order_ref.toLowerCase().includes(q))
           );
           render(filtered);
         });
 
       } catch (e) {
-        listEl.innerHTML = `<p style="color:var(--brick); font-family:var(--mono);">Failed to load amendments data.</p>`;
+        listEl.innerHTML = `<p style="color:var(--brick); font-family:var(--mono);">Failed to load clarifications data.</p>`;
       }
 
       function render(items) {
-        countEl.textContent = `Showing ${items.length} of ${data.length} clarified regulations`;
+        countEl.textContent = `Showing ${items.length} of ${data.length} official statutory clarifications`;
         if (items.length === 0) {
-          listEl.innerHTML = `<div style="text-align:center; padding:40px; color:var(--ink-soft); font-family:var(--mono);">No matching clarified clauses found.</div>`;
+          listEl.innerHTML = `<div style="text-align:center; padding:40px; color:var(--ink-soft); font-family:var(--mono);">No matching statutory clarifications found.</div>`;
           return;
         }
 
         listEl.innerHTML = items.map(it => `
-          <div style="background:var(--paper-raised); border:1px solid var(--line-strong); border-left:4px solid var(--amber); padding:20px; margin-bottom:16px;">
-            <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
-              <div>
-                <span class="badge badge-clause" style="margin-right:6px;">${it.clause}</span>
+          <div class="clarification-callout" style="margin-bottom:24px;">
+            <div class="callout-header">
+              <div class="callout-badge-row">
+                <span class="badge badge-clause">${it.clause}</span>
                 <span class="badge badge-amended">(#) Clarified</span>
                 <span class="badge" style="background:var(--paper); color:var(--ink-soft); border:1px solid var(--line-strong);">${it.chapter}</span>
               </div>
-              <span style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">${it.occurrences_count} citation(s)</span>
+              <span class="callout-ref">📅 ${it.date || 'June 2021'}</span>
             </div>
 
-            <h3 style="font-family:var(--disp); font-size:1.18rem; font-weight:700; color:var(--ink); margin-bottom:8px;">
+            <h3 class="callout-title" style="font-size:1.25rem;">
               ${it.title}
             </h3>
 
-            <div style="background:var(--paper); border:1px solid var(--line-strong); padding:8px 12px; font-family:var(--mono); font-size:11px; color:var(--ink); margin-bottom:10px;">
-              📌 <strong>Citation:</strong> ${it.citation}
+            <div style="background:var(--paper); border:1px solid var(--line-strong); padding:8px 12px; font-family:var(--mono); font-size:11px; color:var(--ink); margin: 10px 0;">
+              📌 <strong>Govt Order Ref:</strong> ${it.order_ref}
             </div>
 
-            <p style="font-family:var(--sans); font-size:0.9rem; color:var(--ink-soft); line-height:1.55;">
-              ${it.impact_summary}
-            </p>
+            <div class="callout-grid">
+              <div class="callout-pane">
+                <div class="callout-label ambiguity">❓ The Ambiguity / Dispute</div>
+                <p style="margin:0; font-family:var(--sans);">${it.ambiguity}</p>
+              </div>
+
+              <div class="callout-pane">
+                <div class="callout-label ruling">⚖️ Statutory Govt Ruling (Sec. 154 MRTP)</div>
+                <p style="margin:0; font-family:var(--sans);">${it.ruling}</p>
+              </div>
+
+              <div class="callout-pane-full">
+                <div class="callout-label takeaway">📐 Practical Takeaway for Architects &amp; Students</div>
+                <p style="margin:0; font-family:var(--sans); font-weight:500;">${it.takeaway}</p>
+              </div>
+            </div>
+
+            <div style="margin-top:16px; display:flex; justify-content:flex-end;">
+              <a href="${it.chapter_file}#${it.anchor}" class="tool-btn" style="text-decoration:none; display:inline-flex; align-items:center; gap:6px; font-weight:600; color:var(--blueprint); border-color:var(--blueprint);">
+                View In-Situ in ${it.chapter.split(':')[0]} &rarr;
+              </a>
+            </div>
           </div>
         `).join('');
       }

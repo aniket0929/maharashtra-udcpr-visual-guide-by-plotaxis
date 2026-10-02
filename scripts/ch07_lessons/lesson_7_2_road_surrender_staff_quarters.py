@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 7, LESSON 2
+UDCPR Visual Guide - CHAPTER 7, LESSON 2
 Module: scripts/ch07_lessons/lesson_7_2_road_surrender_staff_quarters.py
 Statutory Anchor: Regulation 7.2 & Regulation 7.3
 Content: Road Widening & Reservation Surrender Compensation (FSI / TDR) and Government Staff Quarters Schemes (Reg 7.3)

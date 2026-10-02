@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - TOPIC 7 WORKBENCH GENERATOR
+UDCPR Visual Guide - TOPIC 7 WORKBENCH GENERATOR
 Builds topics/redevelopment-navigator.html with interactive CAD redevelopment scheme comparison,
 feasibility calculator (SRS 1:R, URS Table 14-X, TOD FSI 4.00), and verification quiz.
 """
@@ -14,7 +14,7 @@ HTML_CONTENT = """<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Redevelopment &amp; Special Schemes Navigator | UDCPR from Scratch</title>
+  <title>Redevelopment &amp; Special Schemes Navigator | UDCPR Visual Guide</title>
   <meta name="description" content="Master Maharashtra redevelopment regulations under UDCPR Chapter 14: Slum Rehabilitation (SRS 1:R formula), Cluster Redevelopment (URS Table 14-X), and Transit-Oriented Development (TOD FSI 4.00).">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -71,9 +71,9 @@ HTML_CONTENT = """<!DOCTYPE html>
     <!-- Sheet Navigation -->
     <nav class="sheet-nav">
       <a href="/" class="brand-block">
-        <span class="brand-stamp">UDCPR</span>
+        <span class="brand-stamp">PLOTAXIS</span>
         <div class="brand-title-group">
-          <h1>UDCPR from Scratch</h1>
+          <h1>UDCPR Visual Guide by Plotaxis</h1>
           <span>Practice Workbench • Drawing Sheet</span>
         </div>
       </a>
@@ -390,7 +390,7 @@ HTML_CONTENT = """<!DOCTYPE html>
 
     <!-- Sheet Footer -->
     <footer class="sheet-footer">
-      <div>UDCPR FROM SCRATCH • TOPIC 07: REDEVELOPMENT, CLUSTER SCHEMES &amp; TOD CORRIDORS</div>
+      <div>UDCPR Visual Guide • TOPIC 07: REDEVELOPMENT, CLUSTER SCHEMES &amp; TOD CORRIDORS</div>
       <div>DRAWING SHEET ARCHITECTURAL SPECIFICATION • MAHARASHTRA STATE</div>
     </footer>
   </div>

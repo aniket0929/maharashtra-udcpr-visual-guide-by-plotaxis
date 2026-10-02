@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 5: LESSON 5.3
+UDCPR Visual Guide - CHAPTER 5: LESSON 5.3
 Module: scripts/ch05_lessons/lesson_5_3_konkan_coastal_plans.py
 Governing Regulations: Regulations 5.3 and 5.7 (Ratnagiri-Sindhudurg and Raigad Regional Plans)
 """

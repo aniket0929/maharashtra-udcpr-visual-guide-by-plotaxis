@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chapter 15: Regulations for Special Activities / Plans | UDCPR from Scratch</title>
+  <title>Chapter 15: Regulations for Special Activities / Plans | UDCPR Visual Guide</title>
   <meta name="description" content="Chapter 15 of UDCPR-2020: Regulations for Special Activities and Plans including Quarrying Operations (Reg 15.1), Erection of Mobile Towers & 5G Base Stations (Reg 15.2), Preparation of Local Area Plans LAP (Reg 15.3), and Universal Street Design Guidelines (Reg 15.4).">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,20 +29,19 @@
     <!-- Sheet Navigation -->
     <nav class="sheet-nav">
       <a href="/" class="brand-block">
-        <span class="brand-stamp">UDCPR</span>
+        <span class="brand-stamp">PLOTAXIS</span>
         <div class="brand-title-group">
-          <h1>UDCPR from Scratch</h1>
+          <h1>UDCPR Visual Guide by Plotaxis</h1>
           <span>Chapter 15 Syllabus • Drawing Sheet</span>
         </div>
       </a>
 
       <ul class="nav-menu">
-        <li class="nav-item"><a href="/topics/">Topics</a></li>
-        <li class="nav-item"><a href="/chapters/" class="active">Chapters</a></li>
         <li class="nav-item"><a href="/glossary.html">Glossary</a></li>
+        <li class="nav-item"><a href="/chapters/" class="active">Chapters</a></li>
+        <li class="nav-item"><a href="/topics/">Topics</a></li>
         <li class="nav-item"><a href="/formulas.html">Formulas</a></li>
         <li class="nav-item"><a href="/amendments.html">Amendments (#)</a></li>
-        <li class="nav-item"><a href="/govt-orders.html">Orders</a></li>
       </ul>
 
       <div class="nav-tools">
@@ -157,33 +156,66 @@
             </div>
           </div>
 
+          <!-- In-Situ Statutory Clarification Callout -->
+          <div class="clarification-callout" id="clarification-c-7">
+            <div class="callout-header">
+              <div class="callout-badge-row">
+                <span class="badge badge-clause">Appendix C (Reg C-7)</span>
+                <span class="badge badge-amended">(#) Clarified</span>
+                <span class="badge" style="background:var(--paper); color:var(--ink-soft); border:1px solid var(--line-strong);">Chapter 15: Appendices (Appendix C)</span>
+              </div>
+              <span class="callout-ref">📅 Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 14)</span>
+            </div>
+
+            <h4 class="callout-title">
+              Uniform Statewide Licensing Fees for Technical Personnel (BPMS)
+            </h4>
+
+            <div class="callout-grid">
+              <div class="callout-pane">
+                <div class="callout-label ambiguity">❓ The Practical Ambiguity / Dispute</div>
+                <p style="margin:0; font-family:var(--sans);">Several Municipal Corporations (e.g. PMC, PCMC, TMC) had passed local general body resolutions charging exorbitant annual licensing fees from architects and structural engineers, far exceeding UDCPR rates.</p>
+              </div>
+
+              <div class="callout-pane">
+                <div class="callout-label ruling">⚖️ Statutory Govt Ruling (Sec. 154 MRTP)</div>
+                <p style="margin:0; font-family:var(--sans);">The Government directed that with statewide implementation of the online BPMS (Building Plan Management System), uniform standards must prevail. Local authorities are strictly prohibited from charging licensing fees higher than the statutory fees in Reg C-7.2 (Rs. 3,000 for 3 years for Architects/Engineers/Planners; Rs. 1,500 for Supervisors).</p>
+              </div>
+
+              <div class="callout-pane-full">
+                <div class="callout-label takeaway">📐 Practical Takeaway for Architects &amp; Students</div>
+                <p style="margin:0; font-family:var(--sans); font-weight:500;">Architects licensed with the Town Planning Department are licensed across Maharashtra. Municipalities cannot charge arbitrary local registration levies beyond UDCPR Appendix C.</p>
+              </div>
+            </div>
+          </div>
+
+
         </div>
       </section>
 
     </main>
 
-    <!-- Bottom Drawing Sheet Title Strip -->
-    <footer style="margin-top:40px; padding-top:16px; border-top:1px solid var(--line); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
-      <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft);">
-        MAHARASHTRA UDCPR-2020 • CHAPTER 15 SPECIAL ACTIVITIES &amp; PLANS • STATUTORY BLUEPRINT SUITE
-      </div>
-      <div>
-        <a href="/chapters/" class="tool-btn" style="text-decoration:none; padding:4px 12px; font-size:12px;">← Back to Chapters Index</a>
-      </div>
+    <!-- Sheet Footer -->
+    <footer class="sheet-footer">
+      <div>UDCPR Visual Guide • CHAPTER 15: REGULATIONS FOR SPECIAL ACTIVITIES &amp; PLANS</div>
+      <div> • MAHARASHTRA STATE</div>
     </footer>
 
   </div>
 
-  <div id="searchModal" class="search-modal" style="display:none;">
-    <div class="search-box">
-      <div class="search-header">
-        <input type="text" id="searchInput" placeholder="Search UDCPR rules, clauses, numbers..." autocomplete="off">
-        <button class="close-btn" onclick="closeSearchModal()">&times;</button>
+  <!-- Universal Search Modal -->
+  <div class="search-modal-backdrop" id="search-modal-backdrop" onclick="if(event.target === this) closeSearchModal()">
+    <div class="search-modal">
+      <div class="search-modal-header">
+        <span style="font-family:var(--mono); font-size:13px; font-weight:700;">SEARCH //</span>
+        <input type="text" id="search-modal-input" class="search-modal-input" placeholder="Search Chapter 15..." autocomplete="off">
+        <button onclick="closeSearchModal()" class="tool-btn" style="padding:2px 8px;">ESC</button>
       </div>
-      <div id="searchResults" class="search-results"></div>
+      <ul class="search-results-list" id="search-results-list"></ul>
     </div>
   </div>
 
+  <script src="/js/app.js"></script>
   <script src="/js/search.js"></script>
 </body>
 </html>

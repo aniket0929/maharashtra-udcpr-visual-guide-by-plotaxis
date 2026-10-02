@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 3: LESSON 3.4
+UDCPR Visual Guide - CHAPTER 3: LESSON 3.4
 Module: scripts/ch03_lessons/lesson_3_4_amenity_space.py
 Governing Regulation: Regulation 3.5 (Amenity Space), Regulation 3.6 (Electric Substation), Regulation 3.7 (Plot Area Standards)
 Covers: Reg 3.5.1 to 3.5.3, 3.6 & 3.7 - 20,000 sq.m (2.0 Ha) threshold, 5% statutory amenity quota, 12m access road rule, in-situ FSI / TDR surrender compensation, electric substation spaces, and Table of minimum plot sizes.

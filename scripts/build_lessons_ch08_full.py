@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 8 FULL LESSON BUILDER (MODULAR ORCHESTRATOR)
+UDCPR Visual Guide - CHAPTER 8 FULL LESSON BUILDER (MODULAR ORCHESTRATOR)
 Executes building of all 4 comprehensive Drawing Sheet lessons for Chapter 8: Parking, Loading and Unloading Spaces.
 Each lesson module resides in `scripts/ch08_lessons/` for clarity and modularity.
 """

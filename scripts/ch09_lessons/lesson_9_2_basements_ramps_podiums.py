@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 9, LESSON 2
+UDCPR Visual Guide - CHAPTER 9, LESSON 2
 Regulation 9.11, 9.12, 9.13 & 9.16: Basements, Podiums, Vehicular Ramps & Stilt Clearances
 File: scripts/ch09_lessons/lesson_9_2_basements_ramps_podiums.py
 """

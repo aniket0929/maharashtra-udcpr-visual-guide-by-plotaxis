@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 1 FULL LESSON BUILDER
+UDCPR Visual Guide - CHAPTER 1 FULL LESSON BUILDER
 Generates the complete 4-lesson curriculum for Chapter 1: Administration
 Covers Reg 1.0 through 1.10 in exhaustive educational detail.
 """

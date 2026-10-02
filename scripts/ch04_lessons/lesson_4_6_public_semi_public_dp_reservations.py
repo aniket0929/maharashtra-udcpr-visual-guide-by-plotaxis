@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 4: LESSON 4.6
+UDCPR Visual Guide - CHAPTER 4: LESSON 4.6
 Module: scripts/ch04_lessons/lesson_4_6_public_semi_public_dp_reservations.py
 Governing Regulations: Regulations 4.10, 4.26, and 4.27 (Public / Semi-Public Zone & DP Reservations)
 """

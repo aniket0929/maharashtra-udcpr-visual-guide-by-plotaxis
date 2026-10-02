@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 5: LESSON 5.4
+UDCPR Visual Guide - CHAPTER 5: LESSON 5.4
 Module: scripts/ch05_lessons/lesson_5_4_western_ghats_hill_stations.py
 Governing Regulations: Regulations 5.5 and 5.9 (Satara and Pune Regional Plans - Hill Stations & Western Ghats)
 """

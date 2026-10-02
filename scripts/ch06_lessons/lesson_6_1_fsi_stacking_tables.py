@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 6, LESSON 1
+UDCPR Visual Guide - CHAPTER 6, LESSON 1
 Module: scripts/ch06_lessons/lesson_6_1_fsi_stacking_tables.py
 Statutory Anchor: Regulation 6.1.1 (Table 6-A) & Regulation 6.3 (Table 6-G)
 Content: FSI Stacking Architecture, Basic FSI, Premium FSI (35% ASR), TDR Loading Caps, and Total Building Potential

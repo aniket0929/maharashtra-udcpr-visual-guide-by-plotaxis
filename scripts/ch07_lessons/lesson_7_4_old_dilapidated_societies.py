@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 7, LESSON 4
+UDCPR Visual Guide - CHAPTER 7, LESSON 4
 Module: scripts/ch07_lessons/lesson_7_4_old_dilapidated_societies.py
 Statutory Anchor: Regulation 7.5 & Regulation 7.6 (7.6.1 & 7.6.2)
 Content: Protection of Authorised FSI, Redevelopment of 30-Year-Old Housing Societies (30% Incentive / 15 sqm), and Tenanted Buildings (50% Incentive)

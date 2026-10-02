@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 10, LESSON 3
+UDCPR Visual Guide - CHAPTER 10, LESSON 3
 Regulation 10.2.4 to 10.2.8: Thane Hazard Zones, Defence Envelopes & Yeur Forest
 File: scripts/ch10_lessons/lesson_10_3_thane_buffers_yeur.py
 """

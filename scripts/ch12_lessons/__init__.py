@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 12 LESSON PACKAGE
+UDCPR Visual Guide - CHAPTER 12 LESSON PACKAGE
 Exports all 4 modular lessons covering Chapter 12: Structural Safety, Water Supply, Drainage & Sanitary Requirements (Regulations 12.1 to 12.7).
 """
 

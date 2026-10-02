@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 3: LESSON 3.5
+UDCPR Visual Guide - CHAPTER 3: LESSON 3.5
 Module: scripts/ch03_lessons/lesson_3_5_inclusive_housing.py
 Governing Regulation: Regulation 3.8 (Provision for Inclusive Housing)
 Covers: Reg 3.8.1 to 3.8.4 - 4,000 sq.m threshold in Municipal Corporations, 20% Basic FSI quota for EWS/LIG, carpet area limits (30.0 to 45.0 sq.m), 3 implementation pathways, and 25% incentive FSI.

@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 3 LESSON MODULES PACKAGE
+UDCPR Visual Guide - CHAPTER 3 LESSON MODULES PACKAGE
 Exports all 6 modular lesson definitions for Chapter 3: General Land Development Requirements
 """
 

@@ -196,7 +196,7 @@ Key highlights resolved:
    ```bash
    git init
    git add .
-   git commit -m "feat: complete UDCPR from Scratch platform"
+   git commit -m "feat: complete UDCPR Visual Guide platform"
    git branch -M main
    git remote add origin https://github.com/<your-username>/udcpr-from-scratch.git
    git push -u origin main
@@ -222,4 +222,4 @@ Drag and drop the folder into the [Netlify Drop](https://app.netlify.com/drop) d
 
 ## Statutory Disclaimer
 
-> _UDCPR from Scratch is an independent educational and research platform created to aid architects, engineers, students, and property owners in understanding planning regulations. It does not constitute legal or municipal advice. For statutory sanctions and building permits, users must always refer to official Gazette Notifications published by the Government of Maharashtra Urban Development Department._
+> _UDCPR Visual Guide is an independent educational and research platform created to aid architects, engineers, students, and property owners in understanding planning regulations. It does not constitute legal or municipal advice. For statutory sanctions and building permits, users must always refer to official Gazette Notifications published by the Government of Maharashtra Urban Development Department._

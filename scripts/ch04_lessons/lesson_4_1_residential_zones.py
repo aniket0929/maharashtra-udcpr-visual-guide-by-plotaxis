@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 4: LESSON 4.1
+UDCPR Visual Guide - CHAPTER 4: LESSON 4.1
 Module: scripts/ch04_lessons/lesson_4_1_residential_zones.py
 Governing Regulations: Regulations 4.1 to 4.6 (General, Equivalency, R-1, R-2, Low Density, Future Urbanizable)
 """

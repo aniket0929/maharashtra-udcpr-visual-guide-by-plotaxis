@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 5: LESSON 5.2
+UDCPR Visual Guide - CHAPTER 5: LESSON 5.2
 Module: scripts/ch05_lessons/lesson_5_2_rp_amenity_infrastructure.py
 Governing Regulations: Regulations 5.1.3 to 5.1.9 & 5.11 (Committed Development, Errors, Station Areas, RP Amenity, Board of Appeals)
 """

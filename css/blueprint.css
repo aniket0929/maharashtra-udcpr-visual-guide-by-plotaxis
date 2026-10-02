@@ -1,5 +1,5 @@
 /* ==========================================================================
-   UDCPR FROM SCRATCH — "DRAWING SHEET" DESIGN SYSTEM
+   UDCPR Visual Guide — "DRAWING SHEET" DESIGN SYSTEM
    Authentic surveyor & architectural drawing sheet aesthetics.
    Flat everywhere: NO rounded corners, NO box-shadows, NO gradients.
    Ruled paper, tick-mark borders, dimension lines, and mono font for data.
@@ -32,16 +32,24 @@
 
 html {
   font-family: var(--sans);
-  /*background-color: #E2DDD0; /* Drafting table surface behind sheet */
   color: var(--ink);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 body {
   min-height: 100vh;
   margin: 0;
   padding: 24px 12px 48px 12px;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
 }
 
 /* ==========================================================================
@@ -309,7 +317,7 @@ p, li, label {
 
 .ruled-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
   background: var(--line-strong);
   gap: 1px;
   border: 1px solid var(--ink);
@@ -549,25 +557,226 @@ input[type="range"] {
   color: var(--ink-soft);
 }
 
-/* Responsive */
+/* Default (Desktop > 900px) Navigation Elements */
+.menu-toggle-btn {
+  display: none;
+}
+
+/* Universal Table Responsive Scrolling */
+.table-wrap, .table-container, .table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 16px 0;
+}
+
+/* ==========================================================================
+   RESPONSIVE DESIGN SYSTEM (TABLET & MOBILE)
+   ========================================================================== */
+
+/* Tablet & Mobile (< 900px) */
 @media (max-width: 900px) {
+  .sheet-nav {
+    flex-wrap: wrap;
+    row-gap: 12px;
+    align-items: center;
+  }
+
+  .brand-block {
+    flex: 1 1 auto;
+  }
+
+  .nav-tools {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  /* Hamburger Menu Toggle Button */
+  .menu-toggle-btn {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 700;
+    background: var(--ink);
+    color: var(--paper-raised);
+    border: 1px solid var(--ink);
+    padding: 6px 11px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    user-select: none;
+    transition: background 0.15s ease, border-color 0.15s ease;
+  }
+
+  .menu-toggle-btn:hover {
+    background: var(--blueprint);
+    border-color: var(--blueprint);
+  }
+
+  .menu-toggle-btn .hamburger-bars {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 14px;
+    height: 10px;
+  }
+
+  .menu-toggle-btn .hamburger-bars span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: var(--paper-raised);
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+
+  .menu-toggle-btn.open .hamburger-bars span:nth-child(1) {
+    transform: translateY(4px) rotate(45deg);
+  }
+  .menu-toggle-btn.open .hamburger-bars span:nth-child(2) {
+    opacity: 0;
+  }
+  .menu-toggle-btn.open .hamburger-bars span:nth-child(3) {
+    transform: translateY(-4px) rotate(-45deg);
+  }
+
+  /* Mobile Navigation Drawer / Dropdown */
+  .nav-menu {
+    display: none !important;
+    flex-direction: column;
+    width: 100%;
+    background: var(--paper-raised);
+    border: 1px solid var(--ink);
+    border-left: 4px solid var(--blueprint);
+    padding: 4px 0;
+    margin-top: 4px;
+    list-style: none;
+    order: 10;
+    animation: navSlideDown 0.18s ease-out;
+  }
+
+  .nav-menu.mobile-open {
+    display: flex !important;
+  }
+
+  @keyframes navSlideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-6px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .nav-menu .nav-item {
+    width: 100%;
+    border-bottom: 1px solid var(--line-strong);
+  }
+
+  .nav-menu .nav-item:last-child {
+    border-bottom: none;
+  }
+
+  .nav-menu .nav-item a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 44px;
+    padding: 10px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink);
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: background 0.15s ease;
+  }
+
+  .nav-menu .nav-item a::after {
+    content: '→';
+    font-family: var(--mono);
+    color: var(--ink-soft);
+    font-size: 14px;
+    transition: transform 0.15s ease, color 0.15s ease;
+  }
+
+  .nav-menu .nav-item a:hover {
+    background: var(--paper);
+  }
+
+  .nav-menu .nav-item a:hover::after {
+    transform: translateX(3px);
+    color: var(--blueprint);
+  }
+
+  .nav-menu .nav-item a.active {
+    background: var(--ink);
+    color: var(--paper-raised);
+  }
+
+  .nav-menu .nav-item a.active::after {
+    color: var(--paper-raised);
+  }
+
+  /* Grid & Layout Adjustments */
   .stat-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .title-block {
     grid-template-columns: 1fr;
+    gap: 16px;
   }
-  .nav-menu {
-    display: none;
+
+  /* Statutory Tables Auto-Scroll */
+  .drawing-table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
   }
 }
+
+/* Small Smartphone (< 600px) */
 @media (max-width: 600px) {
+  body {
+    padding: 16px 8px 36px 8px;
+  }
+
   .sheet {
-    padding: 20px 14px;
+    padding: 18px 12px 32px 12px;
   }
+
+  .ruler-top {
+    left: 12px;
+    right: 12px;
+  }
+
   .stat-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
+
+  .stat-box {
+    padding: 12px 14px;
+  }
+
+  .stat-value {
+    font-size: 1.6rem;
+  }
+
+  h1 {
+    font-size: 1.65rem !important;
+  }
+
+  .title-block {
+    padding: 14px 14px;
+  }
+
   .sheet-footer {
     flex-direction: column;
     gap: 8px;

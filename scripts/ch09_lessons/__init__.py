@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 9 LESSON SUITE
+UDCPR Visual Guide - CHAPTER 9 LESSON SUITE
 Package: scripts/ch09_lessons/
 Export: CH09_LESSONS (List of 5 modular lesson dictionaries for Chapter 9: Requirements of Parts of Buildings)
 """

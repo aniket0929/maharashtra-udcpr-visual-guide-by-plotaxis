@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 11, LESSON 1
+UDCPR Visual Guide - CHAPTER 11, LESSON 1
 Regulation 11.1: Accommodation Reservation Principle & DP Land-Sharing (Table 11-A)
 File: scripts/ch11_lessons/lesson_11_1_accommodation_reservation.py
 """

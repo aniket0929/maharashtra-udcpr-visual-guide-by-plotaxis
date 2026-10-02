@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 2 FULL LESSON BUILDER
+UDCPR Visual Guide - CHAPTER 2 FULL LESSON BUILDER
 Generates the complete 5-lesson curriculum for Chapter 2: Development Permission and Commencement Certificate
 Covers Reg 2.1 through 2.15 in exhaustive statutory and educational detail.
 """

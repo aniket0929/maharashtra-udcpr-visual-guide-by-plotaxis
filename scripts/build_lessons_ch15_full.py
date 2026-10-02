@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 15 FULL LESSON BUILDER (MODULAR ORCHESTRATOR)
+UDCPR Visual Guide - CHAPTER 15 FULL LESSON BUILDER (MODULAR ORCHESTRATOR)
 Executes building of all 3 comprehensive Drawing Sheet lessons for Chapter 15: Regulations for Special Activities / Plans.
 Each lesson module resides in `scripts/ch15_lessons/` for clarity and modularity.
 """

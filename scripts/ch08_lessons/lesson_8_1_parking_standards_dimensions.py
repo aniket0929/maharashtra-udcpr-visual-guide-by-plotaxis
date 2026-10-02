@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 8, LESSON 1
+UDCPR Visual Guide - CHAPTER 8, LESSON 1
 Regulation 8.1 & 8.1.1(i)-(v): Parking Locations, Minimum Bay Dimensions & Circulation Aisles
 File: scripts/ch08_lessons/lesson_8_1_parking_standards_dimensions.py
 """

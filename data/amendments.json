@@ -1,784 +1,322 @@
 [
   {
-    "clause": "Reg. 1.3",
-    "title": "DEFINITIONS",
-    "chapter": "Chapter 1",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding DEFINITIONS.",
-    "citation": "() xiv) Secial Bilding mean - i) any mlti-toreyed bilding which i more than 24 m. in height meared from grond level, or",
-    "occurrences_count": 2,
-    "line_numbers": [
-      1034,
-      1046
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup> **xiv) Special Building means** - i) any multi-storeyed building which is more than 24 m. in height measured from ground level, or",
-      "<sup>(#)</sup> Clarifications issued vide letter - CR 44/21 dt, 10<sup>th</sup> June, 2021 & CR 42/21/UD 12, dt. 14<sup>th</sup> June, 2021."
-    ]
-  },
-  {
-    "clause": "Reg. 10.10",
-    "title": "NAVI MUMBAI MUNICIPAL CORPORATION",
-    "chapter": "Chapter 10",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding NAVI MUMBAI MUNICIPAL CORPORATION.",
-    "citation": "() 10.10.1 Baic FSI Permiible for Certain Categorie of Plot.",
-    "occurrences_count": 3,
-    "line_numbers": [
-      7767,
-      7785,
-      7806
-    ],
-    "raw_excerpts": [
-      "### (#) 10.10.1 Basic FSI Permissible for Certain Categories of Plots.",
-      "<sup>(#)</sup> Clarification issued vide letter No.CR.31/2023/UD-13, dt.24<sup>th</sup> July, 2023",
-      "<sup>(#)</sup> 3) In case of plot where basic FSI is 1.5 the maximum building potential of plot including in-situ FSI as mentioned in table 6-G may be allowed to be exceeded by further 0.5."
-    ]
-  },
-  {
-    "clause": "Reg. 10.10.2",
-    "title": "Reconstruction / Redevelopment of Building in CIDCO / NMMC Areas",
-    "chapter": "Chapter 10",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding Reconstruction / Redevelopment of Building in CIDCO / NMMC Areas.",
-    "citation": "() Clarification ied vide Letter No.CR.4221, dt.14th Jne, 2021 & Order No.CR.23618 (Part 2), dt.12th October, 2022",
+    "clause": "Reg. 14.8.7",
+    "title": "DP Reservations Falling inside Urban Renewal Clusters (URC)",
+    "chapter": "Chapter 14: Special Schemes",
+    "chapter_num": 14,
+    "chapter_file": "/chapters/ch14.html",
+    "anchor": "clarification-14-8-7",
+    "order_ref": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 17)",
+    "ambiguity": "Under Regulation 14.8.7, an Implementing Agency must construct public amenities designated on the Development Plan (e.g. municipal schools, health centers, parking lots) and hand them over free of cost and free of FSI to the Municipal Corporation. Practitioners and developers were deadlocked: Does the agency receive Construction Amenity TDR to recover construction costs, or must they bear 100% of the expenditure without compensation?",
+    "ruling": "The Urban Development Department ruled that under Regulation 14.8.14(xvi), any development aspect not expressly barred under URS is governed by general UDCPR provisions. Consequently, for constructing and handing over the built-up amenity area to the Corporation, the Implementing Agency IS STATUTORILY ENTITLED to Construction Amenity TDR under Regulation 11.2.5.",
+    "takeaway": "Cluster redevelopment feasibility is protected: building required DP public amenities inside a cluster scheme does not drain capital, as the built area is compensated via market-saleable Construction Amenity TDR under Chapter 11.",
+    "citation": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 17) • Reg. 14.8.7",
+    "impact_summary": "Under Regulation 14.8.7, an Implementing Agency must construct public amenities designated on the Development Plan (e.g. municipal schools, health centers, parking lots) and hand them over free of cost and free of FSI to the Municipal Corporation. Practitioners and developers were deadlocked: Does the agency receive Construction Amenity TDR to recover construction costs, or must they bear 100% of the expenditure without compensation? Ruling: The Urban Development Department ruled that under Regulation 14.8.14(xvi), any development aspect not expressly barred under URS is governed by general UDCPR provisions. Consequently, for constructing and handing over the built-up amenity area to the Corporation, the Implementing Agency IS STATUTORILY ENTITLED to Construction Amenity TDR under Regulation 11.2.5.",
     "occurrences_count": 1,
-    "line_numbers": [
-      7819
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup> Clarifications issued vide Letter No.CR.42/21, dt.14<sup>th</sup> June, 2021 & Order No.CR.236/18 (Part 2), dt.12<sup>th</sup> October, 2022"
-    ]
-  },
-  {
-    "clause": "Reg. 10.13.1",
-    "title": "REGULATIONS FOR AFFORDABLE HOUSING SCHEME",
-    "chapter": "Chapter 10",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding REGULATIONS FOR AFFORDABLE HOUSING SCHEME.",
-    "citation": "() 11. No roject nder the Rental Hoing Scheme enviaged nder the aid directive ied by the Government vide order dated 6th Agt, 2008, 25th Agt, 2009, 4th November, 2008 and Agt 2008 hall be ermitted after the date on which the Notice No.TPS-1212 79CR-6012 UD-12, Dated 30th November, 2013 regarding thi Reglation Under ection 37(1AA) of the Maharahtra Regional and Town Planning Act, 1066 wa blihed in the official (herein after referred to a 'the ct cat date')",
-    "occurrences_count": 1,
-    "line_numbers": [
-      8084
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup> 11. No project under the Rental Housing Scheme envisaged under the said directives issued by the Government vide orders dated 6<sup>th</sup> August, 2008, 25<sup>th</sup> August, 2009, 4<sup>th</sup> November, 2008 and August 2008 shall be permitted after the date on which the Notice No.TPS-1212/ 79/CR-60/12/ UD-12, Dated 30<sup>th</sup> November, 2013 regarding this Regulation Under section 37(1AA) of the Maharashtra Regional and Town Planning Act, 1066 was published in the official (herein after referred to as 'the cut cat date')"
-    ]
-  },
-  {
-    "clause": "Reg. 10.14.2",
-    "title": "Regulations for Land Compensation Scheme and Rehabilitation Pocket in Navi Mumbai",
-    "chapter": "Chapter 10",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding Regulations for Land Compensation Scheme and Rehabilitation Pocket in Navi Mumbai.",
-    "citation": "() Clarification ied by the Govt. vide letter dt.13th Jnary, 2023",
-    "occurrences_count": 1,
-    "line_numbers": [
-      8105
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup> *Clarification issued by the Govt. vide letter dt.13<sup>th</sup> Junary, 2023*"
-    ]
-  },
-  {
-    "clause": "Reg. 10.4.1",
-    "title": "<sup>(#)</sup> Development along Ring Road",
-    "chapter": "Chapter 10",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding <sup>(#)</sup> Development along Ring Road.",
-    "citation": "10.4.1 () Develoment along Ring Road :",
-    "occurrences_count": 1,
-    "line_numbers": [
-      7415
-    ],
-    "raw_excerpts": [
-      "### 10.4.1 <sup>(#)</sup> Development along Ring Road :"
-    ]
-  },
-  {
-    "clause": "Reg. 10.4.2",
-    "title": "Special Regulations for the Improvement Schemes",
-    "chapter": "Chapter 10",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding Special Regulations for the Improvement Schemes.",
-    "citation": "() Clarification ied vide Order No.CR.23618 (Part 2), dt.23rd December, 2021",
-    "occurrences_count": 3,
-    "line_numbers": [
-      7423,
-      7479,
-      7504
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup> Clarification issued vide Order No.CR.236/18 (Part 2), dt.23<sup>rd</sup> December, 2021",
-      "<sup>(#)</sup> **10.4.3** The following regulation shall be applicable only for the reference of Regulation No.25.6(xxxx) mentioned in the notification of sanctioning the Development Plan of Nagpur Metropolitan Region Development Authority.",
-      "<sup>(#)</sup> *Clarification issued vide letter No.CR.67/2022, dt.6<sup>th</sup> September, 2022*"
-    ]
-  },
-  {
-    "clause": "Reg. 11.2.10",
-    "title": "Transfer of DRC",
-    "chapter": "Chapter 11",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding Transfer of DRC.",
-    "citation": "() Directive .154 No.CR.072023, dt.27th Febrary, 2023",
-    "occurrences_count": 1,
-    "line_numbers": [
-      8645
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup> Directives u/s.154 No.CR.07/2023, dt.27<sup>th</sup> February, 2023"
-    ]
-  },
-  {
-    "clause": "Reg. 11.2.5",
-    "title": "<sup>(#)</sup> Transferable Development Rights (TDR) against Construction of Amenity",
-    "chapter": "Chapter 11",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding <sup>(#)</sup> Transferable Development Rights (TDR) against Construction of Amenity.",
-    "citation": "11.2.5 () Tranferable Develoment Right (TDR) againt Contrction of Amenity -",
-    "occurrences_count": 2,
-    "line_numbers": [
-      8510,
-      8518
-    ],
-    "raw_excerpts": [
-      "## 11.2.5 <sup>(#)</sup> Transferable Development Rights (TDR) against Construction of Amenity -",
-      "<sup>(#)</sup> Clarifications issued by the Govt. vide letter No.CR.44/21 dt.10<sup>th</sup> June, 2021 & Order No.CR.58/22/UD-12, dt.04<sup>th</sup> September, 2023"
-    ]
-  },
-  {
-    "clause": "Reg. 11.2.9",
-    "title": "General stipulation",
-    "chapter": "Chapter 11",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding General stipulation.",
-    "citation": "ii) () In cae of land having tenre other than Cla-I, (1) i.e. Inam land, tribal land etc., N.O.C. from Cometent Athority hall be rodced by the land holder at the time of bmiion of alication for grant of TDR.",
-    "occurrences_count": 1,
-    "line_numbers": [
-      8616
-    ],
-    "raw_excerpts": [
-      "ii) <sup>(#)</sup> In case of lands having tenure other than Class-I, <sup>(1)</sup> i.e. Inam lands, tribal lands etc., N.O.C. from Competent Authority shall be produced by the land holder at the time of submission of application for grant of TDR."
-    ]
-  },
-  {
-    "clause": "Reg. 14.2.1",
-    "title": "<sup>(#)</sup> <sup>(1)</sup> For Pune Municipal Corporation Area",
-    "chapter": "Chapter 14",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding <sup>(#)</sup> <sup>(1)</sup> For Pune Municipal Corporation Area.",
-    "citation": "14.2.1 () (1) For Pne Mnicial Cororation Area",
-    "occurrences_count": 2,
-    "line_numbers": [
-      10100,
-      10106
-    ],
-    "raw_excerpts": [
-      "### 14.2.1 <sup>(#)</sup> <sup>(1)</sup> For Pune Municipal Corporation Area",
-      "<sup>(#)</sup> Clarification issued Vide Letter No.CR.236/18 (Part 1), dt.14<sup>th</sup> January, 2021"
-    ]
-  },
-  {
-    "clause": "Reg. 14.2.1.2.1",
-    "title": "Premium to be Paid",
-    "chapter": "Chapter 14",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding Premium to be Paid.",
-    "citation": "() (ii) Wherele than 50% area of ch lot  lot fall within TOD zone, thee reglation inclding FSI hall be alicable to the art of lot  lot falling within TOD zone, wherea for the art of lot  lot falling otide TOD zone, thee reglation excet roviion regarding FSI hall be alicable. The FSI ermiible for the art falling otide TOD zone hall be a er Princial DCPR.",
-    "occurrences_count": 2,
-    "line_numbers": [
-      10172,
-      10181
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup> (ii) Whereless than 50% area of such plot / plots falls within TOD zone, these regulations including FSI shall be applicable to the part of plot / plots falling within TOD zone, whereas for the part of plot / plots falling outside TOD zone, these regulations except provisions regarding FSI shall be applicable. The FSI permissible for the part falling outside TOD zone shall be as per Principal DCPR.",
-      "<sup>(#)</sup> Clarification issued by the Govt. vide Order No.CR.54/2023/UD-13, dt.28th August, 2023"
-    ]
-  },
-  {
-    "clause": "Reg. 14.2.1.6.1",
-    "title": "Incentive for providing Public Parking in the area falling within the radius of 200 m. from the Metro / MRTS Station.",
-    "chapter": "Chapter 14",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding Incentive for providing Public Parking in the area falling within the radius of 200 m. from the Metro / MRTS Station..",
-    "citation": "() 14.2.2 Pne Metroolitan Region Develoment Athority area",
-    "occurrences_count": 1,
-    "line_numbers": [
-      10267
-    ],
-    "raw_excerpts": [
-      "## <sup>(#)</sup> 14.2.2 Pune Metropolitan Region Development Authority area"
-    ]
-  },
-  {
-    "clause": "Reg. 14.2.3",
-    "title": "For Nagpur Municipal Corporation and Nagpur Metropolitan Region Development Authority",
-    "chapter": "Chapter 14",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding For Nagpur Municipal Corporation and Nagpur Metropolitan Region Development Authority.",
-    "citation": "() Clarification ied Vide Letter No.CR.23618 (Part 1), dt.14th Janary, 2021",
-    "occurrences_count": 1,
-    "line_numbers": [
-      10299
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup> Clarification issued Vide Letter No.CR.236/18 (Part 1), dt.14<sup>th</sup> January, 2021"
-    ]
+    "date": "14/06/2021"
   },
   {
     "clause": "Reg. 14.4.1",
-    "title": "For Development Plan area",
-    "chapter": "Chapter 6",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding For Development Plan area.",
-    "citation": "() 3. The ermiible FSI for ch roject hall be the maximm bilding otential on the lot mentioned in Reglation No.6.1 or 6.3 bject to maximm 2.5 which hall be treated a allowable baic FSI for ch roject. No remim FSI or TDR hall be reqired to be loaded for availing thi FSI to 2.5. However, where bilding otential a er Reglation No.6.1 or 6.3 exceed 2.5, in ch cae ermiibility of availing bilding otential above 2.5 hall be in the form of remim FSI or TDR or both which may be tilied for the ermiible e nder thi UDCPR.",
-    "occurrences_count": 2,
-    "line_numbers": [
-      10596,
-      10622
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup> 3. The permissible FSI for such projects shall be the maximum building potential on the plot mentioned in Regulation No.6.1 or 6.3 subject to maximum 2.5 which shall be treated as allowable basic FSI for such project. No premium FSI or TDR shall be required to be loaded for availing this FSI upto 2.5. However, where building potential as per Regulation No.6.1 or 6.3 exceeds 2.5, in such cases permissibility of availing building potential above 2.5 shall be in the form of premium FSI or TDR or both which may be utilised for the permissible uses under this UDCPR.",
-      "\\*<sup>(#)</sup> Clarification issued vide Order No.CR.236/18 (Part 2), dt.23<sup>rd</sup> December, 2021"
-    ]
-  },
-  {
-    "clause": "Reg. 14.8.7",
-    "title": "<sup>(#)</sup> Development of Reservations contemplated in Development Plan falling in the area of URC –",
-    "chapter": "Chapter 1",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding <sup>(#)</sup> Development of Reservations contemplated in Development Plan falling in the area of URC –.",
-    "citation": "14.8.7 () Develoment of Reervation contemlated in Develoment Plan falling in the area of URC –",
-    "occurrences_count": 2,
-    "line_numbers": [
-      12560,
-      12576
-    ],
-    "raw_excerpts": [
-      "## 14.8.7 <sup>(#)</sup> Development of Reservations contemplated in Development Plan falling in the area of URC –",
-      "<sup>(#)</sup> Clarification issued videOrder No. CR 236/18 (Part 2), dt, 23<sup>rd</sup> December, 2021."
-    ]
-  },
-  {
-    "clause": "Reg. 15.2",
-    "title": "ERECTION OF MOBILE TOWERS",
-    "chapter": "Chapter 15",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding ERECTION OF MOBILE TOWERS.",
-    "citation": "() Directive .154 of the M.R. & T.P. Act, 1966 by the Govt. vide Order No.CR.1792022UD-13, dt.25th Agt, 2023 regarding inclion of Addendm to Model Bilding Bye-Law – 2016.",
+    "title": "PMAY Affordable Housing: Basic FSI vs Road Potential Stacking",
+    "chapter": "Chapter 14: Special Schemes",
+    "chapter_num": 14,
+    "chapter_file": "/chapters/ch14.html",
+    "anchor": "clarification-14-4-1",
+    "order_ref": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 13)",
+    "ambiguity": "Prior to UDCPR, PMAY schemes received a flat 2.50 FSI on roads 15m or wider. Under UDCPR 14.4.1 Condition 3, permissible FSI is capped at maximum building potential under Reg 6.1 or 6.3 subject to max 2.5 treated as allowable basic FSI without premium or TDR. Planners were confused about road width thresholds and whether potential beyond 2.5 could be loaded.",
+    "ruling": "The Government clarified that: (1) In congested areas (Table 6-A), max 2.50 FSI is permissible on minimum 9.0m roads; (2) In non-congested areas (Table 6-G), max 2.50 FSI is permissible on minimum 15.0m roads. Any residual building potential above 2.50 permitted by road width can still be availed by paying Premium FSI or loading TDR.",
+    "takeaway": "PMAY projects enjoy 2.50 free basic FSI without paying premium or TDR charges on >=9m roads in gaothan or >=15m outside gaothan. If the road allows higher potential (e.g. 3.00 FSI on 24m road), the top 0.50 FSI can be unlocked via standard premium/TDR.",
+    "citation": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 13) • Reg. 14.4.1",
+    "impact_summary": "Prior to UDCPR, PMAY schemes received a flat 2.50 FSI on roads 15m or wider. Under UDCPR 14.4.1 Condition 3, permissible FSI is capped at maximum building potential under Reg 6.1 or 6.3 subject to max 2.5 treated as allowable basic FSI without premium or TDR. Planners were confused about road width thresholds and whether potential beyond 2.5 could be loaded. Ruling: The Government clarified that: (1) In congested areas (Table 6-A), max 2.50 FSI is permissible on minimum 9.0m roads; (2) In non-congested areas (Table 6-G), max 2.50 FSI is permissible on minimum 15.0m roads. Any residual building potential above 2.50 permitted by road width can still be availed by paying Premium FSI or loading TDR.",
     "occurrences_count": 1,
-    "line_numbers": [
-      13226
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup> Directives u/s.154 of the M.R. & T.P. Act, 1966 by the Govt. vide Order No.CR.179/2022/UD-13, dt.25<sup>th</sup> August, 2023 regarding inclusion of Addendum to Model Building Bye-Laws – 2016."
-    ]
+    "date": "14/06/2021"
   },
   {
-    "clause": "Reg. 15.4",
-    "title": "GUIDELINES FOR STREET DESIGN IN CITY / TOWN.",
-    "chapter": "Chapter 15",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding GUIDELINES FOR STREET DESIGN IN CITY / TOWN..",
-    "citation": "() Fee for Licening - The annal licening fee hall be a follow :-",
-    "occurrences_count": 2,
-    "line_numbers": [
-      14127,
-      14139
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup> **Fees for Licensing - The annual licensing fees shall be as follows :-**",
-      "<sup>(#)</sup> Clarification issued vide Order No. CR 236/18 (Part 2), dt, 23<sup>rd</sup> December, 2021."
-    ]
-  },
-  {
-    "clause": "Reg. 2.2.11",
-    "title": "<sup>(#)</sup> Clearance from other Departments",
-    "chapter": "Chapter 2",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding <sup>(#)</sup> Clearance from other Departments.",
-    "citation": "2.2.11 () Clearance from other Deartment",
-    "occurrences_count": 2,
-    "line_numbers": [
-      1661,
-      1667
-    ],
-    "raw_excerpts": [
-      "### 2.2.11 <sup>(#)</sup> Clearance from other Departments",
-      "<sup>(#)</sup>*Clarification issued vide letter - CR 42/21/UD 12, dt. 14<sup>th</sup> June, 2021.*"
-    ]
-  },
-  {
-    "clause": "Reg. 2.2.12",
-    "title": "<sup>(#)</sup> Building / Layout Permission Scrutiny Fee",
-    "chapter": "Chapter 2",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding <sup>(#)</sup> Building / Layout Permission Scrutiny Fee.",
-    "citation": "2.2.12 () Bilding  Layot Permiion Scrtiny Fee",
+    "clause": "Reg. 6.3 (Note xii)",
+    "title": "Point Access & Dead-End Roads: Building Potential vs Building Height",
+    "chapter": "Chapter 6: General Building Requirements",
+    "chapter_num": 6,
+    "chapter_file": "/chapters/ch06.html",
+    "anchor": "clarification-6-3-xii",
+    "order_ref": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 16)",
+    "ambiguity": "Table 6-G Note (xii) allows plots accessed via a dead-end road (point access) <= 100m in length to enjoy the full FSI potential of the main road. Architects assumed this meant they could also build high-rise towers up to unlimited height, ignoring access widths required for fire engines.",
+    "ruling": "The Government ruled that while FSI potential is derived from the main road, building height is NOT unrestricted. Permissions must jointly comply with Reg 3.3.9 (Special Building access width), Reg 6.10.1 (general height limitations), and for Pune Municipal Corporation, Reg 10.1.1 specific height ceilings. Fire tender maneuverability cannot be compromised.",
+    "takeaway": "You can get high FSI from the arterial road on a short cul-de-sac (<=100m), but your structure's vertical height is still strictly bounded by physical access width and CFO fire tender road norms.",
+    "citation": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 16) • Reg. 6.3 (Note xii)",
+    "impact_summary": "Table 6-G Note (xii) allows plots accessed via a dead-end road (point access) <= 100m in length to enjoy the full FSI potential of the main road. Architects assumed this meant they could also build high-rise towers up to unlimited height, ignoring access widths required for fire engines. Ruling: The Government ruled that while FSI potential is derived from the main road, building height is NOT unrestricted. Permissions must jointly comply with Reg 3.3.9 (Special Building access width), Reg 6.10.1 (general height limitations), and for Pune Municipal Corporation, Reg 10.1.1 specific height ceilings. Fire tender maneuverability cannot be compromised.",
     "occurrences_count": 1,
-    "line_numbers": [
-      1673
-    ],
-    "raw_excerpts": [
-      "## 2.2.12 <sup>(#)</sup> Building / Layout Permission Scrutiny Fee"
-    ]
+    "date": "14/06/2021"
+  },
+  {
+    "clause": "Reg. 6.3 (Note xiv)",
+    "title": "Gross vs Net Plot Area for Calculating Premium FSI & TDR Potential",
+    "chapter": "Chapter 6: General Building Requirements",
+    "chapter_num": 6,
+    "chapter_file": "/chapters/ch06.html",
+    "anchor": "clarification-6-3-xiv",
+    "order_ref": "Order No. CR 236/18 (Part 2) dt. 17th September, 2021",
+    "ambiguity": "When a plot loses land to DP road widening, public reservations, or mandatory amenity space handed over to the Authority, should Premium FSI and TDR loading caps be calculated on the original gross plot area or the net balance plot area?",
+    "ruling": "The Government clarified that Basic FSI is calculated strictly on the net plot remaining with the owner after deducting surrendered areas. However, the ENTIRE gross area of the plot may be considered for calculating permissible Premium FSI + TDR potential, provided the reservation or amenity space was handed over to the Authority.",
+    "takeaway": "Land surrendered for public amenities or road widening is not a total FSI loss: the owner retains the legal right to load Premium FSI and TDR over the surrendered area onto their remaining net land parcel.",
+    "citation": "Order No. CR 236/18 (Part 2) dt. 17th September, 2021 • Reg. 6.3 (Note xiv)",
+    "impact_summary": "When a plot loses land to DP road widening, public reservations, or mandatory amenity space handed over to the Authority, should Premium FSI and TDR loading caps be calculated on the original gross plot area or the net balance plot area? Ruling: The Government clarified that Basic FSI is calculated strictly on the net plot remaining with the owner after deducting surrendered areas. However, the ENTIRE gross area of the plot may be considered for calculating permissible Premium FSI + TDR potential, provided the reservation or amenity space was handed over to the Authority.",
+    "occurrences_count": 1,
+    "date": "17/09/2021"
+  },
+  {
+    "clause": "Reg. 6.2.3(a)",
+    "title": "Front Margins for Special Buildings vs High-Rise Height Formulas",
+    "chapter": "Chapter 6: General Building Requirements",
+    "chapter_num": 6,
+    "chapter_file": "/chapters/ch06.html",
+    "anchor": "clarification-6-2-3-a",
+    "order_ref": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 8)",
+    "ambiguity": "For buildings taller than standard height, Reg 6.2.3 requires increasing margins. Municipal officers were demanding that the front road setback also be stepped back proportionally to building height, breaking street building lines.",
+    "ruling": "The Government clarified that for Special Buildings, front margin shall be strictly as specified in Table 6-D IRRESPECTIVE of building height to maintain a uniform street line. However, side and rear marginal distances must strictly provide a minimum 6.0m clear motorable access way for fire appliances as per Reg 2.2.8(a) and Reg 3.3.9.",
+    "takeaway": "Front setbacks follow the road width table uniformly so your facade aligns with the street; side and rear setbacks must maintain the mandatory 6.00m unobstructed fire-fighting ring corridor.",
+    "citation": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 8) • Reg. 6.2.3(a)",
+    "impact_summary": "For buildings taller than standard height, Reg 6.2.3 requires increasing margins. Municipal officers were demanding that the front road setback also be stepped back proportionally to building height, breaking street building lines. Ruling: The Government clarified that for Special Buildings, front margin shall be strictly as specified in Table 6-D IRRESPECTIVE of building height to maintain a uniform street line. However, side and rear marginal distances must strictly provide a minimum 6.0m clear motorable access way for fire appliances as per Reg 2.2.8(a) and Reg 3.3.9.",
+    "occurrences_count": 1,
+    "date": "14/06/2021"
+  },
+  {
+    "clause": "Reg. 6.2.3(b)",
+    "title": "Exemption of Stilt Parking Height When Housing Society Amenities",
+    "chapter": "Chapter 6: General Building Requirements",
+    "chapter_num": 6,
+    "chapter_file": "/chapters/ch06.html",
+    "anchor": "clarification-6-2-3-b",
+    "order_ref": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 9)",
+    "ambiguity": "Reg 6.2.3(b) allows stilt parking height up to 6.0m to be deducted when calculating overall building height for marginal distances. Scrutiny officers objected when developers placed mandatory society amenities (fitness center, crèche, society office, driver's room under Reg 9.31) in part of the stilt, claiming the stilt was no longer purely parking.",
+    "ruling": "The Government clarified that amenities permitted under Regulation 9.31(i) to (iii) located within part of the parking stilt are considered ancillary to parking. Therefore, stilt height up to 6.0m continues to be excluded when measuring building height for marginal distances.",
+    "takeaway": "Locating society offices, gyms, driver restrooms, or daycare rooms in the stilt floor under Reg 9.31 does not disqualify the 6m height exemption for marginal distance calculations.",
+    "citation": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 9) • Reg. 6.2.3(b)",
+    "impact_summary": "Reg 6.2.3(b) allows stilt parking height up to 6.0m to be deducted when calculating overall building height for marginal distances. Scrutiny officers objected when developers placed mandatory society amenities (fitness center, crèche, society office, driver's room under Reg 9.31) in part of the stilt, claiming the stilt was no longer purely parking. Ruling: The Government clarified that amenities permitted under Regulation 9.31(i) to (iii) located within part of the parking stilt are considered ancillary to parking. Therefore, stilt height up to 6.0m continues to be excluded when measuring building height for marginal distances.",
+    "occurrences_count": 1,
+    "date": "14/06/2021"
   },
   {
     "clause": "Reg. 2.2.13",
-    "title": "<sup>(#)</sup> Development Charges",
-    "chapter": "Chapter 2",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding <sup>(#)</sup> Development Charges.",
-    "citation": "2.2.13 () Develoment Charge",
-    "occurrences_count": 2,
-    "line_numbers": [
-      1695,
-      1703
-    ],
-    "raw_excerpts": [
-      "## 2.2.13 <sup>(#)</sup> Development Charges",
-      "<sup>(#)</sup> Clarification issued vide Order No.CR.236/18, dt.23<sup>rd</sup> December, 2021"
-    ]
+    "title": "Transferability of Development Charges on Land Sale",
+    "chapter": "Chapter 2: Development Permissions",
+    "chapter_num": 2,
+    "chapter_file": "/chapters/ch02.html",
+    "anchor": "clarification-2-2-13-transfer",
+    "order_ref": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 3)",
+    "ambiguity": "When an earlier development permission lapsed and the plot was sold to a new buyer, municipal corporations demanded fresh development charges under Sec 124A from the new buyer, refusing to credit payments made by the prior owner.",
+    "ruling": "The Government ruled that Development Charges under Section 124A of the MRTP Act, 1966 attach to the development and the land parcel, NOT to the individual applicant. Even if the land is sold, the new owner is entitled to full adjustment/credit of all previously deposited development charges when applying for revised permission.",
+    "takeaway": "Development charges run with the land. A new buyer or developer does not have to repay charges already remitted for approved built-up areas.",
+    "citation": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 3) • Reg. 2.2.13",
+    "impact_summary": "When an earlier development permission lapsed and the plot was sold to a new buyer, municipal corporations demanded fresh development charges under Sec 124A from the new buyer, refusing to credit payments made by the prior owner. Ruling: The Government ruled that Development Charges under Section 124A of the MRTP Act, 1966 attach to the development and the land parcel, NOT to the individual applicant. Even if the land is sold, the new owner is entitled to full adjustment/credit of all previously deposited development charges when applying for revised permission.",
+    "occurrences_count": 1,
+    "date": "14/06/2021"
+  },
+  {
+    "clause": "Reg. 2.2.13(ii)",
+    "title": "Levy of Development Charges on Total P-Line Built-Up Area",
+    "chapter": "Chapter 2: Development Permissions",
+    "chapter_num": 2,
+    "chapter_file": "/chapters/ch02.html",
+    "anchor": "clarification-2-2-13-pline",
+    "order_ref": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 15)",
+    "ambiguity": "Controversy existed regarding whether Sec 124A development charges should be assessed only on Basic FSI, or on Ancillary FSI, or on total gross slab area including balconies and passages.",
+    "ruling": "The Government clarified that Section 124A requires charges on all development requiring permission. In UDCPR, development charges must be levied on the entire built-up area encompassed within the P-line (which includes Ancillary FSI), categorized according to the principal use of land and building.",
+    "takeaway": "Budget for statutory development charges against the entire P-line construction envelope, including all Ancillary FSI components.",
+    "citation": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 15) • Reg. 2.2.13(ii)",
+    "impact_summary": "Controversy existed regarding whether Sec 124A development charges should be assessed only on Basic FSI, or on Ancillary FSI, or on total gross slab area including balconies and passages. Ruling: The Government clarified that Section 124A requires charges on all development requiring permission. In UDCPR, development charges must be levied on the entire built-up area encompassed within the P-line (which includes Ancillary FSI), categorized according to the principal use of land and building.",
+    "occurrences_count": 1,
+    "date": "14/06/2021"
   },
   {
     "clause": "Reg. 2.2.14",
-    "title": "<sup>(#)</sup> Premium Charges and Fire Infrastructure Charges.",
-    "chapter": "Chapter 2",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding <sup>(#)</sup> Premium Charges and Fire Infrastructure Charges..",
-    "citation": "2.2.14 () Premim Charge and Fire Infratrctre Charge.",
-    "occurrences_count": 3,
-    "line_numbers": [
-      1731,
-      1741,
-      1781
-    ],
-    "raw_excerpts": [
-      "## 2.2.14 <sup>(#)</sup> Premium Charges and Fire Infrastructure Charges.",
-      "<sup>(#)</sup> *Clarifications issued vide letter CR.42/21/UD-12, dt.14<sup>th</sup> June, 2021 & CR.236/18 (Part 2), dt.23<sup>rd</sup> December, 2021*",
-      "ii) <sup>(#)</sup> **Fire Infrastructure Charges** - These charges shall be decided by the Government from time to time"
-    ]
-  },
-  {
-    "clause": "Reg. 2.2.17",
-    "title": "Size of Drawing sheets",
-    "chapter": "Chapter 5",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding Size of Drawing sheets.",
-    "citation": "() Clarification ied vide Order No.CR.1032021, dt.2nd Agt, 2021",
+    "title": "50:50 Apportionment of Premium Charges to State Government",
+    "chapter": "Chapter 2: Development Permissions",
+    "chapter_num": 2,
+    "chapter_file": "/chapters/ch02.html",
+    "anchor": "clarification-2-2-14",
+    "order_ref": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 4)",
+    "ambiguity": "Several UDCPR regulations (e.g. Table 6-G Note viii) state that premium sharing between the Planning Authority and Government shall be 'as decided by Government from time to time.' Authorities retained 100% of the funds in the absence of explicit local circulars.",
+    "ruling": "The Government directed that wherever a specific percentage is not explicitly stated in any regulation, 50% of all premium charges recovered by the Authority must be deposited with the State Government pursuant to Regulation 2.2.14.",
+    "takeaway": "All statutory premiums (Premium FSI, special user conversions) are uniformly split 50% to the Local Planning Authority civic infrastructure fund and 50% to the State Government exchequer.",
+    "citation": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 4) • Reg. 2.2.14",
+    "impact_summary": "Several UDCPR regulations (e.g. Table 6-G Note viii) state that premium sharing between the Planning Authority and Government shall be 'as decided by Government from time to time.' Authorities retained 100% of the funds in the absence of explicit local circulars. Ruling: The Government directed that wherever a specific percentage is not explicitly stated in any regulation, 50% of all premium charges recovered by the Authority must be deposited with the State Government pursuant to Regulation 2.2.14.",
     "occurrences_count": 1,
-    "line_numbers": [
-      1797
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup> *Clarification issued vide Order No.CR.103/2021, dt.2<sup>nd</sup> August, 2021*"
-    ]
-  },
-  {
-    "clause": "Reg. 2.2.3",
-    "title": "<sup>(#)</sup> Ownership title and area",
-    "chapter": "Chapter 2",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding <sup>(#)</sup> Ownership title and area.",
-    "citation": "2.2.3 () Ownerhi title and area",
-    "occurrences_count": 2,
-    "line_numbers": [
-      1473,
-      1479
-    ],
-    "raw_excerpts": [
-      "### 2.2.3 <sup>(#)</sup> Ownership title and area",
-      "<sup>(#)</sup> *Clarification issued vide letter – CR.42/21 dt.14<sup>th</sup> June, 2021*"
-    ]
-  },
-  {
-    "clause": "Reg. 2.2.8",
-    "title": "<sup>(#)</sup> **Building plans for Special Buildings**",
-    "chapter": "Chapter 2",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding <sup>(#)</sup> **Building plans for Special Buildings**.",
-    "citation": "2.2.8 () Bilding lan for Secial Bilding",
-    "occurrences_count": 2,
-    "line_numbers": [
-      1607,
-      1623
-    ],
-    "raw_excerpts": [
-      "### 2.2.8 <sup>(#)</sup> **Building plans for Special Buildings**",
-      "<sup>(#)</sup>Clarification issued vide Order - CR 236/18 (Part 2), dt. 23<sup>rd</sup> December, 2021"
-    ]
-  },
-  {
-    "clause": "Reg. 2.3",
-    "title": "DISCRETIONARY POWERS - INTERPRETATION",
-    "chapter": "Chapter 5",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding DISCRETIONARY POWERS - INTERPRETATION.",
-    "citation": "() vi) Modify the limit of a zone where the bondary line of the zone divide a lot. In ch cae, the zone covering area more than 50% hall be conidered;",
-    "occurrences_count": 1,
-    "line_numbers": [
-      1861
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup> vi) Modify the limit of a zone where the boundary line of the zone divides a plot. In such cases, the zone covering area more than 50% shall be considered;"
-    ]
-  },
-  {
-    "clause": "Reg. 2.4",
-    "title": "DISCRETIONARY POWERS - RELAXATIONS IN SPECIFIC CASES",
-    "chapter": "Chapter 5",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding DISCRETIONARY POWERS - RELAXATIONS IN SPECIFIC CASES.",
-    "citation": "() Directive ied by Govt. .154 vide Order CR.No.23618 (Part 2), dt.26th Setember, 2022 & Clarification ied vide Order No.CR.23618 (Part 2) & Order No.CR.12822, dt.26th Setember, 2022",
-    "occurrences_count": 1,
-    "line_numbers": [
-      1877
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup> Directives issued by Govt. u/s.154 vide Order CR.No.236/18 (Part 2), dt.26<sup>th</sup> September, 2022 & Clarifications issued vide Order No.CR.236/18 (Part 2) & Order No.CR.128/22, dt.26<sup>th</sup> September, 2022"
-    ]
-  },
-  {
-    "clause": "Reg. 2.5",
-    "title": "<sup>(#)</sup> DRAFTING ERROR",
-    "chapter": "Chapter 5",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding <sup>(#)</sup> DRAFTING ERROR.",
-    "citation": "2.5 () DRAFTING ERROR",
-    "occurrences_count": 1,
-    "line_numbers": [
-      1883
-    ],
-    "raw_excerpts": [
-      "## 2.5 <sup>(#)</sup> DRAFTING ERROR"
-    ]
-  },
-  {
-    "clause": "Reg. 2.6.2",
-    "title": "Deemed Permission",
-    "chapter": "Chapter 5",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding Deemed Permission.",
-    "citation": "() Clarification ied vide Letter No. CR 1821, dt. 23rd December, 2021.",
-    "occurrences_count": 1,
-    "line_numbers": [
-      1907
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup> Clarification issued vide Letter No. CR 18/21, dt. 23<sup>rd</sup> December, 2021."
-    ]
+    "date": "14/06/2021"
   },
   {
     "clause": "Reg. 2.7.1",
-    "title": "<sup>(#)</sup> Commencement",
-    "chapter": "Chapter 5",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding <sup>(#)</sup> Commencement.",
-    "citation": "2.7.1 () Commencement",
+    "title": "Statutory Commencement in Multi-Building Group Housing Schemes",
+    "chapter": "Chapter 2: Development Permissions",
+    "chapter_num": 2,
+    "chapter_file": "/chapters/ch02.html",
+    "anchor": "clarification-2-7-1",
+    "order_ref": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 5)",
+    "ambiguity": "Under Reg 2.7.1, commencement requires work up to plinth level within 1 year. For township and group housing schemes containing 10-20 towers, authorities were declaring permissions lapsed for buildings that had not reached plinth individually within the first year.",
+    "ruling": "The Government clarified that a group housing layout has a single integrated development permission. It is impossible to begin all towers simultaneously. Completing the plinth of ANY single building within the valid period constitutes statutory commencement for the ENTIRE scheme, and the sanction does not lapse partially or building-by-building.",
+    "takeaway": "Achieving plinth level on Phase 1 / Tower 1 legally protects the entire approved multi-tower master layout against statutory lapsing.",
+    "citation": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 5) • Reg. 2.7.1",
+    "impact_summary": "Under Reg 2.7.1, commencement requires work up to plinth level within 1 year. For township and group housing schemes containing 10-20 towers, authorities were declaring permissions lapsed for buildings that had not reached plinth individually within the first year. Ruling: The Government clarified that a group housing layout has a single integrated development permission. It is impossible to begin all towers simultaneously. Completing the plinth of ANY single building within the valid period constitutes statutory commencement for the ENTIRE scheme, and the sanction does not lapse partially or building-by-building.",
     "occurrences_count": 1,
-    "line_numbers": [
-      1929
-    ],
-    "raw_excerpts": [
-      "### 2.7.1 <sup>(#)</sup> Commencement"
-    ]
+    "date": "14/06/2021"
   },
   {
-    "clause": "Reg. 2.7.2",
-    "title": "Development of Land Sub-division / Group Housing Schemes",
-    "chapter": "Chapter 5",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding Development of Land Sub-division / Group Housing Schemes.",
-    "citation": "() Clarification ied vide Order No.CR.23618, dt.23rd December, 2021",
+    "clause": "Reg. 2.2.12",
+    "title": "Remittance of Scrutiny Fees in Regional Plan Gaothan Areas",
+    "chapter": "Chapter 2: Development Permissions",
+    "chapter_num": 2,
+    "chapter_file": "/chapters/ch02.html",
+    "anchor": "clarification-2-2-12",
+    "order_ref": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 2)",
+    "ambiguity": "In Regional Plan jurisdictions, Section 18(1)(ii) empowers Gram Panchayats to issue gaothan permissions with Town Planning approval. Applicants were confused about whether scrutiny fees should be paid to the Gram Panchayat or the District Town Planning Office.",
+    "ruling": "The Government clarified that because dedicated Town Planning cadres are not yet deployed at the Zilla Parishad / Panchayat Samiti level, scrutiny is conducted by the District Branch Office of the Town Planning and Valuation Department. Scrutiny fees must be deposited directly with the District Town Planning Office.",
+    "takeaway": "For rural and gaothan layouts in Regional Plan areas, pay scrutiny fees directly to the District ADTP/DDTP branch office that performs technical plan examination.",
+    "citation": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 2) • Reg. 2.2.12",
+    "impact_summary": "In Regional Plan jurisdictions, Section 18(1)(ii) empowers Gram Panchayats to issue gaothan permissions with Town Planning approval. Applicants were confused about whether scrutiny fees should be paid to the Gram Panchayat or the District Town Planning Office. Ruling: The Government clarified that because dedicated Town Planning cadres are not yet deployed at the Zilla Parishad / Panchayat Samiti level, scrutiny is conducted by the District Branch Office of the Town Planning and Valuation Department. Scrutiny fees must be deposited directly with the District Town Planning Office.",
     "occurrences_count": 1,
-    "line_numbers": [
-      1947
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup> Clarification issued vide Order No.CR.236/18, dt.23<sup>rd</sup> December, 2021"
-    ]
+    "date": "14/06/2021"
   },
   {
-    "clause": "Reg. 3.1.6",
-    "title": "<sup>(#)</sup> Development along Highways / Classified Roads",
-    "chapter": "Chapter 3",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding <sup>(#)</sup> Development along Highways / Classified Roads.",
-    "citation": "3.1.6 () Develoment along Highway  Claified Road",
+    "clause": "Reg. 3.3.8(b)",
+    "title": "Classified Highway Road Widths: DP / RP Width vs UDCPR Table",
+    "chapter": "Chapter 3: Land Sub-division and Layout",
+    "chapter_num": 3,
+    "chapter_file": "/chapters/ch03.html",
+    "anchor": "clarification-3-3-8-b",
+    "order_ref": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 6)",
+    "ambiguity": "Disputes arose when the Development Plan or Regional Plan showed a State Highway with a planned widening of 30m, but Reg 3.3.8(b) listed standard State Highways as 45m. Planners argued over which width took legal precedence.",
+    "ruling": "The Government ruled that where the DP, RP, Planning Proposal, or Town Planning Scheme explicitly indicates an existing or widening road width, that statutory DP/RP width strictly prevails. The standard widths in Table 3.3.8(b) (e.g. 45m for SH, 60m for NH) apply ONLY if no road width is designated on the sanctioned statutory plan.",
+    "takeaway": "Sanctioned DP/RP road lines always supersede UDCPR default classified road widths.",
+    "citation": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 6) • Reg. 3.3.8(b)",
+    "impact_summary": "Disputes arose when the Development Plan or Regional Plan showed a State Highway with a planned widening of 30m, but Reg 3.3.8(b) listed standard State Highways as 45m. Planners argued over which width took legal precedence. Ruling: The Government ruled that where the DP, RP, Planning Proposal, or Town Planning Scheme explicitly indicates an existing or widening road width, that statutory DP/RP width strictly prevails. The standard widths in Table 3.3.8(b) (e.g. 45m for SH, 60m for NH) apply ONLY if no road width is designated on the sanctioned statutory plan.",
     "occurrences_count": 1,
-    "line_numbers": [
-      2159
-    ],
-    "raw_excerpts": [
-      "## 3.1.6 <sup>(#)</sup> Development along Highways / Classified Roads"
-    ]
+    "date": "14/06/2021"
   },
   {
-    "clause": "Reg. 3.1.9",
-    "title": "Restrictions in the vicinity of Airport",
-    "chapter": "Chapter 3",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding Restrictions in the vicinity of Airport.",
-    "citation": "() Clarificationied vide Order No.CR.23618 (Part –2), dt.23rd December, 2021",
+    "clause": "Reg. 4.11(ix)",
+    "title": "Farm Houses in Agricultural Zones: Separate Accessory Structures",
+    "chapter": "Chapter 4: Permissible Uses Across Zones",
+    "chapter_num": 4,
+    "chapter_file": "/chapters/ch04.html",
+    "anchor": "clarification-4-11-ix",
+    "order_ref": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 7)",
+    "ambiguity": "Regulation 4.11(ix) allows one farmhouse per holding with FSI 0.04 up to max 400 sqm. Authorities insisted that all built area—including cattle sheds, tractor/implement garages, and fertilizer stores—must be joined under one single roof/building.",
+    "ruling": "The Government clarified that farming operations require separating human dwelling from cattle barns, agro-equipment, and crop storage. The allowable 400 sqm built-up area does NOT need to be in a single building; the residential farmhouse and separate accessory agricultural buildings are permissible across the plot holding.",
+    "takeaway": "You can design a separate farmhouse residence and detached farm shed/barn, provided total aggregate built-up area remains within 400 sq.m. and FSI 0.04.",
+    "citation": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 7) • Reg. 4.11(ix)",
+    "impact_summary": "Regulation 4.11(ix) allows one farmhouse per holding with FSI 0.04 up to max 400 sqm. Authorities insisted that all built area—including cattle sheds, tractor/implement garages, and fertilizer stores—must be joined under one single roof/building. Ruling: The Government clarified that farming operations require separating human dwelling from cattle barns, agro-equipment, and crop storage. The allowable 400 sqm built-up area does NOT need to be in a single building; the residential farmhouse and separate accessory agricultural buildings are permissible across the plot holding.",
     "occurrences_count": 1,
-    "line_numbers": [
-      2192
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup> Clarificationissued vide Order No.CR.236/18 (Part –2), dt.23<sup>rd</sup> December, 2021"
-    ]
+    "date": "14/06/2021"
   },
   {
-    "clause": "Reg. 3.3.8",
-    "title": "Access from the Highways / Classified Roads",
-    "chapter": "Chapter 3",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding Access from the Highways / Classified Roads.",
-    "citation": "() (b) Width of road to be conidered while granting develoment ermiion, nle indicated otherwie in Develoment Plan  Regional Plan  Planning Prooal  T.P. Scheme hall be a mentioned in table below :-",
-    "occurrences_count": 2,
-    "line_numbers": [
-      2345,
-      2355
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup> (b) Width of roads to be considered while granting development permissions, unless indicated otherwise in Development Plan / Regional Plan / Planning Proposal / T.P. Scheme shall be as mentioned in table below :-",
-      "\\*<sup>(#)</sup> Clarification issued vide Order No.CR.236/18, dt.23<sup>rd</sup> December, 2021"
-    ]
-  },
-  {
-    "clause": "Reg. 3.4.1",
-    "title": "Recreational Open Space",
-    "chapter": "Chapter 3",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding Recreational Open Space.",
-    "citation": "()i) The above-mentioned area of 0.4 ha., hall be meared with reference to original holding a on 11thJanary, 1967 and not with reference to b-divided holding in revene  city rvey record thereafter withot the ermiion nder the Maharahtra Regional & Town Planning Act, 1966. However, thi roviion hall not be alicable to lot comlorily got bdivided below 0.4 ha. de to the D.P. R.P. Road  Road widening  reervation  deemed reervation or any other rooal of the Athority.",
-    "occurrences_count": 2,
-    "line_numbers": [
-      2431,
-      2460
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup>i) The above-mentioned area of 0.4 ha., shall be measured with reference to original holding as on 11<sup>th</sup>January, 1967 and not with reference to sub-divided holding in revenue / city survey record thereafter without the permission under the Maharashtra Regional & Town Planning Act, 1966. However, this provision shall not be applicable to plots compulsorily got subdivided below 0.4 ha. due to the D.P./ R.P. Roads / Road widening / reservations / deemed reservations or any other proposal of the Authority.",
-      "<sup>(#)</sup> *Clarification issued vide Order No.CR.104/2022, dt.29<sup>th</sup> November, 2022*"
-    ]
-  },
-  {
-    "clause": "Reg. 3.4.5",
-    "title": "<sup>(#)</sup> Recreational Open Space in Green Belt",
-    "chapter": "Chapter 6",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding <sup>(#)</sup> Recreational Open Space in Green Belt.",
-    "citation": "3.4.5 () Recreational Oen Sace in Green Belt",
+    "clause": "Reg. 4.8.1(xvi)",
+    "title": "Inclusive Housing in Industrial-to-Residential Conversions",
+    "chapter": "Chapter 4: Permissible Uses Across Zones",
+    "chapter_num": 4,
+    "chapter_file": "/chapters/ch04.html",
+    "anchor": "clarification-4-8-1-xvi",
+    "order_ref": "Order No. CR 72/23/UD-12 dt. 25th August, 2023",
+    "ambiguity": "When converting obsolete industrial land to residential or commercial use, developers asked whether standard 20% Inclusive Housing under Regulation 3.8 applies as land surrender or tenement quota.",
+    "ruling": "The Government clarified that regular Regulation 3.8 surrender does not apply directly. Instead, 20% of the land or FSI proposed for residential use must be earmarked for small plots (<100 sq.m.) in plotted layouts or affordable tenements (<50 sq.m. built-up) in group housing.",
+    "takeaway": "Industrial zone conversions carry an inescapable affordable housing mandate: allocate at least 20% of residential potential to units under 50 sq.m.",
+    "citation": "Order No. CR 72/23/UD-12 dt. 25th August, 2023 • Reg. 4.8.1(xvi)",
+    "impact_summary": "When converting obsolete industrial land to residential or commercial use, developers asked whether standard 20% Inclusive Housing under Regulation 3.8 applies as land surrender or tenement quota. Ruling: The Government clarified that regular Regulation 3.8 surrender does not apply directly. Instead, 20% of the land or FSI proposed for residential use must be earmarked for small plots (<100 sq.m.) in plotted layouts or affordable tenements (<50 sq.m. built-up) in group housing.",
     "occurrences_count": 1,
-    "line_numbers": [
-      2508
-    ],
-    "raw_excerpts": [
-      "## 3.4.5 <sup>(#)</sup> Recreational Open Space in Green Belt"
-    ]
-  },
-  {
-    "clause": "Reg. 3.4.7",
-    "title": "Structures permitted in Open Space",
-    "chapter": "Chapter 6",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding Structures permitted in Open Space.",
-    "citation": "() Clarification ied by the Govt. vide letter No.CR.12223UD-12, dt.26th October, 2023",
-    "occurrences_count": 1,
-    "line_numbers": [
-      2526
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup> Clarification issued by the Govt. vide letter No.CR.122/23/UD-12, dt.26<sup>th</sup> October, 2023"
-    ]
-  },
-  {
-    "clause": "Reg. 3.5.1",
-    "title": "<sup>(#)</sup>In the areas of Local Authorities, Special Planning Authorities and Metropolitan Region Development Authorities, Amenity Space as mentioned below on gross area after deducting area under reservations / roads in Development Plan including proposals of road widening therein, shall have to be provided in any layout or sub division of land or proposal for development.",
-    "chapter": "Chapter 6",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding <sup>(#)</sup>In the areas of Local Authorities, Special Planning Authorities and Metropolitan Region Development Authorities, Amenity Space as mentioned below on gross area after deducting area under reservations / roads in Development Plan including proposals of road widening therein, shall have to be provided in any layout or sub division of land or proposal for development..",
-    "citation": "3.5.1 ()In the area of Local Athoritie, Secial Planning Athoritie and Metroolitan Region Develoment Athoritie, Amenity Sace a mentioned below on gro area after dedcting area nder reervation  road in Develoment Plan inclding rooal of road widening therein, hall have to be rovided in any layot or b diviion of land or rooal for develoment.",
-    "occurrences_count": 2,
-    "line_numbers": [
-      2546,
-      2571
-    ],
-    "raw_excerpts": [
-      "### 3.5.1 <sup>(#)</sup>In the areas of Local Authorities, Special Planning Authorities and Metropolitan Region Development Authorities, Amenity Space as mentioned below on gross area after deducting area under reservations / roads in Development Plan including proposals of road widening therein, shall have to be provided in any layout or sub division of land or proposal for development.",
-      "<sup>(#)</sup> Clarifications issued vide Order No.CR.104/2022, dt.29<sup>th</sup> November, 2022 & CR.104/2022, dt.02<sup>nd</sup> June, 2023"
-    ]
-  },
-  {
-    "clause": "Reg. 4.11",
-    "title": "AGRICULTURAL ZONE",
-    "chapter": "Chapter 10",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding AGRICULTURAL ZONE.",
-    "citation": "() ix) Farm hoe hall be ermitted bject to following condition :-",
-    "occurrences_count": 2,
-    "line_numbers": [
-      3442,
-      3452
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup> ix) Farm houses shall be permitted subject to following conditions :-",
-      "<sup>(#)</sup> Clarification issued vide Order No.CR.236/18, dt.23<sup>rd</sup> December, 2021"
-    ]
-  },
-  {
-    "clause": "Reg. 4.12.1",
-    "title": "Following uses shall be permissible",
-    "chapter": "Chapter 7",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding Following uses shall be permissible.",
-    "citation": "() ii) Tree Plantation, Garden, Pblic ark, Landcaing, Recreational Oen Sace, Foretry and Nrery etc.",
-    "occurrences_count": 1,
-    "line_numbers": [
-      3661
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup> ii) Tree Plantation, Gardens, Public park, Landscaping, Recreational Open Space, Forestry and Nursery etc."
-    ]
-  },
-  {
-    "clause": "Reg. 4.14",
-    "title": "REGIONAL PARK ZONE",
-    "chapter": "Chapter 7",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding REGIONAL PARK ZONE.",
-    "citation": "() Clarification ied by the Govt. vide letter No.CR.12223UD-12, dt.26th October, 2023",
-    "occurrences_count": 1,
-    "line_numbers": [
-      3704
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup> *Clarification issued by the Govt. vide letter No.CR.122/23/UD-12, dt.26<sup>th</sup> October, 2023*"
-    ]
-  },
-  {
-    "clause": "Reg. 4.8.1",
-    "title": "Allowing Residential / Commercial Uses in Industrial Zone",
-    "chapter": "Chapter 10",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding Allowing Residential / Commercial Uses in Industrial Zone.",
-    "citation": "()xvi) The roviion of inclive hoing a mentioned in Reglation No.3.8 hall not be alicable. However, 20% of the land or FSI rooed to be ed for reidential roe hall be tilied for lot below 100 q.m.in cae of lotted layot develoment or below 50 q.mt. bilt- area tenement in cae of contrction of hoing cheme.",
-    "occurrences_count": 2,
-    "line_numbers": [
-      3336,
-      3346
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup>xvi) The provision of inclusive housing as mentioned in Regulation No.3.8 shall not be applicable. However, 20% of the land or FSI proposed to be used for residential purpose shall be utilised for plots below 100 sq.m.in case of plotted layout development or below 50 sq.mt. built-up area tenement in case of construction of housing scheme.",
-      "(#) Clarification issued by the Govt. vide Order NO.CR.72/23/UD-12, dt.25<sup>th</sup> August, 2023"
-    ]
-  },
-  {
-    "clause": "Reg. 6.2.2",
-    "title": "Other Buildings",
-    "chapter": "Chapter 3",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding Other Buildings.",
-    "citation": "| 6. () Fel Station |  |  |  |",
-    "occurrences_count": 2,
-    "line_numbers": [
-      4992,
-      4999
-    ],
-    "raw_excerpts": [
-      "| 6. (#) Fuel Stations |  |  |  |",
-      "<sup>(#)</sup> *Clarification issued vide letter No.CR.68/2021 dt., 10<sup>th</sup> May, 2021*"
-    ]
-  },
-  {
-    "clause": "Reg. 6.2.3",
-    "title": "Marginal distances for buildings of heights more than mentioned in Table No.6-D of Regulation No.6.2.1",
-    "chapter": "Chapter 3",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding Marginal distances for buildings of heights more than mentioned in Table No.6-D of Regulation No.6.2.1.",
-    "citation": "6.2.3 Marginal ditance for bilding of height more than mentioned in Table No.6-D of Reglation No.6.2.1",
-    "occurrences_count": 3,
-    "line_numbers": [
-      5027,
-      5031,
-      5039
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup> (a) **Front Margin** - Front margin shall be as given in Table No.6-D shall be applicable to a building irrespective of its height.",
-      "<sup>(#)</sup> (b) **Side or rear marginal distance** - Side or rear marginal distance in relation to the height of the building for light and ventilation shall be as below :-",
-      "<sup>(#)</sup> Clarification issued vide Order No.CR.236/18 (Part 2), dt., 23<sup>rd</sup> December, 2021"
-    ]
-  },
-  {
-    "clause": "Reg. 6.3",
-    "title": "PERMISSIBLE FSI",
-    "chapter": "Chapter 7",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding PERMISSIBLE FSI.",
-    "citation": "() Clarification ied vide Letter No.CR.23618 (Part –2) dt.17th Setember, 2021",
-    "occurrences_count": 2,
-    "line_numbers": [
-      5143,
-      5147
-    ],
-    "raw_excerpts": [
-      "xiv) <sup>(#)</sup> Entire area of plot may be considered for calculating the potential of plot in respect of premium FSI + TDR, but not the basic FSI. Basic FSI shall be calculated on area of the plot remaining with the owner after deducting area under D.P. road / <sup>(1)</sup> road widening / reservations and amenity space. This shall be applicable in cases where reservation area or amenity space is handed over to the authority.",
-      "<sup>(#)</sup> Clarification issued vide Letter No.CR.236/18 (Part –2) dt.17<sup>th</sup> September, 2021"
-    ]
-  },
-  {
-    "clause": "Reg. 7.7",
-    "title": "DEVELOPMENT OF HOUSING FOR EWS / LIG",
-    "chapter": "Chapter 7",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding DEVELOPMENT OF HOUSING FOR EWS / LIG.",
-    "citation": "() 7.7.1 In Reidential Zone -",
-    "occurrences_count": 1,
-    "line_numbers": [
-      5674
-    ],
-    "raw_excerpts": [
-      "### <sup>(#)</sup> 7.7.1 In Residential Zone -"
-    ]
-  },
-  {
-    "clause": "Reg. 7.7.3",
-    "title": "For Regional Plan Area",
-    "chapter": "Chapter 7",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding For Regional Plan Area.",
-    "citation": "() Clarification ied vide Letter No.CR.1002UD-12, dt.18th October, 2023",
-    "occurrences_count": 1,
-    "line_numbers": [
-      5702
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup> Clarification issued vide Letter No.CR.100/2/UD-12, dt.18<sup>th</sup> October, 2023"
-    ]
+    "date": "25/08/2023"
   },
   {
     "clause": "Reg. 9.13",
-    "title": "<sup>(#)</sup> PODIUM",
-    "chapter": "Chapter 9",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding <sup>(#)</sup> PODIUM.",
-    "citation": "9.13 () PODIUM",
-    "occurrences_count": 2,
-    "line_numbers": [
-      6450,
-      6462
-    ],
-    "raw_excerpts": [
-      "## 9.13 <sup>(#)</sup> PODIUM",
-      "<sup>(#)</sup> Clarification issued vide Order No.CR.236/18 (Part 2), dt.23<sup>rd</sup> December, 2021"
-    ]
+    "title": "Podium Setbacks for Special Buildings vs Non-Special Buildings",
+    "chapter": "Chapter 9: General Building Requirements - Parts of Building",
+    "chapter_num": 9,
+    "chapter_file": "/chapters/ch09.html",
+    "anchor": "clarification-9-13",
+    "order_ref": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 10)",
+    "ambiguity": "Regulation 9.13(ii) requires a 6m distance from plot boundaries for podiua in Special Buildings. Clarification was sought on whether the front margin must also be 6m or if Table 6-D applies.",
+    "ruling": "The Government clarified that for Special Buildings, the front setback for a parking podium is governed by Table 6-D front margin, while side and rear boundaries must leave minimum 6.0m clear for fire tenders. For Non-Special Buildings, regular marginal setbacks under the regulations apply.",
+    "takeaway": "Podiums can align with the Table 6-D front building line, but must step back at least 6.00m on all side and rear edges for high-rise fire circulation.",
+    "citation": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 10) • Reg. 9.13",
+    "impact_summary": "Regulation 9.13(ii) requires a 6m distance from plot boundaries for podiua in Special Buildings. Clarification was sought on whether the front margin must also be 6m or if Table 6-D applies. Ruling: The Government clarified that for Special Buildings, the front setback for a parking podium is governed by Table 6-D front margin, while side and rear boundaries must leave minimum 6.0m clear for fire tenders. For Non-Special Buildings, regular marginal setbacks under the regulations apply.",
+    "occurrences_count": 1,
+    "date": "14/06/2021"
   },
   {
-    "clause": "Reg. 9.27.1",
-    "title": "<sup>(#)</sup> Planning and Design",
-    "chapter": "Chapter 9",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding <sup>(#)</sup> Planning and Design.",
-    "citation": "9.27.1 () Planning and Deign",
+    "clause": "Reg. 9.27.1 & 9.29.8",
+    "title": "Fire Lift Requirement for Buildings Between 15m and 24m Height",
+    "chapter": "Chapter 9: General Building Requirements - Parts of Building",
+    "chapter_num": 9,
+    "chapter_file": "/chapters/ch09.html",
+    "anchor": "clarification-9-27-1",
+    "order_ref": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 11)",
+    "ambiguity": "For mid-rise buildings between 15m and 24m height, scrutiny officers insisted on two separate lifts (one passenger lift AND one dedicated fire lift), increasing core costs and structural load for smaller developments.",
+    "ruling": "The Government clarified that for buildings between 15.0m and 24.0m height, providing ONE fire lift is mandatory. An additional passenger lift is NOT required by law for this height category, provided Fire CFO NOC is secured.",
+    "takeaway": "Mid-rise buildings (15m to 24m) can operate with a single high-spec Fire Lift serving daily passenger traffic as well as emergency evacuation.",
+    "citation": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 11) • Reg. 9.27.1 & 9.29.8",
+    "impact_summary": "For mid-rise buildings between 15m and 24m height, scrutiny officers insisted on two separate lifts (one passenger lift AND one dedicated fire lift), increasing core costs and structural load for smaller developments. Ruling: The Government clarified that for buildings between 15.0m and 24.0m height, providing ONE fire lift is mandatory. An additional passenger lift is NOT required by law for this height category, provided Fire CFO NOC is secured.",
     "occurrences_count": 1,
-    "line_numbers": [
-      6595
-    ],
-    "raw_excerpts": [
-      "### 9.27.1 <sup>(#)</sup> Planning and Design"
-    ]
-  },
-  {
-    "clause": "Reg. 9.28.2",
-    "title": "Type of Exits",
-    "chapter": "Chapter 9",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding Type of Exits.",
-    "citation": "() Clarification ied vide Order No.CR.23618 (Part 2), dt.23rd December, 2021",
-    "occurrences_count": 1,
-    "line_numbers": [
-      6633
-    ],
-    "raw_excerpts": [
-      "<sup>(#)</sup> Clarification issued vide Order No.CR.236/18 (Part 2), dt.23<sup>rd</sup> December, 2021"
-    ]
+    "date": "14/06/2021"
   },
   {
     "clause": "Reg. 9.28.8",
-    "title": "Width of staircase",
-    "chapter": "Chapter 9",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding Width of staircase.",
-    "citation": "| () | d) Mlti-toried Reidential Bilding above 24 m.height | 1.50 |",
+    "title": "1.20m Staircase Width Relief for Existing Buildings Crossing 24m",
+    "chapter": "Chapter 9: General Building Requirements - Parts of Building",
+    "chapter_num": 9,
+    "chapter_file": "/chapters/ch09.html",
+    "anchor": "clarification-9-28-8",
+    "order_ref": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 12)",
+    "ambiguity": "When an existing sanctioned building with a 1.20m staircase sought vertical expansion using newly available UDCPR FSI, the height exceeded 24m, triggering a requirement for a 1.50m wide staircase under Table 9-G. Relocating existing load-bearing RCC columns was physically impossible.",
+    "ruling": "The Government provided hardship relief: If floor-wise gross built area is under 750 sq.m. and occupant load calculations support egress, the existing 1.20m staircase is permissible above 24m, PROVIDED an independent external fire escape staircase is provided.",
+    "takeaway": "Brownfield vertical extensions above 24m are not killed by RCC staircase columns if floor plates are <=750 sqm and an external fire staircase is installed.",
+    "citation": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 12) • Reg. 9.28.8",
+    "impact_summary": "When an existing sanctioned building with a 1.20m staircase sought vertical expansion using newly available UDCPR FSI, the height exceeded 24m, triggering a requirement for a 1.50m wide staircase under Table 9-G. Relocating existing load-bearing RCC columns was physically impossible. Ruling: The Government provided hardship relief: If floor-wise gross built area is under 750 sq.m. and occupant load calculations support egress, the existing 1.20m staircase is permissible above 24m, PROVIDED an independent external fire escape staircase is provided.",
     "occurrences_count": 1,
-    "line_numbers": [
-      6756
-    ],
-    "raw_excerpts": [
-      "| (#) | d) Multi-storied Residential Building above 24 m.height | 1.50 |"
-    ]
+    "date": "14/06/2021"
   },
   {
-    "clause": "Reg. 9.29.2",
-    "title": "Revolving doors",
-    "chapter": "Chapter 9",
-    "impact_summary": "Clarifications and executive interpretations issued by the Urban Development Department regarding Revolving doors.",
-    "citation": "\\() Clarification ied vide Order No.CR.23618 (Part 2), dt.23rd December, 2021",
+    "clause": "Reg. 10.4.1",
+    "title": "NMRDA Outer Ring Road 250m Corridor Development Premium",
+    "chapter": "Chapter 10: Special Provisions for Specified Authorities",
+    "chapter_num": 10,
+    "chapter_file": "/chapters/ch10.html",
+    "anchor": "clarification-10-4-1",
+    "order_ref": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 1)",
+    "ambiguity": "Regulation 10.4.1 allows development within the 250m residential belt along Nagpur's 60m Outer Ring Road subject to payment of premium 'as decided by Government.' Inquiries arose on what specific percentage must be charged.",
+    "ruling": "The Government clarified that the 15% land valuation premium previously sanctioned under Order TPS-2416/CR 122(Part-3)/2016/UD-9 dt. 20/11/2018 remains applicable.",
+    "takeaway": "Development permissions in the NMRDA 250m Outer Ring Road corridor require a 15% land rate premium payable to the Authority.",
+    "citation": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 1) • Reg. 10.4.1",
+    "impact_summary": "Regulation 10.4.1 allows development within the 250m residential belt along Nagpur's 60m Outer Ring Road subject to payment of premium 'as decided by Government.' Inquiries arose on what specific percentage must be charged. Ruling: The Government clarified that the 15% land valuation premium previously sanctioned under Order TPS-2416/CR 122(Part-3)/2016/UD-9 dt. 20/11/2018 remains applicable.",
     "occurrences_count": 1,
-    "line_numbers": [
-      6786
-    ],
-    "raw_excerpts": [
-      "\\*<sup>(#)</sup> Clarification issued vide Order No.CR.236/18 (Part 2), dt.23<sup>rd</sup> December, 2021"
-    ]
+    "date": "14/06/2021"
+  },
+  {
+    "clause": "Reg. 11.2.6",
+    "title": "Road Width Eligibility for TDR Loading: 9.0m vs 12.0m Corridors",
+    "chapter": "Chapter 11: Transferable Development Rights (TDR)",
+    "chapter_num": 11,
+    "chapter_file": "/chapters/ch11.html",
+    "anchor": "clarification-11-2-6",
+    "order_ref": "Order No. CR 44/21 dt. 10th June, 2021 & CR 42/21",
+    "ambiguity": "Conflicts occurred across municipal corporations regarding whether plots fronting 9.0m roads were eligible for TDR loading, or if TDR was restricted only to roads 12.0m and wider.",
+    "ruling": "The Government clarified the permissible TDR caps aligned with Table 6-A (congested) and Table 6-G (non-congested). In non-congested areas, roads below 9.0m cannot load TDR; 9.0m to <12.0m roads can utilize limited TDR up to the permissible cap in Table 6-G.",
+    "takeaway": "TDR cannot be loaded on roads below 9.0m in non-congested areas. Road width strictly governs maximum permissible TDR generation and utilization.",
+    "citation": "Order No. CR 44/21 dt. 10th June, 2021 & CR 42/21 • Reg. 11.2.6",
+    "impact_summary": "Conflicts occurred across municipal corporations regarding whether plots fronting 9.0m roads were eligible for TDR loading, or if TDR was restricted only to roads 12.0m and wider. Ruling: The Government clarified the permissible TDR caps aligned with Table 6-A (congested) and Table 6-G (non-congested). In non-congested areas, roads below 9.0m cannot load TDR; 9.0m to <12.0m roads can utilize limited TDR up to the permissible cap in Table 6-G.",
+    "occurrences_count": 1,
+    "date": "10/06/2021"
+  },
+  {
+    "clause": "Appendix C (Reg C-7)",
+    "title": "Uniform Statewide Licensing Fees for Technical Personnel (BPMS)",
+    "chapter": "Chapter 15: Appendices (Appendix C)",
+    "chapter_num": 15,
+    "chapter_file": "/chapters/ch15.html",
+    "anchor": "clarification-c-7",
+    "order_ref": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 14)",
+    "ambiguity": "Several Municipal Corporations (e.g. PMC, PCMC, TMC) had passed local general body resolutions charging exorbitant annual licensing fees from architects and structural engineers, far exceeding UDCPR rates.",
+    "ruling": "The Government directed that with statewide implementation of the online BPMS (Building Plan Management System), uniform standards must prevail. Local authorities are strictly prohibited from charging licensing fees higher than the statutory fees in Reg C-7.2 (Rs. 3,000 for 3 years for Architects/Engineers/Planners; Rs. 1,500 for Supervisors).",
+    "takeaway": "Architects licensed with the Town Planning Department are licensed across Maharashtra. Municipalities cannot charge arbitrary local registration levies beyond UDCPR Appendix C.",
+    "citation": "Order No. CR 42/21/UD 12 dt. 14th June, 2021 (Item 14) • Appendix C (Reg C-7)",
+    "impact_summary": "Several Municipal Corporations (e.g. PMC, PCMC, TMC) had passed local general body resolutions charging exorbitant annual licensing fees from architects and structural engineers, far exceeding UDCPR rates. Ruling: The Government directed that with statewide implementation of the online BPMS (Building Plan Management System), uniform standards must prevail. Local authorities are strictly prohibited from charging licensing fees higher than the statutory fees in Reg C-7.2 (Rs. 3,000 for 3 years for Architects/Engineers/Planners; Rs. 1,500 for Supervisors).",
+    "occurrences_count": 1,
+    "date": "14/06/2021"
   }
 ]

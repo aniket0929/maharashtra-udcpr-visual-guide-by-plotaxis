@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 3 FULL LESSON BUILDER (MODULAR ORCHESTRATOR)
+UDCPR Visual Guide - CHAPTER 3 FULL LESSON BUILDER (MODULAR ORCHESTRATOR)
 Executes building of all 6 comprehensive Drawing Sheet lessons for Chapter 3: General Land Development Requirements.
 Each lesson module resides in `scripts/ch03_lessons/` for clarity and modularity.
 """

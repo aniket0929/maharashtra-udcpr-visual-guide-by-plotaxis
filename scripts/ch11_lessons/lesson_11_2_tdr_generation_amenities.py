@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 11, LESSON 2
+UDCPR Visual Guide - CHAPTER 11, LESSON 2
 Regulation 11.2.1 to 11.2.5: TDR Generation, Surrender Multipliers & Construction Amenity Formula
 File: scripts/ch11_lessons/lesson_11_2_tdr_generation_amenities.py
 """

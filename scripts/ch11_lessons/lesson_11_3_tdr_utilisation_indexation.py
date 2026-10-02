@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 10 / 11, LESSON 3
+UDCPR Visual Guide - CHAPTER 10 / 11, LESSON 3
 Regulation 11.2.6 to 11.2.13: TDR Utilisation, ASR Indexation Formula & Receiving Caps
 File: scripts/ch11_lessons/lesson_11_3_tdr_utilisation_indexation.py
 """

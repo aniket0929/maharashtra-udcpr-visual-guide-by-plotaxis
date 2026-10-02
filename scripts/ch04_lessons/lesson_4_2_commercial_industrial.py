@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 4: LESSON 4.2
+UDCPR Visual Guide - CHAPTER 4: LESSON 4.2
 Module: scripts/ch04_lessons/lesson_4_2_commercial_industrial.py
 Governing Regulations: Regulations 4.7 to 4.9 (Commercial Zone, Industrial Zone, Loom Industry)
 """

@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 5: LESSON 5.5
+UDCPR Visual Guide - CHAPTER 5: LESSON 5.5
 Module: scripts/ch05_lessons/lesson_5_5_special_regional_plans.py
 Governing Regulations: Regulations 5.4, 5.6, 5.8, 5.10, and 5.12 (Kolhapur, LIGO Hingoli, Solapur, Aurangabad)
 """

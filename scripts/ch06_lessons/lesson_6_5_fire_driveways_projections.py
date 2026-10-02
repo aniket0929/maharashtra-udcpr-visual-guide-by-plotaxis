@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 6, LESSON 5
+UDCPR Visual Guide - CHAPTER 6, LESSON 5
 Module: scripts/ch06_lessons/lesson_6_5_fire_driveways_projections.py
 Statutory Anchor: Regulation 6.7, Regulation 6.8, Regulation 6.4 (Table 6-H), & Regulation 1.3(93)(xiv)
 Content: Permissible Projections, Complete Statutory FSI Exclusions (Reg 6.8), and Special Building 6.0m Fire Driveways

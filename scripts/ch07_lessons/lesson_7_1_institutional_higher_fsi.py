@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 7, LESSON 1
+UDCPR Visual Guide - CHAPTER 7, LESSON 1
 Module: scripts/ch07_lessons/lesson_7_1_institutional_higher_fsi.py
 Statutory Anchor: Regulation 7.0 & Regulation 7.1 (Table 7-A)
 Content: Higher FSI for Institutional, Educational, Medical, Religious, Star Hotels, and Public Welfare Buildings

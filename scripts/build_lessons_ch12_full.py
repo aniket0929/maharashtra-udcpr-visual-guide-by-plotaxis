@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 12 FULL LESSON BUILDER (MODULAR ORCHESTRATOR)
+UDCPR Visual Guide - CHAPTER 12 FULL LESSON BUILDER (MODULAR ORCHESTRATOR)
 Executes building of all 4 comprehensive Drawing Sheet lessons for Chapter 12: Structural Safety, Water Supply, Drainage & Sanitary Requirements.
 Each lesson module resides in `scripts/ch12_lessons/` for clarity and modularity.
 """

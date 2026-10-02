@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 6, LESSON 4
+UDCPR Visual Guide - CHAPTER 6, LESSON 4
 Module: scripts/ch06_lessons/lesson_6_4_side_rear_margins.py
 Statutory Anchor: Regulation 6.1.1(iii) Table 6-C, Regulation 6.2.1 Table 6-D, Regulation 6.2.3(b), & Regulation 6.2.4
 Content: Side & Rear Marginal Distances, The H/5 High-Rise Formula (12m Cap), Building Separation, Dead Walls, and Step Margins

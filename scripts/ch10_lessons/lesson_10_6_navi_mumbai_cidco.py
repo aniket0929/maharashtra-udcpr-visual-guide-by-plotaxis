@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 10, LESSON 6
+UDCPR Visual Guide - CHAPTER 10, LESSON 6
 Regulation 10.10 & 10.14: Navi Mumbai (NMMC) & CIDCO Ecosystem (Redevelopment & 12.5% GES)
 File: scripts/ch10_lessons/lesson_10_6_navi_mumbai_cidco.py
 """

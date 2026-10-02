@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - TOPIC 3 WORKBENCH GENERATOR
+UDCPR Visual Guide - TOPIC 3 WORKBENCH GENERATOR
 Builds topics/parking-and-circulation.html with dynamic interactive CAD stall layout plates,
 basement ramp cross-section, tenement quota engine, and verification quiz.
 """
@@ -14,7 +14,7 @@ HTML_CONTENT = """<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Parking Standards, Bay Geometry &amp; Circulation Ramps | UDCPR from Scratch</title>
+  <title>Parking Standards, Bay Geometry &amp; Circulation Ramps | UDCPR Visual Guide</title>
   <meta name="description" content="Interactive Parking Calculator &amp; Layout Engineering Engine for Maharashtra UDCPR. Vehicle bay dimensions, tenement quotas, 10% visitor spaces, and basement ramp slope drawings.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -76,9 +76,9 @@ HTML_CONTENT = """<!DOCTYPE html>
     <!-- Sheet Navigation -->
     <nav class="sheet-nav">
       <a href="/" class="brand-block">
-        <span class="brand-stamp">UDCPR</span>
+        <span class="brand-stamp">PLOTAXIS</span>
         <div class="brand-title-group">
-          <h1>UDCPR from Scratch</h1>
+          <h1>UDCPR Visual Guide by Plotaxis</h1>
           <span>Practice Workbench • Drawing Sheet</span>
         </div>
       </a>
@@ -399,7 +399,7 @@ HTML_CONTENT = """<!DOCTYPE html>
 
     <!-- Sheet Footer -->
     <footer class="sheet-footer">
-      <div>UDCPR FROM SCRATCH • TOPIC 03: PARKING STANDARDS &amp; CIRCULATION RAMPS</div>
+      <div>UDCPR Visual Guide • TOPIC 03: PARKING STANDARDS &amp; CIRCULATION RAMPS</div>
       <div>DRAWING SHEET ARCHITECTURAL SPECIFICATION • MAHARASHTRA STATE</div>
     </footer>
   </div>

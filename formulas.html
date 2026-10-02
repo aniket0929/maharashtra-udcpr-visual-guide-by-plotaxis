@@ -3,13 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Statutory Formulas & Master Calculators | UDCPR from Scratch</title>
-  <meta name="description" content="Interactive calculation workbench for Maharashtra UDCPR-2020: Net Plot Area, Permissible FSI, Premium FSI costs, Setbacks, Parking, and TDR utilization.">
+  <title>Statutory Formulas & Master Calculators | UDCPR Visual Guide</title>
+  <meta name="description" content="18 Interactive calculation engines for Maharashtra UDCPR-2020: Net Plot Area, Permissible FSI, Premium FSI costs, Setbacks, Chowks, Parking, TDR, and Slum Incentives.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/blueprint.css">
   <link rel="stylesheet" href="/css/components.css">
+  <!-- KaTeX for crisp mathematical rendering -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
 </head>
 <body>
 
@@ -29,20 +32,19 @@
     <!-- Sheet Navigation -->
     <nav class="sheet-nav">
       <a href="/" class="brand-block">
-        <span class="brand-stamp">UDCPR</span>
+        <span class="brand-stamp">PLOTAXIS</span>
         <div class="brand-title-group">
-          <h1>UDCPR from Scratch</h1>
+          <h1>UDCPR Visual Guide by Plotaxis</h1>
           <span>Formulas Workbench • Drawing Sheet</span>
         </div>
       </a>
 
       <ul class="nav-menu">
-        <li class="nav-item"><a href="/topics/">Topics</a></li>
-        <li class="nav-item"><a href="/chapters/">Chapters</a></li>
         <li class="nav-item"><a href="/glossary.html">Glossary</a></li>
-        <li class="nav-item"><a href="/formulas.html" class="active">Formulas &amp; Calcs</a></li>
+        <li class="nav-item"><a href="/chapters/">Chapters</a></li>
+        <li class="nav-item"><a href="/topics/">Topics</a></li>
+        <li class="nav-item"><a href="/formulas.html" class="active">Formulas</a></li>
         <li class="nav-item"><a href="/amendments.html">Amendments (#)</a></li>
-        <li class="nav-item"><a href="/govt-orders.html">Orders</a></li>
       </ul>
 
       <div class="nav-tools">
@@ -53,26 +55,47 @@
     <!-- Page Header Title Block -->
     <header class="title-block">
       <div>
-        <div class="kicker">STATUTORY MATHEMATICS // 9 MASTER ENGINES</div>
+        <div class="kicker">STATUTORY MATHEMATICS // 18 MASTER ENGINES</div>
         <h1 style="font-size: 2.2rem; margin-bottom: 8px;">
           Master Formulas &amp; Interactive Calculators
         </h1>
         <p style="color: var(--ink-soft); max-width: 760px; font-size: 1.02rem; line-height: 1.6;">
-          Every mathematical equation in UDCPR-2020: Net Plot Area, Total Permissible FSI, Premium FSI costs, Setbacks, Off-Street Parking, and TDR utilization. Adjust inputs to run live calculations for your site.
+          Every statutory mathematical equation in UDCPR-2020 decoded into <strong>Plain-Language Visual "Pill" Equations</strong>, academic KaTeX math, common exam traps, and real-time interactive calculation engines.
         </p>
+
+        <div style="margin-top:16px; max-width:540px;">
+          <input type="text" id="formula-search-input" class="sheet-input" placeholder="Search formulas (e.g. Net Plot, H/5, Amenity TDR, Parking, Chowk)...">
+        </div>
       </div>
 
-      <div style="border:1px solid var(--ink); background:var(--paper); padding:16px; display:flex; flex-direction:column; justify-content:center;">
-        <span class="kicker-muted">CALCULATOR ENGINES</span>
-        <div style="font-family:var(--disp); font-size:2.2rem; font-weight:700; color:var(--blueprint); line-height:1;">9</div>
+      <div style="border:1px solid var(--ink); background:var(--paper); padding:16px; display:flex; flex-direction:column; justify-content:center; min-width:180px;">
+        <span class="kicker-muted">STATUTORY ENGINES</span>
+        <div style="font-family:var(--disp); font-size:2.2rem; font-weight:700; color:var(--blueprint); line-height:1;" id="stat-formula-count">18</div>
         <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft); margin-top:6px;">
           Live Real-Time Math
         </div>
       </div>
     </header>
 
+    <!-- Category Filter Tabs -->
+    <div class="button-group" style="margin-top:24px; margin-bottom:16px; overflow-x:auto;" id="formula-filter-tabs">
+      <button class="active" data-cat="all">All (18)</button>
+      <button data-cat="Land & Layout">Land &amp; Layout</button>
+      <button data-cat="Building Potential">Building Potential</button>
+      <button data-cat="Setbacks & Margins">Setbacks &amp; Margins</button>
+      <button data-cat="Circulation & Parking">Circulation &amp; Parking</button>
+      <button data-cat="Redevelopment & TDR">Redevelopment &amp; TDR</button>
+      <button data-cat="Evacuation & Egress">Evacuation &amp; Egress</button>
+      <button data-cat="Services & Sustainability">Services</button>
+      <button data-cat="Fees & Charges">Fees &amp; Charges</button>
+    </div>
+
     <!-- Main Calculator Container -->
-    <main style="margin-top: 32px;">
+    <main style="margin-top: 16px;">
+      <div style="font-family:var(--mono); font-size:11px; color:var(--ink-soft); margin-bottom:16px;" id="formula-count-display">
+        Showing 18 statutory formulas
+      </div>
+
       <div id="formulas-list-container">
         <div style="text-align:center; padding:40px; color:var(--ink-soft); font-family:var(--mono);">
           Loading interactive statutory calculation engines...
@@ -82,7 +105,7 @@
 
     <!-- Sheet Footer -->
     <footer class="sheet-footer">
-      <div>UDCPR FROM SCRATCH • MATHEMATICAL ENGINES</div>
+      <div>UDCPR Visual Guide • MATHEMATICAL ENGINES</div>
       <div>ACCURATE STATUTORY FORMULATIONS FROM MAHARASHTRA GAZETTE</div>
     </footer>
   </div>

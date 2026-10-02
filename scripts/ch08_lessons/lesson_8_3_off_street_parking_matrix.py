@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 8, LESSON 3
+UDCPR Visual Guide - CHAPTER 8, LESSON 3
 Regulation 8.2 & Table 8-B: Off-Street Parking Matrix, Tenement Tiers & Commercial Standards
 File: scripts/ch08_lessons/lesson_8_3_off_street_parking_matrix.py
 """

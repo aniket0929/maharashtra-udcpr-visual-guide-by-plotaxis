@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 7, LESSON 3
+UDCPR Visual Guide - CHAPTER 7, LESSON 3
 Module: scripts/ch07_lessons/lesson_7_3_mhada_redevelopment.py
 Statutory Anchor: Regulation 7.4 (Tables 7-B, 7-C, 7-D & 7-E)
 Content: Redevelopment of MHADA Housing Schemes, Rehabilitation Entitlements, Basic Ratio Math, and 51% Consent Rules

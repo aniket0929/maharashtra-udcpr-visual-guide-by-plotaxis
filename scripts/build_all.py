@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - MASTER BUILD PIPELINE
+UDCPR Visual Guide - MASTER BUILD PIPELINE
 Rebuilds the entire site data layer, pages, and executes statutory verification from ucpr_real.md.
 
 Usage:
@@ -39,7 +39,7 @@ steps = [
 ]
 
 print("================================================================")
-print("🚀 STARTING FULL UDCPR FROM SCRATCH BUILD PIPELINE")
+print("🚀 STARTING FULL UDCPR Visual Guide BUILD PIPELINE")
 print("================================================================\n")
 
 start_time = time.time()

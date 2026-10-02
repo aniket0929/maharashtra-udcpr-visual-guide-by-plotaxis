@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 3: LESSON 3.3
+UDCPR Visual Guide - CHAPTER 3: LESSON 3.3
 Module: scripts/ch03_lessons/lesson_3_3_recreational_open_space.py
 Governing Regulation: Regulation 3.4 (Recreational Open Spaces)
 Covers: Reg 3.4.1 to 3.4.8 - 0.40 Ha threshold, 10% statutory quota, pocket standards (min 400 sq.m, 15m width, 2.5:1 ratio), 10% clubhouse construction (G+1), and Green Belt ROS rules.

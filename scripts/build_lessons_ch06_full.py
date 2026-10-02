@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 6 FULL LESSON BUILDER (MODULAR ORCHESTRATOR)
+UDCPR Visual Guide - CHAPTER 6 FULL LESSON BUILDER (MODULAR ORCHESTRATOR)
 Executes building of all 6 comprehensive Drawing Sheet lessons for Chapter 6: General Building Requirements - Setback, Marginal Distance, Height and Permissible FSI.
 Each lesson module resides in `scripts/ch06_lessons/` for clarity and modularity.
 """

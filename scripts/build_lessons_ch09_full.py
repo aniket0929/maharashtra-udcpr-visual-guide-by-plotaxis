@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 9 FULL LESSON BUILDER (MODULAR ORCHESTRATOR)
+UDCPR Visual Guide - CHAPTER 9 FULL LESSON BUILDER (MODULAR ORCHESTRATOR)
 Executes building of all 5 comprehensive Drawing Sheet lessons for Chapter 9: Requirements of Parts of Buildings.
 Each lesson module resides in `scripts/ch09_lessons/` for clarity and modularity.
 """

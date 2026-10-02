@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 8, LESSON 2
+UDCPR Visual Guide - CHAPTER 8, LESSON 2
 Regulation 8.1.1(vi)-(viii): Loading-Unloading Berths, Basement Ramps & Marginal Open Space Parking
 File: scripts/ch08_lessons/lesson_8_2_loading_spaces_marginal_parking.py
 """

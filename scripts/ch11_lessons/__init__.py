@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 11 LESSON PACKAGE
+UDCPR Visual Guide - CHAPTER 11 LESSON PACKAGE
 Exports all 4 modular lessons covering Chapter 11: Acquisition of Reserved Sites & TDR (Regulations 11.0 to 11.3).
 """
 

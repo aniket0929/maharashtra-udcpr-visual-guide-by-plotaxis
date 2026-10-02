@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 9, LESSON 3
+UDCPR Visual Guide - CHAPTER 9, LESSON 3
 Regulation 9.14 & 9.20 to 9.26: Light, Ventilation, Shafts, Balconies & Boundary Walls
 File: scripts/ch09_lessons/lesson_9_3_lighting_ventilation_shafts.py
 """

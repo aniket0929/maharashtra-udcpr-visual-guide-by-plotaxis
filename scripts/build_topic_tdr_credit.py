@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - TOPIC 6 WORKBENCH GENERATOR
+UDCPR Visual Guide - TOPIC 6 WORKBENCH GENERATOR
 Builds topics/tdr-and-credit-notes.html with interactive CAD DRC workflow,
 TDR generation & indexation calculator (X = (Rg/Rr) * Y), and verification quiz.
 """
@@ -14,7 +14,7 @@ HTML_CONTENT = """<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TDR Generation, Indexation &amp; Credit Notes | UDCPR from Scratch</title>
+  <title>TDR Generation, Indexation &amp; Credit Notes | UDCPR Visual Guide</title>
   <meta name="description" content="Master Transferable Development Rights (TDR) in Maharashtra under UDCPR Chapter 11. Calculate DRC generation multipliers (2x/3x), indexation formula X = (Rg/Rr)*Y, and Reservation Credit Notes.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,9 +56,9 @@ HTML_CONTENT = """<!DOCTYPE html>
     <!-- Sheet Navigation -->
     <nav class="sheet-nav">
       <a href="/" class="brand-block">
-        <span class="brand-stamp">UDCPR</span>
+        <span class="brand-stamp">PLOTAXIS</span>
         <div class="brand-title-group">
-          <h1>UDCPR from Scratch</h1>
+          <h1>UDCPR Visual Guide by Plotaxis</h1>
           <span>Practice Workbench • Drawing Sheet</span>
         </div>
       </a>
@@ -329,7 +329,7 @@ HTML_CONTENT = """<!DOCTYPE html>
 
     <!-- Sheet Footer -->
     <footer class="sheet-footer">
-      <div>UDCPR FROM SCRATCH • TOPIC 06: TDR GENERATION, INDEXATION &amp; CREDIT NOTES</div>
+      <div>UDCPR Visual Guide • TOPIC 06: TDR GENERATION, INDEXATION &amp; CREDIT NOTES</div>
       <div>DRAWING SHEET ARCHITECTURAL SPECIFICATION • MAHARASHTRA STATE</div>
     </footer>
   </div>

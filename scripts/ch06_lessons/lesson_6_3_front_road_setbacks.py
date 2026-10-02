@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 6, LESSON 3
+UDCPR Visual Guide - CHAPTER 6, LESSON 3
 Module: scripts/ch06_lessons/lesson_6_3_front_road_setbacks.py
 Statutory Anchor: Regulation 6.1.1(ii) Table 6-B, Regulation 6.2.1 Table 6-D, & Regulation 6.2.6
 Content: Front Road Setbacks, Congested vs Non-Congested Street Alignments, Corner Plots, and Height-Invariance

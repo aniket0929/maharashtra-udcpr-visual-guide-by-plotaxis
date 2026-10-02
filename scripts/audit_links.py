@@ -16,7 +16,7 @@ for hf in html_files:
         content = f.read()
     hrefs = re.findall(r'href=["\']([^"\']+)["\']', content)
     for hr in hrefs:
-        if hr.startswith('http') or hr.startswith('#') or hr.startswith('mailto:'):
+        if hr.startswith('http') or hr.startswith('#') or hr.startswith('mailto:') or '${' in hr:
             continue
         total_links += 1
         clean = hr.split('#')[0]

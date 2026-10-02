@@ -1,7 +1,7 @@
 /**
- * UDCPR From Scratch - Client-Side Instant Search Engine
+ * UDCPR Visual Guide - Client-Side Instant Search Engine
  * Full indexing across all 76 Core Blueprint Lessons (Chapters 1-15 Complete), 141 Glossary Definitions,
- * 9 Master Formulas, 79 Amendments (#), and Practical Topic Workbenches.
+ * 18 Master Formulas, 20 Amendments (#), and Practical Topic Workbenches.
  */
 
 (function () {
@@ -634,7 +634,7 @@
         });
       });
 
-      // 4. Load Master Formulas (9 engines)
+      // 4. Load Master Formulas (18 engines)
       const formRes = await fetch('/data/formulas.json');
       const formulas = await formRes.json();
       formulas.forEach(f => {

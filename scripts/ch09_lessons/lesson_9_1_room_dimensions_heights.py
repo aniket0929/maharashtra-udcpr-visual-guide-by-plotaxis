@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 9, LESSON 1
+UDCPR Visual Guide - CHAPTER 9, LESSON 1
 Regulation 9.1 to 9.8: Plinth Standards, Room Heights, Sanitary Sizes & Mezzanines
 File: scripts/ch09_lessons/lesson_9_1_room_dimensions_heights.py
 """

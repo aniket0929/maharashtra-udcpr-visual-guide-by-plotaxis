@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 10 LESSON PACKAGE
+UDCPR Visual Guide - CHAPTER 10 LESSON PACKAGE
 Exports all 7 modular lessons covering Regulations 10.0 to 10.16 (City Specific Regulations).
 """
 

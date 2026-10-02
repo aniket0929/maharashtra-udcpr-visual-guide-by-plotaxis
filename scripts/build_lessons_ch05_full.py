@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 5 FULL LESSON BUILDER (MODULAR ORCHESTRATOR)
+UDCPR Visual Guide - CHAPTER 5 FULL LESSON BUILDER (MODULAR ORCHESTRATOR)
 Executes building of all 5 comprehensive Drawing Sheet lessons for Chapter 5: Additional Provisions for Regional Plan Areas.
 Each lesson module resides in `scripts/ch05_lessons/` for clarity and modularity.
 """

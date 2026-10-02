@@ -1,5 +1,5 @@
 /* ==========================================================================
-   UDCPR FROM SCRATCH — "DRAWING SHEET" COMPONENTS & WIDGETS
+   UDCPR Visual Guide — "DRAWING SHEET" COMPONENTS & WIDGETS
    Surveyor & architectural drawing sheet aesthetics.
    Flat everywhere: 1px solid borders, NO rounded corners, NO box-shadows.
    Palette: var(--paper), var(--paper-raised), var(--ink), var(--ink-soft),
@@ -556,3 +556,432 @@
   flex-wrap: wrap;
   gap: 12px;
 }
+
+/* ==========================================================================
+   STATUTORY CLARIFICATION CALLOUTS (#)
+   ========================================================================== */
+
+.clarification-callout {
+  background: var(--paper-raised);
+  border: 1px solid var(--line-strong);
+  border-left: 5px solid var(--amber);
+  padding: 20px 24px;
+  margin: 24px 0;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.clarification-callout:target {
+  animation: highlight-pulse 2.5s ease-out;
+  border-color: var(--amber);
+  outline: 2px solid var(--amber);
+}
+
+@keyframes highlight-pulse {
+  0% { background: rgba(217, 119, 6, 0.25); }
+  50% { background: rgba(217, 119, 6, 0.12); }
+  100% { background: var(--paper-raised); }
+}
+
+.clarification-callout .callout-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed var(--line-strong);
+}
+
+.clarification-callout .callout-badge-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.clarification-callout .callout-title {
+  font-family: var(--disp);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.clarification-callout .callout-ref {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--ink-soft);
+}
+
+.clarification-callout .callout-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+@media (min-width: 820px) {
+  .clarification-callout .callout-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.clarification-callout .callout-pane {
+  background: var(--paper);
+  border: 1px solid var(--line-strong);
+  padding: 14px 16px;
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+.clarification-callout .callout-pane-full {
+  background: var(--paper);
+  border: 1px solid var(--line-strong);
+  padding: 14px 16px;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  grid-column: 1 / -1;
+}
+
+.clarification-callout .callout-label {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.clarification-callout .callout-label.ambiguity {
+  color: var(--brick);
+}
+
+.clarification-callout .callout-label.ruling {
+  color: var(--blueprint);
+}
+
+.clarification-callout .callout-label.takeaway {
+  color: var(--amber);
+}
+
+/* ==========================================================================
+   FORMULA VISUAL "PILL" EQUATIONS & INSIGHT CARDS
+   ========================================================================== */
+
+.formula-pill-box {
+  background: var(--paper);
+  border: 1px solid var(--ink);
+  padding: 16px 20px;
+  margin: 16px 0;
+  border-radius: 2px;
+}
+
+.pill-eq {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 10px;
+  font-family: var(--disp);
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
+
+.pill-var {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--paper-raised);
+  border: 1px solid var(--line-strong);
+  padding: 6px 12px;
+  font-weight: 600;
+  font-size: 0.92rem;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.pill-var.result {
+  background: var(--blueprint);
+  color: #ffffff;
+  border-color: var(--blueprint);
+  font-weight: 700;
+}
+
+.pill-var.deduct {
+  background: rgba(185, 28, 28, 0.08);
+  border-color: var(--brick);
+  color: var(--brick);
+}
+
+.pill-var.factor {
+  background: rgba(217, 119, 6, 0.08);
+  border-color: var(--amber);
+  color: var(--amber);
+}
+
+.pill-op {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--ink-soft);
+  padding: 0 2px;
+}
+
+.formula-insight-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+@media (min-width: 768px) {
+  .formula-insight-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.insight-pane {
+  background: var(--paper);
+  border: 1px solid var(--line-strong);
+  padding: 12px 16px;
+}
+
+.insight-pane.derives {
+  border-left: 4px solid var(--blueprint);
+}
+
+.insight-pane.trap {
+  border-left: 4px solid var(--brick);
+}
+
+.insight-label {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 4px;
+}
+
+.insight-label.derives {
+  color: var(--blueprint);
+}
+
+.insight-label.trap {
+  color: var(--brick);
+}
+
+.insight-desc {
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  color: var(--ink);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.math-rendered-block {
+  background: var(--paper);
+  border: 1px dashed var(--line-strong);
+  padding: 12px 16px;
+  text-align: center;
+  margin: 14px 0;
+  overflow-x: auto;
+}
+
+/* ==========================================================================
+   LESSON COMPLETION & PROGRESSION BAR
+   ========================================================================== */
+
+.lesson-completion-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  background: var(--paper-raised);
+  border: 1px solid var(--line-strong);
+  border-left: 4px solid var(--blueprint);
+  padding: 18px 24px;
+  margin-top: 28px;
+  margin-bottom: 24px;
+  transition: border-color 0.25s ease, background 0.25s ease;
+}
+
+.lesson-completion-card.completed {
+  border-left-color: #2e7d32;
+  background: var(--paper-raised);
+}
+
+.lesson-completion-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-width: 580px;
+}
+
+.lesson-completion-title {
+  font-family: var(--disp);
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.lesson-completion-subtitle {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  line-height: 1.4;
+}
+
+.btn-mark-complete {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 22px;
+  background: var(--paper);
+  color: var(--blueprint);
+  border: 1.5px solid var(--blueprint);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+  min-width: 200px;
+  text-align: center;
+}
+
+.btn-mark-complete:hover {
+  background: var(--blueprint);
+  color: var(--paper-raised);
+}
+
+.btn-mark-complete.completed {
+  background: #1b5e20;
+  color: #ffffff;
+  border-color: #1b5e20;
+}
+
+[data-theme="light"] .btn-mark-complete.completed {
+  background: #e6f4ea;
+  color: #137333;
+  border-color: #137333;
+}
+
+.btn-mark-complete.completed:hover {
+  background: #2e7d32;
+  color: #ffffff;
+  border-color: #2e7d32;
+}
+
+[data-theme="light"] .btn-mark-complete.completed:hover {
+  background: #ceead6;
+  color: #0d652d;
+  border-color: #0d652d;
+}
+
+.btn-retake-quiz {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--mono);
+  font-size: 11px;
+  padding: 4px 10px;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--line-strong);
+  cursor: pointer;
+  margin-left: 8px;
+  transition: all 0.15s ease;
+}
+
+.btn-retake-quiz:hover {
+  background: var(--paper-raised);
+  border-color: var(--ink);
+}
+
+/* ==========================================================================
+   MOBILE RESPONSIVENESS ADJUSTMENTS
+   ========================================================================== */
+
+@media (max-width: 600px) {
+  /* Search Modal: fits cleanly on small smartphone screens */
+  .search-modal-backdrop {
+    padding: 16px 10px;
+    align-items: flex-start;
+  }
+
+  .search-modal {
+    max-height: 88vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search-results-list {
+    flex: 1;
+    max-height: calc(88vh - 65px);
+  }
+
+  /* Lesson Completion Card: Full width thumb touch target */
+  .lesson-completion-card {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 16px 14px;
+    gap: 12px;
+  }
+
+  .btn-mark-complete {
+    width: 100%;
+    min-height: 44px;
+    font-size: 13px;
+  }
+
+  /* Interactive Quiz: Better mobile tap targets */
+  .quiz-container {
+    padding: 16px 14px;
+  }
+
+  .quiz-option-btn {
+    min-height: 44px;
+    padding: 10px 14px;
+    font-size: 0.9rem;
+  }
+
+  /* Calculators */
+  .calculator-form {
+    grid-template-columns: 1fr;
+  }
+
+  .calc-result-plate {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .calc-result-value {
+    font-size: 1.5rem;
+  }
+
+  /* Worked example steps */
+  .worked-example-box {
+    padding: 16px 14px;
+  }
+
+  /* Technical Plates */
+  .drawing-plate {
+    padding: 14px 10px;
+  }
+}
+
+
+
+

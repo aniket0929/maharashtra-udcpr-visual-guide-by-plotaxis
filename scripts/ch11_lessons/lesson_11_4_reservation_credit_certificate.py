@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 11, LESSON 4
+UDCPR Visual Guide - CHAPTER 11, LESSON 4
 Regulation 11.3: Reservation Credit Certificate (RCC) & Municipal Financial Offsets
 File: scripts/ch11_lessons/lesson_11_4_reservation_credit_certificate.py
 """

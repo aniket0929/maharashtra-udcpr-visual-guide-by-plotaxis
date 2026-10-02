@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 5 LESSON SUITE
+UDCPR Visual Guide - CHAPTER 5 LESSON SUITE
 Package: scripts/ch05_lessons/
 Export: CH05_LESSONS (List of 5 modular lesson dictionaries for Chapter 5)
 """

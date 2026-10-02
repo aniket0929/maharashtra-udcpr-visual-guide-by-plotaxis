@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - MASTER TOPICS BUILDER
+UDCPR Visual Guide - MASTER TOPICS BUILDER
 Executes generation of all 7 CAD-driven interactive practice workbenches.
 """
 

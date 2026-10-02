@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 15 LESSON PACKAGE
+UDCPR Visual Guide - CHAPTER 15 LESSON PACKAGE
 Exports all 3 modular lessons covering Chapter 15: Regulations for Special Activities / Plans (Regulations 15.1 to 15.4).
 """
 

@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 10, LESSON 4
+UDCPR Visual Guide - CHAPTER 10, LESSON 4
 Regulation 10.3 & 10.4: Nagpur Municipal Corporation (NMC) & NMRDA Special Schemes
 File: scripts/ch10_lessons/lesson_10_4_nagpur_nmc_nmrda.py
 """

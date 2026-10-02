@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 3: LESSON 3.1
+UDCPR Visual Guide - CHAPTER 3: LESSON 3.1
 Module: scripts/ch03_lessons/lesson_3_1_site_clearance.py
 Governing Regulation: Regulation 3.1 (Requirements of Site)
 Covers: Reg 3.1.1 to 3.1.13 - Site eligibility, high-tension lines (Table 3-1), Blue/Red flood lines, railway 30m offset, classified highways, prison offsets, and airport CCZM.

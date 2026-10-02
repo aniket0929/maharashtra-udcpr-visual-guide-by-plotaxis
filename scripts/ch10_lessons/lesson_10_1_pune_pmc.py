@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 10, LESSON 1
+UDCPR Visual Guide - CHAPTER 10, LESSON 1
 Regulation 10.1: Pune City Municipal Corporation (PMC) - Special Building Rules, Koregaon Park & Defense Buffers
 File: scripts/ch10_lessons/lesson_10_1_pune_pmc.py
 """

@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 8, LESSON 4
+UDCPR Visual Guide - CHAPTER 8, LESSON 4
 Regulation 8.2.2, Table 8-C & Notes: City Multipliers, 2-Wheeler Exemption & Excess Parking Surcharges
 File: scripts/ch08_lessons/lesson_8_4_city_multipliers_penalties.py
 """

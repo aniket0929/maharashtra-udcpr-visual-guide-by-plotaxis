@@ -1,5 +1,5 @@
 """
-UDCPR FROM SCRATCH - CHAPTER 10 FULL LESSON BUILDER (MODULAR ORCHESTRATOR)
+UDCPR Visual Guide - CHAPTER 10 FULL LESSON BUILDER (MODULAR ORCHESTRATOR)
 Executes building of all 7 comprehensive Drawing Sheet lessons for Chapter 10: City Specific Regulations.
 Each lesson module resides in `scripts/ch10_lessons/` for clarity and modularity.
 """
