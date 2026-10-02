@@ -39,7 +39,7 @@ udcpr_edu/
 │
 ├── NEEDS_VERIFICATION.md      # Comprehensive 5-section statutory anomaly register & audit log
 │
-├── topics/                    # 7 Practical Problem-Solving CAD Workbenches
+├── topics/                    # 8 Practical Problem-Solving CAD Workbenches
 │   ├── index.html             # Practice directory & workbench switcher
 │   ├── development-potential.html  # Topic 1: Dynamic FSI Stacking CAD, 35% ASR outlay & Table 6-A
 │   ├── setbacks-and-margins.html   # Topic 2: Dynamic Cross-Section CAD, H/5 margins & 6m fire tender path
@@ -47,7 +47,8 @@ udcpr_edu/
 │   ├── layout-and-subdivision.html  # Topic 4: Dynamic Layout Partition CAD, 10% ROS, 5% Amenity & Net Plot
 │   ├── fire-safety-and-high-rise.html # Topic 5: High-Rise Evacuation CAD, Refuge Floors & 15m/24m/50m steps
 │   ├── tdr-and-credit-notes.html   # Topic 6: DRC Generation Multipliers (2x/3x) & Indexation (Rg/Rr)*Y
-│   └── redevelopment-navigator.html # Topic 7: Slum Rehab (1:R), Cluster Renewal (Table 14-X) & Metro TOD
+│   ├── redevelopment-navigator.html # Topic 7: Slum Rehab (1:R), Cluster Renewal (Table 14-X) & Metro TOD
+│   └── building-compliance-and-nocs.html # Topic 8: Statutory Clearances, Fire CFO, SEIAA, STP, RWH & 4-Stage Roadmap
 │
 ├── chapters/                  # Statutory Legal Tree
 │   ├── index.html             # 15-Chapter curriculum map (All 15 Chapters Active)

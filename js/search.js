@@ -610,6 +610,13 @@
           badge: 'CAD Workbench 07',
           snippet: 'Interactive feasibility engine: Slum Rehabilitation (SRS 51% consent, 1:R formula), Cluster Redevelopment (Table 14-X, 10,000 sqm holding), and Metro TOD corridors (FSI 4.00).',
           url: '/topics/redevelopment-navigator.html'
+        },
+        {
+          type: 'topic',
+          title: 'Building Compliance, Statutory NOCs & Approval Roadmap',
+          badge: 'CAD Workbench 08',
+          snippet: 'Interactive clearance scanner: Fire CFO NOC, SEIAA Environmental Clearance, Grey Water STP, RWH, Airport, Railway & Tree Authority across 4 approval stages.',
+          url: '/topics/building-compliance-and-nocs.html'
         }
       ];
       topicPages.forEach(t => searchIndex.push(t));

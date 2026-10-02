@@ -16,6 +16,7 @@ def main():
     import build_topic_fire_safety
     import build_topic_tdr_credit
     import build_topic_redevelopment
+    import build_topic_compliance_nocs
 
     build_topic_dev_potential.main()
     build_topic_setbacks_margins.main()
@@ -24,7 +25,8 @@ def main():
     build_topic_fire_safety.main()
     build_topic_tdr_credit.main()
     build_topic_redevelopment.main()
-    print("✓ Successfully rebuilt all 7 CAD interactive practice workbenches.")
+    build_topic_compliance_nocs.main()
+    print("✓ Successfully rebuilt all 8 CAD interactive practice workbenches.")
 
 if __name__ == '__main__':
     main()
